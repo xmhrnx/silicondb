@@ -83,6 +83,19 @@
           "key": "launch_price_usd",
           "label": "Launch price",
           "format": "usd"
+        },
+        {
+          "key": "model_number",
+          "label": "Model number"
+        },
+        {
+          "key": "peak_temperature_c",
+          "label": "Peak temperature",
+          "unit": "°C"
+        },
+        {
+          "key": "unlocked_multiplier",
+          "label": "Unlocked multiplier"
         }
       ]
     },
@@ -275,6 +288,10 @@
           "format": "count"
         },
         {
+          "key": "gpu_architecture",
+          "label": "GPU architecture"
+        },
+        {
           "key": "shading_units",
           "label": "Shading units",
           "format": "count"
@@ -315,6 +332,16 @@
           "format": "mhz"
         },
         {
+          "key": "l0_cache_kb",
+          "label": "L0 cache",
+          "format": "kb"
+        },
+        {
+          "key": "execution_units",
+          "label": "Execution units",
+          "format": "count"
+        },
+        {
           "key": "graphics_api",
           "label": "Graphics APIs"
         },
@@ -331,12 +358,68 @@
       ]
     },
     {
+      "id": "queue",
+      "label": "Pipeline & Schedulers",
+      "fields": [
+        {
+          "key": "pipeline_stages",
+          "label": "Pipeline stages",
+          "format": "count"
+        },
+        {
+          "key": "instruction_queue_entries",
+          "label": "Instruction queue entries",
+          "format": "count"
+        },
+        {
+          "key": "reorder_buffer_entries",
+          "label": "Reorder buffer entries",
+          "format": "count"
+        },
+        {
+          "key": "load_store_units",
+          "label": "Load/store units",
+          "format": "count"
+        },
+        {
+          "key": "issue_width",
+          "label": "Issue width",
+          "format": "count"
+        },
+        {
+          "key": "decoders",
+          "label": "Decoders",
+          "format": "count"
+        },
+        {
+          "key": "branch_predictor_entries",
+          "label": "Branch predictor entries",
+          "format": "count"
+        },
+        {
+          "key": "integer_registers",
+          "label": "Integer registers",
+          "format": "count"
+        },
+        {
+          "key": "fp_registers",
+          "label": "FP registers",
+          "format": "count"
+        }
+      ]
+    },
+    {
       "id": "memory",
       "label": "Memory",
       "fields": [
         {
           "key": "memory_type",
           "label": "Memory type"
+        },
+        {
+          "key": "memory_speed_mts",
+          "label": "Memory speed",
+          "unit": "MT/s"
         },
         {
           "key": "memory_size_mb",
@@ -367,6 +450,10 @@
           "key": "memory_bandwidth_gbs",
           "label": "Memory bandwidth",
           "unit": "GB/s"
+        },
+        {
+          "key": "ecc_memory",
+          "label": "ECC memory"
         },
         {
           "key": "flash_kb",
@@ -418,6 +505,51 @@
           "key": "fp8_tflops",
           "label": "FP8",
           "format": "tflops"
+        },
+        {
+          "key": "fp4_tflops",
+          "label": "FP4",
+          "format": "tflops"
+        },
+        {
+          "key": "fp32_tensor_tflops",
+          "label": "FP32 tensor",
+          "format": "tflops"
+        },
+        {
+          "key": "fp16_tensor_tflops",
+          "label": "FP16 tensor",
+          "format": "tflops"
+        },
+        {
+          "key": "fp8_tensor_tflops",
+          "label": "FP8 tensor",
+          "format": "tflops"
+        },
+        {
+          "key": "bf16_tensor_tflops",
+          "label": "BF16 tensor",
+          "format": "tflops"
+        },
+        {
+          "key": "fp4_tensor_tflops",
+          "label": "FP4 tensor",
+          "format": "tflops"
+        },
+        {
+          "key": "fp64_tensor_tflops",
+          "label": "FP64 tensor",
+          "format": "tflops"
+        },
+        {
+          "key": "rt_tflops",
+          "label": "Ray tracing",
+          "format": "tflops"
+        },
+        {
+          "key": "int4_tops",
+          "label": "INT4",
+          "unit": "TOPS"
         },
         {
           "key": "int8_tops",
@@ -498,6 +630,11 @@
         {
           "key": "interface",
           "label": "Interface"
+        },
+        {
+          "key": "pcie_version",
+          "label": "PCIe version",
+          "format": "pcie"
         },
         {
           "key": "pcie_lanes",
@@ -803,7 +940,9 @@
         "cinebench_2024_single",
         "cinebench_2024_multi",
         "cinebench_r15_single",
-        "cinebench_r15_multi"
+        "cinebench_r15_multi",
+        "memory_speed_mts",
+        "unlocked_multiplier"
       ]
     },
     "apu": {
@@ -815,7 +954,8 @@
         "cinebench_r23_single",
         "cinebench_r23_multi",
         "cinebench_2024_single",
-        "cinebench_2024_multi"
+        "cinebench_2024_multi",
+        "memory_speed_mts"
       ]
     },
     "soc": {
@@ -827,16 +967,14 @@
         "geekbench6_vulkan",
         "geekbench6_metal",
         "cinebench_2024_single",
-        "cinebench_2024_multi"
+        "cinebench_2024_multi",
+        "memory_speed_mts"
       ]
     },
     "gpu": {
-      "year": 2010,
+      "year": 2022,
       "keys": [
-        "geekbench6_opencl",
-        "geekbench6_vulkan",
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "fp8_tensor_tflops"
       ]
     }
   }

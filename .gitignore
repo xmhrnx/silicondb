@@ -3,3 +3,5 @@
 *.jks
 *.syso
 release.keystore
+# Downloaded pages cached by cmd/enrich
+/.cache/

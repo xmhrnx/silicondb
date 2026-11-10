@@ -522,8 +522,8 @@
         "cores": 4,
         "core_config": "4x Cortex-A55 @ 1.7 GHz + 2x Cortex-M7 + 2x Cortex-M33",
         "boost_clock_mhz": 1700,
-        "npu_tops": 0.5,
         "memory_type": "LPDDR5 / LPDDR4X / DDR4",
+        "npu_tops": 0.5,
         "connectivity": [
           "Gigabit Ethernet TSN switch",
           "PCIe 3.0",

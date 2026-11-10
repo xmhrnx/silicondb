@@ -24,6 +24,34 @@ users one small download, not the whole database.
    `index.json` with fresh revisions and counts.
 3. Commit and push.
 
+### Filling in missing specs
+
+`cmd/enrich` adds specs a chip is missing from public sources, so a new entry doesn't have to
+be complete by hand:
+
+```sh
+go run ./cmd/enrich -dry            # report what would be added, write nothing
+go run ./cmd/enrich -only intel     # one manufacturer
+go run ./cmd/enrich -category cpu -since 2015
+go run ./cmd/enrich                 # every shard
+```
+
+It only fills specs that are absent and removes them from the chip's `na` list, so values
+written by hand always win and re-running it is safe. Afterwards run `cmd/indexgen` to refresh
+`index.json`.
+
+Sources, all of which allow automated access through their robots.txt:
+
+| Source | Supplies |
+| --- | --- |
+| [NanoReview](https://nanoreview.net) | Cores and clocks, caches, process, transistors, socket, peak temperature, memory type and speed, ECC, PCIe version and lanes, integrated-graphics figures, and the Geekbench 6 and Cinebench 2024 scores. Also covers phone SoCs. |
+| [Wikipedia](https://en.wikipedia.org) graphics-processor lists | The FP16, FP32 and FP64 figures, plus the dense tensor-core FP8/FP16/FP4 throughput of recent cards. |
+| [CPU-Monkey](https://www.cpu-monkey.com) | Geekbench 6 and Cinebench R23/2024 scores. Off by default (`-sources ...,cpumonkey`) because it rate-limits hard. |
+
+Downloaded pages are cached under `.cache/enrich`, so a second run costs nothing; pass
+`-offline` to work from the cache alone. The tool prints warnings for pages it couldn't read
+and a per-key count of what it added.
+
 ## manufacturer.json
 
 ```json
@@ -86,6 +114,15 @@ arrays of strings. Use the unit the key names:
   `24576`), `process_nm` in nanometres (10 µm is `10000`), `tdp_w` in watts,
   `transistors` as a plain integer, `die_size_mm2` in mm², `*_tflops` in TFLOPS (dense, no
   sparsity), `*_tops` in TOPS, `launch_price_usd` in US dollars.
+- `memory_speed_mts` is the rated memory speed in MT/s (`DDR5-6400` is `6400`);
+  `memory_bandwidth_gbs` is the theoretical figure for the chip's own memory controller.
+- `pcie_version` is a decimal string (`"5.0"`), `pcie_lanes` the lane count.
+- `peak_temperature_c` in °C. `unlocked_multiplier` and `ecc_memory` are booleans; use `na`
+  when a chip never supported them.
+- The `*_tensor_tflops` keys hold matrix-core throughput (`fp8_tensor_tflops`,
+  `fp16_tensor_tflops`, `bf16_tensor_tflops`, `fp4_tensor_tflops`, …), while `fp8_tflops`
+  and `fp4_tflops` hold the same dense figure for accelerators that have no separate
+  non-tensor path.
 - `l1_cache_kb`, `l2_cache_kb`, `l3_cache_kb` are totals for the chip.
 - `instruction_sets`, `graphics_api` and `connectivity` are arrays of strings.
 - Benchmark keys (`geekbench6_*`, `cinebench_*`) hold the typical stock score as the

@@ -1,9 +1,9 @@
 {
   "format": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-10",
   "schema": {
     "path": "schema.json",
-    "rev": "61ccd654a387a0d3"
+    "rev": "2f44096f50a3321f"
   },
   "manufacturers": [
     {
@@ -18,7 +18,7 @@
           "path": "manufacturers/3dfx/gpu.json",
           "category": "gpu",
           "count": 9,
-          "rev": "0c5b946328527898"
+          "rev": "34a21c776a170f33"
         }
       ]
     },
@@ -34,7 +34,7 @@
           "path": "manufacturers/3dlabs/gpu.json",
           "category": "gpu",
           "count": 8,
-          "rev": "8530b9b97684f583"
+          "rev": "e400a92840976fc1"
         }
       ]
     },
@@ -50,7 +50,7 @@
           "path": "manufacturers/acorn/cpu.json",
           "category": "cpu",
           "count": 3,
-          "rev": "b6226d1e7ec7a6b7"
+          "rev": "077c2c890882cf60"
         }
       ]
     },
@@ -66,7 +66,7 @@
           "path": "manufacturers/allwinner/soc.json",
           "category": "soc",
           "count": 11,
-          "rev": "45bd490eafde146a"
+          "rev": "cfc706092aca6864"
         }
       ]
     },
@@ -82,7 +82,7 @@
           "path": "manufacturers/altera/fpga.json",
           "category": "fpga",
           "count": 26,
-          "rev": "058eb4c161659e92"
+          "rev": "e3464e281d1d3f10"
         }
       ]
     },
@@ -98,13 +98,13 @@
           "path": "manufacturers/amazon/ai.json",
           "category": "ai",
           "count": 5,
-          "rev": "c4bad2deea6b4ebe"
+          "rev": "a0f36a2e74d8f01c"
         },
         {
           "path": "manufacturers/amazon/cpu.json",
           "category": "cpu",
           "count": 5,
-          "rev": "5c56826ed5bcf4e6"
+          "rev": "2376f35d2a91d13c"
         }
       ]
     },
@@ -120,25 +120,25 @@
           "path": "manufacturers/amd/ai.json",
           "category": "ai",
           "count": 14,
-          "rev": "157724573eba5b5f"
+          "rev": "0fe5a2acb62b65e8"
         },
         {
           "path": "manufacturers/amd/apu.json",
           "category": "apu",
           "count": 48,
-          "rev": "ab5f9d0aedba158b"
+          "rev": "151b35cb92e33c85"
         },
         {
           "path": "manufacturers/amd/cpu.json",
           "category": "cpu",
           "count": 109,
-          "rev": "405258fbd1477b87"
+          "rev": "9421faa0b144f96c"
         },
         {
           "path": "manufacturers/amd/gpu.json",
           "category": "gpu",
           "count": 40,
-          "rev": "fbff98f75911c384"
+          "rev": "f3dffbc53fac2566"
         }
       ]
     },
@@ -154,7 +154,7 @@
           "path": "manufacturers/ampere/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "eb02683427feea75"
+          "rev": "ddc80a2b43cb1e96"
         }
       ]
     },
@@ -170,7 +170,7 @@
           "path": "manufacturers/analog-devices/dsp.json",
           "category": "dsp",
           "count": 4,
-          "rev": "6ad329da019809fb"
+          "rev": "1317b15b1228a3ac"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "path": "manufacturers/apple/soc.json",
           "category": "soc",
           "count": 53,
-          "rev": "3a72b065544e752b"
+          "rev": "7fd6c40f8008a33d"
         }
       ]
     },
@@ -202,7 +202,7 @@
           "path": "manufacturers/ati/gpu.json",
           "category": "gpu",
           "count": 21,
-          "rev": "9701e9314d33f02f"
+          "rev": "7b961430befc6147"
         }
       ]
     },
@@ -218,7 +218,7 @@
           "path": "manufacturers/atmel/mcu.json",
           "category": "mcu",
           "count": 11,
-          "rev": "42e3dfbebf04066f"
+          "rev": "13d56156fea30af8"
         }
       ]
     },
@@ -234,7 +234,7 @@
           "path": "manufacturers/broadcom/soc.json",
           "category": "soc",
           "count": 8,
-          "rev": "0c293a71db870fd4"
+          "rev": "e2101d6937ce6cbd"
         }
       ]
     },
@@ -250,7 +250,7 @@
           "path": "manufacturers/cerebras/ai.json",
           "category": "ai",
           "count": 3,
-          "rev": "1a2aa081ebb4b9a2"
+          "rev": "5435462a942977bc"
         }
       ]
     },
@@ -266,7 +266,7 @@
           "path": "manufacturers/cyrix/cpu.json",
           "category": "cpu",
           "count": 10,
-          "rev": "34c5109537c75e91"
+          "rev": "a38bb7361308165f"
         }
       ]
     },
@@ -282,7 +282,7 @@
           "path": "manufacturers/dec/cpu.json",
           "category": "cpu",
           "count": 15,
-          "rev": "53cc0566e928f5ba"
+          "rev": "ed2a44272d6e0ebe"
         }
       ]
     },
@@ -298,7 +298,7 @@
           "path": "manufacturers/espressif/mcu.json",
           "category": "mcu",
           "count": 12,
-          "rev": "acb856d06c5d5806"
+          "rev": "50750ad5c853a1cd"
         }
       ]
     },
@@ -314,13 +314,13 @@
           "path": "manufacturers/fairchild/cpu.json",
           "category": "cpu",
           "count": 3,
-          "rev": "9ab88c4d70b21367"
+          "rev": "df982c3c460a013d"
         },
         {
           "path": "manufacturers/fairchild/mcu.json",
           "category": "mcu",
           "count": 1,
-          "rev": "6595cc60a65cf34e"
+          "rev": "a653050a37830df9"
         }
       ]
     },
@@ -336,25 +336,25 @@
           "path": "manufacturers/freescale/cpu.json",
           "category": "cpu",
           "count": 8,
-          "rev": "0033beeff6fffab6"
+          "rev": "072fabf4863e0b46"
         },
         {
           "path": "manufacturers/freescale/dsp.json",
           "category": "dsp",
           "count": 1,
-          "rev": "a2e11e399096d6ad"
+          "rev": "83bd15d3bd87795f"
         },
         {
           "path": "manufacturers/freescale/mcu.json",
           "category": "mcu",
           "count": 5,
-          "rev": "987283933fba0d0d"
+          "rev": "6b381ffa5c881fb6"
         },
         {
           "path": "manufacturers/freescale/soc.json",
           "category": "soc",
           "count": 10,
-          "rev": "76ef98193cfadbb5"
+          "rev": "b33eeba5ba9c882d"
         }
       ]
     },
@@ -370,7 +370,7 @@
           "path": "manufacturers/fujitsu/cpu.json",
           "category": "cpu",
           "count": 10,
-          "rev": "1afcf14794b430c9"
+          "rev": "7079d483538ad04c"
         }
       ]
     },
@@ -386,13 +386,13 @@
           "path": "manufacturers/google/ai.json",
           "category": "ai",
           "count": 9,
-          "rev": "15f73811b8da2006"
+          "rev": "fbb24103299bb522"
         },
         {
           "path": "manufacturers/google/soc.json",
           "category": "soc",
           "count": 6,
-          "rev": "e94ff5416493a33b"
+          "rev": "5128eef1fa8574cb"
         }
       ]
     },
@@ -408,7 +408,7 @@
           "path": "manufacturers/graphcore/ai.json",
           "category": "ai",
           "count": 3,
-          "rev": "b95125e1f8570fd6"
+          "rev": "92a79964abd3d622"
         }
       ]
     },
@@ -424,7 +424,7 @@
           "path": "manufacturers/groq/ai.json",
           "category": "ai",
           "count": 1,
-          "rev": "94c8ff1057cd0c57"
+          "rev": "0ce5e69747ae34f1"
         }
       ]
     },
@@ -440,7 +440,7 @@
           "path": "manufacturers/hp/cpu.json",
           "category": "cpu",
           "count": 12,
-          "rev": "a52973a2dbd3465a"
+          "rev": "fa2dffd78d3b584d"
         }
       ]
     },
@@ -456,13 +456,13 @@
           "path": "manufacturers/hisilicon/ai.json",
           "category": "ai",
           "count": 5,
-          "rev": "3bbfb90c8b1e115d"
+          "rev": "5a8a609dc3d2c1b0"
         },
         {
           "path": "manufacturers/hisilicon/soc.json",
           "category": "soc",
           "count": 12,
-          "rev": "444a20e5ecd0b3e2"
+          "rev": "277e3b4d54cef2ce"
         }
       ]
     },
@@ -478,7 +478,7 @@
           "path": "manufacturers/hitachi/cpu.json",
           "category": "cpu",
           "count": 5,
-          "rev": "3f0391346f63776c"
+          "rev": "9ecc9aa93dc3ae73"
         }
       ]
     },
@@ -494,7 +494,7 @@
           "path": "manufacturers/huawei/cpu.json",
           "category": "cpu",
           "count": 3,
-          "rev": "064982b7b856af6c"
+          "rev": "55fc07e8be047082"
         }
       ]
     },
@@ -510,7 +510,7 @@
           "path": "manufacturers/hygon/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "325a40c7951d1dc3"
+          "rev": "2e87f7954eda2db9"
         }
       ]
     },
@@ -526,13 +526,13 @@
           "path": "manufacturers/ibm/ai.json",
           "category": "ai",
           "count": 3,
-          "rev": "83fc08c649648fe4"
+          "rev": "7b1cf562a7acfc4a"
         },
         {
           "path": "manufacturers/ibm/cpu.json",
           "category": "cpu",
           "count": 33,
-          "rev": "ed9665304f7d79aa"
+          "rev": "230d4bd75ac38204"
         }
       ]
     },
@@ -548,7 +548,7 @@
           "path": "manufacturers/imagination/gpu.json",
           "category": "gpu",
           "count": 6,
-          "rev": "8ac58fd893855f44"
+          "rev": "194f0fa507af637d"
         }
       ]
     },
@@ -564,7 +564,7 @@
           "path": "manufacturers/inmos/cpu.json",
           "category": "cpu",
           "count": 3,
-          "rev": "a329f6ddfca34bb2"
+          "rev": "6836085176960313"
         }
       ]
     },
@@ -580,31 +580,31 @@
           "path": "manufacturers/intel/ai.json",
           "category": "ai",
           "count": 6,
-          "rev": "a7b290e78e3ab600"
+          "rev": "b3759f4065d9fe78"
         },
         {
           "path": "manufacturers/intel/cpu.json",
           "category": "cpu",
           "count": 193,
-          "rev": "a6115db0ac52a7f7"
+          "rev": "fcfe2f4660ff1dde"
         },
         {
           "path": "manufacturers/intel/gpu.json",
           "category": "gpu",
           "count": 12,
-          "rev": "9e6fdf525fa5daa2"
+          "rev": "dff51037a5392928"
         },
         {
           "path": "manufacturers/intel/mcu.json",
           "category": "mcu",
           "count": 3,
-          "rev": "7e54e86cc966b0b9"
+          "rev": "8573830bba2a7de8"
         },
         {
           "path": "manufacturers/intel/soc.json",
           "category": "soc",
           "count": 4,
-          "rev": "f37f46cb625e1b4a"
+          "rev": "5a1433a5e283f87c"
         }
       ]
     },
@@ -620,7 +620,7 @@
           "path": "manufacturers/lattice/fpga.json",
           "category": "fpga",
           "count": 8,
-          "rev": "9536a80c2a80f287"
+          "rev": "3d3357f170628295"
         }
       ]
     },
@@ -636,7 +636,7 @@
           "path": "manufacturers/loongson/cpu.json",
           "category": "cpu",
           "count": 10,
-          "rev": "96853d480086ec13"
+          "rev": "879a910c85bbfaa4"
         }
       ]
     },
@@ -652,7 +652,7 @@
           "path": "manufacturers/matrox/gpu.json",
           "category": "gpu",
           "count": 9,
-          "rev": "36e570ee1cdf7db2"
+          "rev": "612f2efbc57c2695"
         }
       ]
     },
@@ -668,7 +668,7 @@
           "path": "manufacturers/mediatek/soc.json",
           "category": "soc",
           "count": 34,
-          "rev": "6f53fa5d5c3f5f93"
+          "rev": "f5945e690e719159"
         }
       ]
     },
@@ -684,7 +684,7 @@
           "path": "manufacturers/meta/ai.json",
           "category": "ai",
           "count": 2,
-          "rev": "2a1029ef3b651fe0"
+          "rev": "019599fd9b552ae9"
         }
       ]
     },
@@ -700,7 +700,7 @@
           "path": "manufacturers/microchip/mcu.json",
           "category": "mcu",
           "count": 15,
-          "rev": "28bdc9b117d863fe"
+          "rev": "b5d5d343fcc6caec"
         }
       ]
     },
@@ -716,13 +716,13 @@
           "path": "manufacturers/microsoft/ai.json",
           "category": "ai",
           "count": 2,
-          "rev": "90368735a916e5be"
+          "rev": "b520a64cb11f77bb"
         },
         {
           "path": "manufacturers/microsoft/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "a2f2f36e1efb8c6a"
+          "rev": "cff999990c22a27b"
         }
       ]
     },
@@ -738,7 +738,7 @@
           "path": "manufacturers/mips/cpu.json",
           "category": "cpu",
           "count": 8,
-          "rev": "82bae195ff9465f4"
+          "rev": "9240ce2f6fb2668d"
         }
       ]
     },
@@ -754,7 +754,7 @@
           "path": "manufacturers/moore-threads/gpu.json",
           "category": "gpu",
           "count": 3,
-          "rev": "264e4dd91841f173"
+          "rev": "47b0f8e2aef52e2d"
         }
       ]
     },
@@ -770,7 +770,7 @@
           "path": "manufacturers/mos-technology/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "5ec7516bc9e45e37"
+          "rev": "14e12d322baeedbd"
         }
       ]
     },
@@ -786,19 +786,19 @@
           "path": "manufacturers/motorola/cpu.json",
           "category": "cpu",
           "count": 16,
-          "rev": "32060a8be006e86a"
+          "rev": "320ae14313b47bdf"
         },
         {
           "path": "manufacturers/motorola/dsp.json",
           "category": "dsp",
           "count": 3,
-          "rev": "43dffbdb07b65ec8"
+          "rev": "f28c8199543f05b4"
         },
         {
           "path": "manufacturers/motorola/mcu.json",
           "category": "mcu",
           "count": 5,
-          "rev": "884728d733111dd9"
+          "rev": "46c0dcc7f02b9c1f"
         }
       ]
     },
@@ -814,7 +814,7 @@
           "path": "manufacturers/national-semiconductor/cpu.json",
           "category": "cpu",
           "count": 7,
-          "rev": "26f20ef18054e37e"
+          "rev": "726a5bca7cbdd9f4"
         }
       ]
     },
@@ -830,19 +830,19 @@
           "path": "manufacturers/nec/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "844311e8bc55cb28"
+          "rev": "8735017361c5e5d8"
         },
         {
           "path": "manufacturers/nec/dsp.json",
           "category": "dsp",
           "count": 1,
-          "rev": "0a739abd068265cc"
+          "rev": "c7c3b30fbab25376"
         },
         {
           "path": "manufacturers/nec/gpu.json",
           "category": "gpu",
           "count": 1,
-          "rev": "02ee516b044d02f7"
+          "rev": "9c482cb0502b38c7"
         }
       ]
     },
@@ -858,7 +858,7 @@
           "path": "manufacturers/nexgen/cpu.json",
           "category": "cpu",
           "count": 1,
-          "rev": "50162c252fca070e"
+          "rev": "7ae23f07f6d28130"
         }
       ]
     },
@@ -874,25 +874,25 @@
           "path": "manufacturers/nvidia/ai.json",
           "category": "ai",
           "count": 24,
-          "rev": "e5edbf29c454a429"
+          "rev": "ad57cf67a1931a13"
         },
         {
           "path": "manufacturers/nvidia/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "8e04c20addd2b5a5"
+          "rev": "183118ee45c27a44"
         },
         {
           "path": "manufacturers/nvidia/gpu.json",
           "category": "gpu",
           "count": 111,
-          "rev": "fe24febb85c0d627"
+          "rev": "0dc3204217c62663"
         },
         {
           "path": "manufacturers/nvidia/soc.json",
           "category": "soc",
           "count": 13,
-          "rev": "1558e9374d71d724"
+          "rev": "30ccf9c3cb70bddc"
         }
       ]
     },
@@ -908,13 +908,13 @@
           "path": "manufacturers/nxp/mcu.json",
           "category": "mcu",
           "count": 8,
-          "rev": "93c6cfa2300ec315"
+          "rev": "eeee202764b7627a"
         },
         {
           "path": "manufacturers/nxp/soc.json",
           "category": "soc",
           "count": 11,
-          "rev": "39f273b5634845cc"
+          "rev": "fc237eecf5545c98"
         }
       ]
     },
@@ -930,7 +930,7 @@
           "path": "manufacturers/oracle/cpu.json",
           "category": "cpu",
           "count": 8,
-          "rev": "653e244c06219517"
+          "rev": "c0ece2474d6b8fd0"
         }
       ]
     },
@@ -946,13 +946,13 @@
           "path": "manufacturers/qualcomm/ai.json",
           "category": "ai",
           "count": 3,
-          "rev": "cf0277fa43e4357f"
+          "rev": "274892a038ec1273"
         },
         {
           "path": "manufacturers/qualcomm/soc.json",
           "category": "soc",
           "count": 57,
-          "rev": "c054146f7888a6ad"
+          "rev": "8d26c9869a4dc6f6"
         }
       ]
     },
@@ -968,7 +968,7 @@
           "path": "manufacturers/raspberry-pi/mcu.json",
           "category": "mcu",
           "count": 3,
-          "rev": "491f5f56ba5f75fc"
+          "rev": "4a83a5abf9440bdd"
         }
       ]
     },
@@ -984,7 +984,7 @@
           "path": "manufacturers/rca/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "4ad0d2e505f4e2cb"
+          "rev": "e1a47fff6f1bfe88"
         }
       ]
     },
@@ -1000,13 +1000,13 @@
           "path": "manufacturers/renesas/mcu.json",
           "category": "mcu",
           "count": 7,
-          "rev": "27ee9be5d123bc5b"
+          "rev": "ae5393d66f471a25"
         },
         {
           "path": "manufacturers/renesas/soc.json",
           "category": "soc",
           "count": 4,
-          "rev": "ce3912b6af411c9e"
+          "rev": "157eae10d21fc2bf"
         }
       ]
     },
@@ -1022,7 +1022,7 @@
           "path": "manufacturers/rockchip/soc.json",
           "category": "soc",
           "count": 9,
-          "rev": "dcd09618c4f5c56a"
+          "rev": "11a97999660746fc"
         }
       ]
     },
@@ -1038,7 +1038,7 @@
           "path": "manufacturers/s3/gpu.json",
           "category": "gpu",
           "count": 14,
-          "rev": "e72db81618838ed0"
+          "rev": "9769fa0edd8969e0"
         }
       ]
     },
@@ -1054,7 +1054,7 @@
           "path": "manufacturers/sambanova/ai.json",
           "category": "ai",
           "count": 3,
-          "rev": "add1659f685b7130"
+          "rev": "4759cc7cd48d4014"
         }
       ]
     },
@@ -1070,7 +1070,7 @@
           "path": "manufacturers/samsung/soc.json",
           "category": "soc",
           "count": 27,
-          "rev": "b3121c66373a7822"
+          "rev": "a29fb5f86ed3f527"
         }
       ]
     },
@@ -1086,13 +1086,13 @@
           "path": "manufacturers/sifive/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "139f969027b6f745"
+          "rev": "b3e9bfc46dc4f469"
         },
         {
           "path": "manufacturers/sifive/mcu.json",
           "category": "mcu",
           "count": 1,
-          "rev": "747e09d733f69c09"
+          "rev": "e57f121264bead2e"
         }
       ]
     },
@@ -1108,7 +1108,7 @@
           "path": "manufacturers/signetics/cpu.json",
           "category": "cpu",
           "count": 1,
-          "rev": "22c74c46fe6330df"
+          "rev": "1f666afdec807d00"
         }
       ]
     },
@@ -1124,13 +1124,13 @@
           "path": "manufacturers/stmicroelectronics/mcu.json",
           "category": "mcu",
           "count": 17,
-          "rev": "51163657eb633504"
+          "rev": "329d827601d2d9d1"
         },
         {
           "path": "manufacturers/stmicroelectronics/soc.json",
           "category": "soc",
           "count": 1,
-          "rev": "213fcf9bc4af95df"
+          "rev": "ad8935461f280235"
         }
       ]
     },
@@ -1146,7 +1146,7 @@
           "path": "manufacturers/sun/cpu.json",
           "category": "cpu",
           "count": 15,
-          "rev": "7e3fba631209da83"
+          "rev": "4861e0f4a6983f52"
         }
       ]
     },
@@ -1162,7 +1162,7 @@
           "path": "manufacturers/tenstorrent/ai.json",
           "category": "ai",
           "count": 6,
-          "rev": "0c19171d2bb45bec"
+          "rev": "e4128803e8927535"
         }
       ]
     },
@@ -1178,13 +1178,13 @@
           "path": "manufacturers/tesla/ai.json",
           "category": "ai",
           "count": 1,
-          "rev": "7845fe410b9db0b4"
+          "rev": "5b3855a7fd53d68e"
         },
         {
           "path": "manufacturers/tesla/soc.json",
           "category": "soc",
           "count": 2,
-          "rev": "e5ec035463189857"
+          "rev": "9f3ceaa69c357fcc"
         }
       ]
     },
@@ -1200,31 +1200,31 @@
           "path": "manufacturers/texas-instruments/cpu.json",
           "category": "cpu",
           "count": 4,
-          "rev": "983ddf4c2f48ab54"
+          "rev": "acff21dab4d38782"
         },
         {
           "path": "manufacturers/texas-instruments/dsp.json",
           "category": "dsp",
           "count": 10,
-          "rev": "fc31db7d249d04e1"
+          "rev": "681de082b6fdb49c"
         },
         {
           "path": "manufacturers/texas-instruments/gpu.json",
           "category": "gpu",
           "count": 2,
-          "rev": "10c0b8a07e1f3c61"
+          "rev": "f8ba6f249109d444"
         },
         {
           "path": "manufacturers/texas-instruments/mcu.json",
           "category": "mcu",
           "count": 7,
-          "rev": "cf6d8eefa16ac42e"
+          "rev": "bf3a57c25515192b"
         },
         {
           "path": "manufacturers/texas-instruments/soc.json",
           "category": "soc",
           "count": 16,
-          "rev": "9c41842355a958ed"
+          "rev": "7c78aa6f59d9e653"
         }
       ]
     },
@@ -1240,7 +1240,7 @@
           "path": "manufacturers/transmeta/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "1395d6df3de5d3f4"
+          "rev": "4d912c1b5de700e9"
         }
       ]
     },
@@ -1256,7 +1256,7 @@
           "path": "manufacturers/unisoc/soc.json",
           "category": "soc",
           "count": 5,
-          "rev": "b39bb86b04a5af6d"
+          "rev": "4c6f22106ad247e4"
         }
       ]
     },
@@ -1272,7 +1272,7 @@
           "path": "manufacturers/via/cpu.json",
           "category": "cpu",
           "count": 7,
-          "rev": "b63eb7bb8e270c00"
+          "rev": "7d31ace05f48b400"
         }
       ]
     },
@@ -1288,7 +1288,7 @@
           "path": "manufacturers/wdc/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "e87759eb4516b959"
+          "rev": "9f16e52de34a95d7"
         }
       ]
     },
@@ -1304,7 +1304,7 @@
           "path": "manufacturers/xiaomi/soc.json",
           "category": "soc",
           "count": 1,
-          "rev": "2b7280cee8da5462"
+          "rev": "7858c061ed644ba3"
         }
       ]
     },
@@ -1320,7 +1320,7 @@
           "path": "manufacturers/xilinx/fpga.json",
           "category": "fpga",
           "count": 26,
-          "rev": "22b0f6c8b94be0cf"
+          "rev": "0cffa5a4ad01386f"
         }
       ]
     },
@@ -1336,7 +1336,7 @@
           "path": "manufacturers/zhaoxin/cpu.json",
           "category": "cpu",
           "count": 1,
-          "rev": "3301640bb00c50a2"
+          "rev": "630987038c7dc10e"
         }
       ]
     },
@@ -1352,13 +1352,13 @@
           "path": "manufacturers/zilog/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "a69f92a59d2e3fb0"
+          "rev": "d9a95b911ce2c9dc"
         },
         {
           "path": "manufacturers/zilog/mcu.json",
           "category": "mcu",
           "count": 3,
-          "rev": "5d9d1decda21b231"
+          "rev": "fd28f770f467901b"
         }
       ]
     }

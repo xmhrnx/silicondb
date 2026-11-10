@@ -20,8 +20,8 @@
         "boost_clock_mhz": 3900,
         "gpu": "Immortalis-G925 MC16",
         "gpu_cores": 16,
-        "npu_tops": 44,
         "memory_type": "LPDDR5T",
+        "npu_tops": 44,
         "modem": "External (MediaTek)"
       },
       "na": [

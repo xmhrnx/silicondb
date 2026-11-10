@@ -45,6 +45,9 @@ edit it; after editing, run:
 go run ./cmd/indexgen        # validates everything and rewrites data/index.json
 ```
 
+Missing specs can be filled from public sources with `go run ./cmd/enrich`; see
+[data/README.md](data/README.md#filling-in-missing-specs).
+
 By default the app reads `https://raw.githubusercontent.com/xmhrnx/silicondb/main/data/`.
 Change it at build time with
 `-ldflags "-X github.com/mehran9675/silicondb/internal/config.DataURL=<url>"` (or
@@ -87,6 +90,7 @@ main.go                     entry point
 assets/                     embedded fonts (Inter), SVG icons, app icon, translations
                             (locales/) and open-source licenses (licenses.json)
 cmd/indexgen/               data validator and index generator
+cmd/enrich/                 fills missing specs from public sources
 cmd/icongen/                draws assets/icon.png
 data/                       the database (downloaded by the app, not embedded)
 internal/

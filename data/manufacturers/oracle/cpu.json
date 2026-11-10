@@ -299,6 +299,7 @@
         "l1_cache_kb": 256,
         "l2_cache_kb": 1536,
         "memory_type": "DDR4-2400",
+        "memory_speed_mts": 2400,
         "max_memory_mb": 524288,
         "interface": "2x PCIe 3.0 x8, 10 GbE, InfiniBand",
         "instruction_sets": [
@@ -346,6 +347,7 @@
         "base_clock_mhz": 5000,
         "l1_cache_kb": 1536,
         "memory_type": "DDR4-2400",
+        "memory_speed_mts": 2400,
         "max_memory_mb": 2097152,
         "interface": "PCIe 3.0, coherency links",
         "instruction_sets": [

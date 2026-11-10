@@ -64,6 +64,8 @@ func withUnit(f *model.Field, v float64) string {
 			return Number(v*1000, 1) + " GFLOPS"
 		}
 		return Number(v, 2) + " TFLOPS"
+	case "pcie":
+		return "PCIe " + Number(v, 1)
 	}
 	if f.Unit != "" {
 		return Number(v, 2) + " " + f.Unit

@@ -26,6 +26,7 @@ func TestValue(t *testing.T) {
 		{"count", "", 92e9, "92 billion"},
 		{"usd", "", 1599.0, "$1,599"},
 		{"tflops", "", 82.58, "82.58 TFLOPS"},
+		{"pcie", "", 5.0, "PCIe 5"},
 		{"", "W", 125.0, "125 W"},
 		{"", "", []any{"MMX", "SSE"}, "MMX, SSE"},
 	}

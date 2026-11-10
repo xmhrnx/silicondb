@@ -458,11 +458,11 @@
         "base_clock_mhz": 160,
         "sram_kb": 320,
         "voltage_v": 3.3,
-        "gpio_pins": 30,
         "connectivity": [
           "Wi-Fi 6 (802.11ax, 2.4 GHz)",
           "Bluetooth 5 LE (Mesh 1.1)"
         ],
+        "gpio_pins": 30,
         "adc": "12-bit SAR",
         "timers": "General-purpose timers, watchdogs, systimer",
         "interfaces": [
@@ -498,11 +498,11 @@
         "base_clock_mhz": 96,
         "sram_kb": 384,
         "voltage_v": 3.3,
-        "gpio_pins": 40,
         "connectivity": [
           "Bluetooth 5.4 LE",
           "IEEE 802.15.4 (Thread/Zigbee)"
         ],
+        "gpio_pins": 40,
         "adc": "12-bit SAR",
         "timers": "General-purpose timers, watchdogs, systimer",
         "interfaces": [

@@ -365,9 +365,9 @@
         "boost_clock_mhz": 2000,
         "gpu": "Mali-G52 2EE",
         "gpu_cores": 2,
-        "npu_tops": 1,
         "memory_type": "LPDDR4X / LPDDR4 / DDR4 / LPDDR3 / DDR3",
         "memory_bus_bits": 32,
+        "npu_tops": 1,
         "connectivity": [
           "USB 3.0",
           "USB 2.0",

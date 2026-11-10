@@ -24,6 +24,7 @@
         "gpu_cores": 12,
         "gpu_clock_mhz": 1000,
         "memory_type": "LPDDR4-4266",
+        "memory_speed_mts": 4266,
         "max_memory_mb": 8192,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 68,

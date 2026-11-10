@@ -21,6 +21,7 @@
         "l2_cache_kb": 4096,
         "l3_cache_kb": 32768,
         "memory_type": "DDR5-4800 / DDR4-3200",
+        "memory_speed_mts": 4800,
         "interface": "PCIe 4.0 (24 lanes)",
         "pcie_lanes": 24,
         "instruction_sets": [

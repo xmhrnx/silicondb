@@ -617,9 +617,9 @@
         "core_config": "4x Cortex-A53 @ 1.4 GHz + C7x DSP/MMA + 1x Cortex-R5F",
         "boost_clock_mhz": 1400,
         "l2_cache_kb": 512,
-        "npu_tops": 2,
         "memory_type": "LPDDR4 / DDR4",
         "memory_bus_bits": 32,
+        "npu_tops": 2,
         "connectivity": [
           "Gigabit Ethernet",
           "USB 2.0",

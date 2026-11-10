@@ -93,6 +93,7 @@
         "core_config": "2x Cortex-M33 or 2x Hazard3 RISC-V (selectable)",
         "data_width_bits": 32,
         "base_clock_mhz": 150,
+        "flash_kb": 2048,
         "sram_kb": 520,
         "voltage_v": 3.3,
         "gpio_pins": 48,
@@ -106,8 +107,7 @@
           "12× PIO state machines",
           "HSTX",
           "QSPI (XIP, 2 chip selects)"
-        ],
-        "flash_kb": 2048
+        ]
       },
       "na": [
         "eeprom_kb",

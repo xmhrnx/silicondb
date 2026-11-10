@@ -73,6 +73,7 @@
         "gpu": "PowerVR AXM-8-256",
         "gpu_clock_mhz": 600,
         "memory_type": "LPDDR4X-4266",
+        "memory_speed_mts": 4266,
         "max_memory_mb": 16384,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 34.1,
@@ -116,9 +117,9 @@
         "core_config": "4x Cortex-A55 @ 1.8 GHz + 2x Cortex-R8 @ 800 MHz + 1x Cortex-M33 @ 200 MHz + DRP-AI3",
         "boost_clock_mhz": 1800,
         "gpu": "Mali-G31",
-        "npu_tops": 8,
         "memory_type": "LPDDR4X / LPDDR4",
         "memory_bus_bits": 32,
+        "npu_tops": 8,
         "connectivity": [
           "2x PCIe 3.0",
           "2x USB 3.2 Gen 2",
@@ -166,8 +167,8 @@
         "foundry": "TSMC",
         "cores": 32,
         "core_config": "32x Cortex-A720AE + 6x Cortex-R52 (lockstep)",
-        "npu_tops": 400,
-        "fp32_tflops": 4
+        "fp32_tflops": 4,
+        "npu_tops": 400
       },
       "na": [
         "codename",

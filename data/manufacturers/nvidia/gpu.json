@@ -2375,6 +2375,7 @@
         "foundry": "TSMC",
         "transistors": 5200000000,
         "die_size_mm2": 398,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 1792,
         "shading_units": 1664,
         "compute_units": 13,
@@ -2390,23 +2391,25 @@
         "pixel_rate_gpixels": 65.97,
         "texture_rate_gtexels": 122.51,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 7000,
         "memory_size_mb": 4096,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 224.4,
+        "ecc_memory": false,
         "fp64_tflops": 0.122,
         "fp32_tflops": 3.92,
         "tdp_w": 145,
         "interface": "PCIe 3.0 x16"
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "fp16_tflops",
+        "geekbench6_metal",
         "geekbench6_opencl",
         "geekbench6_vulkan",
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -2423,6 +2426,7 @@
         "foundry": "TSMC",
         "transistors": 2940000000,
         "die_size_mm2": 228,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 1024,
         "shading_units": 1024,
         "compute_units": 8,
@@ -2438,23 +2442,25 @@
         "pixel_rate_gpixels": 37.7,
         "texture_rate_gtexels": 75.39,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 7000,
         "memory_size_mb": 2048,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 112.2,
+        "ecc_memory": false,
         "fp64_tflops": 0.0754,
         "fp32_tflops": 2.413,
         "tdp_w": 120,
         "interface": "PCIe 3.0 x16"
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "fp16_tflops",
+        "geekbench6_metal",
         "geekbench6_opencl",
         "geekbench6_vulkan",
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -2519,6 +2525,7 @@
         "foundry": "TSMC",
         "transistors": 8000000000,
         "die_size_mm2": 601,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 3072,
         "shading_units": 2816,
         "compute_units": 22,
@@ -2534,23 +2541,25 @@
         "pixel_rate_gpixels": 103.2,
         "texture_rate_gtexels": 189.2,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 7000,
         "memory_size_mb": 6144,
         "memory_bus_bits": 384,
         "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 336.5,
+        "ecc_memory": false,
         "fp64_tflops": 0.189,
         "fp32_tflops": 6.054,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "fp16_tflops",
+        "geekbench6_metal",
         "geekbench6_opencl",
         "geekbench6_vulkan",
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -2567,6 +2576,7 @@
         "foundry": "TSMC",
         "transistors": 7200000000,
         "die_size_mm2": 314,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 2048,
         "shading_units": 2560,
         "compute_units": 20,
@@ -2582,10 +2592,12 @@
         "pixel_rate_gpixels": 110.91,
         "texture_rate_gtexels": 277.28,
         "memory_type": "GDDR5X",
+        "memory_speed_mts": 10000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1250,
         "memory_bandwidth_gbs": 320.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.277,
         "fp32_tflops": 8.873,
         "fp16_tflops": 0.139,
@@ -2595,10 +2607,10 @@
         "geekbench6_vulkan": 65170
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -2615,6 +2627,7 @@
         "foundry": "TSMC",
         "transistors": 7200000000,
         "die_size_mm2": 314,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 2048,
         "shading_units": 1920,
         "compute_units": 15,
@@ -2630,10 +2643,12 @@
         "pixel_rate_gpixels": 107.71,
         "texture_rate_gtexels": 201.96,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 8000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 256.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.202,
         "fp32_tflops": 6.463,
         "fp16_tflops": 0.101,
@@ -2643,10 +2658,10 @@
         "geekbench6_vulkan": 49876
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -2663,6 +2678,7 @@
         "foundry": "TSMC",
         "transistors": 4400000000,
         "die_size_mm2": 200,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 1536,
         "shading_units": 1280,
         "compute_units": 10,
@@ -2678,10 +2694,12 @@
         "pixel_rate_gpixels": 81.98,
         "texture_rate_gtexels": 136.64,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 8000,
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 192.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.137,
         "fp32_tflops": 4.372,
         "fp16_tflops": 0.0683,
@@ -2691,10 +2709,10 @@
         "geekbench6_vulkan": 35697
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -2759,6 +2777,7 @@
         "foundry": "Samsung",
         "transistors": 3300000000,
         "die_size_mm2": 132,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 1024,
         "shading_units": 768,
         "compute_units": 6,
@@ -2774,10 +2793,12 @@
         "pixel_rate_gpixels": 44.54,
         "texture_rate_gtexels": 66.82,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 7000,
         "memory_size_mb": 4096,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 112.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.0668,
         "fp32_tflops": 2.138,
         "fp16_tflops": 0.0334,
@@ -2787,10 +2808,10 @@
         "geekbench6_vulkan": 20196
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -2807,6 +2828,7 @@
         "foundry": "TSMC",
         "transistors": 12000000000,
         "die_size_mm2": 471,
+        "l1_cache_kb": 48,
         "l2_cache_kb": 2816,
         "shading_units": 3584,
         "compute_units": 28,
@@ -2822,10 +2844,12 @@
         "pixel_rate_gpixels": 139.22,
         "texture_rate_gtexels": 354.37,
         "memory_type": "GDDR5X",
+        "memory_speed_mts": 11000,
         "memory_size_mb": 11264,
         "memory_bus_bits": 352,
         "memory_clock_mhz": 1375,
         "memory_bandwidth_gbs": 484.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.354,
         "fp32_tflops": 11.34,
         "fp16_tflops": 0.177,
@@ -2835,10 +2859,10 @@
         "geekbench6_vulkan": 85261
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -3047,6 +3071,7 @@
         "foundry": "TSMC",
         "transistors": 18600000000,
         "die_size_mm2": 754,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 5632,
         "shading_units": 4352,
         "compute_units": 68,
@@ -3064,10 +3089,12 @@
         "pixel_rate_gpixels": 135.96,
         "texture_rate_gtexels": 420.24,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 11264,
         "memory_bus_bits": 352,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 616.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.42,
         "fp32_tflops": 13.448,
         "fp16_tflops": 26.896,
@@ -3095,6 +3122,7 @@
         "foundry": "TSMC",
         "transistors": 13600000000,
         "die_size_mm2": 545,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 4096,
         "shading_units": 2944,
         "compute_units": 46,
@@ -3112,10 +3140,12 @@
         "pixel_rate_gpixels": 109.44,
         "texture_rate_gtexels": 314.64,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.315,
         "fp32_tflops": 10.068,
         "fp16_tflops": 20.136,
@@ -3125,8 +3155,8 @@
         "geekbench6_vulkan": 107797
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -3191,6 +3221,7 @@
         "foundry": "TSMC",
         "transistors": 10800000000,
         "die_size_mm2": 445,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 4096,
         "shading_units": 2304,
         "compute_units": 36,
@@ -3208,10 +3239,12 @@
         "pixel_rate_gpixels": 103.68,
         "texture_rate_gtexels": 233.28,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.233,
         "fp32_tflops": 7.465,
         "fp16_tflops": 14.93,
@@ -3221,8 +3254,8 @@
         "geekbench6_vulkan": 84097
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -3287,6 +3320,7 @@
         "foundry": "TSMC",
         "transistors": 10800000000,
         "die_size_mm2": 445,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 3072,
         "shading_units": 1920,
         "compute_units": 30,
@@ -3304,10 +3338,12 @@
         "pixel_rate_gpixels": 80.64,
         "texture_rate_gtexels": 201.6,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 336.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.202,
         "fp32_tflops": 6.451,
         "fp16_tflops": 12.902,
@@ -3317,8 +3353,8 @@
         "geekbench6_vulkan": 72572
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -3335,6 +3371,7 @@
         "foundry": "TSMC",
         "transistors": 6600000000,
         "die_size_mm2": 284,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 1536,
         "shading_units": 1536,
         "compute_units": 24,
@@ -3350,10 +3387,12 @@
         "pixel_rate_gpixels": 84.96,
         "texture_rate_gtexels": 169.92,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 12000,
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1500,
         "memory_bandwidth_gbs": 288.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.17,
         "fp32_tflops": 5.437,
         "fp16_tflops": 10.874,
@@ -3363,10 +3402,10 @@
         "geekbench6_vulkan": 62004
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -3383,6 +3422,7 @@
         "foundry": "TSMC",
         "transistors": 6600000000,
         "die_size_mm2": 284,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 1536,
         "shading_units": 1408,
         "compute_units": 22,
@@ -3398,10 +3438,12 @@
         "pixel_rate_gpixels": 85.68,
         "texture_rate_gtexels": 157.08,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 8000,
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 192.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.157,
         "fp32_tflops": 5.027,
         "fp16_tflops": 10.054,
@@ -3411,10 +3453,10 @@
         "geekbench6_vulkan": 56143
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -3431,6 +3473,7 @@
         "foundry": "TSMC",
         "transistors": 4700000000,
         "die_size_mm2": 200,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 1024,
         "shading_units": 896,
         "compute_units": 14,
@@ -3446,10 +3489,12 @@
         "pixel_rate_gpixels": 53.28,
         "texture_rate_gtexels": 93.24,
         "memory_type": "GDDR5",
+        "memory_speed_mts": 8000,
         "memory_size_mb": 4096,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 128.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.0932,
         "fp32_tflops": 2.984,
         "fp16_tflops": 5.968,
@@ -3459,10 +3504,10 @@
         "geekbench6_vulkan": 37542
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -3479,6 +3524,7 @@
         "foundry": "TSMC",
         "transistors": 10800000000,
         "die_size_mm2": 445,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 4096,
         "shading_units": 2176,
         "compute_units": 34,
@@ -3496,10 +3542,12 @@
         "pixel_rate_gpixels": 105.6,
         "texture_rate_gtexels": 224.4,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.224,
         "fp32_tflops": 7.181,
         "fp16_tflops": 14.362,
@@ -3509,8 +3557,8 @@
         "geekbench6_vulkan": 85182
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -3527,6 +3575,7 @@
         "foundry": "TSMC",
         "transistors": 13600000000,
         "die_size_mm2": 545,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 4096,
         "shading_units": 3072,
         "compute_units": 48,
@@ -3544,10 +3593,12 @@
         "pixel_rate_gpixels": 116.16,
         "texture_rate_gtexels": 348.48,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 15500,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1938,
         "memory_bandwidth_gbs": 496.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.348,
         "fp32_tflops": 11.151,
         "fp16_tflops": 22.302,
@@ -3557,8 +3608,8 @@
         "geekbench6_vulkan": 111284
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -3575,6 +3626,7 @@
         "foundry": "TSMC",
         "transistors": 6600000000,
         "die_size_mm2": 284,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 1536,
         "shading_units": 1408,
         "compute_units": 22,
@@ -3590,10 +3642,12 @@
         "pixel_rate_gpixels": 85.68,
         "texture_rate_gtexels": 157.08,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 336.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.157,
         "fp32_tflops": 5.027,
         "fp16_tflops": 10.054,
@@ -3603,10 +3657,10 @@
         "geekbench6_vulkan": 60513
       },
       "na": [
-        "tensor_cores",
-        "rt_cores",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "rt_cores",
+        "tensor_cores"
       ]
     },
     {
@@ -3623,6 +3677,7 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 5120,
         "shading_units": 8704,
         "compute_units": 68,
@@ -3640,13 +3695,17 @@
         "pixel_rate_gpixels": 164.16,
         "texture_rate_gtexels": 465.12,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 19000,
         "memory_size_mb": 10240,
         "memory_bus_bits": 320,
         "memory_clock_mhz": 1188,
         "memory_bandwidth_gbs": 760.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.465,
         "fp32_tflops": 29.768,
         "fp16_tflops": 29.768,
+        "bf16_tflops": 119.07,
+        "bf16_tensor_tflops": 119.07,
         "tdp_w": 320,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 173309,
@@ -3671,6 +3730,7 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 6144,
         "shading_units": 10496,
         "compute_units": 82,
@@ -3688,13 +3748,17 @@
         "pixel_rate_gpixels": 189.84,
         "texture_rate_gtexels": 555.96,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 19500,
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
         "memory_clock_mhz": 1219,
         "memory_bandwidth_gbs": 936.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.556,
         "fp32_tflops": 35.581,
         "fp16_tflops": 35.581,
+        "bf16_tflops": 142.33,
+        "bf16_tensor_tflops": 142.33,
         "tdp_w": 350,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 194465,
@@ -3719,6 +3783,7 @@
         "foundry": "Samsung",
         "transistors": 17400000000,
         "die_size_mm2": 392,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 4096,
         "shading_units": 5888,
         "compute_units": 46,
@@ -3736,13 +3801,17 @@
         "pixel_rate_gpixels": 165.6,
         "texture_rate_gtexels": 317.4,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.317,
         "fp32_tflops": 20.314,
         "fp16_tflops": 20.314,
+        "bf16_tflops": 81.25,
+        "bf16_tensor_tflops": 81.25,
         "tdp_w": 220,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 128209,
@@ -3815,6 +3884,7 @@
         "foundry": "Samsung",
         "transistors": 17400000000,
         "die_size_mm2": 392,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 4096,
         "shading_units": 4864,
         "compute_units": 38,
@@ -3832,21 +3902,25 @@
         "pixel_rate_gpixels": 133.2,
         "texture_rate_gtexels": 253.08,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.253,
         "fp32_tflops": 16.197,
         "fp16_tflops": 16.197,
+        "bf16_tflops": 64.79,
+        "bf16_tensor_tflops": 64.79,
         "tdp_w": 200,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 112303,
         "geekbench6_vulkan": 115945
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -3863,6 +3937,7 @@
         "foundry": "Samsung",
         "transistors": 12000000000,
         "die_size_mm2": 276,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 3072,
         "shading_units": 3584,
         "compute_units": 28,
@@ -3880,13 +3955,17 @@
         "pixel_rate_gpixels": 85.3,
         "texture_rate_gtexels": 199.02,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 15000,
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1875,
         "memory_bandwidth_gbs": 360.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.199,
         "fp32_tflops": 12.738,
         "fp16_tflops": 12.738,
+        "bf16_tflops": 50.95,
+        "bf16_tensor_tflops": 50.95,
         "tdp_w": 170,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 89510,
@@ -3911,6 +3990,7 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 6144,
         "shading_units": 10240,
         "compute_units": 80,
@@ -3928,13 +4008,17 @@
         "pixel_rate_gpixels": 186.48,
         "texture_rate_gtexels": 532.8,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 19000,
         "memory_size_mb": 12288,
         "memory_bus_bits": 384,
         "memory_clock_mhz": 1188,
         "memory_bandwidth_gbs": 912.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.533,
         "fp32_tflops": 34.099,
         "fp16_tflops": 34.099,
+        "bf16_tflops": 136.4,
+        "bf16_tensor_tflops": 136.4,
         "tdp_w": 350,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 191836,
@@ -3959,6 +4043,7 @@
         "foundry": "Samsung",
         "transistors": 12000000000,
         "die_size_mm2": 276,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 2048,
         "shading_units": 2560,
         "compute_units": 20,
@@ -3976,21 +4061,25 @@
         "pixel_rate_gpixels": 56.86,
         "texture_rate_gtexels": 142.16,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 14000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 224.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.142,
         "fp32_tflops": 9.098,
         "fp16_tflops": 9.098,
+        "bf16_tflops": 36.39,
+        "bf16_tensor_tflops": 36.39,
         "tdp_w": 130,
         "interface": "PCIe 4.0 x8",
         "geekbench6_opencl": 63483,
         "geekbench6_vulkan": 62406
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4007,6 +4096,7 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 6144,
         "shading_units": 10752,
         "compute_units": 84,
@@ -4024,21 +4114,25 @@
         "pixel_rate_gpixels": 208.32,
         "texture_rate_gtexels": 624.96,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 21000,
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
         "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 1008.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.625,
         "fp32_tflops": 39.997,
         "fp16_tflops": 39.997,
+        "bf16_tflops": 159.99,
+        "bf16_tensor_tflops": 159.99,
         "tdp_w": 450,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 207329,
         "geekbench6_vulkan": 187369
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4055,6 +4149,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 76300000000,
         "die_size_mm2": 609,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 73728,
         "shading_units": 16384,
         "compute_units": 128,
@@ -4072,13 +4167,18 @@
         "pixel_rate_gpixels": 443.52,
         "texture_rate_gtexels": 1290.24,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 21000,
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
         "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 1008.0,
+        "ecc_memory": false,
         "fp64_tflops": 1.29,
         "fp32_tflops": 82.575,
         "fp16_tflops": 82.575,
+        "fp8_tflops": 660.603,
+        "fp16_tensor_tflops": 330.301,
+        "fp8_tensor_tflops": 660.603,
         "tdp_w": 450,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 318192,
@@ -4103,6 +4203,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 45900000000,
         "die_size_mm2": 379,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 65536,
         "shading_units": 9728,
         "compute_units": 76,
@@ -4120,13 +4221,18 @@
         "pixel_rate_gpixels": 280.56,
         "texture_rate_gtexels": 761.52,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 22400,
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1400,
         "memory_bandwidth_gbs": 716.8,
+        "ecc_memory": false,
         "fp64_tflops": 0.762,
         "fp32_tflops": 48.737,
         "fp16_tflops": 48.737,
+        "fp8_tflops": 389.898,
+        "fp16_tensor_tflops": 194.949,
+        "fp8_tensor_tflops": 389.898,
         "tdp_w": 320,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 241464,
@@ -4199,6 +4305,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 35800000000,
         "die_size_mm2": 295,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 49152,
         "shading_units": 7680,
         "compute_units": 60,
@@ -4216,13 +4323,18 @@
         "pixel_rate_gpixels": 208.8,
         "texture_rate_gtexels": 626.4,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 21000,
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 504.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.626,
         "fp32_tflops": 40.09,
         "fp16_tflops": 40.09,
+        "fp8_tflops": 320.717,
+        "fp16_tensor_tflops": 160.358,
+        "fp8_tensor_tflops": 320.717,
         "tdp_w": 285,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 205515,
@@ -4247,6 +4359,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 35800000000,
         "die_size_mm2": 295,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 36864,
         "shading_units": 5888,
         "compute_units": 46,
@@ -4264,21 +4377,26 @@
         "pixel_rate_gpixels": 158.4,
         "texture_rate_gtexels": 455.4,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 21000,
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 504.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.455,
         "fp32_tflops": 29.146,
         "fp16_tflops": 29.146,
+        "fp8_tflops": 233.165,
+        "fp16_tensor_tflops": 116.582,
+        "fp8_tensor_tflops": 233.165,
         "tdp_w": 200,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 168368,
         "geekbench6_vulkan": 158623
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4319,6 +4437,9 @@
         "fp64_tflops": 0.345,
         "fp32_tflops": 22.065,
         "fp16_tflops": 22.065,
+        "fp8_tflops": 176.517,
+        "fp16_tensor_tflops": 88.259,
+        "fp8_tensor_tflops": 176.517,
         "tdp_w": 160,
         "interface": "PCIe 4.0 x8",
         "geekbench6_opencl": 130295,
@@ -4343,6 +4464,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 18900000000,
         "die_size_mm2": 159,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 24576,
         "shading_units": 3072,
         "compute_units": 24,
@@ -4364,9 +4486,13 @@
         "memory_bus_bits": 128,
         "memory_clock_mhz": 2125,
         "memory_bandwidth_gbs": 272.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.236,
         "fp32_tflops": 15.114,
         "fp16_tflops": 15.114,
+        "fp8_tflops": 120.914,
+        "fp16_tensor_tflops": 60.457,
+        "fp8_tensor_tflops": 120.914,
         "tdp_w": 115,
         "interface": "PCIe 4.0 x8",
         "geekbench6_opencl": 101567,
@@ -4391,6 +4517,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 22900000000,
         "die_size_mm2": 188,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 32768,
         "shading_units": 4352,
         "compute_units": 34,
@@ -4408,10 +4535,12 @@
         "pixel_rate_gpixels": 121.68,
         "texture_rate_gtexels": 344.76,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 18000,
         "memory_size_mb": 16384,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 2250,
         "memory_bandwidth_gbs": 288.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.345,
         "fp32_tflops": 22.065,
         "fp16_tflops": 22.065,
@@ -4421,8 +4550,8 @@
         "geekbench6_vulkan": 119634
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4439,6 +4568,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 35800000000,
         "die_size_mm2": 295,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 49152,
         "shading_units": 7168,
         "compute_units": 56,
@@ -4456,13 +4586,18 @@
         "pixel_rate_gpixels": 198.0,
         "texture_rate_gtexels": 554.4,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 21000,
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 504.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.554,
         "fp32_tflops": 35.482,
         "fp16_tflops": 35.482,
+        "fp8_tflops": 283.853,
+        "fp16_tensor_tflops": 141.926,
+        "fp8_tensor_tflops": 283.853,
         "tdp_w": 220,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 192880,
@@ -4487,6 +4622,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 45900000000,
         "die_size_mm2": 379,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 49152,
         "shading_units": 8448,
         "compute_units": 66,
@@ -4504,21 +4640,26 @@
         "pixel_rate_gpixels": 250.56,
         "texture_rate_gtexels": 689.04,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 21000,
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1313,
         "memory_bandwidth_gbs": 672.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.689,
         "fp32_tflops": 44.1,
         "fp16_tflops": 44.1,
+        "fp8_tflops": 352.788,
+        "fp16_tensor_tflops": 176.394,
+        "fp8_tensor_tflops": 352.788,
         "tdp_w": 285,
         "interface": "PCIe 4.0 x16"
       },
       "na": [
-        "geekbench6_opencl",
-        "geekbench6_vulkan",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -4535,6 +4676,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 45900000000,
         "die_size_mm2": 379,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 65536,
         "shading_units": 10240,
         "compute_units": 80,
@@ -4552,21 +4694,26 @@
         "pixel_rate_gpixels": 285.6,
         "texture_rate_gtexels": 816.0,
         "memory_type": "GDDR6X",
+        "memory_speed_mts": 23000,
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1438,
         "memory_bandwidth_gbs": 736.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.816,
         "fp32_tflops": 52.224,
         "fp16_tflops": 52.224,
+        "fp8_tflops": 417.792,
+        "fp16_tensor_tflops": 208.896,
+        "fp8_tensor_tflops": 417.792,
         "tdp_w": 320,
         "interface": "PCIe 4.0 x16",
         "geekbench6_opencl": 247624,
         "geekbench6_vulkan": 227105
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4583,6 +4730,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 92200000000,
         "die_size_mm2": 750,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 98304,
         "shading_units": 21760,
         "compute_units": 170,
@@ -4600,21 +4748,26 @@
         "pixel_rate_gpixels": 423.63,
         "texture_rate_gtexels": 1636.76,
         "memory_type": "GDDR7",
+        "memory_speed_mts": 28000,
         "memory_size_mb": 32768,
         "memory_bus_bits": 512,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 1792.0,
+        "ecc_memory": false,
         "fp64_tflops": 1.637,
         "fp32_tflops": 104.753,
         "fp16_tflops": 104.753,
+        "fp8_tflops": 838.021,
+        "fp16_tensor_tflops": 419.011,
+        "fp8_tensor_tflops": 838.021,
         "tdp_w": 575,
         "interface": "PCIe 5.0 x16",
         "geekbench6_opencl": 383325,
         "geekbench6_vulkan": 380401
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4631,6 +4784,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 45600000000,
         "die_size_mm2": 378,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 65536,
         "shading_units": 10752,
         "compute_units": 84,
@@ -4648,21 +4802,26 @@
         "pixel_rate_gpixels": 293.1,
         "texture_rate_gtexels": 879.31,
         "memory_type": "GDDR7",
+        "memory_speed_mts": 30000,
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1875,
         "memory_bandwidth_gbs": 960.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.879,
         "fp32_tflops": 56.276,
         "fp16_tflops": 56.276,
+        "fp8_tflops": 450.208,
+        "fp16_tensor_tflops": 225.104,
+        "fp8_tensor_tflops": 450.208,
         "tdp_w": 360,
         "interface": "PCIe 5.0 x16",
         "geekbench6_opencl": 267906,
         "geekbench6_vulkan": 257198
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4679,6 +4838,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 45600000000,
         "die_size_mm2": 378,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 65536,
         "shading_units": 8960,
         "compute_units": 70,
@@ -4696,21 +4856,26 @@
         "pixel_rate_gpixels": 235.39,
         "texture_rate_gtexels": 686.56,
         "memory_type": "GDDR7",
+        "memory_speed_mts": 28000,
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 896.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.687,
         "fp32_tflops": 43.94,
         "fp16_tflops": 43.94,
+        "fp8_tflops": 351.519,
+        "fp16_tensor_tflops": 175.759,
+        "fp8_tensor_tflops": 351.519,
         "tdp_w": 300,
         "interface": "PCIe 5.0 x16",
         "geekbench6_opencl": 239264,
         "geekbench6_vulkan": 228386
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4727,6 +4892,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 31100000000,
         "die_size_mm2": 263,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 49152,
         "shading_units": 6144,
         "compute_units": 48,
@@ -4744,21 +4910,26 @@
         "pixel_rate_gpixels": 160.77,
         "texture_rate_gtexels": 482.3,
         "memory_type": "GDDR7",
+        "memory_speed_mts": 28000,
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 672.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.482,
         "fp32_tflops": 30.867,
         "fp16_tflops": 30.867,
+        "fp8_tflops": 246.94,
+        "fp16_tensor_tflops": 123.47,
+        "fp8_tensor_tflops": 246.94,
         "tdp_w": 250,
         "interface": "PCIe 5.0 x16",
         "geekbench6_opencl": 188870,
         "geekbench6_vulkan": 181089
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4770,10 +4941,12 @@
         "codename": "GB202",
         "microarchitecture": "Blackwell",
         "market": "Workstation",
+        "launch_price_usd": 8559,
         "process_nm": 4,
         "foundry": "TSMC (4N)",
         "transistors": 92200000000,
         "die_size_mm2": 750,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 131072,
         "shading_units": 24064,
         "compute_units": 188,
@@ -4791,10 +4964,12 @@
         "pixel_rate_gpixels": 502.46,
         "texture_rate_gtexels": 1967.98,
         "memory_type": "GDDR7",
+        "memory_speed_mts": 28000,
         "memory_size_mb": 98304,
         "memory_bus_bits": 512,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 1792.0,
+        "ecc_memory": true,
         "fp64_tflops": 1.968,
         "fp32_tflops": 125.951,
         "fp16_tflops": 125.951,
@@ -4802,11 +4977,10 @@
         "interface": "PCIe 5.0 x16"
       },
       "na": [
-        "launch_price_usd",
-        "geekbench6_opencl",
-        "geekbench6_vulkan",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -4823,6 +4997,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 21900000000,
         "die_size_mm2": 181,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 32768,
         "shading_units": 4608,
         "compute_units": 36,
@@ -4840,21 +5015,26 @@
         "pixel_rate_gpixels": 123.46,
         "texture_rate_gtexels": 370.37,
         "memory_type": "GDDR7",
+        "memory_speed_mts": 28000,
         "memory_size_mb": 16384,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.37,
         "fp32_tflops": 23.704,
         "fp16_tflops": 23.704,
+        "fp8_tflops": 189.628,
+        "fp16_tensor_tflops": 94.814,
+        "fp8_tensor_tflops": 189.628,
         "tdp_w": 180,
         "interface": "PCIe 5.0 x8",
         "geekbench6_opencl": 143662,
         "geekbench6_vulkan": 136903
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -4919,6 +5099,7 @@
         "foundry": "TSMC (4N)",
         "transistors": 21900000000,
         "die_size_mm2": 181,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 32768,
         "shading_units": 3840,
         "compute_units": 30,
@@ -4936,21 +5117,26 @@
         "pixel_rate_gpixels": 119.86,
         "texture_rate_gtexels": 299.64,
         "memory_type": "GDDR7",
+        "memory_speed_mts": 28000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.3,
         "fp32_tflops": 19.177,
         "fp16_tflops": 19.177,
+        "fp8_tflops": 153.416,
+        "fp16_tensor_tflops": 76.708,
+        "fp8_tensor_tflops": 153.416,
         "tdp_w": 145,
         "interface": "PCIe 5.0 x8",
         "geekbench6_opencl": 126840,
         "geekbench6_vulkan": 120026
       },
       "na": [
-        "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "cinebench_2024_gpu",
+        "geekbench6_metal"
       ]
     },
     {
@@ -5109,7 +5295,9 @@
         "launch_price_usd": 249,
         "process_nm": 4,
         "foundry": "TSMC (4N)",
+        "transistors": 1.6899999999999998e+10,
         "die_size_mm2": 149,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 32768,
         "shading_units": 2560,
         "compute_units": 20,
@@ -5127,22 +5315,26 @@
         "pixel_rate_gpixels": 82.3,
         "texture_rate_gtexels": 205.76,
         "memory_type": "GDDR6",
+        "memory_speed_mts": 20000,
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 2500,
         "memory_bandwidth_gbs": 320.0,
+        "ecc_memory": false,
         "fp64_tflops": 0.206,
         "fp32_tflops": 13.169,
         "fp16_tflops": 13.169,
+        "fp8_tflops": 105.349,
+        "fp16_tensor_tflops": 52.675,
+        "fp8_tensor_tflops": 105.349,
         "tdp_w": 130,
         "interface": "PCIe 5.0 x8"
       },
       "na": [
-        "transistors",
-        "geekbench6_opencl",
-        "geekbench6_vulkan",
+        "cinebench_2024_gpu",
         "geekbench6_metal",
-        "cinebench_2024_gpu"
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     }
   ]

@@ -449,11 +449,11 @@
         "gpu": "Ampere",
         "gpu_cores": 1536,
         "gpu_clock_mhz": 1007,
-        "fp32_tflops": 3.09,
         "memory_type": "LPDDR5X",
+        "max_memory_mb": 12288,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 102.4,
-        "max_memory_mb": 12288
+        "fp32_tflops": 3.09
       },
       "na": [
         "transistors",
@@ -539,11 +539,11 @@
         "core_config": "10x Cortex-X925 + 10x Cortex-A725",
         "gpu": "Blackwell",
         "gpu_cores": 6144,
-        "fp32_tflops": 31.0,
         "memory_type": "LPDDR5X",
+        "max_memory_mb": 131072,
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 273.0,
-        "max_memory_mb": 131072,
+        "fp32_tflops": 31.0,
         "tdp_w": 140
       },
       "na": [

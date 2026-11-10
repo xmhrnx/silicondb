@@ -458,9 +458,9 @@
         "boost_clock_mhz": 1800,
         "gpu": "Mali-G57 MC1",
         "gpu_cores": 1,
-        "npu_tops": 2,
         "memory_type": "LPDDR4X / LPDDR4 / DDR4 / LPDDR3 / DDR3",
         "memory_bus_bits": 32,
+        "npu_tops": 2,
         "connectivity": [
           "USB 3.1",
           "USB 2.0",
@@ -510,9 +510,9 @@
         "core_config": "2x Cortex-A76 @ 2.0 GHz + 6x Cortex-A55 @ 1.8 GHz",
         "boost_clock_mhz": 2000,
         "gpu": "PowerVR BXM-4-64",
-        "npu_tops": 3,
         "memory_type": "LPDDR5 / LPDDR4X / LPDDR4",
         "max_memory_mb": 16384,
+        "npu_tops": 3,
         "connectivity": [
           "USB 3.1",
           "PCIe 3.0",

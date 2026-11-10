@@ -1,0 +1,4393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MediaTek Dimensity 9300: specs and benchmarks</title>
+<meta name="description" content="MediaTek Dimensity 9300: performance tests in benchmarks (AnTuTu 11, GeekBench 6). Battery life and full specifications." />
+<meta property="og:title" content="MediaTek Dimensity 9300: specs and benchmarks" />
+<meta property="og:description" content="MediaTek Dimensity 9300: performance tests in benchmarks (AnTuTu 11, GeekBench 6). Battery life and full specifications." />
+<meta property="og:site_name" content="NanoReview.net" />
+<meta property="og:url" content="https://nanoreview.net/en/soc/mediatek-dimensity-9300" />
+<link rel="canonical" href="https://nanoreview.net/en/soc/mediatek-dimensity-9300" />
+<link rel="alternate" href="https://nanoreview.net/en/soc/mediatek-dimensity-9300" hreflang="en" />
+<link rel="alternate" href="https://nanoreview.net/ru/soc/mediatek-dimensity-9300" hreflang="ru" />
+<link rel="alternate" href="https://nanoreview.net/en/soc/mediatek-dimensity-9300" hreflang="x-default" />
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://nanoreview.net/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https://nanoreview.net/en/soc-list/rating","name":"Mobile Processor Rankings"}},{"@type":"ListItem","position":3,"item":{"@id":"https://nanoreview.net/en/soc/mediatek-dimensity-9300","name":"Dimensity 9300: benchmarks and specs"}}]}</script>
+
+    
+    
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#ffffff" />
+
+
+    <script defer src="/assets/web/app.js?ver=S5090-turbo-GTS6"></script>
+
+    
+    
+    
+    
+
+
+    
+    <link rel="stylesheet" href="/assets/web/app.css?ver=S5090-turbo-GTS6">
+
+		
+		<script defer src="/assets/external/sweetalert2.min.js"></script>
+		
+		<link rel="stylesheet" href="/assets/external/sweetalert2.css" media="print" onload="this.media='all'">
+
+    
+    
+		
+		
+		<script defer data-domain="nanoreview.net" src="https://nanostatistics.net/js/reactive.js"></script>
+		<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
+		
+		
+
+		
+		
+		<style>
+			@media (max-width: 780px) { 
+				.rtx_3_desktop { display: none; } 
+			} 
+			@media (min-width: 780px) { 
+				.rtx_3_mobile { display: none; } 
+			}
+		</style>
+	
+<script defer src="https://nanostatistics.net/static/npw2.js"></script>
+
+		<script type="text/javascript" src="//cdn.vlitag.com/w/93a2da7d-ee71-4be6-b27a-62ae086489c5.js" async defer></script>
+		<script type="text/javascript" src="//cdn.vlitag.com/ata/adv/93a2da7d-ee71-4be6-b27a-62ae086489c5.js" async defer></script>
+
+		<script>
+			var vitag = vitag || {}
+			vitag.gdprShowConsentTool = true
+			vitag.gdprShowConsentToolButton = false
+			vitag.smartBannerConfig = {
+				disableVerticalPosition: 'top',
+				enablePC: false,
+				enableMobile: true,
+			}
+			
+		vitag.outStreamConfig= {
+			enablePC: false,
+			enableMobile: false,
+		}
+		vitag.sizeStickyVideo = 300;
+	
+		</script>
+	
+
+		
+  
+  </head>
+  <body>
+    
+    
+		
+		<div class="nav-container">
+			<nav class="nav">
+				<div class="nav-left">
+				
+    <div id="toggle-menubar" class="side-menubar-toggle-button">
+			<svg height="20" width="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M19 10.625H1v-1.25h18v1.25Zm0-7.875H1V4h18V2.75ZM19 16H1v1.25h18V16Z"></path>
+    </svg>
+		</div>
+		<div style="margin-right: 52px;"></div>
+  
+					<a class="nav-logo-link" aria-label="Logo" href="/">
+						<span style="height: 22px; width: 170px; margin-right: 12px; display: block;">
+							<img src="/assets/img/logo.svg" width="170" height="22" alt="NanoReview Logo" />
+						</span>
+					</a>
+					<div class="nav-links-container">
+						<a class="nav-link" href="/en/phone-compare">Phones</a><a class="nav-link" href="/en/laptop-compare">Laptops</a><a class="nav-link" href="/en/cpu-compare">CPU</a><a class="nav-link" href="/en/gpu-compare">GPU</a><a class="nav-link" href="/en/soc-compare">SoC</a>
+					</div>
+				</div>
+				<div class="nav-right">
+					<div style="margin-right: 100px; padding: 0 16px;">
+					<i>Beta</i>
+					</div>
+					<div class="login-float-right" style="position: fixed; right: 0; height: var(--layout-nav-height); background-color: #1e2933; border-left: 1px solid gray; display: flex; align-items: center; padding: 0 16px;">
+						<a href="/en/auth/login" class="nav-link" style="background-color:rgba(255, 255, 255, 0.15); border-radius: 4px; display: flex; align-items: center;">
+									Log in
+								</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div style="margin-top: 42px;"></div>
+		<div class="mt"></div>
+
+		
+		
+        <div class="premain-container">
+          <div class="premain">
+            <div class="card-transparent mb breadcrumbs">
+              <span class="breadcrumbs-link"><a href="https://nanoreview.net/">Home</a></span> <span>&gt;</span> <span class="breadcrumbs-link"><a href="https://nanoreview.net/en/soc-list/rating">Mobile Processor Rankings</a></span> <span>&gt;</span> <span class="breadcrumbs-current">Dimensity 9300: benchmarks and specs</span>
+            </div>
+          </div>
+        </div>
+      
+
+		
+		<div class="main-container">
+			<main class="main">
+				
+    <style>
+      
+	.table-list {
+		font-size: 13px;
+		margin: 0;
+	}
+	.table-list th,
+	.table-list td {
+		padding: 8px 16px;
+	}
+
+    </style>
+  
+      <script>
+        window.nanodata = {"lang":"en","contentType":"soc","id":3116,"slug":"mediatek-dimensity-9300","name":"MediaTek Dimensity 9300","pageQuery":"","locales":{"add_comment":{"success":"Thanks! Your comment will be published after moderator verification :)","fail":"An error occurred while adding a comment. Please contact the site administrator!","language_mismatch":"Russian comments are not allowed on English pages. Please write your comment in English."},"rate_comment":{"already_rated":"You already rated this comment!"},"compareSearchBoxPage":{"choose_model":"Please, select a product from the dropdown list","error":"Unexpected error :( Please, contact us for resolving this issue"}}}
+      </script>
+    <article id="the-app">
+      <div class="card">
+        
+		<div class="card-block bb-light pb flex">
+			<div class="card-head" style="display: block;">
+				<h1 class="title-h1">MediaTek Dimensity 9300</h1>
+			</div>
+		</div>
+	
+        <div class="card-block flex chip-top" style="flex-wrap: wrap;">
+          <div style="flex: 0 1 auto; margin: 0 16px 6px 0;">
+            <img src="/common/images/soc/mediatek-mini.jpeg" style="height: 105px; border-radius: 5px;" alt="MediaTek Dimensity 9300">
+          </div>
+          <ul class="flex flex-column flex-content-center">
+            <li class="mb"><strong>GPU:</strong> Mali-G720 Immortalis MP12</li><li class="mb"><strong>Cores:</strong> 8</li><li class="mb"><strong>Clock:</strong> 3250 MHz</li>
+          </ul>
+        </div>
+        
+            <div class="card-block pb bt-light">
+              MediaTek Dimensity 9300 – an 8-core chipset that was  announced on November 6, 2023, and is manufactured using a 4-nanometer process technology. It has 1 core Cortex-X4 at 3250 MHz, 3 cores Cortex-X4 at 2850 MHz, and 4 cores Cortex-A720 at 2000 MHz.
+            </div>
+          
+      </div>
+    
+      <div class="card pb">
+        
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-review"></use>
+		</svg>
+			
+				<h2 id="review" class="title-h2" style="line-height: 1.25em">Review</h2>
+			</div>
+			
+		</div>
+	
+        
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				CPU Performance
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-square">80</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 80%"></div>
+			</div>
+		</div>
+	</div><div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				Gaming Performance
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-square">66</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 66%"></div>
+			</div>
+		</div>
+	</div><div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				Battery life
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-square">92</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 92%"></div>
+			</div>
+		</div>
+	</div><div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				NanoReview Score
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-square-dark">78</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 78%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+        
+      </div>
+    
+      <div class="card">
+        <div class="card-block bb-light pb">
+          
+		<svg class="icn-svg" width="21" height="21" style="margin-top: -2px; fill: #646464;">
+			<use width="21" height="21" xlink:href="#icn-info"></use>
+		</svg>
+	
+          Compare MediaTek Dimensity 9300 with other SoCs
+        </div>
+        <div class="card-block pb">
+          
+		<form method="POST" action="/api/search/url" data-compare-page-form>
+			<div class="input-compare-container">
+				<input
+					name="page2"
+					data-content-type="soc"
+					id="input-compare-page-2"
+					class="input-compare"
+					aria-label="model to compare"
+					placeholder="Enter the name of the product to compare"
+				/>
+				<div class="input-compare-mark" data-compare-for="page2"></div>
+			</div>
+			<div style="margin: 16px 0 0 0;">
+				<input
+					style="display: inline-block;"
+					type="submit"
+					class="button-dark"
+					value="Compare"
+				/>
+			</div>
+		</form>
+
+		<script type="module">
+			initCompareWithPageInput()
+		</script>
+	
+        </div>
+      </div>
+    
+      <div style="padding: 0 16px 12px; text-align: center;"> 
+        <h2 class="title-h2" id="benchmarks">Benchmarks</h2>
+        <small class="card-head-desc">Performance tests in popular benchmarks</small>
+      </div>
+    <div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-bench"></use>
+		</svg>
+			
+				<h3 id="antutu" class="title-h2" style="line-height: 1.25em">AnTuTu 11</h3>
+			</div>
+			<span class="card-head-desc">The AnTuTu Benchmark measures CPU, GPU, RAM, and I/O performance in different scenarios</span>
+		</div>
+	
+		
+		
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				MediaTek Dimensity 9300
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">2447714</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 58%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="bb-light"></div>
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">CPU</td>
+								<td class="cell-s">740213</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">GPU</td>
+								<td class="cell-s">789881</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Memory</td>
+								<td class="cell-s">362038</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">UX</td>
+								<td class="cell-s">555582</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Total score</td>
+								<td class="cell-s">2447714</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	
+			<div class="card-block pb flex" style="justify-content: start">
+				
+		<a href="/en/func/submit-phone-results" class="button-frame" style="">
+			
+		<svg class="icn-svg" width="21" height="21" style="fill: rgb(32, 32, 32);">
+			<use width="21" height="21" xlink:href="#icn-add"></use>
+		</svg>
+	
+			<span style="margin-left: 6px;">Submit your AnTuTu result</span>
+		</a>
+	
+			</div>
+		</div>
+		<div class="rtx_3_desktop">
+			
+		<div style="margin: 0 auto; text-align: center; height: 90px !important; min-height: 90px;">
+			<div class="adsbyvli" style="width:728px; height:90px; display:inline-block;" data-ad-slot="pw_40957"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40957") })</script>
+		</div>
+	
+		</div>
+		<div class="rtx_3_mobile">
+			
+		<div style="margin: 0 auto; text-align: center; height: 250px !important; min-height: 250px;">
+			<div class="adsbyvli" style="width:300px; height:250px; display:inline-block;" data-ad-slot="pw_40953"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40953") })</script>
+		</div>
+	
+		</div>
+		<div style="margin-bottom: 12px;"></div>
+	<div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-bench"></use>
+		</svg>
+			
+				<h3 id="geekbench" class="title-h2" style="line-height: 1.25em">GeekBench 6</h3>
+			</div>
+			<span class="card-head-desc">The GeekBench test shows raw single-threaded and multithreaded CPU performance</span>
+		</div>
+	
+		
+		
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				Single-Core Score
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">2186</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 84%"></div>
+			</div>
+		</div>
+	</div><div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				Multi-Core Score
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">7422</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 98%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="bb-light"></div>
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Asset compression</td>
+								<td class="cell-s">299.9 MB/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">HTML 5 Browser</td>
+								<td class="cell-s">218.6 pages/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">PDF Renderer</td>
+								<td class="cell-s">258.4 Mpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Image detection</td>
+								<td class="cell-s">162.1 images/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">HDR</td>
+								<td class="cell-s">219.5 Mpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Background blur</td>
+								<td class="cell-s">27.4 images/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Photo processing</td>
+								<td class="cell-s">60.9 images/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Ray tracing</td>
+								<td class="cell-s">8.03 Mpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Samples</td>
+								<td class="cell-s">9 tests</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	
+		
+		
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				Compute Score (GPU)
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">15081</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 50%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Background blur</td>
+								<td class="cell-s">25.6 images/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Face detection</td>
+								<td class="cell-s">12.2 images/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Horizon detection</td>
+								<td class="cell-s">0.67 Gpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Edge detection</td>
+								<td class="cell-s">0.81 Gpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Gaussian blur</td>
+								<td class="cell-s">0.86 Gpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Feature matching</td>
+								<td class="cell-s">0.23 Gpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Stereo matching</td>
+								<td class="cell-s">29.3 Gpixels/sec</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Particle physics</td>
+								<td class="cell-s">3109.3 FPS</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">API</td>
+								<td class="cell-s">OpenCL</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Samples</td>
+								<td class="cell-s">5 tests</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div><div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-bench"></use>
+		</svg>
+			
+				<h3 id="mark_3d" class="title-h2" style="line-height: 1.25em">3DMark</h3>
+			</div>
+			<span class="card-head-desc">A cross-platform benchmark that assesses graphics performance in Vulkan (Metal)</span>
+		</div>
+	
+		
+		
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				3DMark Steel Nomad Light
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">1814</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 57%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="bb-light"></div>
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Score</td>
+								<td class="cell-s">1814</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Stability</td>
+								<td class="cell-s">68%</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Graphics test</td>
+								<td class="cell-s">13 FPS</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	<div class="bb-light"></div>
+		
+		
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				3DMark Solar Bay
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">7667</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 55%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="bb-light"></div>
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Score</td>
+								<td class="cell-s">7667</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Stability</td>
+								<td class="cell-s">64%</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Graphics test</td>
+								<td class="cell-s">29 FPS</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Section 1</td>
+								<td class="cell-s">32 FPS</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Section 2</td>
+								<td class="cell-s">30 FPS</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Section 3</td>
+								<td class="cell-s">25 FPS</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	<div class="bb-light"></div>
+		
+		
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				3DMark Wild Life Extreme
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">4692</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 59%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="bb-light"></div>
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Score</td>
+								<td class="cell-s">4692</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Stability</td>
+								<td class="cell-s">59%</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Graphics test</td>
+								<td class="cell-s">28 FPS</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div><div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-bench"></use>
+		</svg>
+			
+				<h3 id="pc_mark_3" class="title-h2" style="line-height: 1.25em">PCMark 3.0</h3>
+			</div>
+			<span class="card-head-desc">Benchmark for evaluating overall system performance in everyday workloads</span>
+		</div>
+	
+		
+		
+		<div class="card-block">
+			<div class="two-columns-container">
+				<div class="two-columns">
+					<div class="two-columns-item mb">
+		<div class="score-bar">
+			<div class="score-bar-name">
+				PCMark 3.0
+				
+			</div>
+			<div class="score-bar-result">
+				<span class="score-bar-result-number">14063</span>
+			</div>
+			<div class="score-bar-line">
+				<div class="score-bar-line-filled" style="width: 70%"></div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="bb-light"></div>
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Web score</td>
+								<td class="cell-s">11741</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Video editing score</td>
+								<td class="cell-s">5651</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Data manipulation score</td>
+								<td class="cell-s">12096</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Photo editing score</td>
+								<td class="cell-s">28882</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Writing score</td>
+								<td class="cell-s">22861</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Phones tested</td>
+								<td class="cell-s">3 models</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div><div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-input"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">Recent User Tests</h3>
+			</div>
+			<span class="card-head-desc">The latest benchmark tests that have been submitted by users</span>
+		</div>
+	
+		<script type="module" src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
+		
+		<div style="overflow-x:auto;">
+			<table class="table-list ">
+				<thead>
+					<tr>
+						<th>Date</th><th>Benchmark</th><th>Result</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td><a href="/en/benchmark-entry?type=antutu&id=34278">📘 2026-09-23</a> <i>(Tú Lê)</i></td><td><span style="white-space: nowrap">AnTuTu 12</span></td><td><strong>2435544</strong></td></tr><tr><td><a href="/en/benchmark-entry?type=antutu&id=34238">📘 2026-09-22</a> <i>(memevjppro🐭)</i></td><td><span style="white-space: nowrap">AnTuTu 12</span></td><td><strong>2609259</strong></td></tr><tr><td><a href="/en/benchmark-entry?type=antutu&id=33829">📘 2026-09-09</a> <i>(Mnich)</i></td><td><span style="white-space: nowrap">AnTuTu 12</span></td><td><strong>2711576</strong></td></tr><tr><td><a href="/en/benchmark-entry?type=antutu&id=33516">📘 2026-08-29</a> <i>(Bhumit)</i></td><td><span style="white-space: nowrap">AnTuTu 11</span></td><td><strong>2262755</strong></td></tr><tr><td><a href="/en/benchmark-entry?type=antutu&id=32965">📘 2026-08-10</a> <i>(Mnich.cz)</i></td><td><span style="white-space: nowrap">AnTuTu 11</span></td><td><strong>2575927</strong></td></tr><tr><td><a href="/en/benchmark-entry?type=antutu&id=32963">📘 2026-08-10</a> <i>(Mnich)</i></td><td><span style="white-space: nowrap">AnTuTu 11</span></td><td><strong>2575927</strong></td></tr><tr><td><a href="/en/benchmark-entry?type=phone_geekbench_cpu&id=32864">📘 2026-08-08</a> <i>(holu096)</i></td><td><span style="white-space: nowrap">Geekbench 6 CPU</span></td><td><strong>2186 / 7422</strong></td></tr><tr><td><a href="/en/benchmark-entry?type=antutu&id=32863">📘 2026-08-08</a> <i>(holu096)</i></td><td><span style="white-space: nowrap">AnTuTu 11</span></td><td><strong>2517701</strong></td></tr>
+				</tbody>
+			</table>
+		</div>
+	
+		<div class="card-block pb flex bb-light" style="justify-content: start; gap: 8px">
+			
+		<a href="/en/func/submit-phone-results" class="button-frame" style="">
+			
+		<svg class="icn-svg" width="21" height="21" style="fill: rgb(32, 32, 32);">
+			<use width="21" height="21" xlink:href="#icn-add"></use>
+		</svg>
+	
+			<span style="margin-left: 6px;">Add</span>
+		</a>
+	
+			
+		<a href="/en/benchmark-ranking/mediatek-dimensity-9300" class="button-frame" style="">
+			
+		<svg class="icn-svg" width="21" height="21" style="fill: rgb(32, 32, 32);">
+			<use width="21" height="21" xlink:href="#icn-review"></use>
+		</svg>
+	
+			<span style="margin-left: 6px;">View all <span style="color: rgb(32,32,32)">(24)</span></span>
+		</a>
+	
+		</div>
+	</div>
+      <div class="card">
+        
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-info"></use>
+		</svg>
+			
+				<h2 id="phones" class="title-h2" style="line-height: 1.25em">Smartphones</h2>
+			</div>
+			<span class="card-head-desc">Click on the device name to view detailed information</span>
+		</div>
+	
+        
+		<script type="module" src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
+		
+		<div style="overflow-x:auto;">
+			<table class="table-list ">
+				<thead>
+					<tr>
+						<th>Phones with Dimensity 9300</th><th>AnTuTu v11</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td>1. <a href="/en/phone/vivo-x100-pro">Vivo X100 Pro</a></td><td>2450986</td></tr><tr><td>2. <a href="/en/phone/vivo-x100">Vivo X100</a></td><td>2447714</td></tr><tr><td>3. <a href="/en/phone/oppo-find-x7">Oppo Find X7</a></td><td>2324032</td></tr>
+				</tbody>
+			</table>
+		</div>
+	
+      </div>
+    <div data-nap-disclaimer="exist"></div>
+		<div class="rtx_3_desktop">
+			
+			<div class="card">
+				<div class="card-block flex flex-wrap" style="justify-content: center; color: rgb(100, 100, 100);">
+					<div class="card-head">
+						
+					</div>
+				</div>
+				<div class="card-block pb">
+					<div style="display: flex; justify-content: space-between;">
+						<div style="text-align: center;">
+		<div style="margin: 0 auto; text-align: center; height: 280px !important; min-height: 280px;">
+			<div class="adsbyvli" style="width:336px; height:280px; display:inline-block;" data-ad-slot="pw_41757"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_41757") })</script>
+		</div>
+	</div>
+<div style="text-align: center;">
+		<div style="margin: 0 auto; text-align: center; height: 280px !important; min-height: 280px;">
+			<div class="adsbyvli" style="width:336px; height:280px; display:inline-block;" data-ad-slot="pw_41757"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_41757") })</script>
+		</div>
+	</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		<div class="rtx_3_mobile">
+			
+		<div style="margin: 0 auto; text-align: center; height: 280px !important; min-height: 280px;">
+			<div class="adsbyvli" style="width:336px; height:280px; display:inline-block;" data-ad-slot="pw_41756"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_41756") })</script>
+		</div>
+	
+		</div>
+		<div style="margin-bottom: 12px;"></div>
+	
+      <div style="padding: 0 16px 12px; text-align: center;"> 
+        <h2 class="title-h2" id="specs">Specifications</h2>
+        <small class="card-head-desc">Detailed specifications of the Dimensity 9300 SoC with Mali-G720 Immortalis MP12 graphics</small>
+      </div>
+    <div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-cpu"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">CPU</h3>
+			</div>
+			
+		</div>
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Architecture</td>
+								<td class="cell-s">1x 3.25 GHz – Cortex-X4<br>3x 2.85 GHz – Cortex-X4<br>4x 2 GHz – Cortex-A720</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Cores</td>
+								<td class="cell-s">8</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Frequency</td>
+								<td class="cell-s">3250 MHz</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Instruction set</td>
+								<td class="cell-s">ARMv9.2-A</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">L1 cache</td>
+								<td class="cell-s">128 KB</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">L2 cache</td>
+								<td class="cell-s">1 MB</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">L3 cache</td>
+								<td class="cell-s">8 MB</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Process</td>
+								<td class="cell-s">4 nanometers</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Transistor count</td>
+								<td class="cell-s">22.7 billion</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">TDP (Sustained Power Limit)</td>
+								<td class="cell-s">7 W</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Manufacturing</td>
+								<td class="cell-s">TSMC</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div>
+		<div class="rtx_3_desktop">
+			
+		<div style="margin: 0 auto; text-align: center; height: 90px !important; min-height: 90px;">
+			<div class="adsbyvli" style="width:728px; height:90px; display:inline-block;" data-ad-slot="pw_40957"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40957") })</script>
+		</div>
+	
+		</div>
+		<div class="rtx_3_mobile">
+			
+		<div style="margin: 0 auto; text-align: center; height: 250px !important; min-height: 250px;">
+			<div class="adsbyvli" style="width:300px; height:250px; display:inline-block;" data-ad-slot="pw_40953"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40953") })</script>
+		</div>
+	
+		</div>
+		<div style="margin-bottom: 12px;"></div>
+	<div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-cpu"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">Graphics</h3>
+			</div>
+			
+		</div>
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">GPU name</td>
+								<td class="cell-s">Mali-G720 Immortalis MP12</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Architecture</td>
+								<td class="cell-s">5th gen</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">GPU frequency</td>
+								<td class="cell-s">1300 MHz</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Pipelines</td>
+								<td class="cell-s">12</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Shading units</td>
+								<td class="cell-s">128</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Total shaders</td>
+								<td class="cell-s">1536</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">FLOPS</td>
+								<td class="cell-s">3993.6 Gigaflops</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Vulkan version</td>
+								<td class="cell-s">1.3</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">OpenCL version</td>
+								<td class="cell-s">3.0</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">DirectX version</td>
+								<td class="cell-s">12</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div><div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-cpu"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">AI Accelerator</h3>
+			</div>
+			
+		</div>
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Neural processor (NPU)</td>
+								<td class="cell-s">MediaTek NPU 790</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div><div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-cpu"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">Memory</h3>
+			</div>
+			
+		</div>
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Memory type</td>
+								<td class="cell-s">LPDDR5T</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Memory frequency</td>
+								<td class="cell-s">4800 MHz</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Bus</td>
+								<td class="cell-s">4x 16 Bit</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Max bandwidth</td>
+								<td class="cell-s">76.8 Gb/s</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Max size</td>
+								<td class="cell-s">24 GB</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div>
+		<div class="rtx_3_desktop">
+			
+		<div style="margin: 0 auto; text-align: center; height: 90px !important; min-height: 90px;">
+			<div class="adsbyvli" style="width:728px; height:90px; display:inline-block;" data-ad-slot="pw_40957"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40957") })</script>
+		</div>
+	
+		</div>
+		<div class="rtx_3_mobile">
+			
+		<div style="margin: 0 auto; text-align: center; height: 250px !important; min-height: 250px;">
+			<div class="adsbyvli" style="width:300px; height:250px; display:inline-block;" data-ad-slot="pw_40953"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40953") })</script>
+		</div>
+	
+		</div>
+		<div style="margin-bottom: 12px;"></div>
+	<div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-cpu"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">Multimedia (ISP)</h3>
+			</div>
+			
+		</div>
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Storage type</td>
+								<td class="cell-s">UFS 4.0</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Max display resolution</td>
+								<td class="cell-s">3840 x 2160</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Max camera resolution</td>
+								<td class="cell-s">1x 320MP</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Video capture</td>
+								<td class="cell-s">8K at 30FPS, 4K at 60FPS</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Video playback</td>
+								<td class="cell-s">8K at 30FPS, 4K at 60FPS</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Video codecs</td>
+								<td class="cell-s"> - H.264 <br>  - H.265 <br>  - AV1 <br>  - VP9</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Audio codecs</td>
+								<td class="cell-s"> - AAC LC <br>  - FLAC <br>  - HE-AACv1 <br>  - HE-AACv2 <br>  - MP3</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div><div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-cpu"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">Connectivity</h3>
+			</div>
+			
+		</div>
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Modem</td>
+								<td class="cell-s">MediaTek T830</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">4G support</td>
+								<td class="cell-s">LTE Cat. 24</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">5G support</td>
+								<td class="cell-s">Yes</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Download speed</td>
+								<td class="cell-s">Up to 7900 Mbps</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Upload speed</td>
+								<td class="cell-s">Up to 4200 Mbps</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Wi-Fi</td>
+								<td class="cell-s">7</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Bluetooth</td>
+								<td class="cell-s">5.4</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Navigation</td>
+								<td class="cell-s">GPS, GLONASS, Beidou, Galileo, QZSS, NAVIC</td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div><div class="card">
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-cpu"></use>
+		</svg>
+			
+				<h3  class="title-h2" style="line-height: 1.25em">Info</h3>
+			</div>
+			
+		</div>
+	
+		<table class="specs-table">
+			
+			<tbody>
+				
+							<tr>
+								<td class="cell-h">Announced</td>
+								<td class="cell-s">November 2023</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Class</td>
+								<td class="cell-s">Flagship</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Model number</td>
+								<td class="cell-s">MT6989</td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Official page</td>
+								<td class="cell-s"><a href="https://www.mediatek.com/products/smartphones-2/mediatek-dimensity-9300" target="_blank">MediaTek Dimensity 9300 official site</a></td>
+							</tr>
+						
+							<tr>
+								<td class="cell-h">Successor</td>
+								<td class="cell-s">- <a href="/en/soc-compare/mediatek-dimensity-9600-pro-vs-mediatek-dimensity-9300">MediaTek Dimensity 9600 Pro</a></td>
+							</tr>
+						
+			</tbody>
+		</table>
+	</div>
+		<div class="rtx_3_desktop">
+			
+		<div style="margin: 0 auto; text-align: center; height: 90px !important; min-height: 90px;">
+			<div class="adsbyvli" style="width:728px; height:90px; display:inline-block;" data-ad-slot="pw_40957"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40957") })</script>
+		</div>
+	
+		</div>
+		<div class="rtx_3_mobile">
+			
+		<div style="margin: 0 auto; text-align: center; height: 250px !important; min-height: 250px;">
+			<div class="adsbyvli" style="width:300px; height:250px; display:inline-block;" data-ad-slot="pw_40953"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40953") })</script>
+		</div>
+	
+		</div>
+		<div style="margin-bottom: 12px;"></div>
+	
+        <div class="card">
+          
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-competitors"></use>
+		</svg>
+			
+				<h2  class="title-h2" style="line-height: 1.25em">Comparison with competitors</h2>
+			</div>
+			
+		</div>
+	
+          <div class="card-block">
+            <div class="mb">
+                <span class="competitors-list-num">1.</span> 
+                <a href="/en/soc-compare/qualcomm-snapdragon-8-gen-3-vs-mediatek-dimensity-9300">MediaTek Dimensity 9300 vs Qualcomm Snapdragon 8 Gen 3</a> (155)
+              </div><div class="mb">
+                <span class="competitors-list-num">2.</span> 
+                <a href="/en/soc-compare/qualcomm-snapdragon-8-gen-2-vs-mediatek-dimensity-9300">MediaTek Dimensity 9300 vs Qualcomm Snapdragon 8 Gen 2</a> (2)
+              </div><div class="mb">
+                <span class="competitors-list-num">3.</span> 
+                <a href="/en/soc-compare/mediatek-dimensity-9300-plus-vs-mediatek-dimensity-9300">MediaTek Dimensity 9300 vs MediaTek Dimensity 9300 Plus</a> (12)
+              </div><div class="mb">
+                <span class="competitors-list-num">4.</span> 
+                <a href="/en/soc-compare/qualcomm-snapdragon-8-gen-4-vs-mediatek-dimensity-9300">MediaTek Dimensity 9300 vs Qualcomm Snapdragon 8 Elite (Gen 4)</a> 
+              </div><div class="mb">
+                <span class="competitors-list-num">5.</span> 
+                <a href="/en/soc-compare/mediatek-dimensity-9300-vs-apple-a17-pro">MediaTek Dimensity 9300 vs Apple A17 Pro</a> (37)
+              </div><div class="mb">
+                <span class="competitors-list-num">6.</span> 
+                <a href="/en/soc-compare/mediatek-dimensity-9300-vs-mediatek-dimensity-9200-plus">MediaTek Dimensity 9300 vs MediaTek Dimensity 9200 Plus</a> (3)
+              </div><div class="mb">
+                <span class="competitors-list-num">7.</span> 
+                <a href="/en/soc-compare/mediatek-dimensity-9300-vs-mediatek-dimensity-9200">MediaTek Dimensity 9300 vs MediaTek Dimensity 9200</a> (2)
+              </div>
+          </div>
+          
+              <div class="bt-light">
+                <div class="card-block pb flex" style="justify-content: start">
+                  
+		<a href="/en/soc-compare" class="button-frame" style="">
+			
+		<svg class="icn-svg" width="21" height="21" style="fill: rgb(32, 32, 32);">
+			<use width="21" height="21" xlink:href="#icn-review"></use>
+		</svg>
+	
+			<span style="margin-left: 6px;">Compare other chipsets <span style="color: rgb(32,32,32)">(190+)</span></span>
+		</a>
+	
+                </div>
+              </div>
+            
+        </div>
+      </article>
+      <div class="card">
+        
+		<div class="card-block bb-light pb flex flex-wrap">
+			
+			<div class="card-head">
+				
+		<svg class="icn-svg" width="24" height="24" style="">
+			<use width="24" height="24" xlink:href="#icn-comments"></use>
+		</svg>
+			
+				<h2 id="comments" class="title-h2" style="line-height: 1.25em">Comments</h2>
+			</div>
+			
+		</div>
+	
+				<div class="card-block" style="">
+		🌐
+		<span><a style="font-weight: 500;" href="/en/users/registration">Register your profile</a> and become part of NanoReview community!</span>
+	</div>
+        <div class="card-block bb-light">
+			<form data-comment-add-2 class="form" method="POST" action="/api/addcomment.php">
+				
+					<div class="form-block">
+						<label for="guest_name">Name</label>
+						<input placeholder="" required minlength="3" type="text" name="guest_name" id="guest_name" />
+					</div>
+				
+				<div class="form-block">
+					<label for="content">Message</label>
+					<textarea placeholder="" required minlength="20" rows="8" id="content" name="content"></textarea>
+				</div>
+				<div class="form-block">
+					<button class="button-dark" type="submit" name="submit">Send</button>
+				</div>
+				<input type="hidden" name="type" value="review" />
+				
+				<input type="hidden" name="custom_url" value="/en/soc/mediatek-dimensity-9300" />
+				
+			</form>
+
+			
+			<script type="module">
+				initSaveGuestName({ formSelector: '[data-comment-add-2]' })
+				initAddComment({
+					formSelector: '[data-comment-add-2]',
+					locale: undefined,
+					lang: undefined
+				})
+			</script>
+		</div>
+    <div class="comments-container">
+      
+			<div class="card-block flex pb comment-container" id="comment-134849" data-comment-id="134849" data-comment-author="NerdGeezer">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">NerdGeezer</span>
+						<span class="text-gray">February 1, 2026 at 12:39 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Dimensity 9000 series chipsets seem forgettable IMO unlike Snapdragon chips which are still in use even older flagships.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingzero" data-comment-rating>0</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-120810" data-comment-id="120810" data-comment-author="RoBot">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">RoBot</span>
+						<span class="text-gray">July 15, 2025 at 12:55 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Dimensity 9300 CPU internals:
+1 x Cortex-X4
+64 KB Instruction cache + 64 KB Data cache
+1 MB Private L2 cache
+3 x Cortex-X4
+64 KB Instruction cache + 64 KB Data cache
+512 KB Private L2 cache
+4 x Cortex-A720
+(Likely) 32 KB Instruction cache + 32 KB Data cache
+or
+64 KB Instruction cache + 64 KB Data cache
+256 KB Private L2 cache
+8 MB L3 cache (shared by all CPU cores)
+10 MB SLC (shared by CPU, GPU, NPU, etc.)</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-120937" data-comment-id="120937" data-comment-author="Serhii">
+				<div class="mr">
+					<a href="/en/users/view/Serhii">
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/uploads/avatars/pic-2.jpeg" style=""/></a>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						<a href="/en/users/view/Serhii">
+							<span class="" style="font-weight: 700;">Serhii</span></a>
+						<span class="text-gray">July 17, 2025 at 08:10 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">It was useful, RoBot. Thank you!</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+1</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-116551" data-comment-id="116551" data-comment-author="Joe">
+				<div class="mr">
+					<a href="/en/users/view/Joe">
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style=""/></a>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						<a href="/en/users/view/Joe">
+							<span class="" style="font-weight: 700;">Joe</span></a>
+						<span class="text-gray">May 15, 2025 at 08:28 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Memory type	LPDDR5T -&gt; LPDDR5X
+
+LPDDR5T only existed because at that time the LPDDR5X official spec was up to 4266 MHz, so Hynix could&#39;nt say their 4800 MHz memory is LPDDR5X.
+
+LPDDR5X specs has since been updated to support up to 5333 MHz.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingzero" data-comment-rating>0</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-108874" data-comment-id="108874" data-comment-author="xiraqx">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">xiraqx</span>
+						<span class="text-gray">February 20, 2025 at 02:59 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">salam alekm, 
+anyone answer me please is the ship really good i want to upgrade from my current phone(infinix not 30 vip) to Xiaomi Redmi k70 ultra, I&#39;ve search and compare both of the phones and all i need is someone who try the k70 ultra phone or have a phone with the same ship to help me decide 
+
+someone help me</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingzero" data-comment-rating>0</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-103276" data-comment-id="103276" data-comment-author="John">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">John</span>
+						<span class="text-gray">December 14, 2024 at 11:39 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Where is the stability?</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingzero" data-comment-rating>0</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-96575" data-comment-id="96575" data-comment-author="akp831">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">akp831</span>
+						<span class="text-gray">October 1, 2024 at 04:40 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Max Flops (in FP32) = 3993.6
+
+Max Flops (in FP16) = 7987.2
+
+Flops: Floating Operations Per second</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+1</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-96625" data-comment-id="96625" data-comment-author="Serhii">
+				<div class="mr">
+					<a href="/en/users/view/Serhii">
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/uploads/avatars/pic-2.jpeg" style=""/></a>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						<a href="/en/users/view/Serhii">
+							<span class="" style="font-weight: 700;">Serhii</span></a>
+						<span class="text-gray">October 2, 2024 at 07:52 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Thank you for your useful comment, which will help us to get more accurate information.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+1</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-91283" data-comment-id="91283" data-comment-author="King Miracle.">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">King Miracle.</span>
+						<span class="text-gray">July 29, 2024 at 01:12 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">This chip is faster than literally the Tensor. All its generations combined. 💀</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+34</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-90253" data-comment-id="90253" data-comment-author="IQoo">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">IQoo</span>
+						<span class="text-gray">July 14, 2024 at 04:07 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Please update the execution unit count for all Mali GPUs from Valhall 3rd Gen onwards. Which includes Mali 610, 710, 615, 715, 715 Immortalis, 620, 720 and 720 Immortalis. Each shader core houses 2 execution units. That means Dimensity 9300 has 24 execution  since it has 12 shader cores.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+6</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-90262" data-comment-id="90262" data-comment-author="root">
+				<div class="mr">
+					<a href="/en/users/view/root">
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style=""/></a>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						<a href="/en/users/view/root">
+							<span class="" style="font-weight: 700;">root</span></a>
+						<span class="text-gray">July 14, 2024 at 04:29 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">As I wrote you in here https://nanoreview.net/en/soc/samsung-exynos-1480, it&#39;s just a matter of architecture differences and naming. It all comes down to how much shaders in total GPU have. &quot;Shader cores&quot;, &quot;Cores&quot; and &quot;execution units&quot; can mean same of different things depending on arch and pipelining of gpu.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+9</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-89551" data-comment-id="89551" data-comment-author="Jay">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Jay</span>
+						<span class="text-gray">July 3, 2024 at 11:38 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">This chip is nothing for very heavy graphics gaming.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+24</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89715" data-comment-id="89715" data-comment-author="SNVKE">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">SNVKE</span>
+						<span class="text-gray">July 6, 2024 at 05:36 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Stop spreading misinformation, Snapdragon fanboy. It works well in heavy games - checked myself. Im owner of Vivo X100 Pro 12/256.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+94</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-93623" data-comment-id="93623" data-comment-author="King Miracle.">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">King Miracle.</span>
+						<span class="text-gray">August 27, 2024 at 09:56 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Jay, I see you everywhere posting and spreading hate on MediaTek. You are a Qualcomm obsessed youngster. Grow up.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+34</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-85992" data-comment-id="85992" data-comment-author="Raoufchafaa">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Raoufchafaa</span>
+						<span class="text-gray">May 15, 2024 at 05:23 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Guys, please answer me. I&#39;m planning to buy the iQOO Neo 9 Pro (Dimensity 9300 version). However, when I compared the 9300 with Snapdragon 8 Gen 3, MediaTek was better at everything except one thing. I wonder what it is, and it&#39;s called Compute Score (GPU). In Snapdragon, its value was 8000, but in MediaTek, it was N/A. I wonder if this will affect gameplay because I play on emulators a lot, like Yuzu and Dolphin Emulator. Please answer, guys.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+104</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-86174" data-comment-id="86174" data-comment-author="Jay">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Jay</span>
+						<span class="text-gray">May 18, 2024 at 04:15 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Hello, Raoufchafaa,
+
+MediaTek processors have a very bad GPU. I strongly recommend you choose the Snapdragon 8 Gen 3. In emulation, even the Snapdragon 845 beats the Dimensity 9300, not to mention the king Snapdragon 8 Gen 3. Ignore the internet comparison, score, or whatever. Snapdragon processors are the best for everything, especially for emulation. They simply perform like computer processors (for example, Nvidia, AMD). 
+
+I love emulators as much as you do. Also, I&#39;m a very heavy gamer. My device is the Redmi Note 12 Turbo (Snapdragon 7 Plus Gen 2, which is a beast in emulation). I&#39;ve emulated tons of very heavy graphics games at smooth and stable fps; for example: PC, Tomb Raider (2013), 35-45 fps; Switch, FIFA 23, 50-60 fps at 3x resolutions; Switch, Resident Evil 6, 25-30 fps at 3x resolution; Switch, Bayonetta, 30-42 fps at 2x resolution; PC, Resident Evil 2 Remake, 24-35 fps; PC, God Of War (2018), 23-31 fps; PC, Hellblade: Senua&#39;s Sacrifice, 25-36 fps. 
+
+No MediaTek processors and their family can perform as impressively as that. Even the so-called powerful Dimensity 8300 ultra struggles hard with PS2 emulation. 
+
+Once again, Raoufchafaa, please buy a device with the Snapdragon 8 Gen 3. The GPU power is twice that of the Snapdragon 7 Plus Gen 2. Now, imagine how wonderful the Snapdragon 8 Gen 3 will emulate those games I just mentioned.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+53</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-87927" data-comment-id="87927" data-comment-author="Fudge">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Fudge</span>
+						<span class="text-gray">June 8, 2024 at 05:06 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, Bullshit, it&#39;s not about the hardware of the GPU itself but the lack of development and support on the software side. Gen 3 8 is better than 9300 on emulators but it has nothing to do with hardware.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+44</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-88110" data-comment-id="88110" data-comment-author="SNVKE">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">SNVKE</span>
+						<span class="text-gray">June 10, 2024 at 08:23 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, What a lame bullshit, OMFG, stop spreading misinformation, you Snapdragon fanboy.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+28</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-88960" data-comment-id="88960" data-comment-author="GTWA">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">GTWA</span>
+						<span class="text-gray">June 22, 2024 at 09:25 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">SNVKE</span>, it&#39;s not bs, its true but he did exaggerate, MediaTek does perform well with higher end emulation at a high resolution such as ps2, but at the end of the day snapdragon is better even though MediaTek is more powerful, and it&#39;s because lack of support SD is better than MediaTek for gaming and performs better with emulators, MediaTek struggles horribly with pc emulation gta 4 runs depressingly on a Mali gpu and on switch, some games run and some don&#39;t because switch emulation doesn&#39;t support Mali, SD even gets 10+ more fps in gaming outside of emulators</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+9</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-88961" data-comment-id="88961" data-comment-author="GTWA">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">GTWA</span>
+						<span class="text-gray">June 22, 2024 at 09:28 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">SNVKE</span>, Oh and i just found out that u are a mediatek fanboy</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89305" data-comment-id="89305" data-comment-author="Your dad">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Your dad</span>
+						<span class="text-gray">June 28, 2024 at 01:01 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, You should have rather provided statistics rather than yapping</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+2</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89397" data-comment-id="89397" data-comment-author="Jay">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Jay</span>
+						<span class="text-gray">June 30, 2024 at 06:58 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Fudge</span>, Hi, FUDGE
+So if developers support Mediatek Processors, then the processors are equal to, or maybe better, than snapdragon processors. Is that what you&#39;re saying? Well, you&#39;re very wrong! But Here is the fact: Snapdragon processors are better than Mediatek Processors. Especially Adreno clearly beats Mali. (Remember even if the software supports and is well-made, performance is going to be bad if the hardware is poor)</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingzero" data-comment-rating>0</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89407" data-comment-id="89407" data-comment-author="Jay">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Jay</span>
+						<span class="text-gray">June 30, 2024 at 11:58 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">GTWA</span>, No exaggeration at all! No sentiment at all!! No subjectivity at all!! No prejudice at all!!  All I did was nothing but underscored the proven, known, observable FACT
+And I must state again:
+Mediatek processors are bad at emulation not because of lack of developers support as you and some have argued but because of very poor Mali GPUs.  Remember hardware and software are different. For perfect gaming performance, there must be balance between the two. Especially there must be balance between the CPU and the GPU and the software. Note video game consoles always feature (very) powerful GPUs, which&#39;s why they&#39;re able to handle very heavy graphics games. Therefore, Even though there&#39;s developer full supports for Mediatek processors in video game console emulators, like Yuzu emulator, It won&#39;t make any difference.
+
+(You must know I got not special love for snapdragon processor nor do I got ill-will against Mediatek processors. Even I once used several mid-range and flagship Mediatek devices. And their gaming performance were good. But the truth Must be told!!!)</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89560" data-comment-id="89560" data-comment-author="SNVKE">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">SNVKE</span>
+						<span class="text-gray">July 3, 2024 at 12:34 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">GTWA</span>, What&#39;s your proof? Ive used different CPU last two years, im not saying that 9300 doing good in some windows emulation (what? For what? why you emulating windows on smartphone? What&#39;s the point?), but in everyday tasks (even in gaming its behaviour on the same level as S8G3) it&#39;s doing extremely well. Now im waiting for D9400. Very excited what theyre preparing for new smartphone generation.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+6</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89561" data-comment-id="89561" data-comment-author="SNVKE">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">SNVKE</span>
+						<span class="text-gray">July 3, 2024 at 12:40 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, You don’t see your exaggeration, how you literally crap on the D9300, completely undeservedly.  those scenarios that you named (Windows emulation, are you serious? You emulate Windows on your smartphone every day? You have nothing to do? This is called sucking the cons out of your finger).  From the outside, your attempt to humiliate this wonderful processor (I’m not saying the best) looks as biased as possible, as if this processor is not capable of anything at all.  Cure yourself from fanboyism a little.  Your strong bias is too obvious.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+7</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89592" data-comment-id="89592" data-comment-author="Fudge">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Fudge</span>
+						<span class="text-gray">July 4, 2024 at 01:49 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, What a meat-rider, one way to know how good chips are hardware-wise is when both are compatible, supported and measured at software-level. Take Gfxbench for example, Immortalis G720 MP12 scales up better than Adreno 750 especially in the higher clock speeds (relative to their own architectures) both in 1080 and 1440 where the Adreno 750&#39;s power efficiency curve plateaus sooner (even in Vulkan tests where Adreno is supposedly better). You can find other tests in YouTube or WeChat with chinese tech-nerdd. You claim facts yet show no proof. Stay mad.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+6</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89729" data-comment-id="89729" data-comment-author="SNVKE">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">SNVKE</span>
+						<span class="text-gray">July 6, 2024 at 10:38 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Fudge</span>, He is continuing raging on Dimensity) look up, another angry message he left. What a pathetic fanboy omg</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-91093" data-comment-id="91093" data-comment-author="Khaos">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Khaos</span>
+						<span class="text-gray">July 26, 2024 at 11:48 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">SNVKE</span>, SNVKE, and they sure are. They left another biased reply on a comment I posted regarding the Dimensity 8050 processor. To be honest, I&#39;m not so sure what their deal is with even mid-range Dimensity processors</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+2</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-91148" data-comment-id="91148" data-comment-author="Khaos">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Khaos</span>
+						<span class="text-gray">July 27, 2024 at 11:55 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">SNVKE</span>, And the rampage continues. They left up another heavily biased reply to me on the Dimensity 8050 page while still mentioning the 9300. In all honesty, I&#39;m not so sure what they have against MediaTek as a whole</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+2</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-92647" data-comment-id="92647" data-comment-author="King Miracle.">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">King Miracle.</span>
+						<span class="text-gray">August 15, 2024 at 08:40 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, Whenever I see your comment, it pisses me off. Who told you that Qualcomm is better than MediaTek?</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+6</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-85081" data-comment-id="85081" data-comment-author="Snapdragon: We Kill PC Games">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Snapdragon: We Kill PC Games</span>
+						<span class="text-gray">May 2, 2024 at 03:05 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">This chip is number one in Nanoreview mobile processor rankings. It is very wrong and misleading. The number one should be Snapdragon 8 Gen 3. In fact, all snapdragon processors should be ranked over any other processors.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+48</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-85696" data-comment-id="85696" data-comment-author="Jorgei">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Jorgei</span>
+						<span class="text-gray">May 10, 2024 at 02:32 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">That&#39;s your preference, not an opinion. Therefore, it is only your personal opinion, but cannot be proven or based as a fact.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+80</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-86639" data-comment-id="86639" data-comment-author="Jay">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Jay</span>
+						<span class="text-gray">May 22, 2024 at 02:07 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jorgei</span>, If you had practically compared MediaTek against Snapdragon processors, you would have clearly and accurately understood that it isn&#39;t my personal opinion or preference, or whatever you choose to call it; but that it IS a damn FACT. Also, if you had been a very advanced smartphone user, you would have gained a detailed insight into how Snapdragon crushes MediaTek processors from every angle.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+3</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-86678" data-comment-id="86678" data-comment-author="Unknown">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Unknown</span>
+						<span class="text-gray">May 23, 2024 at 06:30 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, No, you are wrong. I have used MediaTek Dimensity processor and they are better than Snapdragon processor. They also give more stable FPS than Snapdragon processor in BGMI and Genesis Impact.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+21</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-88014" data-comment-id="88014" data-comment-author="aryan">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">aryan</span>
+						<span class="text-gray">June 9, 2024 at 01:34 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jorgei</span>, For the people this tier of processor serves, he is absolutely right. MediaTek has really poor support for emulation and they don&#39;t open-source the required components of their processor so games aren&#39;t optimized for MediaTek. For example, Winulator, a windows emulator for Android, can run Direct X 11 games on Snapdragon processors but not on MediaTek. BB.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+3</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-88149" data-comment-id="88149" data-comment-author="SNVKE">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">SNVKE</span>
+						<span class="text-gray">June 11, 2024 at 09:49 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Jay</span>, You&#39;re just a Snapdragon fanboy. I&#39;m not saying that Snapdragon 8 Gen 3 is bad, no. It is good. But 9300 is more interesting than Gen 3 due to the fact that it does not contain energy-efficient cores. In addition, the 9300 is very energy-efficient (speaking as a user of Vivo X100 Pro). It works impeccably fast, runs the PS2 emulator great (the PS1 emulator even more so, but you don’t need much there), and Dolphin also runs great. I say with great confidence that you have never even held a smartphone based on Dimensity 9300 in your hands. I get great pleasure from using this processor. I can afford any smartphone now, Gen 3, Apple. But since the days of Dimensity 9200, I have been on the side of MediaTek. What they did with the 9300 deserves respect, a bold move to remove power efficient cores.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-88150" data-comment-id="88150" data-comment-author="SNVKE">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">SNVKE</span>
+						<span class="text-gray">June 11, 2024 at 09:50 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">aryan</span>, How many people using this smartphones for Windows emulation? Some geeks and thats all?</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+5</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89904" data-comment-id="89904" data-comment-author="lol">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">lol</span>
+						<span class="text-gray">July 9, 2024 at 12:02 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">aryan</span>, broke person cant afford a pc to play game why spend money on emulation when you can have a proper gaming console setup at the price of snapdragon falsghip phone or get a proper phone doesnt matter if its mediatek snapdragon or exynos or tensor or kirin or apple as long as it does the job its good.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+2</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-81987" data-comment-id="81987" data-comment-author="Norman">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Norman</span>
+						<span class="text-gray">March 24, 2024 at 02:25 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">At the moment, I&#39;m using a D9000 chip phone that&#39;s nearly two years old, and it remains incredibly fast. It has never frozen or slowed down during normal use. Frame drops in games are a rare occurrence since I don&#39;t typically max out graphics in most games. If the battery longevity holds up, I could easily see myself sticking with it for another two years. I ponder about how speedy the phones will be when they reach the D9500 model.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+26</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-82057" data-comment-id="82057" data-comment-author="HashV17">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">HashV17</span>
+						<span class="text-gray">March 25, 2024 at 12:10 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">How is the heat management and battery life?</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+27</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-79890" data-comment-id="79890" data-comment-author="Kot">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Kot</span>
+						<span class="text-gray">February 26, 2024 at 11:40 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Guys, I&#39;m planning to buy the iQOO Neo 9 Pro (D9300) from China, but I&#39;m unsure if I can trust MediaTek to optimize the SoC for games. Does anyone know if MediaTek will optimize its chip?</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+91</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-80117" data-comment-id="80117" data-comment-author="Anon">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Anon</span>
+						<span class="text-gray">February 29, 2024 at 03:10 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">It would be more accurate to say that it&#39;s the developers who should optimize their games for the chip, not Mediatek. The GPU is already incredibly powerful, so even without developer optimization, it can already handle maximum settings for every game.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+34</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-80790" data-comment-id="80790" data-comment-author="G guy">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">G guy</span>
+						<span class="text-gray">March 9, 2024 at 07:20 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Im currently using Vivo X100. Dimensity 9300 perfoms very well in gaming so far.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+21</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-81152" data-comment-id="81152" data-comment-author="Kot">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Kot</span>
+						<span class="text-gray">March 14, 2024 at 09:32 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">YouTube videos demonstrate that the D9300 can run PUBG Mobile at 90 FPS on the X100 Pro, Call of Duty Mobile at 144 FPS on the Neo 9 Pro, and Genshin Impact at 60 FPS on both the X100 Pro and Neo 9 Pro. Therefore, I believe it&#39;s a safe choice to purchase the iQOO Neo 9 Pro (China edition) for gaming.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+10</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-82797" data-comment-id="82797" data-comment-author="Mani">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Mani</span>
+						<span class="text-gray">April 3, 2024 at 11:01 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">G guy</span>, I am also using the X100, but this phone has a heating issue.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-92648" data-comment-id="92648" data-comment-author="King Miracle.">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">King Miracle.</span>
+						<span class="text-gray">August 15, 2024 at 08:43 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">Mani</span>, It&#39;s Vivo&#39;s fault, not MediaTek.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-79660" data-comment-id="79660" data-comment-author="Coolant">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Coolant</span>
+						<span class="text-gray">February 23, 2024 at 10:17 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Guys what about coolant system for this cpu? Is it faster than Snapdragon (more cool)?</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+16</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-79763" data-comment-id="79763" data-comment-author="YES">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">YES</span>
+						<span class="text-gray">February 24, 2024 at 02:01 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Yes, it is significantly faster, and it reduces heat by about 1 degree Celsius while gaming. Simply put, it&#39;s better.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+19</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-79311" data-comment-id="79311" data-comment-author="NMBPRO">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">NMBPRO</span>
+						<span class="text-gray">February 19, 2024 at 04:42 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Which tablet under $300 is best for CODM? 
+Thanks</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+41</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-83103" data-comment-id="83103" data-comment-author="celular4k">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">celular4k</span>
+						<span class="text-gray">April 7, 2024 at 01:08 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">My Mi Pad 5 has 8GB of RAM and it runs graphic-intensive games at a maximum of 70 FPS. However, my 6GB RAM device occasionally crashes during gameplay, which is a rare occurrence. But I believe that this problem wouldn&#39;t occur with the 8GB RAM variant.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+4</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-76623" data-comment-id="76623" data-comment-author="Zhinazhu">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Zhinazhu</span>
+						<span class="text-gray">January 19, 2024 at 01:46 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">It&#39;s unbelievable! My phone can now deliver M1 or 10400 level performance, all in that little box.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+67</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-89234" data-comment-id="89234" data-comment-author="URFUQIN">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">URFUQIN</span>
+						<span class="text-gray">June 27, 2024 at 07:01 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Frogie in a well, plz speak something that human can understand.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingzero" data-comment-rating>0</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-92240" data-comment-id="92240" data-comment-author="King Miracle.">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">King Miracle.</span>
+						<span class="text-gray">August 10, 2024 at 11:00 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">URFUQIN</span>, What are you on to? Do you come here to troll?</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+5</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-134758" data-comment-id="134758" data-comment-author="Zero">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Zero</span>
+						<span class="text-gray">January 30, 2026 at 04:18 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">This is why I want those monsters on laptops with a proper WoA itetation.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingzero" data-comment-rating>0</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-74239" data-comment-id="74239" data-comment-author="Shahid Jan">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Shahid Jan</span>
+						<span class="text-gray">December 24, 2023 at 03:36 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">NanoReview is saying architecture is 8(1+3+4) cores as;
+1x 3.25 GHz – Cortex-X4,
+3x 2.85 GHz – Cortex-X4,
+4x 2 GHz – Cortex-A720.
+
+While MediaTek page is saying its 8(4+4) cores architecture as;
+4X Cortex-X4 performance cores up to 3.25GHz, 
+4X Cortex-A720 efficiency cores up to 2.0GHz</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+212</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-74821" data-comment-id="74821" data-comment-author="HAMJA bro">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">HAMJA bro</span>
+						<span class="text-gray">January 1, 2024 at 05:30 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">It&#39;s cortex x4 (1+2) /1×3.25 &amp; 3×2.85 these are performance cores.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+33</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-85067" data-comment-id="85067" data-comment-author="teddy">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">teddy</span>
+						<span class="text-gray">May 2, 2024 at 11:31 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">HAMJA bro</span>, 4x 3GHz cortex x4 
+4x 2GHz cortex a720</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+1</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-74137" data-comment-id="74137" data-comment-author="Unn">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Unn</span>
+						<span class="text-gray">December 23, 2023 at 12:23 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">I&#39;m only now figuring out why Asus and ZTE aren&#39;t exclusively using the Dimensity 9000+ chipset. It was, in fact, the first MediaTek chip that Asus used. Furthermore, ZTE opted for the Helio P70.
+
+Interestingly, the Snapdragon chipset supports 240Hz, while MediaTek only supports 180Hz. Despite this knowledge, there are no companies still supporting these high rates; the highest refresh rates available nowadays are 165Hz and 144Hz.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+17</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-74498" data-comment-id="74498" data-comment-author="Hello">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Hello</span>
+						<span class="text-gray">December 28, 2023 at 04:20 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">That&#39;s because the average user would hardly notice the difference. Moreover, it would consume ridiculous amounts of power and it would be wasteful to spend money on such a screen when hardly anyone can discern the difference. Heck, most people can&#39;t even tell the difference between 120hz and 165hz.
+
+Perhaps in the future, when 120hz becomes the norm for every smartphone, these companies will begin to shift to higher refresh rates.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+14</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-73424" data-comment-id="73424" data-comment-author="Max display resolution">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Max display resolution</span>
+						<span class="text-gray">December 13, 2023 at 12:55 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">This is from Mediatek cpu page:
+
+Display
+Max Refresh Rate
+
+  -  4K up to 120Hz (so higher than what you are showing)
+  -  WQHD up to 180Hz
+
+It also says to support Dual active display support (Foldable phone main and sub).</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+36</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-73449" data-comment-id="73449" data-comment-author="Serhii">
+				<div class="mr">
+					<a href="/en/users/view/Serhii">
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/uploads/avatars/pic-2.jpeg" style=""/></a>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						<a href="/en/users/view/Serhii">
+							<span class="" style="font-weight: 700;">Serhii</span></a>
+						<span class="text-gray">December 13, 2023 at 09:15 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Thank you for useful comment.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+5</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-73103" data-comment-id="73103" data-comment-author="Apple">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Apple</span>
+						<span class="text-gray">December 9, 2023 at 12:58 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">So now what the best phone with the best chipset??</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+131</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-74134" data-comment-id="74134" data-comment-author="Unn">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Unn</span>
+						<span class="text-gray">December 23, 2023 at 12:15 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Let me answer your question. The iQOO Neo 9 Pro won&#39;t be globally released, but it is indeed the best phone with the best chipset. However, if you&#39;re looking for a globally available phone, the ROG Phone 8 is an option.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+39</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-72757" data-comment-id="72757" data-comment-author="Sawyiier">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Sawyiier</span>
+						<span class="text-gray">December 3, 2023 at 08:07 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Are we discussing a desktop chip here? This thing is insanely fast with 4 Cortex-X4. I can&#39;t even imagine the amount of heat it may produce.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+41</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-73686" data-comment-id="73686" data-comment-author="what">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">what</span>
+						<span class="text-gray">December 16, 2023 at 01:57 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">It is a smartphone chipset and is the best and coolest one on the market</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+19</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-71896" data-comment-id="71896" data-comment-author="Zhinazhu">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Zhinazhu</span>
+						<span class="text-gray">November 24, 2023 at 04:15 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Taiwanese goods are good.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+36</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-71631" data-comment-id="71631" data-comment-author="Dr Mujeeb">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Dr Mujeeb</span>
+						<span class="text-gray">November 20, 2023 at 05:13 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">You need to update its multi-core scores. Most of its tests show its GB6 score as 7700. You can check it here:
+https://browser.geekbench.com/search?utf8=%E2%9C%93&amp;q=k6989v1_64</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+15</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-71148" data-comment-id="71148" data-comment-author="shiwei">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">shiwei</span>
+						<span class="text-gray">November 14, 2023 at 02:53 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">The name of the Dimensity 9300 GPU is Immortalis-G720, not Mali-G720. The Mali-G720 and Immortalis-G720 are indeed not the same GPUs. They both belong to Arm&#39;s 5th-generation mobile graphics architecture, but they have several differences in their core count, support for ray tracing, and performance.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+46</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-70581" data-comment-id="70581" data-comment-author="Tecnhonnest">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Tecnhonnest</span>
+						<span class="text-gray">November 7, 2023 at 07:44 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">The Dimensity 9300 is more efficient than both the 8 Gen 3 and A17 Pro. It now boasts the most powerful VOY and GPU on a smartphone. It achieved a score of over 5700 on the Wildlife Extreme benchmark and surpassed 7300 on Geekbench 5 multicore.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+70</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-71203" data-comment-id="71203" data-comment-author="F=ma">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">F=ma</span>
+						<span class="text-gray">November 14, 2023 at 07:27 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Blud forgot that the Snapdragon 8 Gen 3 just scored around 6000 points in 3D WLE using just 10.3W TDP.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+22</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-71502" data-comment-id="71502" data-comment-author="Timur">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Timur</span>
+						<span class="text-gray">November 19, 2023 at 05:29 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">F=ma</span>, No, with an energy consumption of 12.7W, Gen 3 doesn&#39;t achieve results of 6000 points in 3DMark; it only reaches 5150 points. Meanwhile, the 9300, with a power consumption of 12.6W, shows 5780 points. These are the results for the GTX 1060.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+30</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-70568" data-comment-id="70568" data-comment-author="Reem">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Reem</span>
+						<span class="text-gray">November 7, 2023 at 02:27 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Why is nanoreview not posting Vulcan scores once Android SOCs start beating Apple? 🤔🤔🤔</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+97</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-70529" data-comment-id="70529" data-comment-author="someone">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">someone</span>
+						<span class="text-gray">November 6, 2023 at 11:48 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">The RAM is not LPDDR5X it&#39;s LPDDR5T @ 9600Mbps. LPDDR5T is better and newer than LPDDR5X.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+67</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-70058" data-comment-id="70058" data-comment-author="Billy">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Billy</span>
+						<span class="text-gray">October 31, 2023 at 10:54 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Dimensity 9300 will announced on November 6th, 2023</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+31</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-69903" data-comment-id="69903" data-comment-author="Munn">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Munn</span>
+						<span class="text-gray">October 29, 2023 at 11:52 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">This chipset is incredibly fast, but it&#39;s not widely known or used by phone makers because of allegations that it overheats. Currently, only Vivo and Oppo use it in some of their phones, and occasionally, Xiaomi includes it in their Redmi K series. No other phone company, not even Asus, utilizes the Dimensity chipset. Only two companies, Vivo and Oppo, make use of this chipset. Xiaomi mostly employs its overclocked version, as will the iQOO Neo 9, which will perhaps use this chipset in the future. This could potentially outperform the Antutu v10. Furthermore, the upcoming OnePlus Ace 3 series plan to use this chipset.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+24</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-70213" data-comment-id="70213" data-comment-author="...">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">...</span>
+						<span class="text-gray">November 2, 2023 at 01:59 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Indeed, phone manufacturers rely heavily on Qualcomm. During the days of the Snapdragon 888 and 8 Gen 1, flagship phones persisted in using these inefficient chips. This made their user experience inferior to that of some 778G models. There were even numerous reports of hand injuries resulting from phones overheating and burning users&#39; hands.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+19</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-70727" data-comment-id="70727" data-comment-author="Technerd">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Technerd</span>
+						<span class="text-gray">November 9, 2023 at 02:36 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">It doesn&#39;t overheat as much in the engineering sample in the video of Geekerwan and also it is cooler ten 8gen 3 which is surprising.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+13</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-71674" data-comment-id="71674" data-comment-author="Markuz">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Markuz</span>
+						<span class="text-gray">November 21, 2023 at 12:15 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Hmm. I bet if the transition company uses this. That phone with that chipset will be sold out af.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+2</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container-reply" id="comment-84668" data-comment-id="84668" data-comment-author="shipp">
+				<div class="mr">
+					
+						<img class="comment-avatar-reply" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">shipp</span>
+						<span class="text-gray">April 26, 2024 at 10:41 AM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;"><span class="strong">...</span>, I&#39;m assuming its a supply issue more than anything with the chip being better or worse. Because Qualcomm are still much bigger and have been around making higher end phone chips for much longer they can make commitments to Asus or Xiaomi or BBK or whoever to supply x number of chipsets for  x number of phones. 
+
+You have seen this with laptops with AMD for a while, AMD laptop CPUs are usually as fast or better than their intel equivalent but much more efficient in terms of heat and battery life than intel. but the problem is the CPUs are not produced in high enough volume so it is quite hard to get a high end AMD laptop. 
+
+I suspect the same thing is happening with Mediatek as they are still smaller and are growing so cannot afford the big $$$ for fab capacity at TSMC or to make assurances to phone makers to supply their flagships, gaming phones, flagship killer etc with these chips. 
+
+And its a shame because even though Qualcomm has got their act together with making good socs again since the 8+Gen 1 and particularly the 8 Gen 2 and 3, the Dimensity 9200 and 9300 seem amazing in performance and efficiency and it would be great to see them in more high end phones. Or for that matter the 9400, 9500 etc. But they have to compete with Qualcomm&#39;s custom &quot;Nuvia&quot; cores by that point</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+1</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-69489" data-comment-id="69489" data-comment-author="Adinata">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">Adinata</span>
+						<span class="text-gray">October 24, 2023 at 01:11 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">The GPU is not &quot;Mali,&quot; but &quot;Immortalis;&quot; these two GPUs are distinctly different. Mali does not support Ray Tracing, while Immortalis does. The Dimensity 9300 uses the &quot;Arm Immortalis-G720&quot; GPU, which boasts the &quot;Arm 5th Gen&quot; architecture.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+51</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+			<div class="card-block flex pb comment-container" id="comment-69367" data-comment-id="69367" data-comment-author="ethylene">
+				<div class="mr">
+					
+						<img class="comment-avatar" alt="Avatar" loading="lazy" src="/assets/img/noavatar.png" style="filter: grayscale(70%);"/>
+				</div>
+				<div class="w100">
+					<div class="comment-info">
+						
+						
+							<span class="" style="">ethylene</span>
+						<span class="text-gray">October 22, 2023 at 01:59 PM</span>
+						
+						
+					</div>
+					<div class="comment-text">
+						<span style="white-space:pre-line;">Dimensity 9300&#39;s internal name is MT6989, as shown by a Geekbench listing.</span>
+					</div>
+					<div class="comment-control">
+						<span class="icn-up-css" data-comment-vote="up"></span>
+						<span class="ratingplus" data-comment-rating>+40</span>
+						
+						<span class="button-light" data-comment-reply="button">Reply</span>
+					</div>
+					<div class="comment-reply-container" data-comment-reply="container"></div>
+				</div>
+			</div>
+		
+    </div>
+  <div class="card-block">
+			<form data-comment-add-1 class="form" method="POST" action="/api/addcomment.php">
+				
+					<div class="form-block">
+						<label for="guest_name">Name</label>
+						<input placeholder="" required minlength="3" type="text" name="guest_name" id="guest_name" />
+					</div>
+				
+				<div class="form-block">
+					<label for="content">Message</label>
+					<textarea placeholder="" required minlength="20" rows="8" id="content" name="content"></textarea>
+				</div>
+				<div class="form-block">
+					<button class="button-dark" type="submit" name="submit">Send</button>
+				</div>
+				<input type="hidden" name="type" value="review" />
+				
+				<input type="hidden" name="custom_url" value="/en/soc/mediatek-dimensity-9300" />
+				
+			</form>
+
+			
+			<script type="module">
+				initSaveGuestName({ formSelector: '[data-comment-add-1]' })
+				initAddComment({
+					formSelector: '[data-comment-add-1]',
+					locale: undefined,
+					lang: undefined
+				})
+			</script>
+		</div> 
+			<form data-comment-reply="form" class="form mt" style="display: none;" method="POST">
+				
+					<div class="form-block">
+						<input placeholder="Name" required minlength="3" type="text" name="guest_name" />
+					</div>
+				
+				<div class="form-block">
+					<textarea placeholder="Message" required minlength="20" rows="8" name="content"></textarea>
+				</div>
+				<button class="button-dark" type="submit" name="submit">Send</button>
+				<input type="hidden" name="parent_id" value="n/a" />
+				<input type="hidden" name="reply_to" value="" />
+				<input type="hidden" name="type" value="reply" />
+				
+				<input type="hidden" name="custom_url" value="/en/soc/mediatek-dimensity-9300" />
+				
+			</form>
+			
+			
+			<script type="module">
+				initReplyComment({
+					locale: undefined,
+					rateLocale: undefined,
+					lang: undefined
+				})
+			</script>
+		
+      </div>
+    
+				
+				
+		<style>
+			@media (max-width: 1279px) {
+				#gtfloats-sb-right {
+					display: none;
+				}
+			}
+		</style>
+
+		<div id="gtfloats-sb-right" style="margin-bottom: 12px;">
+	
+	<div style="width: 300px; text-align: center;">
+		<div class="adsbyvli" style="width:300px;height:250px;display:inline-block;" data-ad-slot="pw_40971"></div> <script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40971") })</script>
+		<div style="margin: 16px 0">
+		
+		</div>
+		<div class="adsbyvli" style="width:300px;height:250px;display:inline-block;" data-ad-slot="pw_40971"></div> <script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_40971") })</script>
+	</div>
+</div>
+
+		<script>
+			void (function () {
+				const mainElement = document.querySelector('.main')
+				if (!mainElement) {
+					return console.error('Main element not found')
+				}
+				const mainWidth = mainElement ? mainElement.offsetWidth : 0
+
+				if (window.innerWidth > 1280 && window.innerHeight > 680) {
+					const floatBlock = document.getElementById('gtfloats-sb-right')
+					const newDiv = document.createElement('div')
+
+					const isRightType = 'right' === 'right'
+					const isNearContent = 'nearContent' === 'nearContent'
+
+					floatBlock.style.position = 'fixed'
+					floatBlock.style.width = 300 + 'px'
+					floatBlock.style.top = '56px'
+
+					const leftPositionNearContent = isRightType
+						? 'calc(50% + ' + (mainWidth / 2 + 16) + 'px)'
+						: 'calc(50% - ' + (mainWidth / 2 + 300 + 16) + 'px)'
+
+					const leftPositionNearBorder = isRightType
+						? 'calc(100% - ' + (300 + 16) + 'px)'
+						: 16 + 'px'
+
+					floatBlock.style.left = isNearContent ? leftPositionNearContent : leftPositionNearBorder
+
+					floatBlock.appendChild(newDiv)
+				} else {
+					// Remove for mobile
+					const element = document.getElementById('gtfloats-sb-right')
+					if (element) {
+						element.remove()
+					}
+				}
+			})()
+		</script>
+	
+				<div class="">
+          
+		
+		<div id="gtr-sticky-bottom">
+			<div class="close-button-container" style="display: none;">
+				<button class="close-button">
+					<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7 10l5 5 5-5z" fill="currentColor" />
+					</svg>
+				</button>
+			</div>
+			<div class="content-container">
+				<div class="content-slot">
+			<div class="adsbyvli" style="display:inline-block;" data-ad-slot="pw_41485"></div> 
+			<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("pw_41485") })</script>
+		</div>
+			</div>
+		</div>
+
+		
+		<style>
+			#gtr-sticky-bottom {
+					
+					display: flex;
+					background-color: rgb(250, 250, 250);
+					border-top: 1px solid rgb(228 228 228);
+					position: fixed;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					z-index: 9999;
+					box-sizing: border-box;
+					transition: transform 0.3s ease-out;
+					justify-content: center;
+					align-items: center;
+			}
+
+			#gtr-sticky-bottom.closing {
+					transform: translateY(100%);
+			}
+
+			#gtr-sticky-bottom .close-button-container {
+					position: absolute;
+					top: -26px;
+					left: 10px;
+			}
+
+			#gtr-sticky-bottom .close-button {
+					background-color: rgb(250, 250, 250);
+					border: 1px solid rgb(228 228 228);
+					border-bottom: none;
+					border-radius: 5px 5px 0 0;
+					cursor: pointer;
+					padding: 6px;
+					width: 39px;
+					height: 26px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+			}
+
+			#gtr-sticky-bottom .close-button svg {
+					width: 26px;
+					height: 26px;
+			}
+
+			#gtr-sticky-bottom .content-container {
+					padding: 0px;
+					text-align: center;
+					width: 100%;
+			}
+
+			#gtr-sticky-bottom .content-slot {
+					width: 100%;
+			}
+
+			@media (min-width: 700px) {
+					#gtr-sticky-bottom {
+						display: none;
+					}
+			}
+		</style>
+
+		
+		<script>
+			;(function () {
+				var banner = document.getElementById('gtr-sticky-bottom')
+				var closeButtonContainer = banner.querySelector('.close-button-container')
+				var closeButton = banner.querySelector('.close-button')
+				var contentSlot = banner.querySelector('.content-slot')
+				var isContentLoaded = false
+
+				function checkContentHeight() {
+					if (contentSlot.offsetHeight > 25) {
+						closeButtonContainer.style.display = 'block'
+						isContentLoaded = true
+					}
+				}
+
+				function closeBanner() {
+					banner.classList.add('closing')
+					banner.addEventListener(
+						'transitionend',
+						function () {
+							banner.style.display = 'none'
+							banner.classList.remove('closing')
+							contentSlot.innerHTML = ''
+							closeButtonContainer.style.display = 'none'
+
+							if (typeof window.onCloseStickyBanner === 'function') {
+								window.onCloseStickyBanner()
+							}
+						},
+						{ once: true }
+					)
+				}
+
+				function openBanner(newContent) {
+					if (newContent) {
+						contentSlot.innerHTML = newContent
+					}
+					banner.style.display = 'flex'
+					checkContentHeight()
+				}
+
+				var observer = new MutationObserver(checkContentHeight)
+				observer.observe(contentSlot, { childList: true, subtree: true, attributes: true })
+
+				var intervalId = setInterval(checkContentHeight, 500)
+
+				setTimeout(function () {
+					if (!isContentLoaded && typeof window.onStickyBannerTimeoutNotLoaded === 'function') {
+						window.onStickyBannerTimeoutNotLoaded()
+					}
+				}, 15000)
+
+				closeButton.addEventListener('click', closeBanner)
+
+				checkContentHeight()
+				if (window.innerWidth < 700) {
+					banner.style.display = 'flex'
+				}
+
+				window.reopenStickyBanner = openBanner
+				window.closeStickyBanner = closeBanner
+			})()
+		</script>
+	
+        </div>
+			</main>
+		</div>
+
+		
+		<div id="side-menubar-container" class="">
+			<nav class="side-menubar-content-top">
+      <div class="side-menubar-block">
+        <div class="side-menubar-header">Comparisons</div>
+        <ul class="side-menubar-links">
+          <li>
+	              <a href="/en/phone-compare" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-phone"></use>
+		</svg>
+	
+                <span>Smartphones</span>
+              </a>
+            </li><li>
+	              <a href="/en/tablet-compare" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-tablet"></use>
+		</svg>
+	
+                <span>Tablets</span>
+              </a>
+            </li><li>
+	              <a href="/en/laptop-compare" title="Laptops comparison">
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-laptop"></use>
+		</svg>
+	
+                <span>Laptops</span>
+              </a>
+            </li><li>
+	              <a href="/en/cpu-compare" title="CPU comparison">
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-cpu"></use>
+		</svg>
+	
+                <span>CPU</span>
+              </a>
+            </li><li>
+	              <a href="/en/gpu-compare" title="GPU comparison">
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-gpu"></use>
+		</svg>
+	
+                <span>Graphics Cards</span>
+              </a>
+            </li><li>
+	              <a href="/en/soc-compare" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-memory"></use>
+		</svg>
+	
+                <span>SoC</span>
+              </a>
+            </li>
+        </ul>
+      </div>
+    
+      <div class="side-menubar-block">
+        <div class="side-menubar-header">Rankings</div>
+        <ul class="side-menubar-links">
+          <li>
+	              <a href="/en/cpu-list/desktop-chips-rating" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-bench"></use>
+		</svg>
+	
+                <span>Desktop Processors</span>
+              </a>
+            </li><li>
+	              <a href="/en/cpu-list/laptop-chips-rating" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-bench"></use>
+		</svg>
+	
+                <span>Laptop Processors</span>
+              </a>
+            </li><li>
+	              <a href="/en/soc-list/rating" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-bench"></use>
+		</svg>
+	
+                <span>Mobile SoC</span>
+              </a>
+            </li><li>
+	              <a href="/en/gpu-list/desktop-graphics-rating" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-bench"></use>
+		</svg>
+	
+                <span>Desktop GPU</span>
+              </a>
+            </li><li>
+	              <a href="/en/gpu-list/laptop-graphics-rating" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-bench"></use>
+		</svg>
+	
+                <span>Laptop GPU</span>
+              </a>
+            </li>
+        </ul>
+      </div>
+    
+      <div class="side-menubar-block">
+        <div class="side-menubar-header">Community</div>
+        <ul class="side-menubar-links">
+          <li>
+	              <a href="/en/submit-data" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-add"></use>
+		</svg>
+	
+                <span>Submit results</span>
+              </a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+			<div class="side-menubar-content-bottom">
+      <div class="side-menubar-block">
+        
+        <ul class="side-menubar-links">
+          <li>
+	              <a href="/en/contact" >
+	                
+		<svg class="icn-svg" width="18" height="18" style="fill: #3949ab; margin-bottom: 1px">
+			<use width="18" height="18" xlink:href="#icn-info"></use>
+		</svg>
+	
+                <span>Contact Us</span>
+              </a>
+            </li>
+        </ul>
+      </div>
+    </div>
+		</div>
+		<div class="overlay"></div>
+
+		<script type="module">
+			function initSideMenubar({ desktopWidth = 1980, overlayWidth = 1000 }) {
+				const toggleMenuButton = document.getElementById('toggle-menubar')
+				const sideMenuContainer = document.getElementById('side-menubar-container')
+				const overlay = document.querySelector('.overlay')
+
+				const isMenubarOpen = () => sideMenuContainer.classList.contains('menubar-open')
+
+				const toggleMenubar = (type) => {
+					/* For preventing blinking */
+					sideMenuContainer.classList.remove('menubar-open-for-desktop')
+					if (type === 'open') {
+						sideMenuContainer.classList.add('menubar-open')
+					}
+					if (type === 'close') {
+						sideMenuContainer.classList.remove('menubar-open')
+					}
+					if (type === 'toggle') {
+						sideMenuContainer.classList.toggle('menubar-open')
+					}
+
+					if (window.innerWidth < overlayWidth && isMenubarOpen()) {
+						// Only apply overlay under 600px
+						overlay.classList.add('active')
+					} else {
+						overlay.classList.remove('active')
+					}
+				}
+
+				// Ensure the menu is open on load for wider screens
+				if (window.innerWidth >= desktopWidth) {
+					toggleMenubar('open')
+				}
+
+				toggleMenuButton.addEventListener('click', () => {
+					toggleMenubar('toggle')
+				})
+
+				// Close the menu by clicking outside of it
+				document.addEventListener('click', (event) => {
+					if (window.innerWidth >= desktopWidth) {
+						return undefined
+					}
+					if (!sideMenuContainer.contains(event.target) && !toggleMenuButton.contains(event.target)) {
+						toggleMenubar('close')
+					}
+				})
+
+				// Ensure the menu state is updated on window resize
+				window.addEventListener('resize', () => {
+					if (window.innerWidth >= desktopWidth && !isMenubarOpen()) {
+						toggleMenubar('open')
+					} else if (window.innerWidth < desktopWidth && isMenubarOpen()) {
+						toggleMenubar('close')
+					}
+				})
+			}
+			initSideMenubar({ desktopWidth: 2880 })
+		</script>
+	
+
+		
+		
+        <div class="footer-container" style="color: black; padding: 0 0 16px 0;">
+          <span>English</span><span style="text-decoration: underline;"><a href="https://nanoreview.net/ru/soc/mediatek-dimensity-9300">Русский</a></span>
+        </div>
+      
+
+		
+  
+  <svg
+    aria-hidden="true"
+    style="position: absolute; width: 0; height: 0; overflow: hidden;"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+  >
+    <defs>
+      
+
+      <symbol id="icn-pros" viewBox="0 0 24 24">
+        <path d="M12 21q-3.325 0-5.662-2.312Q4 16.375 4 13.1q0-1.65.625-3.05t1.725-2.5L12 2l5.65 5.55q1.1 1.1 1.725 2.5T20 13.1q0 3.275-2.337 5.588Q15.325 21 12 21Zm0-2V4.8L7.75 9q-.875.825-1.312 1.862Q6 11.9 6 13.1q0 2.425 1.75 4.162Q9.5 19 12 19Z"/>
+      </symbol>
+
+      <symbol id="icn-bench" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20h4V4h-4v16zm-6 0h4v-8H4v8zM16 9v11h4V9h-4z"/>
+      </symbol>
+      
+      <symbol id="icn-review" viewBox="0 0 24 24">
+        <path d="M3 20V7l4 3 5-7 5 4h4v13Zm5-3 4-5.5 7 5.45V9h-2.7l-3.9-3.125-4.95 6.95L5 11v3.6Z"/>
+      </symbol>
+      
+
+      <symbol id="icn-competitors" viewBox="0 0 24 24">
+        <path d="M2 21V3h10v4h10v14Zm2-2h2v-2H4Zm0-4h2v-2H4Zm0-4h2V9H4Zm0-4h2V5H4Zm4 12h2v-2H8Zm0-4h2v-2H8Zm0-4h2V9H8Zm0-4h2V5H8Zm4 12h8V9h-8v2h2v2h-2v2h2v2h-2Zm4-6v-2h2v2Zm0 4v-2h2v2Z"/>
+      </symbol>
+
+      <symbol id="icn-comments" viewBox="0 0 24 24">
+        <path d="M6 14h12v-2H6Zm0-3h12V9H6Zm0-3h12V6H6Zm16 14-4-4H4q-.825 0-1.412-.587Q2 16.825 2 16V4q0-.825.588-1.413Q3.175 2 4 2h16q.825 0 1.413.587Q22 3.175 22 4ZM4 4v12h14.825L20 17.175V4H4Zm0 0v13.175V4Z"/>
+      </symbol>
+
+      <symbol id="icn-price" viewBox="0 0 24 24">
+        <path d="M16 13.5q.65 0 1.075-.425.425-.425.425-1.075 0-.65-.425-1.075Q16.65 10.5 16 10.5q-.65 0-1.075.425Q14.5 11.35 14.5 12q0 .65.425 1.075.425.425 1.075.425ZM5 19V5v14Zm0 2q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v2.5h-2V5H5v14h14v-2.5h2V19q0 .825-.587 1.413Q19.825 21 19 21Zm8-4q-.825 0-1.412-.587Q11 15.825 11 15V9q0-.825.588-1.413Q12.175 7 13 7h7q.825 0 1.413.587Q22 8.175 22 9v6q0 .825-.587 1.413Q20.825 17 20 17Zm7-2V9h-7v6Z"/>
+      </symbol>
+
+      
+
+      <symbol id="icn-store" viewBox="0 -960 960 960">
+        <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+      </symbol>
+
+      <symbol id="icn-vote" viewBox="0 0 24 24">
+        
+
+        
+
+        <g><path d="M20,4v12H8V4H20 M20,2H8C6.9,2,6,2.9,6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2L20,2z M12.47,14 L9,10.5l1.4-1.41l2.07,2.08L17.6,6L19,7.41L12.47,14z M4,6H2v14c0,1.1,0.9,2,2,2h14v-2H4V6z"/><path d="M0,0h24v24H0V0z" fill="none"/></g>
+
+      </symbol>
+
+      <symbol id="icn-info" viewBox="0 0 24 24">
+        <path d="M11 17h2v-6h-2Zm1-8q.425 0 .713-.288Q13 8.425 13 8t-.287-.713Q12.425 7 12 7t-.712.287Q11 7.575 11 8t.288.712Q11.575 9 12 9Zm0 13q-2.075 0-3.9-.788-1.825-.787-3.175-2.137-1.35-1.35-2.137-3.175Q2 14.075 2 12t.788-3.9q.787-1.825 2.137-3.175 1.35-1.35 3.175-2.138Q9.925 2 12 2t3.9.787q1.825.788 3.175 2.138 1.35 1.35 2.137 3.175Q22 9.925 22 12t-.788 3.9q-.787 1.825-2.137 3.175-1.35 1.35-3.175 2.137Q14.075 22 12 22Zm0-2q3.35 0 5.675-2.325Q20 15.35 20 12q0-3.35-2.325-5.675Q15.35 4 12 4 8.65 4 6.325 6.325 4 8.65 4 12q0 3.35 2.325 5.675Q8.65 20 12 20Zm0-8Z"/>
+      </symbol>
+
+      <symbol id="icn-link" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"/>
+      </symbol>
+
+
+      <symbol id="icn-add" viewBox="0 0 24 24">
+        <path d="M11 18h2v-3h3v-2h-3v-3h-2v3H8v2h3Zm-5 4q-.825 0-1.412-.587Q4 20.825 4 20V4q0-.825.588-1.413Q5.175 2 6 2h8l6 6v12q0 .825-.587 1.413Q18.825 22 18 22Zm7-13V4H6v16h12V9ZM6 4v5-5 16V4Z"/>
+      </symbol>
+
+      
+
+      <symbol id="icn-cpu" viewBox="0 0 40 40">
+        <path d="M6.375 35q-1.125 0-1.937-.833-.813-.834-.813-1.959V7.792q0-1.125.813-1.959Q5.25 5 6.375 5h24.458q1.125 0 1.959.833.833.834.833 1.959v2.75h2.75v2.791h-2.75v5.292h2.75v2.75h-2.75v5.292h2.75v2.791h-2.75v2.75q0 1.125-.833 1.959-.834.833-1.959.833Zm0-2.792h24.458V7.792H6.375v24.416Zm2.792-2.75h9.791v-7.791H9.167Zm11.208-13.25h7.667v-5.666h-7.667ZM9.167 20.292h9.791v-9.75H9.167Zm11.208 9.166h7.667V17.625h-7.667Zm-14-21.666v24.416V7.792Z"/>
+      </symbol>
+
+      <symbol id="icn-phone" viewBox="0 0 24 24">
+        <path d="M7 22q-.825 0-1.412-.587Q5 20.825 5 20V4q0-.825.588-1.412Q6.175 2 7 2h10q.825 0 1.413.588Q19 3.175 19 4v16q0 .825-.587 1.413Q17.825 22 17 22Zm0-3v1h10v-1Zm0-2h10V5H7Zm0 0V5v12Z"/>
+      </symbol>
+
+      <symbol id="icn-tablet" viewBox="0 0 24 24">
+        <path d="M5 21q-.825 0-1.412-.587Q3 19.825 3 19V5q0-.825.588-1.412Q4.175 3 5 3h14q.825 0 1.413.588Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm5.5-1h3v-1h-3ZM5 16V5v14Z"/>
+      </symbol>
+
+      <symbol id="icn-laptop" viewBox="0 0 24 24">
+        <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2H0c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2h-4zM4 5h16v11H4V5zm8 14c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+      </symbol>
+
+      <symbol id="icn-chip" viewBox="0 0 24 24">
+        <path d="M9 9h6v6H9Zm-4 2H2v2h3v2H3v2h2q0 .825.588 1.413Q6.175 19 7 19h2v3h2v-3h2v3h2v-3h2q.825 0 1.413-.587Q19 17.825 19 17h2v-2h-2v-2h3v-2h-3V9h2V7h-2q0-.825-.587-1.412Q17.825 5 17 5h-2V2h-2v3h-2V2H9v3H7q-.825 0-1.412.588Q5 6.175 5 7h2v2H5Zm2 6h10V7H7Z"/>
+      </symbol>
+
+      <symbol id="icn-gpu" viewBox="0 0 256 256">
+        <path d="M232,48H16a8,8,0,0,0-8,8V208a8,8,0,0,0,16,0V192H40v16a8,8,0,0,0,16,0V192H72v16a8,8,0,0,0,16,0V192h16v16a8,8,0,0,0,16,0V192H232a16,16,0,0,0,16-16V64A16,16,0,0,0,232,48Zm0,128H24V64H232Zm-56-16a40,40,0,1,0-40-40A40,40,0,0,0,176,160Zm-24-40a23.74,23.74,0,0,1,2.35-10.34l32,32A23.74,23.74,0,0,1,176,144,24,24,0,0,1,152,120Zm48,0a23.74,23.74,0,0,1-2.35,10.34l-32-32A23.74,23.74,0,0,1,176,96,24,24,0,0,1,200,120ZM80,160a40,40,0,1,0-40-40A40,40,0,0,0,80,160ZM56,120a23.74,23.74,0,0,1,2.35-10.34l32,32A23.74,23.74,0,0,1,80,144,24,24,0,0,1,56,120Zm48,0a23.74,23.74,0,0,1-2.35,10.34l-32-32A23.74,23.74,0,0,1,80,96,24,24,0,0,1,104,120Z"/>
+      </symbol>
+
+      <symbol id="icn-game" viewBox="0 0 24 24">
+        <path d="M4.55 19q-1.275 0-1.975-.887-.7-.888-.525-2.163l1.05-7.5q.225-1.5 1.338-2.475Q5.55 5 7.05 5h9.9q1.5 0 2.612.975 1.113.975 1.338 2.475l1.05 7.5q.175 1.275-.525 2.163-.7.887-1.975.887-.525 0-.975-.188-.45-.187-.825-.562L15.4 16H8.6l-2.25 2.25q-.375.375-.825.562-.45.188-.975.188Zm.4-2.15L7.8 14h8.4l2.85 2.85q.05.05.4.15.275 0 .438-.163.162-.162.112-.437l-1.1-7.7q-.1-.725-.65-1.213Q17.7 7 16.95 7h-9.9q-.75 0-1.3.487-.55.488-.65 1.213L4 16.4q-.05.275.113.437.162.163.437.163.05 0 .4-.15ZM17 13q.425 0 .712-.288Q18 12.425 18 12t-.288-.713Q17.425 11 17 11t-.712.287Q16 11.575 16 12t.288.712Q16.575 13 17 13Zm-2-3q.425 0 .713-.288Q16 9.425 16 9t-.287-.713Q15.425 8 15 8t-.712.287Q14 8.575 14 9t.288.712Q14.575 10 15 10Zm-7.25 3h1.5v-1.75H11v-1.5H9.25V8h-1.5v1.75H6v1.5h1.75ZM12 12Z"/>
+      </symbol>
+
+      <symbol id="icn-feed" viewBox="0 0 24 24">
+        <path d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h11l5 5v11q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V9h-4V5H5v14Zm2-2h10v-2H7Zm0-8h5V7H7Zm0 4h10v-2H7ZM5 5v4-4 14V5Z"/>
+      </symbol>
+      
+      
+
+      <symbol id="icn-display" viewBox="0 0 24 24"><path d="M8 21v-2H4q-.825 0-1.412-.587Q2 17.825 2 17V5q0-.825.588-1.413Q3.175 3 4 3h16q.825 0 1.413.587Q22 4.175 22 5v12q0 .825-.587 1.413Q20.825 19 20 19h-4v2Zm-4-4h16V5H4v12Zm0 0V5v12Z"/></symbol>
+
+      
+      <symbol id="icn-design" viewBox="0 0 24 24"><path d="M7 20H4q-.825 0-1.412-.587Q2 18.825 2 18V6q0-.825.588-1.412Q3.175 4 4 4h16v2H4v12h3Zm2 0v-1.8q-.475-.425-.738-.988Q8 16.65 8 16q0-.65.262-1.213.263-.562.738-.987V12h4v1.8q.475.425.738.987Q14 15.35 14 16q0 .65-.262 1.212-.263.563-.738.988V20Zm2-2.5q.625 0 1.062-.438.438-.437.438-1.062t-.438-1.062Q11.625 14.5 11 14.5t-1.062.438Q9.5 15.375 9.5 16t.438 1.062q.437.438 1.062.438ZM21 20h-5q-.425 0-.712-.288Q15 19.425 15 19v-9q0-.425.288-.713Q15.575 9 16 9h5q.425 0 .712.287Q22 9.575 22 10v9q0 .425-.288.712Q21.425 20 21 20Zm-4-2h3v-7h-3Z"/></symbol>
+
+      <symbol id="icn-android" viewBox="0 0 24 24"><path d="M4 20q-.825 0-1.412-.587Q2 18.825 2 18V6q0-.825.588-1.412Q3.175 4 4 4h16q.825 0 1.413.588Q22 5.175 22 6v12q0 .825-.587 1.413Q20.825 20 20 20Zm0-2h16V8H4v10Zm3.5-1-1.4-1.4L8.675 13l-2.6-2.6L7.5 9l4 4Zm4.5 0v-2h6v2Z"/></symbol>
+
+      <symbol id="icn-battery" viewBox="0 0 24 24"><path d="M8 22q-.425 0-.713-.288Q7 21.425 7 21V5q0-.425.287-.713Q7.575 4 8 4h2V2h4v2h2q.425 0 .712.287Q17 4.575 17 5v16q0 .425-.288.712Q16.425 22 16 22Zm1-6h6V6H9Z"/></symbol>
+
+      <symbol id="icn-camera" viewBox="0 0 24 24"><path d="M12 17.5q1.875 0 3.188-1.312Q16.5 14.875 16.5 13q0-1.875-1.312-3.188Q13.875 8.5 12 8.5q-1.875 0-3.188 1.312Q7.5 11.125 7.5 13q0 1.875 1.312 3.188Q10.125 17.5 12 17.5Zm0-2q-1.05 0-1.775-.725Q9.5 14.05 9.5 13q0-1.05.725-1.775Q10.95 10.5 12 10.5q1.05 0 1.775.725.725.725.725 1.775 0 1.05-.725 1.775-.725.725-1.775.725ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L9 3h6l1.85 2H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Zm16-2V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm-8-6Z"/></symbol>
+
+      
+    <symbol id="icn-connectivity" viewBox="0 0 24 24">
+      <path d="M11 22v-7.6L6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5 11 9.6V2h1l5.7 5.7-4.3 4.3 4.3 4.3L12 22Zm2-12.4 1.9-1.9L13 5.85Zm0 8.55 1.9-1.85-1.9-1.9Z"/>
+    </symbol>
+
+    <symbol id="icn-sound" viewBox="0 0 24 24"><path d="M14 20.725v-2.05q2.25-.65 3.625-2.5t1.375-4.2q0-2.35-1.375-4.2T14 5.275v-2.05q3.1.7 5.05 3.137Q21 8.8 21 11.975q0 3.175-1.95 5.612-1.95 2.438-5.05 3.138ZM3 15V9h4l5-5v16l-5-5Zm11 1V7.95q1.175.55 1.838 1.65.662 1.1.662 2.4 0 1.275-.662 2.362Q15.175 15.45 14 16Zm-4-7.15L7.85 11H5v2h2.85L10 15.15ZM7.5 12Z"/></symbol>
+
+    <symbol id="icn-other" viewBox="0 0 24 24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.89,3,3,3.9,3,5v14c0,1.1,0.89,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.11,3,19,3z M19,19H5V7h14V19z M17,12H7v-2 h10V12z M13,16H7v-2h6V16z"/></g></symbol>
+
+    <symbol id="icn-memory" viewBox="0 0 24 24"><path d="M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z"/></symbol>
+    
+    
+    
+    <symbol id="icn-storage" viewBox="0 0 24 24">><path d="M12 11q-3.75 0-6.375-1.175T3 7q0-1.65 2.625-2.825Q8.25 3 12 3t6.375 1.175Q21 5.35 21 7q0 1.65-2.625 2.825Q15.75 11 12 11Zm0 5q-3.75 0-6.375-1.175T3 12V9.5q0 1.1 1.025 1.863 1.025.762 2.45 1.237 1.425.475 2.963.687 1.537.213 2.562.213t2.562-.213q1.538-.212 2.963-.687 1.425-.475 2.45-1.237Q21 10.6 21 9.5V12q0 1.65-2.625 2.825Q15.75 16 12 16Zm0 5q-3.75 0-6.375-1.175T3 17v-2.5q0 1.1 1.025 1.863 1.025.762 2.45 1.237 1.425.475 2.963.688 1.537.212 2.562.212t2.562-.212q1.538-.213 2.963-.688t2.45-1.237Q21 15.6 21 14.5V17q0 1.65-2.625 2.825Q15.75 21 12 21Z"/></symbol>
+
+    <symbol id="icn-input" viewBox="0 0 24 24">><path d="M4 19q-.825 0-1.412-.587Q2 17.825 2 17V7q0-.825.588-1.412Q3.175 5 4 5h16q.825 0 1.413.588Q22 6.175 22 7v10q0 .825-.587 1.413Q20.825 19 20 19Zm0-2h16V7H4v10Zm4-1h8v-2H8Zm-3-3h2v-2H5Zm3 0h2v-2H8Zm3 0h2v-2h-2Zm3 0h2v-2h-2Zm3 0h2v-2h-2ZM5 10h2V8H5Zm3 0h2V8H8Zm3 0h2V8h-2Zm3 0h2V8h-2Zm3 0h2V8h-2ZM4 17V7v10Z"/></symbol>
+
+    </defs>
+  </svg>
+
+
+		
+		
+		
+		
+		<div class="footer-container footer-bottom">
+			<footer class="footer">
+				<div class="footer-about">
+					<a class="footer-about-link" href="/en/about">About</a><a class="footer-about-link" href="/en/faq">FAQ</a><a class="footer-about-link" href="/en/contact">Contact</a><a class="footer-about-link" href="/en/privacy">Privacy Policy</a>
+				</div>
+				<div class="footer-copyright"><span>NanoReview.net © 2026</span></div>
+			</footer>
+		</div>
+	
+	
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a58755a97eef2924',t:'MTc5NDMzNzU4OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a58755a97eef2924',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7af392e2cb6e4a7793fa63c2bbb68ca6","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
