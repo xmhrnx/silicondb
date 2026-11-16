@@ -12,7 +12,7 @@ import (
 func StatTile(label, value, color string) giode.Element {
 	valueStyle := theme.Value()
 	if n := len([]rune(value)); n > 6 {
-		valueStyle.FontSize = 15
+		valueStyle.FontSize = 13
 	}
 	return giode.Stack(giode.Styles{
 		Width: -1, Gap: 6,

@@ -26,6 +26,10 @@
     "one": "{count} ettevõte",
     "other": "{count} ettevõtet"
   },
+  "count.generations": {
+    "one": "{count} põlvkond",
+    "other": "{count} põlvkonda"
+  },
   "home.stat.chips": "kiipi",
   "home.stat.makers": "tootjat",
   "home.stat.years": "aastat",

@@ -123,3 +123,27 @@ func (c *Catalog) MakersIn(category string) []*Manufacturer {
 	sort.SliceStable(out, func(i, j int) bool { return n[out[i].ID] > n[out[j].ID] })
 	return out
 }
+
+// Domain is a segment of one category of a company's chips, such as its
+// desktop CPUs: the level between the company and its generations.
+type Domain struct {
+	Category string
+	Segment  string
+	Chips    []*Chip
+}
+
+// Domains lists a manufacturer's domains in a category ("" for all), in
+// schema category order and then SegmentOrder.
+func (c *Catalog) Domains(maker, category string) []*Domain {
+	var out []*Domain
+	for _, cat := range c.Schema.Categories {
+		if category != "" && cat.ID != category {
+			continue
+		}
+		chips := c.ChipsIn(maker, cat.ID, "")
+		for _, seg := range Segments(chips) {
+			out = append(out, &Domain{Category: cat.ID, Segment: seg, Chips: c.ChipsIn(maker, cat.ID, seg)})
+		}
+	}
+	return out
+}

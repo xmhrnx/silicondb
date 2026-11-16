@@ -26,6 +26,10 @@
     "one": "{count} yritys",
     "other": "{count} yritystä"
   },
+  "count.generations": {
+    "one": "{count} sukupolvi",
+    "other": "{count} sukupolvea"
+  },
   "home.stat.chips": "sirua",
   "home.stat.makers": "valmistajaa",
   "home.stat.years": "vuotta",

@@ -1,13 +1,11 @@
 {
   "app.name": "Silicon DB",
   "app.tagline": "The processor encyclopedia",
-
   "tab.home": "Home",
   "tab.explore": "Explore",
   "tab.makers": "Makers",
   "tab.compare": "Compare",
   "tab.settings": "Settings",
-
   "common.back": "Back",
   "common.see_all": "See all",
   "common.all": "All",
@@ -20,10 +18,18 @@
   "common.yes": "Yes",
   "common.no": "No",
   "common.other": "Other",
-
-  "count.chips": {"one": "{count} chip", "other": "{count} chips"},
-  "count.companies": {"one": "{count} company", "other": "{count} companies"},
-
+  "count.chips": {
+    "one": "{count} chip",
+    "other": "{count} chips"
+  },
+  "count.companies": {
+    "one": "{count} company",
+    "other": "{count} companies"
+  },
+  "count.generations": {
+    "one": "{count} generation",
+    "other": "{count} generations"
+  },
   "home.stat.chips": "chips",
   "home.stat.makers": "manufacturers",
   "home.stat.years": "years",
@@ -35,26 +41,22 @@
   "home.top_makers": "Top manufacturers",
   "home.fastest": "Fastest processors",
   "home.data_updated": "Data updated {date}",
-
   "explore.title": "Explore",
   "explore.search_hint": "Search name, family, codename…",
   "explore.empty.title": "No chips found",
   "explore.empty.message": "Try a different name or remove a filter.",
   "explore.decade": "{decade}s",
-
   "sort.newest": "Newest",
   "sort.oldest": "Oldest",
   "sort.name": "A–Z",
   "sort.fastest": "Fastest",
   "sort.most_chips": "Most chips",
-
   "makers.title": "Manufacturers",
   "makers.search_hint": "Search manufacturers",
   "makers.empty.title": "No manufacturers found",
   "makers.empty.message": "Try another name or country.",
   "makers.founded": "{from}–{to}",
   "makers.today": "today",
-
   "maker.chips": "Chips",
   "maker.releases": "Releases",
   "maker.status": "Status",
@@ -62,7 +64,6 @@
   "maker.until": "Until {year}",
   "maker.missing.title": "Manufacturer not found",
   "maker.missing.message": "It may have been removed in the latest update.",
-
   "detail.more_in": "More in {family}",
   "detail.compare": "Compare",
   "detail.added": "Added to Compare",
@@ -70,7 +71,6 @@
   "detail.missing.title": "This chip is no longer in the database",
   "detail.missing.message": "It may have been renamed in the latest update.",
   "detail.benchmarks_note": "Typical scores at stock settings. Bars compare with the fastest chip in the database.",
-
   "compare.title": "Compare",
   "compare.count": "{count} of {max} chips",
   "compare.empty.title": "Nothing to compare yet",
@@ -79,7 +79,6 @@
   "compare.category": "Category",
   "compare.manufacturer": "Manufacturer",
   "compare.released": "Released",
-
   "settings.title": "Settings",
   "settings.dark_mode": "Dark mode",
   "settings.language": "Language",
@@ -102,17 +101,24 @@
   "settings.typeface": "Typeface",
   "settings.built_with": "Built with",
   "settings.licenses": "Open-source licenses",
-
   "status.never": "Never",
   "status.just_now": "Just now",
-  "status.minutes_ago": {"one": "{count} minute ago", "other": "{count} minutes ago"},
-  "status.hours_ago": {"one": "{count} hour ago", "other": "{count} hours ago"},
+  "status.minutes_ago": {
+    "one": "{count} minute ago",
+    "other": "{count} minutes ago"
+  },
+  "status.hours_ago": {
+    "one": "{count} hour ago",
+    "other": "{count} hours ago"
+  },
   "status.checking": "Checking…",
   "status.downloading": "Downloading {done} of {total}",
   "status.up_to_date": "Up to date",
-  "status.updated": {"one": "Updated {count} file ({size})", "other": "Updated {count} files ({size})"},
+  "status.updated": {
+    "one": "Updated {count} file ({size})",
+    "other": "Updated {count} files ({size})"
+  },
   "status.offline": "Offline",
-
   "sync.checking": "Checking for updates…",
   "sync.updating": "Updating database · {done} of {total} files",
   "sync.failed": "Couldn't update the database",
@@ -121,16 +127,24 @@
   "splash.downloading": "Downloading the database",
   "offline.title": "Can't reach the database",
   "offline.message": "Silicon DB needs a connection the first time it starts to download the chip data. {error}",
-
   "number.thousand": "thousand",
   "number.million": "million",
   "number.billion": "billion",
   "number.trillion": "trillion",
-  "month.1": "Jan", "month.2": "Feb", "month.3": "Mar", "month.4": "Apr", "month.5": "May", "month.6": "Jun",
-  "month.7": "Jul", "month.8": "Aug", "month.9": "Sep", "month.10": "Oct", "month.11": "Nov", "month.12": "Dec",
+  "month.1": "Jan",
+  "month.2": "Feb",
+  "month.3": "Mar",
+  "month.4": "Apr",
+  "month.5": "May",
+  "month.6": "Jun",
+  "month.7": "Jul",
+  "month.8": "Aug",
+  "month.9": "Sep",
+  "month.10": "Oct",
+  "month.11": "Nov",
+  "month.12": "Dec",
   "date.month_year": "{month} {year}",
   "date.full": "{month} {day}, {year}",
-
   "market.Desktop": "Desktop",
   "market.Laptop": "Laptop",
   "market.Server": "Server",

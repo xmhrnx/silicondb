@@ -28,6 +28,11 @@
     "one": "{count} uzņēmums",
     "other": "{count} uzņēmumi"
   },
+  "count.generations": {
+    "zero": "{count} paaudžu",
+    "one": "{count} paaudze",
+    "other": "{count} paaudzes"
+  },
   "home.stat.chips": "mikroshēmas",
   "home.stat.makers": "ražotāji",
   "home.stat.years": "gadi",

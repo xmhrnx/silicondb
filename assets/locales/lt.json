@@ -30,6 +30,12 @@
     "many": "{count} įmonės",
     "other": "{count} įmonių"
   },
+  "count.generations": {
+    "one": "{count} karta",
+    "few": "{count} kartos",
+    "many": "{count} kartos",
+    "other": "{count} kartų"
+  },
   "home.stat.chips": "lustų",
   "home.stat.makers": "gamintojų",
   "home.stat.years": "metų",

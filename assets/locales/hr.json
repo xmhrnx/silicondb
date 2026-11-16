@@ -28,6 +28,11 @@
     "few": "{count} tvrtke",
     "other": "{count} tvrtki"
   },
+  "count.generations": {
+    "one": "{count} generacija",
+    "few": "{count} generacije",
+    "other": "{count} generacija"
+  },
   "home.stat.chips": "čipova",
   "home.stat.makers": "proizvođača",
   "home.stat.years": "godina",

@@ -26,6 +26,10 @@
     "one": "{count} cég",
     "other": "{count} cég"
   },
+  "count.generations": {
+    "one": "{count} generáció",
+    "other": "{count} generáció"
+  },
   "home.stat.chips": "chip",
   "home.stat.makers": "gyártó",
   "home.stat.years": "év",

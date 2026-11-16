@@ -30,6 +30,12 @@
     "many": "{count} firm",
     "other": "{count} firmy"
   },
+  "count.generations": {
+    "one": "{count} generacja",
+    "few": "{count} generacje",
+    "many": "{count} generacji",
+    "other": "{count} generacji"
+  },
   "home.stat.chips": "układów",
   "home.stat.makers": "producentów",
   "home.stat.years": "lat",

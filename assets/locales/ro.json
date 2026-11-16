@@ -28,6 +28,11 @@
     "few": "{count} companii",
     "other": "{count} de companii"
   },
+  "count.generations": {
+    "one": "{count} generație",
+    "few": "{count} generații",
+    "other": "{count} de generații"
+  },
   "home.stat.chips": "cipuri",
   "home.stat.makers": "producători",
   "home.stat.years": "ani",

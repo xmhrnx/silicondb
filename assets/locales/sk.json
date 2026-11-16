@@ -30,6 +30,12 @@
     "many": "{count} spoločnosti",
     "other": "{count} spoločností"
   },
+  "count.generations": {
+    "one": "{count} generácia",
+    "few": "{count} generácie",
+    "many": "{count} generácie",
+    "other": "{count} generácií"
+  },
   "home.stat.chips": "čipov",
   "home.stat.makers": "výrobcov",
   "home.stat.years": "rokov",

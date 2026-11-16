@@ -18,7 +18,9 @@ import (
 	"github.com/mehran9675/silicondb/internal/ui/screens/category"
 	"github.com/mehran9675/silicondb/internal/ui/screens/compare"
 	"github.com/mehran9675/silicondb/internal/ui/screens/detail"
+	"github.com/mehran9675/silicondb/internal/ui/screens/domain"
 	"github.com/mehran9675/silicondb/internal/ui/screens/explore"
+	"github.com/mehran9675/silicondb/internal/ui/screens/generation"
 	"github.com/mehran9675/silicondb/internal/ui/screens/home"
 	"github.com/mehran9675/silicondb/internal/ui/screens/licenses"
 	"github.com/mehran9675/silicondb/internal/ui/screens/maker"
@@ -127,6 +129,16 @@ func (a *App) OpenChip(id string) { a.nav.Push(detail.New(a.env, id)) }
 
 // OpenMaker implements env.Routes.
 func (a *App) OpenMaker(id, category string) { a.nav.Push(maker.New(a.env, id, category)) }
+
+// OpenDomain implements env.Routes.
+func (a *App) OpenDomain(maker, category, segment string) {
+	a.nav.Push(domain.New(a.env, maker, category, segment))
+}
+
+// OpenGeneration implements env.Routes.
+func (a *App) OpenGeneration(maker, category, segment, name string) {
+	a.nav.Push(generation.New(a.env, maker, category, segment, name))
+}
 
 // OpenCategory implements env.Routes.
 func (a *App) OpenCategory(id string) { a.nav.Push(category.New(a.env, id)) }

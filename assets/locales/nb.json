@@ -26,6 +26,10 @@
     "one": "{count} selskap",
     "other": "{count} selskaper"
   },
+  "count.generations": {
+    "one": "{count} generasjon",
+    "other": "{count} generasjoner"
+  },
   "home.stat.chips": "brikker",
   "home.stat.makers": "produsenter",
   "home.stat.years": "år",

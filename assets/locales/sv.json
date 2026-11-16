@@ -26,6 +26,10 @@
     "one": "{count} företag",
     "other": "{count} företag"
   },
+  "count.generations": {
+    "one": "{count} generation",
+    "other": "{count} generationer"
+  },
   "home.stat.chips": "kretsar",
   "home.stat.makers": "tillverkare",
   "home.stat.years": "år",

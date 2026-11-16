@@ -26,6 +26,10 @@
     "one": "{count} εταιρεία",
     "other": "{count} εταιρείες"
   },
+  "count.generations": {
+    "one": "{count} γενιά",
+    "other": "{count} γενιές"
+  },
   "home.stat.chips": "τσιπ",
   "home.stat.makers": "κατασκευαστές",
   "home.stat.years": "χρόνια",

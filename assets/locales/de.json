@@ -26,6 +26,10 @@
     "one": "{count} Unternehmen",
     "other": "{count} Unternehmen"
   },
+  "count.generations": {
+    "one": "{count} Generation",
+    "other": "{count} Generationen"
+  },
   "home.stat.chips": "Chips",
   "home.stat.makers": "Hersteller",
   "home.stat.years": "Jahre",

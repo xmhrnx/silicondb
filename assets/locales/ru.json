@@ -30,6 +30,12 @@
     "many": "{count} компаний",
     "other": "{count} компании"
   },
+  "count.generations": {
+    "one": "{count} поколение",
+    "few": "{count} поколения",
+    "many": "{count} поколений",
+    "other": "{count} поколения"
+  },
   "home.stat.chips": "чипов",
   "home.stat.makers": "производителей",
   "home.stat.years": "лет",

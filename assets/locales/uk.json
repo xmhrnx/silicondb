@@ -30,6 +30,12 @@
     "many": "{count} компаній",
     "other": "{count} компанії"
   },
+  "count.generations": {
+    "one": "{count} покоління",
+    "few": "{count} покоління",
+    "many": "{count} поколінь",
+    "other": "{count} покоління"
+  },
   "home.stat.chips": "чипів",
   "home.stat.makers": "виробників",
   "home.stat.years": "років",

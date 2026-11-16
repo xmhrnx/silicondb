@@ -30,6 +30,12 @@
     "few": "{count} podjetja",
     "other": "{count} podjetij"
   },
+  "count.generations": {
+    "one": "{count} generacija",
+    "two": "{count} generaciji",
+    "few": "{count} generacije",
+    "other": "{count} generacij"
+  },
   "home.stat.chips": "čipov",
   "home.stat.makers": "proizvajalcev",
   "home.stat.years": "let",
