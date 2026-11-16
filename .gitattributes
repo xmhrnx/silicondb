@@ -1,0 +1,6 @@
+# Keep text files LF on every checkout, Windows included: the app compares
+# file revisions with data/index.json.
+* text=auto eol=lf
+*.png binary
+*.ttf binary
+*.exe binary

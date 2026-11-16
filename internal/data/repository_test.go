@@ -110,3 +110,9 @@ func TestSyncDownloadsOnlyChangedFiles(t *testing.T) {
 		t.Fatalf("offline load: %v, %d chips", err, len(cat.Chips))
 	}
 }
+
+func TestRevIgnoresLineEndings(t *testing.T) {
+	if Rev([]byte("{\n  \"a\": 1\n}\n")) != Rev([]byte("{\r\n  \"a\": 1\r\n}\r\n")) {
+		t.Fatal("a CRLF copy of a file must have the LF copy's revision")
+	}
+}

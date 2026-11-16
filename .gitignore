@@ -5,3 +5,7 @@
 release.keystore
 # Downloaded pages cached by cmd/enrich
 /.cache/
+
+# Built tools and caches
+*.exe
+.cache/
