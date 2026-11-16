@@ -8,13 +8,14 @@ import (
 	"path/filepath"
 
 	gioapp "gioui.org/app"
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/assets"
 	"github.com/mehran9675/silicondb/internal/store"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
 	"github.com/mehran9675/silicondb/internal/ui/nav"
+	"github.com/mehran9675/silicondb/internal/ui/screens/category"
 	"github.com/mehran9675/silicondb/internal/ui/screens/compare"
 	"github.com/mehran9675/silicondb/internal/ui/screens/detail"
 	"github.com/mehran9675/silicondb/internal/ui/screens/explore"
@@ -125,7 +126,10 @@ func (a *App) page() giode.Element {
 func (a *App) OpenChip(id string) { a.nav.Push(detail.New(a.env, id)) }
 
 // OpenMaker implements env.Routes.
-func (a *App) OpenMaker(id string) { a.nav.Push(maker.New(a.env, id)) }
+func (a *App) OpenMaker(id, category string) { a.nav.Push(maker.New(a.env, id, category)) }
+
+// OpenCategory implements env.Routes.
+func (a *App) OpenCategory(id string) { a.nav.Push(category.New(a.env, id)) }
 
 // Explore implements env.Routes.
 func (a *App) Explore(q store.Query) {

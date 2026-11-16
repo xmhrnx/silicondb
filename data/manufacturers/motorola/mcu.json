@@ -6,6 +6,7 @@
       "id": "motorola-mc6801",
       "name": "MC6801",
       "family": "6801",
+      "generation": "6801",
       "released": "1978",
       "specs": {
         "microarchitecture": "6801",
@@ -37,6 +38,7 @@
       "id": "motorola-mc6805p2",
       "name": "MC6805P2",
       "family": "6805",
+      "generation": "6805",
       "released": "1979",
       "specs": {
         "microarchitecture": "6805",
@@ -65,6 +67,7 @@
       "id": "motorola-mc68hc11a8",
       "name": "MC68HC11A8",
       "family": "68HC11",
+      "generation": "68HC11",
       "released": "1985",
       "specs": {
         "microarchitecture": "68HC11",
@@ -97,6 +100,7 @@
       "id": "motorola-mc68332",
       "name": "MC68332",
       "family": "683xx",
+      "generation": "683xx",
       "released": "1989",
       "specs": {
         "microarchitecture": "CPU32",
@@ -128,6 +132,7 @@
       "id": "motorola-mc68hc912b32",
       "name": "MC68HC912B32",
       "family": "68HC12",
+      "generation": "68HC12",
       "released": "1996",
       "specs": {
         "microarchitecture": "CPU12",

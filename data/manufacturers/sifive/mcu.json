@@ -6,6 +6,7 @@
       "id": "sifive-fe310-g000",
       "name": "FE310-G000",
       "family": "Freedom E300",
+      "generation": "Freedom E300",
       "released": "2016-11",
       "specs": {
         "microarchitecture": "E31",

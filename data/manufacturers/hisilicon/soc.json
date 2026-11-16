@@ -6,6 +6,7 @@
       "id": "hisilicon-kirin-910",
       "name": "Kirin 910",
       "family": "Kirin 900",
+      "generation": "Kirin 910",
       "released": "2014-01",
       "specs": {
         "codename": "Hi6620",
@@ -50,6 +51,7 @@
       "id": "hisilicon-kirin-920",
       "name": "Kirin 920",
       "family": "Kirin 900",
+      "generation": "Kirin 920",
       "released": "2014-06",
       "specs": {
         "codename": "Hi3630",
@@ -94,6 +96,7 @@
       "id": "hisilicon-kirin-950",
       "name": "Kirin 950",
       "family": "Kirin 900",
+      "generation": "Kirin 950",
       "released": "2015-11",
       "specs": {
         "codename": "Hi3650",
@@ -138,6 +141,7 @@
       "id": "hisilicon-kirin-960",
       "name": "Kirin 960",
       "family": "Kirin 900",
+      "generation": "Kirin 960",
       "released": "2016-11",
       "specs": {
         "codename": "Hi3660",
@@ -198,6 +202,7 @@
       "id": "hisilicon-kirin-970",
       "name": "Kirin 970",
       "family": "Kirin 900",
+      "generation": "Kirin 970",
       "released": "2017-10",
       "specs": {
         "codename": "Hi3670",
@@ -258,6 +263,7 @@
       "id": "hisilicon-kirin-980",
       "name": "Kirin 980",
       "family": "Kirin 900",
+      "generation": "Kirin 980",
       "released": "2018-10",
       "specs": {
         "codename": "Hi3680",
@@ -317,6 +323,7 @@
       "id": "hisilicon-kirin-990-5g",
       "name": "Kirin 990 5G",
       "family": "Kirin 900",
+      "generation": "Kirin 990",
       "released": "2019-10",
       "specs": {
         "codename": "Hi3690",
@@ -377,6 +384,7 @@
       "id": "hisilicon-kirin-9000",
       "name": "Kirin 9000",
       "family": "Kirin 9000",
+      "generation": "Kirin 9000",
       "released": "2020-10",
       "specs": {
         "codename": "Hi36A0",
@@ -436,6 +444,7 @@
       "id": "hisilicon-kirin-9000s",
       "name": "Kirin 9000S",
       "family": "Kirin 9000",
+      "generation": "Kirin 9000S",
       "released": "2023-08",
       "specs": {
         "microarchitecture": "TaiShan V120 / Cortex-A510",
@@ -498,6 +507,7 @@
       "id": "hisilicon-kirin-9010",
       "name": "Kirin 9010",
       "family": "Kirin 9000",
+      "generation": "Kirin 9010",
       "released": "2024-04",
       "specs": {
         "microarchitecture": "TaiShan / Cortex-A510",
@@ -560,6 +570,7 @@
       "id": "hisilicon-kirin-9020",
       "name": "Kirin 9020",
       "family": "Kirin 9000",
+      "generation": "Kirin 9020",
       "released": "2024-11",
       "specs": {
         "microarchitecture": "TaiShan / Cortex-A510",
@@ -622,6 +633,7 @@
       "id": "hisilicon-kirin-9030",
       "name": "Kirin 9030",
       "family": "Kirin 9000",
+      "generation": "Kirin 9030",
       "released": "2025-11",
       "specs": {
         "microarchitecture": "TaiShan",

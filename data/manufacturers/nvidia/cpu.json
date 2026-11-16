@@ -6,6 +6,7 @@
       "id": "nvidia-grace",
       "name": "Grace",
       "family": "Grace",
+      "generation": "Grace",
       "released": "2023",
       "specs": {
         "codename": "Grace",
@@ -54,6 +55,7 @@
       "id": "nvidia-grace-cpu-superchip",
       "name": "Grace CPU Superchip",
       "family": "Grace",
+      "generation": "Grace",
       "released": "2023",
       "specs": {
         "codename": "Grace",

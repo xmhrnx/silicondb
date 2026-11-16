@@ -6,6 +6,7 @@
       "id": "texas-instruments-omap1510",
       "name": "OMAP1510",
       "family": "OMAP 1",
+      "generation": "OMAP 1",
       "released": "2001",
       "specs": {
         "microarchitecture": "ARM925T",
@@ -48,6 +49,7 @@
       "id": "texas-instruments-omap1710",
       "name": "OMAP1710",
       "family": "OMAP 1",
+      "generation": "OMAP 1",
       "released": "2004",
       "specs": {
         "microarchitecture": "ARM926EJ-S",
@@ -90,6 +92,7 @@
       "id": "texas-instruments-omap2420",
       "name": "OMAP2420",
       "family": "OMAP 2",
+      "generation": "OMAP 2",
       "released": "2005",
       "specs": {
         "microarchitecture": "ARM1136J(F)-S",
@@ -133,6 +136,7 @@
       "id": "texas-instruments-dm6446",
       "name": "DaVinci TMS320DM6446",
       "family": "DaVinci",
+      "generation": "DaVinci",
       "released": "2005",
       "specs": {
         "microarchitecture": "ARM926EJ-S",
@@ -178,6 +182,7 @@
       "id": "texas-instruments-omap3430",
       "name": "OMAP3430",
       "family": "OMAP 3",
+      "generation": "OMAP 3",
       "released": "2008",
       "specs": {
         "microarchitecture": "Cortex-A8",
@@ -221,6 +226,7 @@
       "id": "texas-instruments-omap3630",
       "name": "OMAP3630",
       "family": "OMAP 3",
+      "generation": "OMAP 3",
       "released": "2010",
       "specs": {
         "microarchitecture": "Cortex-A8",
@@ -264,6 +270,7 @@
       "id": "texas-instruments-omap4430",
       "name": "OMAP4430",
       "family": "OMAP 4",
+      "generation": "OMAP 4",
       "released": "2011",
       "specs": {
         "microarchitecture": "Cortex-A9",
@@ -308,6 +315,7 @@
       "id": "texas-instruments-am3358",
       "name": "Sitara AM3358",
       "family": "Sitara AM335x",
+      "generation": "Sitara AM335x",
       "released": "2011",
       "specs": {
         "microarchitecture": "Cortex-A8",
@@ -353,6 +361,7 @@
       "id": "texas-instruments-omap4460",
       "name": "OMAP4460",
       "family": "OMAP 4",
+      "generation": "OMAP 4",
       "released": "2011-11",
       "specs": {
         "microarchitecture": "Cortex-A9",
@@ -397,6 +406,7 @@
       "id": "texas-instruments-omap4470",
       "name": "OMAP4470",
       "family": "OMAP 4",
+      "generation": "OMAP 4",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-A9",
@@ -448,6 +458,7 @@
       "id": "texas-instruments-omap5432",
       "name": "OMAP5432",
       "family": "OMAP 5",
+      "generation": "OMAP 5",
       "released": "2013",
       "specs": {
         "microarchitecture": "Cortex-A15",
@@ -501,6 +512,7 @@
       "id": "texas-instruments-tda4vm",
       "name": "Jacinto TDA4VM",
       "family": "Jacinto 7",
+      "generation": "Jacinto 7",
       "released": "2020",
       "specs": {
         "codename": "J721E",
@@ -557,6 +569,7 @@
       "id": "texas-instruments-am625",
       "name": "Sitara AM625",
       "family": "AM62x",
+      "generation": "Sitara AM62",
       "released": "2022",
       "specs": {
         "microarchitecture": "Cortex-A53",
@@ -607,6 +620,7 @@
       "id": "texas-instruments-am62a7",
       "name": "Sitara AM62A7",
       "family": "AM62Ax",
+      "generation": "Sitara AM62",
       "released": "2023",
       "specs": {
         "microarchitecture": "Cortex-A53",
@@ -656,6 +670,7 @@
       "id": "texas-instruments-am62p",
       "name": "Sitara AM62P",
       "family": "AM62Px",
+      "generation": "Sitara AM62",
       "released": "2023",
       "specs": {
         "microarchitecture": "Cortex-A53",
@@ -707,6 +722,7 @@
       "id": "texas-instruments-tda4vh",
       "name": "Jacinto TDA4VH",
       "family": "Jacinto 7",
+      "generation": "Jacinto 7",
       "released": "2023",
       "specs": {
         "codename": "J784S4",

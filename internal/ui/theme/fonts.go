@@ -3,7 +3,7 @@ package theme
 import (
 	"gioui.org/font"
 	"gioui.org/font/opentype"
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/assets"
 )

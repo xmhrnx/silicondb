@@ -6,6 +6,7 @@
       "id": "ati-mach8",
       "name": "Mach8",
       "family": "Mach",
+      "generation": "Mach",
       "released": "1991",
       "specs": {
         "codename": "38800",
@@ -48,6 +49,7 @@
       "id": "ati-mach32",
       "name": "Mach32",
       "family": "Mach",
+      "generation": "Mach",
       "released": "1992",
       "specs": {
         "codename": "68800",
@@ -91,6 +93,7 @@
       "id": "ati-mach64",
       "name": "Mach64",
       "family": "Mach",
+      "generation": "Mach",
       "released": "1994",
       "specs": {
         "codename": "88800",
@@ -134,6 +137,7 @@
       "id": "ati-3d-rage",
       "name": "3D Rage",
       "family": "Rage",
+      "generation": "Rage",
       "released": "1996-04",
       "specs": {
         "codename": "Mach64 GT",
@@ -176,6 +180,7 @@
       "id": "ati-rage-pro",
       "name": "Rage Pro",
       "family": "Rage",
+      "generation": "Rage",
       "released": "1997",
       "specs": {
         "codename": "Rage Pro (Mach64 GT-C)",
@@ -219,6 +224,7 @@
       "id": "ati-rage-128-gl",
       "name": "Rage 128 GL",
       "family": "Rage 128",
+      "generation": "Rage 128",
       "released": "1998-08",
       "specs": {
         "codename": "Rage 128",
@@ -262,6 +268,7 @@
       "id": "ati-rage-128-pro",
       "name": "Rage 128 Pro",
       "family": "Rage 128",
+      "generation": "Rage 128",
       "released": "1999-08",
       "specs": {
         "codename": "Rage 128 Pro",
@@ -305,6 +312,7 @@
       "id": "ati-radeon-ddr",
       "name": "Radeon DDR",
       "family": "Radeon 7000",
+      "generation": "Radeon 7000 (R100)",
       "released": "2000-04",
       "specs": {
         "codename": "R100",
@@ -348,6 +356,7 @@
       "id": "ati-radeon-8500",
       "name": "Radeon 8500",
       "family": "Radeon 8000",
+      "generation": "Radeon 8000 (R200)",
       "released": "2001-08-14",
       "specs": {
         "codename": "R200",
@@ -391,6 +400,7 @@
       "id": "ati-radeon-7500",
       "name": "Radeon 7500",
       "family": "Radeon 7000",
+      "generation": "Radeon 7000 (R100)",
       "released": "2001-08-14",
       "specs": {
         "codename": "RV200",
@@ -434,6 +444,7 @@
       "id": "ati-flipper-gamecube",
       "name": "Flipper (GameCube)",
       "family": "Console",
+      "generation": "Flipper (GameCube)",
       "released": "2001-09-14",
       "specs": {
         "codename": "Flipper",
@@ -477,6 +488,7 @@
       "id": "ati-radeon-9700-pro",
       "name": "Radeon 9700 Pro",
       "family": "Radeon 9000",
+      "generation": "Radeon 9000 (R300)",
       "released": "2002-08",
       "specs": {
         "codename": "R300",
@@ -520,6 +532,7 @@
       "id": "ati-radeon-9800-pro",
       "name": "Radeon 9800 Pro",
       "family": "Radeon 9000",
+      "generation": "Radeon 9000 (R300)",
       "released": "2003-03",
       "specs": {
         "codename": "R350",
@@ -563,6 +576,7 @@
       "id": "ati-radeon-9600-xt",
       "name": "Radeon 9600 XT",
       "family": "Radeon 9000",
+      "generation": "Radeon 9000 (R300)",
       "released": "2003-10",
       "specs": {
         "codename": "RV360",
@@ -606,6 +620,7 @@
       "id": "ati-radeon-x800-xt-platinum-edition",
       "name": "Radeon X800 XT Platinum Edition",
       "family": "Radeon X800",
+      "generation": "Radeon X800 (R400)",
       "released": "2004-05-04",
       "specs": {
         "codename": "R420",
@@ -649,6 +664,7 @@
       "id": "ati-radeon-x850-xt-platinum-edition",
       "name": "Radeon X850 XT Platinum Edition",
       "family": "Radeon X800",
+      "generation": "Radeon X800 (R400)",
       "released": "2004-12-01",
       "specs": {
         "codename": "R480",
@@ -692,6 +708,7 @@
       "id": "ati-radeon-x1800-xt",
       "name": "Radeon X1800 XT",
       "family": "Radeon X1000",
+      "generation": "Radeon X1000 (R500)",
       "released": "2005-10-05",
       "specs": {
         "codename": "R520",
@@ -735,6 +752,7 @@
       "id": "ati-xenos-xbox-360",
       "name": "Xenos (Xbox 360)",
       "family": "Console",
+      "generation": "Xenos (Xbox 360)",
       "released": "2005-11-22",
       "specs": {
         "codename": "C1",
@@ -778,6 +796,7 @@
       "id": "ati-radeon-x1900-xtx",
       "name": "Radeon X1900 XTX",
       "family": "Radeon X1000",
+      "generation": "Radeon X1000 (R500)",
       "released": "2006-01-24",
       "specs": {
         "codename": "R580",
@@ -821,6 +840,7 @@
       "id": "ati-radeon-x1950-xtx",
       "name": "Radeon X1950 XTX",
       "family": "Radeon X1000",
+      "generation": "Radeon X1000 (R500)",
       "released": "2006-08-23",
       "specs": {
         "codename": "R580+",
@@ -864,6 +884,7 @@
       "id": "ati-radeon-x1950-pro",
       "name": "Radeon X1950 Pro",
       "family": "Radeon X1000",
+      "generation": "Radeon X1000 (R500)",
       "released": "2006-10-17",
       "specs": {
         "codename": "RV570",

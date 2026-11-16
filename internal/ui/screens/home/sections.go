@@ -3,7 +3,7 @@ package home
 import (
 	"sort"
 
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/store"
@@ -68,7 +68,7 @@ func topMakers(e *env.Env, cat *model.Catalog) giode.Element {
 		components.TextLink("home-makers", tr.T("common.see_all"), func() { e.Routes.Makers() }))}
 	for _, m := range makers {
 		id := m.ID
-		rows = append(rows, components.MakerRow(m, len(cat.ChipsBy(id)), func() { e.Routes.OpenMaker(id) }))
+		rows = append(rows, components.MakerRow(m, len(cat.ChipsBy(id)), func() { e.Routes.OpenMaker(id, "") }))
 	}
 	return giode.Stack(giode.Styles{Width: -1, Gap: 10}, rows...)
 }

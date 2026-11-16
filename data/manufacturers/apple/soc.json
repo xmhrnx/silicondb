@@ -6,6 +6,7 @@
       "id": "apple-a4",
       "name": "A4",
       "family": "Apple A",
+      "generation": "A4",
       "released": "2010-04",
       "specs": {
         "codename": "S5L8930X",
@@ -43,6 +44,7 @@
       "id": "apple-a5",
       "name": "A5",
       "family": "Apple A",
+      "generation": "A5",
       "released": "2011-03",
       "specs": {
         "codename": "S5L8940X",
@@ -80,6 +82,7 @@
       "id": "apple-a5x",
       "name": "A5X",
       "family": "Apple A",
+      "generation": "A5",
       "released": "2012-03",
       "specs": {
         "codename": "S5L8945X",
@@ -124,6 +127,7 @@
       "id": "apple-a6",
       "name": "A6",
       "family": "Apple A",
+      "generation": "A6",
       "released": "2012-09",
       "specs": {
         "codename": "S5L8950X",
@@ -168,6 +172,7 @@
       "id": "apple-a6x",
       "name": "A6X",
       "family": "Apple A",
+      "generation": "A6",
       "released": "2012-10",
       "specs": {
         "codename": "S5L8955X",
@@ -212,6 +217,7 @@
       "id": "apple-a7",
       "name": "A7",
       "family": "Apple A",
+      "generation": "A7",
       "released": "2013-09",
       "specs": {
         "codename": "S5L8960X",
@@ -256,6 +262,7 @@
       "id": "apple-a8",
       "name": "A8",
       "family": "Apple A",
+      "generation": "A8",
       "released": "2014-09",
       "specs": {
         "codename": "T7000",
@@ -300,6 +307,7 @@
       "id": "apple-a8x",
       "name": "A8X",
       "family": "Apple A",
+      "generation": "A8",
       "released": "2014-10",
       "specs": {
         "codename": "T7001",
@@ -344,6 +352,7 @@
       "id": "apple-s1",
       "name": "S1",
       "family": "Apple S",
+      "generation": "S1",
       "released": "2015-04",
       "specs": {
         "codename": "S7002",
@@ -393,6 +402,7 @@
       "id": "apple-a9",
       "name": "A9",
       "family": "Apple A",
+      "generation": "A9",
       "released": "2015-09",
       "specs": {
         "codename": "S8000 / S8003",
@@ -453,6 +463,7 @@
       "id": "apple-a9x",
       "name": "A9X",
       "family": "Apple A",
+      "generation": "A9",
       "released": "2015-11",
       "specs": {
         "codename": "S8001",
@@ -497,6 +508,7 @@
       "id": "apple-a10-fusion",
       "name": "A10 Fusion",
       "family": "Apple A",
+      "generation": "A10 Fusion",
       "released": "2016-09",
       "specs": {
         "codename": "T8010",
@@ -559,6 +571,7 @@
       "id": "apple-a10x-fusion",
       "name": "A10X Fusion",
       "family": "Apple A",
+      "generation": "A10 Fusion",
       "released": "2017-06",
       "specs": {
         "codename": "T8011",
@@ -605,6 +618,7 @@
       "id": "apple-a11-bionic",
       "name": "A11 Bionic",
       "family": "Apple A",
+      "generation": "A11 Bionic",
       "released": "2017-09",
       "specs": {
         "codename": "T8015",
@@ -663,6 +677,7 @@
       "id": "apple-s3",
       "name": "S3",
       "family": "Apple S",
+      "generation": "S3",
       "released": "2017-09",
       "specs": {
         "codename": "T8004",
@@ -712,6 +727,7 @@
       "id": "apple-a12-bionic",
       "name": "A12 Bionic",
       "family": "Apple A",
+      "generation": "A12 Bionic",
       "released": "2018-09",
       "specs": {
         "codename": "T8020",
@@ -770,6 +786,7 @@
       "id": "apple-s4",
       "name": "S4",
       "family": "Apple S",
+      "generation": "S4",
       "released": "2018-09",
       "specs": {
         "codename": "T8006",
@@ -820,6 +837,7 @@
       "id": "apple-a12x-bionic",
       "name": "A12X Bionic",
       "family": "Apple A",
+      "generation": "A12 Bionic",
       "released": "2018-10",
       "specs": {
         "codename": "T8027",
@@ -866,6 +884,7 @@
       "id": "apple-a13-bionic",
       "name": "A13 Bionic",
       "family": "Apple A",
+      "generation": "A13 Bionic",
       "released": "2019-09",
       "specs": {
         "codename": "T8030",
@@ -924,6 +943,7 @@
       "id": "apple-a12z-bionic",
       "name": "A12Z Bionic",
       "family": "Apple A",
+      "generation": "A12 Bionic",
       "released": "2020-03",
       "specs": {
         "codename": "T8027",
@@ -970,6 +990,7 @@
       "id": "apple-a14-bionic",
       "name": "A14 Bionic",
       "family": "Apple A",
+      "generation": "A14 Bionic",
       "released": "2020-10",
       "specs": {
         "codename": "T8101",
@@ -1029,6 +1050,7 @@
       "id": "apple-m1",
       "name": "M1",
       "family": "Apple M1",
+      "generation": "M1",
       "released": "2020-11",
       "specs": {
         "codename": "T8103",
@@ -1076,6 +1098,7 @@
       "id": "apple-a15-bionic",
       "name": "A15 Bionic",
       "family": "Apple A",
+      "generation": "A15 Bionic",
       "released": "2021-09",
       "specs": {
         "codename": "T8110",
@@ -1135,6 +1158,7 @@
       "id": "apple-m1-pro",
       "name": "M1 Pro",
       "family": "Apple M1",
+      "generation": "M1",
       "released": "2021-10",
       "specs": {
         "codename": "T6000",
@@ -1181,6 +1205,7 @@
       "id": "apple-m1-max",
       "name": "M1 Max",
       "family": "Apple M1",
+      "generation": "M1",
       "released": "2021-10",
       "specs": {
         "codename": "T6001",
@@ -1227,6 +1252,7 @@
       "id": "apple-m1-ultra",
       "name": "M1 Ultra",
       "family": "Apple M1",
+      "generation": "M1",
       "released": "2022-03",
       "specs": {
         "codename": "T6002",
@@ -1273,6 +1299,7 @@
       "id": "apple-m2",
       "name": "M2",
       "family": "Apple M2",
+      "generation": "M2",
       "released": "2022-06",
       "specs": {
         "codename": "T8112",
@@ -1319,6 +1346,7 @@
       "id": "apple-a16-bionic",
       "name": "A16 Bionic",
       "family": "Apple A",
+      "generation": "A16 Bionic",
       "released": "2022-09",
       "specs": {
         "codename": "T8120",
@@ -1378,6 +1406,7 @@
       "id": "apple-m2-pro",
       "name": "M2 Pro",
       "family": "Apple M2",
+      "generation": "M2",
       "released": "2023-01",
       "specs": {
         "codename": "T6020",
@@ -1424,6 +1453,7 @@
       "id": "apple-m2-max",
       "name": "M2 Max",
       "family": "Apple M2",
+      "generation": "M2",
       "released": "2023-01",
       "specs": {
         "codename": "T6021",
@@ -1470,6 +1500,7 @@
       "id": "apple-m2-ultra",
       "name": "M2 Ultra",
       "family": "Apple M2",
+      "generation": "M2",
       "released": "2023-06",
       "specs": {
         "codename": "T6022",
@@ -1516,6 +1547,7 @@
       "id": "apple-a17-pro",
       "name": "A17 Pro",
       "family": "Apple A",
+      "generation": "A17 Pro",
       "released": "2023-09",
       "specs": {
         "codename": "T8130",
@@ -1575,6 +1607,7 @@
       "id": "apple-s9",
       "name": "S9",
       "family": "Apple S",
+      "generation": "S9",
       "released": "2023-09",
       "specs": {
         "codename": "T8310",
@@ -1625,6 +1658,7 @@
       "id": "apple-m3",
       "name": "M3",
       "family": "Apple M3",
+      "generation": "M3",
       "released": "2023-10",
       "specs": {
         "codename": "T8122",
@@ -1671,6 +1705,7 @@
       "id": "apple-m3-pro",
       "name": "M3 Pro",
       "family": "Apple M3",
+      "generation": "M3",
       "released": "2023-10",
       "specs": {
         "codename": "T6030",
@@ -1717,6 +1752,7 @@
       "id": "apple-m3-max",
       "name": "M3 Max",
       "family": "Apple M3",
+      "generation": "M3",
       "released": "2023-10",
       "specs": {
         "codename": "T6034",
@@ -1763,6 +1799,7 @@
       "id": "apple-r1",
       "name": "R1",
       "family": "Apple R",
+      "generation": "R1",
       "released": "2024-02",
       "specs": {
         "market": "Wearable",
@@ -1807,6 +1844,7 @@
       "id": "apple-m4",
       "name": "M4",
       "family": "Apple M4",
+      "generation": "M4",
       "released": "2024-05",
       "specs": {
         "codename": "T8132",
@@ -1853,6 +1891,7 @@
       "id": "apple-a18",
       "name": "A18",
       "family": "Apple A",
+      "generation": "A18",
       "released": "2024-09",
       "specs": {
         "codename": "T8140",
@@ -1911,6 +1950,7 @@
       "id": "apple-a18-pro",
       "name": "A18 Pro",
       "family": "Apple A",
+      "generation": "A18",
       "released": "2024-09",
       "specs": {
         "codename": "T8140",
@@ -1970,6 +2010,7 @@
       "id": "apple-s10",
       "name": "S10",
       "family": "Apple S",
+      "generation": "S10",
       "released": "2024-09",
       "specs": {
         "microarchitecture": "Sawtooth-derived",
@@ -2020,6 +2061,7 @@
       "id": "apple-m4-pro",
       "name": "M4 Pro",
       "family": "Apple M4",
+      "generation": "M4",
       "released": "2024-10",
       "specs": {
         "codename": "T6040",
@@ -2066,6 +2108,7 @@
       "id": "apple-m4-max",
       "name": "M4 Max",
       "family": "Apple M4",
+      "generation": "M4",
       "released": "2024-10",
       "specs": {
         "codename": "T6041",
@@ -2112,6 +2155,7 @@
       "id": "apple-m3-ultra",
       "name": "M3 Ultra",
       "family": "Apple M3",
+      "generation": "M3",
       "released": "2025-03",
       "specs": {
         "codename": "T6032",
@@ -2158,6 +2202,7 @@
       "id": "apple-a19",
       "name": "A19",
       "family": "Apple A",
+      "generation": "A19",
       "released": "2025-09",
       "specs": {
         "microarchitecture": "Apple A19 P-core / E-core",
@@ -2217,6 +2262,7 @@
       "id": "apple-a19-pro",
       "name": "A19 Pro",
       "family": "Apple A",
+      "generation": "A19",
       "released": "2025-09",
       "specs": {
         "microarchitecture": "Apple A19 P-core / E-core",
@@ -2276,6 +2322,7 @@
       "id": "apple-s11",
       "name": "S11",
       "family": "Apple S",
+      "generation": "S11",
       "released": "2025-09",
       "specs": {
         "microarchitecture": "Sawtooth-derived",
@@ -2326,6 +2373,7 @@
       "id": "apple-m5",
       "name": "M5",
       "family": "Apple M5",
+      "generation": "M5",
       "released": "2025-10",
       "specs": {
         "microarchitecture": "Apple M5 P-core / E-core",
@@ -2372,6 +2420,7 @@
       "id": "apple-m5-pro",
       "name": "M5 Pro",
       "family": "Apple M5",
+      "generation": "M5",
       "released": "2026-03",
       "specs": {
         "microarchitecture": "Apple M5 super core / performance core",
@@ -2416,6 +2465,7 @@
       "id": "apple-m5-max",
       "name": "M5 Max",
       "family": "Apple M5",
+      "generation": "M5",
       "released": "2026-03",
       "specs": {
         "microarchitecture": "Apple M5 super core / performance core",
@@ -2460,6 +2510,7 @@
       "id": "apple-a20-pro",
       "name": "A20 Pro",
       "family": "Apple A",
+      "generation": "A20",
       "released": "2026-09",
       "specs": {
         "microarchitecture": "Apple A20 super core / efficiency core",
@@ -2520,6 +2571,7 @@
       "id": "apple-m5-ultra",
       "name": "M5 Ultra",
       "family": "Apple M5",
+      "generation": "M5",
       "released": "2026-09",
       "specs": {
         "microarchitecture": "Apple M5 super core / performance core",
@@ -2564,6 +2616,7 @@
       "id": "apple-m6",
       "name": "M6",
       "family": "Apple M6",
+      "generation": "M6",
       "released": "2026-09",
       "specs": {
         "microarchitecture": "Apple M6 super core / performance core / efficiency core",

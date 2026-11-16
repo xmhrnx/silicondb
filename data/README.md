@@ -101,7 +101,8 @@ year the company ceased to exist or was absorbed, 0 if it still exists.
 | --- | --- | --- |
 | `id` | yes | Unique across the whole database: `<manufacturer>-<model>`, lowercase, hyphens. |
 | `name` | yes | Model name without the manufacturer (`"Core i9-14900K"`, `"GeForce RTX 4090"`). |
-| `family` | yes | Product line used for grouping (`"Core i9"`, `"GeForce 40"`, `"Snapdragon 8"`). |
+| `family` | yes | Product line (`"Core i9"`, `"GeForce 40"`, `"Snapdragon 8"`). |
+| `generation` | yes | Product generation, the level the app groups chips by within a company and segment: `"Core 14th Gen (Raptor Lake Refresh)"`, `"Ryzen 9000 (Zen 5)"`, `"GeForce RTX 40 (Ada Lovelace)"`, `"Snapdragon 8 Elite"`, `"M4"`. Spelled identically for every chip of the generation. |
 | `released` | yes | `YYYY`, `YYYY-MM` or `YYYY-MM-DD`. |
 | `specs` | yes | Flat object of spec keys to values; see below. |
 
@@ -125,6 +126,10 @@ arrays of strings. Use the unit the key names:
   non-tensor path.
 - `l1_cache_kb`, `l2_cache_kb`, `l3_cache_kb` are totals for the chip.
 - `instruction_sets`, `graphics_api` and `connectivity` are arrays of strings.
+- `market` is the segment the app groups each company's chips by, one of: `Desktop`,
+  `Laptop`, `Workstation`, `Server`, `Data center`, `Mobile`, `Tablet`, `Wearable`,
+  `Console`, `Automotive`, `Embedded`, `Industrial`. Consumer graphics cards are `Desktop`,
+  professional ones `Workstation`.
 - Benchmark keys (`geekbench6_*`, `cinebench_*`) hold the typical stock score as the
   benchmark reports it.
 - Leave a spec out rather than guess. Omitted specs simply aren't shown.

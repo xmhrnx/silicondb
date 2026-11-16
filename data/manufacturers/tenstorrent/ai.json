@@ -6,6 +6,7 @@
       "id": "tenstorrent-grayskull-e150",
       "name": "Grayskull e150",
       "family": "Grayskull",
+      "generation": "Grayskull",
       "released": "2023-07",
       "specs": {
         "codename": "Grayskull",
@@ -41,6 +42,7 @@
       "id": "tenstorrent-grayskull-e75",
       "name": "Grayskull e75",
       "family": "Grayskull",
+      "generation": "Grayskull",
       "released": "2023-07",
       "specs": {
         "codename": "Grayskull",
@@ -76,6 +78,7 @@
       "id": "tenstorrent-wormhole-n150",
       "name": "Wormhole n150",
       "family": "Wormhole",
+      "generation": "Wormhole",
       "released": "2024-07",
       "specs": {
         "codename": "Wormhole",
@@ -111,6 +114,7 @@
       "id": "tenstorrent-wormhole-n300",
       "name": "Wormhole n300",
       "family": "Wormhole",
+      "generation": "Wormhole",
       "released": "2024-07",
       "specs": {
         "codename": "Wormhole",
@@ -146,6 +150,7 @@
       "id": "tenstorrent-blackhole-p100a",
       "name": "Blackhole p100a",
       "family": "Blackhole",
+      "generation": "Blackhole",
       "released": "2025-04",
       "specs": {
         "codename": "Blackhole",
@@ -182,6 +187,7 @@
       "id": "tenstorrent-blackhole-p150a",
       "name": "Blackhole p150a",
       "family": "Blackhole",
+      "generation": "Blackhole",
       "released": "2025-04",
       "specs": {
         "codename": "Blackhole",

@@ -1,6 +1,6 @@
 package theme
 
-import "github.com/mehran9675/giode"
+import "github.com/xmhrnx/giode"
 
 // Color tokens. Derived shades are mixed in sRGB each frame so they follow
 // the mode.

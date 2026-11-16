@@ -1,7 +1,7 @@
 package detail
 
 import (
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/internal/format"
 	"github.com/mehran9675/silicondb/internal/model"
@@ -14,7 +14,7 @@ import (
 // family and release date.
 func hero(e *env.Env, cat *model.Catalog, chip *model.Chip) giode.Element {
 	c := cat.Schema.Category(chip.Category)
-	maker := giode.Keyed("detail-maker", chip.Manufacturer, func() *giode.PressableElement {
+	maker := giode.Keyed("detail-maker", chip, func() *giode.PressableElement {
 		id := chip.Manufacturer
 		return giode.Pressable(func(s giode.PressState) giode.Element {
 			bg := giode.Mix("#FFFFFF", c.Color, 0.18)
@@ -29,12 +29,12 @@ func hero(e *env.Env, cat *model.Catalog, chip *model.Chip) giode.Element {
 				giode.Text(cat.MakerName(id), giode.Styles{FontFamily: theme.Family, FontSize: 13, FontWeight: giode.FontWeightSemiBold, Color: "#FFFFFF"}),
 				theme.Icon("chevron-right", 14, "#FFFFFF"),
 			)
-		}).Label(cat.MakerName(id)).OnClick(func(giode.ClickEvent) { e.Routes.OpenMaker(id) })
+		}).Label(cat.MakerName(id)).OnClick(func(giode.ClickEvent) { e.Routes.OpenMaker(id, chip.Category) })
 	})
 
 	meta := tr.CategoryTitle(c)
-	if chip.Family != "" {
-		meta = chip.Family + " · " + tr.CategoryName(c)
+	if g := chip.GenerationName(); g != "" {
+		meta = g + " · " + tr.CategoryName(c)
 	}
 	return giode.Box(giode.Styles{
 		FlexDirection:      giode.FlexDirectionColumn,

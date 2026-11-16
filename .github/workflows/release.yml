@@ -6,18 +6,19 @@ name: release
 on:
   release:
     types: [published]
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 env:
+  # A four-part tag (v1.4.2.7) also sets the build number.
   GIODE_VERSION: ${{ github.ref_type == 'tag' && github.ref_name || '' }}
   GIODE_BUILD: ${{ github.run_number }}
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
@@ -45,6 +46,7 @@ jobs:
             runner: ubuntu-latest
             primary: true
     runs-on: ${{ matrix.runner }}
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
@@ -54,7 +56,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y gcc pkg-config libwayland-dev libx11-dev libx11-xcb-dev libxkbcommon-x11-dev libgles2-mesa-dev libegl1-mesa-dev libffi-dev libxcursor-dev libvulkan-dev nsis osslsigncode
-          go install github.com/mehran9675/giode-cli/cmd/giode@latest
+          go install github.com/xmhrnx/giode-cli/cmd/giode@latest
       - name: Project setup (giode.toml ci.setup)
         run: |
           bt="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -n 1)"
@@ -91,6 +93,8 @@ jobs:
   ios:
     needs: test
     runs-on: macos-latest
+    # A hung signing step fails in an hour rather than GitHub's six.
+    timeout-minutes: 60
     env:
       IOS_CERT_BASE64: ${{ secrets.IOS_CERT_BASE64 }}
       IOS_PROFILE_BASE64: ${{ secrets.IOS_PROFILE_BASE64 }}
@@ -99,7 +103,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: stable
-      - run: go install github.com/mehran9675/giode-cli/cmd/giode@latest
+      - run: go install github.com/xmhrnx/giode-cli/cmd/giode@latest
       - name: Signing certificate and profile
         if: env.IOS_CERT_BASE64 != '' && env.IOS_PROFILE_BASE64 != ''
         env:

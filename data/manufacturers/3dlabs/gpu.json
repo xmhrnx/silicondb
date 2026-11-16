@@ -6,6 +6,7 @@
       "id": "3dlabs-glint-300sx",
       "name": "GLINT 300SX",
       "family": "GLINT",
+      "generation": "GLINT",
       "released": "1994",
       "specs": {
         "codename": "GLINT 300SX",
@@ -48,6 +49,7 @@
       "id": "3dlabs-glint-500tx",
       "name": "GLINT 500TX",
       "family": "GLINT",
+      "generation": "GLINT",
       "released": "1995",
       "specs": {
         "codename": "GLINT 500TX",
@@ -90,11 +92,12 @@
       "id": "3dlabs-permedia",
       "name": "Permedia",
       "family": "Permedia",
+      "generation": "Permedia",
       "released": "1996",
       "specs": {
         "codename": "Permedia",
         "microarchitecture": "Permedia",
-        "market": "Consumer",
+        "market": "Desktop",
         "foundry": "Texas Instruments",
         "tmus": 1,
         "rops": 1,
@@ -133,6 +136,7 @@
       "id": "3dlabs-glint-mx",
       "name": "GLINT MX",
       "family": "GLINT",
+      "generation": "GLINT",
       "released": "1997",
       "specs": {
         "codename": "GLINT MX",
@@ -175,11 +179,12 @@
       "id": "3dlabs-permedia-2",
       "name": "Permedia 2",
       "family": "Permedia",
+      "generation": "Permedia",
       "released": "1997",
       "specs": {
         "codename": "Permedia 2",
         "microarchitecture": "Permedia",
-        "market": "Consumer",
+        "market": "Desktop",
         "process_nm": 350,
         "foundry": "Texas Instruments",
         "tmus": 1,
@@ -218,11 +223,12 @@
       "id": "3dlabs-permedia-3",
       "name": "Permedia 3",
       "family": "Permedia",
+      "generation": "Permedia",
       "released": "1999",
       "specs": {
         "codename": "Permedia 3",
         "microarchitecture": "Permedia",
-        "market": "Consumer",
+        "market": "Desktop",
         "process_nm": 250,
         "tmus": 2,
         "rops": 1,
@@ -261,6 +267,7 @@
       "id": "3dlabs-wildcat-vp970",
       "name": "Wildcat VP970",
       "family": "Wildcat VP",
+      "generation": "Wildcat VP (P10)",
       "released": "2002-05",
       "specs": {
         "codename": "P10",
@@ -304,6 +311,7 @@
       "id": "3dlabs-wildcat-realizm-200",
       "name": "Wildcat Realizm 200",
       "family": "Wildcat Realizm",
+      "generation": "Wildcat Realizm (P20)",
       "released": "2004-08",
       "specs": {
         "codename": "P20",

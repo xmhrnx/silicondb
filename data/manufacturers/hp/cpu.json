@@ -6,6 +6,7 @@
       "id": "hp-pa-7000",
       "name": "PA-7000",
       "family": "PA-RISC",
+      "generation": "PA-RISC 1.1 (PA-7x00)",
       "released": "1991",
       "specs": {
         "microarchitecture": "PA-7000",
@@ -42,6 +43,7 @@
       "id": "hp-pa-7100",
       "name": "PA-7100",
       "family": "PA-RISC",
+      "generation": "PA-RISC 1.1 (PA-7x00)",
       "released": "1992",
       "specs": {
         "microarchitecture": "PA-7100",
@@ -78,6 +80,7 @@
       "id": "hp-pa-7100lc",
       "name": "PA-7100LC",
       "family": "PA-RISC",
+      "generation": "PA-RISC 1.1 (PA-7x00)",
       "released": "1994",
       "specs": {
         "microarchitecture": "PA-7100LC",
@@ -116,6 +119,7 @@
       "id": "hp-pa-7200",
       "name": "PA-7200",
       "family": "PA-RISC",
+      "generation": "PA-RISC 1.1 (PA-7x00)",
       "released": "1994",
       "specs": {
         "microarchitecture": "PA-7200",
@@ -152,6 +156,7 @@
       "id": "hp-pa-7300lc",
       "name": "PA-7300LC",
       "family": "PA-RISC",
+      "generation": "PA-RISC 1.1 (PA-7x00)",
       "released": "1996",
       "specs": {
         "microarchitecture": "PA-7300LC",
@@ -190,6 +195,7 @@
       "id": "hp-pa-8000",
       "name": "PA-8000",
       "family": "PA-RISC",
+      "generation": "PA-RISC 2.0 (PA-8x00)",
       "released": "1996",
       "specs": {
         "microarchitecture": "PA-8000",
@@ -228,6 +234,7 @@
       "id": "hp-pa-8200",
       "name": "PA-8200",
       "family": "PA-RISC",
+      "generation": "PA-RISC 2.0 (PA-8x00)",
       "released": "1997",
       "specs": {
         "microarchitecture": "PA-8200",
@@ -266,6 +273,7 @@
       "id": "hp-pa-8500",
       "name": "PA-8500",
       "family": "PA-RISC",
+      "generation": "PA-RISC 2.0 (PA-8x00)",
       "released": "1998",
       "specs": {
         "microarchitecture": "PA-8500",
@@ -304,6 +312,7 @@
       "id": "hp-pa-8600",
       "name": "PA-8600",
       "family": "PA-RISC",
+      "generation": "PA-RISC 2.0 (PA-8x00)",
       "released": "2000",
       "specs": {
         "microarchitecture": "PA-8600",
@@ -342,6 +351,7 @@
       "id": "hp-pa-8700",
       "name": "PA-8700",
       "family": "PA-RISC",
+      "generation": "PA-RISC 2.0 (PA-8x00)",
       "released": "2001",
       "specs": {
         "microarchitecture": "PA-8700",
@@ -380,6 +390,7 @@
       "id": "hp-pa-8800",
       "name": "PA-8800",
       "family": "PA-RISC",
+      "generation": "PA-RISC 2.0 (PA-8x00)",
       "released": "2004",
       "specs": {
         "codename": "Mako",
@@ -418,6 +429,7 @@
       "id": "hp-pa-8900",
       "name": "PA-8900",
       "family": "PA-RISC",
+      "generation": "PA-RISC 2.0 (PA-8x00)",
       "released": "2005",
       "specs": {
         "codename": "Shortfin",

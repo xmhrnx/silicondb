@@ -6,6 +6,7 @@
       "id": "unisoc-t606",
       "name": "T606",
       "family": "T600",
+      "generation": "T606",
       "released": "2021",
       "specs": {
         "microarchitecture": "Cortex-A75 / Cortex-A55",
@@ -53,6 +54,7 @@
       "id": "unisoc-t616",
       "name": "T616",
       "family": "T600",
+      "generation": "T616",
       "released": "2021",
       "specs": {
         "microarchitecture": "Cortex-A75 / Cortex-A55",
@@ -100,6 +102,7 @@
       "id": "unisoc-t612",
       "name": "T612",
       "family": "T600",
+      "generation": "T612",
       "released": "2022",
       "specs": {
         "microarchitecture": "Cortex-A75 / Cortex-A55",
@@ -147,6 +150,7 @@
       "id": "unisoc-t760",
       "name": "T760",
       "family": "T700",
+      "generation": "T760",
       "released": "2022",
       "specs": {
         "microarchitecture": "Cortex-A76 / Cortex-A55",
@@ -191,6 +195,7 @@
       "id": "unisoc-t820",
       "name": "T820",
       "family": "T800",
+      "generation": "T820",
       "released": "2022",
       "specs": {
         "microarchitecture": "Cortex-A76 / Cortex-A55",

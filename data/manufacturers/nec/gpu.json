@@ -6,10 +6,11 @@
       "id": "nec-upd7220",
       "name": "μPD7220",
       "family": "GDC",
+      "generation": "μPD7220 GDC",
       "released": "1982",
       "specs": {
         "microarchitecture": "GDC",
-        "market": "Professional",
+        "market": "Desktop",
         "foundry": "NEC",
         "package": "40-pin DIP",
         "gpu_clock_mhz": 2.5,

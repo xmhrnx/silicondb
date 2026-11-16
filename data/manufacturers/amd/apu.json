@@ -6,6 +6,7 @@
       "id": "amd-e-350",
       "name": "E-350",
       "family": "E-Series",
+      "generation": "E-Series (Brazos)",
       "released": "2011-01-04",
       "specs": {
         "codename": "Zacate",
@@ -61,6 +62,7 @@
       "id": "amd-a8-3850",
       "name": "A8-3850",
       "family": "A-Series",
+      "generation": "A-Series (Llano)",
       "released": "2011-07",
       "specs": {
         "codename": "Llano",
@@ -117,6 +119,7 @@
       "id": "amd-a10-5800k",
       "name": "A10-5800K",
       "family": "A-Series",
+      "generation": "A-Series (Trinity)",
       "released": "2012-10-02",
       "specs": {
         "codename": "Trinity",
@@ -183,6 +186,7 @@
       "id": "amd-playstation-4-apu",
       "name": "PlayStation 4 APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Jaguar)",
       "released": "2013-11-15",
       "specs": {
         "codename": "Liverpool",
@@ -247,6 +251,7 @@
       "id": "amd-xbox-one-apu",
       "name": "Xbox One APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Jaguar)",
       "released": "2013-11-22",
       "specs": {
         "codename": "Durango",
@@ -312,6 +317,7 @@
       "id": "amd-a10-7850k",
       "name": "A10-7850K",
       "family": "A-Series",
+      "generation": "A-Series (Kaveri)",
       "released": "2014-01-14",
       "specs": {
         "codename": "Kaveri",
@@ -378,6 +384,7 @@
       "id": "amd-athlon-5350",
       "name": "Athlon 5350",
       "family": "Athlon",
+      "generation": "Athlon (Kabini)",
       "released": "2014-04-09",
       "specs": {
         "codename": "Kabini",
@@ -441,6 +448,7 @@
       "id": "amd-playstation-4-pro-apu",
       "name": "PlayStation 4 Pro APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Jaguar)",
       "released": "2016-11-10",
       "specs": {
         "codename": "Neo",
@@ -505,6 +513,7 @@
       "id": "amd-ryzen-7-2700u",
       "name": "Ryzen 7 2700U",
       "family": "Ryzen 7 Mobile",
+      "generation": "Ryzen 2000 (Raven Ridge)",
       "released": "2017-10-26",
       "specs": {
         "codename": "Raven Ridge",
@@ -570,6 +579,7 @@
       "id": "amd-xbox-one-x-apu",
       "name": "Xbox One X APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Jaguar)",
       "released": "2017-11-07",
       "specs": {
         "codename": "Scorpio Engine",
@@ -634,6 +644,7 @@
       "id": "amd-ryzen-5-2400g",
       "name": "Ryzen 5 2400G",
       "family": "Ryzen 5",
+      "generation": "Ryzen 2000 (Raven Ridge)",
       "released": "2018-02-12",
       "specs": {
         "codename": "Raven Ridge",
@@ -708,6 +719,7 @@
       "id": "amd-ryzen-7-4800u",
       "name": "Ryzen 7 4800U",
       "family": "Ryzen 7 Mobile",
+      "generation": "Ryzen 4000 (Renoir)",
       "released": "2020-03",
       "specs": {
         "codename": "Renoir",
@@ -782,6 +794,7 @@
       "id": "amd-xbox-series-x-apu",
       "name": "Xbox Series X APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Zen 2)",
       "released": "2020-11-10",
       "specs": {
         "codename": "Anaconda",
@@ -849,6 +862,7 @@
       "id": "amd-xbox-series-s-apu",
       "name": "Xbox Series S APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Zen 2)",
       "released": "2020-11-10",
       "specs": {
         "codename": "Lockhart",
@@ -916,6 +930,7 @@
       "id": "amd-playstation-5-apu",
       "name": "PlayStation 5 APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Zen 2)",
       "released": "2020-11-12",
       "specs": {
         "codename": "Oberon",
@@ -984,6 +999,7 @@
       "id": "amd-ryzen-7-5800u",
       "name": "Ryzen 7 5800U",
       "family": "Ryzen 7 Mobile",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2021-01-12",
       "specs": {
         "codename": "Cezanne",
@@ -1058,6 +1074,7 @@
       "id": "amd-ryzen-7-5700g",
       "name": "Ryzen 7 5700G",
       "family": "Ryzen 7",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2021-04-13",
       "specs": {
         "codename": "Cezanne",
@@ -1132,6 +1149,7 @@
       "id": "amd-ryzen-9-6900hx",
       "name": "Ryzen 9 6900HX",
       "family": "Ryzen 9 Mobile",
+      "generation": "Ryzen 6000 (Rembrandt)",
       "released": "2022-02",
       "specs": {
         "codename": "Rembrandt",
@@ -1206,6 +1224,7 @@
       "id": "amd-aerith-steam-deck",
       "name": "Aerith (Steam Deck)",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Zen 2)",
       "released": "2022-02-25",
       "specs": {
         "codename": "Van Gogh",
@@ -1274,6 +1293,7 @@
       "id": "amd-ryzen-9-7940hs",
       "name": "Ryzen 9 7940HS",
       "family": "Ryzen 9 Mobile",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-05",
       "specs": {
         "codename": "Hawk Point",
@@ -1351,6 +1371,7 @@
       "id": "amd-ryzen-7-7840u",
       "name": "Ryzen 7 7840U",
       "family": "Ryzen 7 Mobile",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-05-03",
       "specs": {
         "codename": "Phoenix",
@@ -1428,6 +1449,7 @@
       "id": "amd-ryzen-z1-extreme",
       "name": "Ryzen Z1 Extreme",
       "family": "Ryzen Z1",
+      "generation": "Ryzen Z1",
       "released": "2023-06-13",
       "specs": {
         "codename": "Phoenix",
@@ -1505,6 +1527,7 @@
       "id": "amd-ryzen-z1",
       "name": "Ryzen Z1",
       "family": "Ryzen Z1",
+      "generation": "Ryzen Z1",
       "released": "2023-06-13",
       "specs": {
         "codename": "Phoenix 2",
@@ -1583,6 +1606,7 @@
       "id": "amd-sephiroth-steam-deck-oled",
       "name": "Sephiroth (Steam Deck OLED)",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Zen 2)",
       "released": "2023-11-16",
       "specs": {
         "codename": "Van Gogh",
@@ -1651,6 +1675,7 @@
       "id": "amd-ryzen-9-8945hs",
       "name": "Ryzen 9 8945HS",
       "family": "Ryzen 9 Mobile",
+      "generation": "Ryzen 8000 (Zen 4)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Hawk Point",
@@ -1728,6 +1753,7 @@
       "id": "amd-ryzen-7-8840u",
       "name": "Ryzen 7 8840U",
       "family": "Ryzen 7 Mobile",
+      "generation": "Ryzen 8000 (Zen 4)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Phoenix",
@@ -1805,6 +1831,7 @@
       "id": "amd-ryzen-7-8700g",
       "name": "Ryzen 7 8700G",
       "family": "Ryzen 7",
+      "generation": "Ryzen 8000 (Zen 4)",
       "released": "2024-01-31",
       "specs": {
         "codename": "Phoenix",
@@ -1880,6 +1907,7 @@
       "id": "amd-ryzen-5-8600g",
       "name": "Ryzen 5 8600G",
       "family": "Ryzen 5",
+      "generation": "Ryzen 8000 (Zen 4)",
       "released": "2024-01-31",
       "specs": {
         "codename": "Phoenix",
@@ -1957,6 +1985,7 @@
       "id": "amd-ryzen-5-8500g",
       "name": "Ryzen 5 8500G",
       "family": "Ryzen 5",
+      "generation": "Ryzen 8000 (Zen 4)",
       "released": "2024-01-31",
       "specs": {
         "codename": "Phoenix 2",
@@ -2035,6 +2064,7 @@
       "id": "amd-ryzen-ai-9-hx-370",
       "name": "Ryzen AI 9 HX 370",
       "family": "Ryzen AI 300",
+      "generation": "Ryzen AI 300 (Strix Point)",
       "released": "2024-07-28",
       "specs": {
         "codename": "Strix Point",
@@ -2113,6 +2143,7 @@
       "id": "amd-ryzen-ai-9-365",
       "name": "Ryzen AI 9 365",
       "family": "Ryzen AI 300",
+      "generation": "Ryzen AI 300 (Strix Point)",
       "released": "2024-07-28",
       "specs": {
         "codename": "Strix Point",
@@ -2191,6 +2222,7 @@
       "id": "amd-ryzen-ai-9-hx-375",
       "name": "Ryzen AI 9 HX 375",
       "family": "Ryzen AI 300",
+      "generation": "Ryzen AI 300 (Strix Point)",
       "released": "2024-10",
       "specs": {
         "codename": "Strix Point",
@@ -2269,6 +2301,7 @@
       "id": "amd-playstation-5-pro-apu",
       "name": "PlayStation 5 Pro APU",
       "family": "Semi-custom",
+      "generation": "Semi-custom (Zen 2)",
       "released": "2024-11-07",
       "specs": {
         "microarchitecture": "Zen 2",
@@ -2337,6 +2370,7 @@
       "id": "amd-ryzen-z2-go",
       "name": "Ryzen Z2 Go",
       "family": "Ryzen Z2",
+      "generation": "Ryzen Z2",
       "released": "2025-01",
       "specs": {
         "codename": "Rembrandt-R",
@@ -2402,6 +2436,7 @@
       "id": "amd-ryzen-ai-7-350",
       "name": "Ryzen AI 7 350",
       "family": "Ryzen AI 300",
+      "generation": "Ryzen AI 300 (Strix Point)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Krackan Point",
@@ -2480,6 +2515,7 @@
       "id": "amd-ryzen-ai-5-340",
       "name": "Ryzen AI 5 340",
       "family": "Ryzen AI 300",
+      "generation": "Ryzen AI 300 (Strix Point)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Krackan Point",
@@ -2558,6 +2594,7 @@
       "id": "amd-ryzen-9-270",
       "name": "Ryzen 9 270",
       "family": "Ryzen 200",
+      "generation": "Ryzen 200 (Hawk Point)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Hawk Point",
@@ -2635,6 +2672,7 @@
       "id": "amd-ryzen-7-260",
       "name": "Ryzen 7 260",
       "family": "Ryzen 200",
+      "generation": "Ryzen 200 (Hawk Point)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Hawk Point",
@@ -2712,6 +2750,7 @@
       "id": "amd-ryzen-ai-max-plus-395",
       "name": "Ryzen AI Max+ 395",
       "family": "Ryzen AI Max",
+      "generation": "Ryzen AI Max (Strix Halo)",
       "released": "2025-02",
       "specs": {
         "codename": "Strix Halo",
@@ -2781,6 +2820,7 @@
       "id": "amd-ryzen-ai-max-390",
       "name": "Ryzen AI Max 390",
       "family": "Ryzen AI Max",
+      "generation": "Ryzen AI Max (Strix Halo)",
       "released": "2025-02",
       "specs": {
         "codename": "Strix Halo",
@@ -2859,6 +2899,7 @@
       "id": "amd-ryzen-ai-max-385",
       "name": "Ryzen AI Max 385",
       "family": "Ryzen AI Max",
+      "generation": "Ryzen AI Max (Strix Halo)",
       "released": "2025-02",
       "specs": {
         "codename": "Strix Halo",
@@ -2937,6 +2978,7 @@
       "id": "amd-ryzen-z2-extreme",
       "name": "Ryzen Z2 Extreme",
       "family": "Ryzen Z2",
+      "generation": "Ryzen Z2",
       "released": "2025-10-16",
       "specs": {
         "codename": "Strix Point",
@@ -3015,6 +3057,7 @@
       "id": "amd-ryzen-z2-a",
       "name": "Ryzen Z2 A",
       "family": "Ryzen Z2",
+      "generation": "Ryzen Z2",
       "released": "2025-10-16",
       "specs": {
         "codename": "Van Gogh",
@@ -3081,6 +3124,7 @@
       "id": "amd-ryzen-ai-max-plus-392",
       "name": "Ryzen AI Max+ 392",
       "family": "Ryzen AI Max",
+      "generation": "Ryzen AI Max (Strix Halo)",
       "released": "2026-01",
       "specs": {
         "codename": "Strix Halo",
@@ -3150,6 +3194,7 @@
       "id": "amd-ryzen-ai-max-plus-388",
       "name": "Ryzen AI Max+ 388",
       "family": "Ryzen AI Max",
+      "generation": "Ryzen AI Max (Strix Halo)",
       "released": "2026-01",
       "specs": {
         "codename": "Strix Halo",
@@ -3219,6 +3264,7 @@
       "id": "amd-ryzen-ai-9-hx-475",
       "name": "Ryzen AI 9 HX 475",
       "family": "Ryzen AI 400",
+      "generation": "Ryzen AI 400 (Gorgon Point)",
       "released": "2026-01",
       "specs": {
         "codename": "Gorgon Point",
@@ -3297,6 +3343,7 @@
       "id": "amd-ryzen-ai-9-hx-470",
       "name": "Ryzen AI 9 HX 470",
       "family": "Ryzen AI 400",
+      "generation": "Ryzen AI 400 (Gorgon Point)",
       "released": "2026-01",
       "specs": {
         "codename": "Gorgon Point",
@@ -3375,6 +3422,7 @@
       "id": "amd-ryzen-ai-7-450",
       "name": "Ryzen AI 7 450",
       "family": "Ryzen AI 400",
+      "generation": "Ryzen AI 400 (Gorgon Point)",
       "released": "2026-01",
       "specs": {
         "codename": "Gorgon Point",

@@ -6,6 +6,7 @@
       "id": "stmicroelectronics-stm32f103c8",
       "name": "STM32F103C8",
       "family": "STM32F1",
+      "generation": "STM32F1",
       "released": "2007-06",
       "specs": {
         "microarchitecture": "Cortex-M3",
@@ -40,6 +41,7 @@
       "id": "stmicroelectronics-stm32f103ze",
       "name": "STM32F103ZE",
       "family": "STM32F1",
+      "generation": "STM32F1",
       "released": "2007-06",
       "specs": {
         "microarchitecture": "Cortex-M3",
@@ -77,6 +79,7 @@
       "id": "stmicroelectronics-stm8s208rb",
       "name": "STM8S208RB",
       "family": "STM8S",
+      "generation": "STM8S",
       "released": "2008",
       "specs": {
         "microarchitecture": "STM8",
@@ -110,6 +113,7 @@
       "id": "stmicroelectronics-stm8s103f3",
       "name": "STM8S103F3",
       "family": "STM8S",
+      "generation": "STM8S",
       "released": "2009",
       "specs": {
         "microarchitecture": "STM8",
@@ -142,6 +146,7 @@
       "id": "stmicroelectronics-stm32f407vg",
       "name": "STM32F407VG",
       "family": "STM32F4",
+      "generation": "STM32F4",
       "released": "2011-09",
       "specs": {
         "microarchitecture": "Cortex-M4F",
@@ -182,6 +187,7 @@
       "id": "stmicroelectronics-stm32f051r8",
       "name": "STM32F051R8",
       "family": "STM32F0",
+      "generation": "STM32F0",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-M0",
@@ -216,6 +222,7 @@
       "id": "stmicroelectronics-stm32f429zi",
       "name": "STM32F429ZI",
       "family": "STM32F4",
+      "generation": "STM32F4",
       "released": "2013",
       "specs": {
         "microarchitecture": "Cortex-M4F",
@@ -258,6 +265,7 @@
       "id": "stmicroelectronics-stm32f746ng",
       "name": "STM32F746NG",
       "family": "STM32F7",
+      "generation": "STM32F7",
       "released": "2014-09",
       "specs": {
         "microarchitecture": "Cortex-M7",
@@ -303,6 +311,7 @@
       "id": "stmicroelectronics-stm32l476rg",
       "name": "STM32L476RG",
       "family": "STM32L4",
+      "generation": "STM32L4",
       "released": "2015",
       "specs": {
         "microarchitecture": "Cortex-M4F",
@@ -343,6 +352,7 @@
       "id": "stmicroelectronics-stm32h743zi",
       "name": "STM32H743ZI",
       "family": "STM32H7",
+      "generation": "STM32H7",
       "released": "2017",
       "specs": {
         "microarchitecture": "Cortex-M7",
@@ -389,6 +399,7 @@
       "id": "stmicroelectronics-stm32g071rb",
       "name": "STM32G071RB",
       "family": "STM32G0",
+      "generation": "STM32G0",
       "released": "2018-11",
       "specs": {
         "microarchitecture": "Cortex-M0+",
@@ -424,6 +435,7 @@
       "id": "stmicroelectronics-stm32g474re",
       "name": "STM32G474RE",
       "family": "STM32G4",
+      "generation": "STM32G4",
       "released": "2019",
       "specs": {
         "microarchitecture": "Cortex-M4F",
@@ -463,6 +475,7 @@
       "id": "stmicroelectronics-stm32wb55rg",
       "name": "STM32WB55RG",
       "family": "STM32WB",
+      "generation": "STM32WB",
       "released": "2019",
       "specs": {
         "microarchitecture": "Cortex-M4F",
@@ -505,6 +518,7 @@
       "id": "stmicroelectronics-stm32u575zi",
       "name": "STM32U575ZI",
       "family": "STM32U5",
+      "generation": "STM32U5",
       "released": "2021",
       "specs": {
         "microarchitecture": "Cortex-M33",
@@ -547,6 +561,7 @@
       "id": "stmicroelectronics-stm32c011f6",
       "name": "STM32C011F6",
       "family": "STM32C0",
+      "generation": "STM32C0",
       "released": "2023",
       "specs": {
         "microarchitecture": "Cortex-M0+",
@@ -579,6 +594,7 @@
       "id": "stmicroelectronics-stm32h563zi",
       "name": "STM32H563ZI",
       "family": "STM32H5",
+      "generation": "STM32H5",
       "released": "2023-03",
       "specs": {
         "microarchitecture": "Cortex-M33",
@@ -623,6 +639,7 @@
       "id": "stmicroelectronics-stm32n657",
       "name": "STM32N657",
       "family": "STM32N6",
+      "generation": "STM32N6",
       "released": "2024-12",
       "specs": {
         "microarchitecture": "Cortex-M55",

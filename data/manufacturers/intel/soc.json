@@ -6,6 +6,7 @@
       "id": "intel-atom-z2460",
       "name": "Atom Z2460",
       "family": "Atom",
+      "generation": "Atom Z2000 (Medfield)",
       "released": "2012-01",
       "specs": {
         "codename": "Medfield",
@@ -58,6 +59,7 @@
       "id": "intel-atom-z3740",
       "name": "Atom Z3740",
       "family": "Atom",
+      "generation": "Atom Z3000 (Bay Trail)",
       "released": "2013-09-11",
       "specs": {
         "codename": "Bay Trail-T",
@@ -104,6 +106,7 @@
       "id": "intel-quark-x1000",
       "name": "Quark SoC X1000",
       "family": "Quark",
+      "generation": "Quark",
       "released": "2013-10",
       "specs": {
         "codename": "Clanton",
@@ -160,6 +163,7 @@
       "id": "intel-atom-x7-z8700",
       "name": "Atom x7-Z8700",
       "family": "Atom",
+      "generation": "Atom x5/x7 (Cherry Trail)",
       "released": "2015-03",
       "specs": {
         "codename": "Cherry Trail",

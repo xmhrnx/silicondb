@@ -6,6 +6,7 @@
       "id": "broadcom-bcm2835",
       "name": "BCM2835",
       "family": "Raspberry Pi SoC",
+      "generation": "BCM2835 (Raspberry Pi 1)",
       "released": "2012-02",
       "specs": {
         "microarchitecture": "ARM1176JZF-S",
@@ -57,6 +58,7 @@
       "id": "broadcom-bcm2836",
       "name": "BCM2836",
       "family": "Raspberry Pi SoC",
+      "generation": "BCM2836 (Raspberry Pi 2)",
       "released": "2015-02",
       "specs": {
         "microarchitecture": "Cortex-A7",
@@ -108,6 +110,7 @@
       "id": "broadcom-bcm2837",
       "name": "BCM2837",
       "family": "Raspberry Pi SoC",
+      "generation": "BCM2837 (Raspberry Pi 3)",
       "released": "2016-02",
       "specs": {
         "microarchitecture": "Cortex-A53",
@@ -159,6 +162,7 @@
       "id": "broadcom-bcm2837b0",
       "name": "BCM2837B0",
       "family": "Raspberry Pi SoC",
+      "generation": "BCM2837 (Raspberry Pi 3)",
       "released": "2018-03",
       "specs": {
         "microarchitecture": "Cortex-A53",
@@ -210,6 +214,7 @@
       "id": "broadcom-bcm2711",
       "name": "BCM2711",
       "family": "Raspberry Pi SoC",
+      "generation": "BCM2711 (Raspberry Pi 4)",
       "released": "2019-06",
       "specs": {
         "microarchitecture": "Cortex-A72",
@@ -264,6 +269,7 @@
       "id": "broadcom-bcm2710a1",
       "name": "BCM2710A1",
       "family": "Raspberry Pi SoC",
+      "generation": "BCM2710A1 (Raspberry Pi Zero 2)",
       "released": "2021-10",
       "specs": {
         "microarchitecture": "Cortex-A53",
@@ -315,6 +321,7 @@
       "id": "broadcom-bcm2712",
       "name": "BCM2712",
       "family": "Raspberry Pi SoC",
+      "generation": "BCM2712 (Raspberry Pi 5)",
       "released": "2023-10",
       "specs": {
         "microarchitecture": "Cortex-A76",
@@ -368,6 +375,7 @@
       "id": "broadcom-bcm2712-d0",
       "name": "BCM2712 D0",
       "family": "BCM27xx",
+      "generation": "BCM2712 (Raspberry Pi 5)",
       "released": "2024-08",
       "specs": {
         "microarchitecture": "Cortex-A76",

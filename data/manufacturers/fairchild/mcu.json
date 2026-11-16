@@ -6,6 +6,7 @@
       "id": "fairchild-3870",
       "name": "3870",
       "family": "F8",
+      "generation": "F8",
       "released": "1977",
       "specs": {
         "microarchitecture": "F8",

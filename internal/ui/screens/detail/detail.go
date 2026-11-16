@@ -2,8 +2,8 @@
 package detail
 
 import (
-	"github.com/mehran9675/giode"
-	"github.com/mehran9675/giode/components/scroll"
+	"github.com/xmhrnx/giode"
+	"github.com/xmhrnx/giode/components/scroll"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"
@@ -72,11 +72,12 @@ func (s *Screen) content() giode.Element {
 	return components.Column(16, children...)
 }
 
-// related lists other chips of the same family and manufacturer.
+// related lists other chips of the same generation and manufacturer.
 func related(e *env.Env, cat *model.Catalog, chip *model.Chip) giode.Element {
-	rows := []giode.Element{components.SectionHeader(tr.T("detail.more_in", "family", chip.Family), nil)}
+	gen := chip.GenerationName()
+	rows := []giode.Element{components.SectionHeader(tr.T("detail.more_in", "family", gen), nil)}
 	for _, c := range cat.ChipsBy(chip.Manufacturer) {
-		if c == chip || c.Family != chip.Family || len(rows) > 5 {
+		if c == chip || c.GenerationName() != gen || len(rows) > 5 {
 			continue
 		}
 		id := c.ID

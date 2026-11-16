@@ -6,6 +6,7 @@
       "id": "renesas-r-car-h3",
       "name": "R-Car H3",
       "family": "R-Car Gen3",
+      "generation": "R-Car Gen3",
       "released": "2016",
       "specs": {
         "codename": "R8A7795",
@@ -57,6 +58,7 @@
       "id": "renesas-r-car-v4h",
       "name": "R-Car V4H",
       "family": "R-Car Gen4",
+      "generation": "R-Car Gen4",
       "released": "2022",
       "specs": {
         "codename": "R8A779G0",
@@ -107,6 +109,7 @@
       "id": "renesas-rz-v2h",
       "name": "RZ/V2H",
       "family": "RZ/V",
+      "generation": "RZ/V",
       "released": "2024-02",
       "specs": {
         "codename": "R9A09G057",
@@ -158,6 +161,7 @@
       "id": "renesas-r-car-x5h",
       "name": "R-Car X5H",
       "family": "R-Car Gen5",
+      "generation": "R-Car Gen5",
       "released": "2024-11",
       "specs": {
         "microarchitecture": "Cortex-A720AE",

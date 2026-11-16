@@ -1,6 +1,6 @@
 package components
 
-import "github.com/mehran9675/giode"
+import "github.com/xmhrnx/giode"
 
 // Present returns the non-nil elements, for building child lists where
 // some sections may have nothing to show.

@@ -1,7 +1,7 @@
 package components
 
 import (
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 )
 
 // Grid lays items out in rows of cols equal-width cells, gap dp apart.

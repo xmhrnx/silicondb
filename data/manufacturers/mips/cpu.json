@@ -6,6 +6,7 @@
       "id": "mips-r2000",
       "name": "R2000",
       "family": "R2000",
+      "generation": "R2000",
       "released": "1986-01",
       "specs": {
         "microarchitecture": "R2000",
@@ -42,6 +43,7 @@
       "id": "mips-r3000",
       "name": "R3000",
       "family": "R3000",
+      "generation": "R3000",
       "released": "1988-06",
       "specs": {
         "microarchitecture": "R3000",
@@ -78,6 +80,7 @@
       "id": "mips-r4000",
       "name": "R4000",
       "family": "R4000",
+      "generation": "R4000",
       "released": "1991-10",
       "specs": {
         "microarchitecture": "R4000",
@@ -114,6 +117,7 @@
       "id": "mips-r4400",
       "name": "R4400",
       "family": "R4000",
+      "generation": "R4000",
       "released": "1992-11",
       "specs": {
         "microarchitecture": "R4000",
@@ -150,6 +154,7 @@
       "id": "mips-r8000",
       "name": "R8000",
       "family": "R8000",
+      "generation": "R8000",
       "released": "1994-06",
       "specs": {
         "codename": "TFP",
@@ -186,6 +191,7 @@
       "id": "mips-r10000",
       "name": "R10000",
       "family": "R10000",
+      "generation": "R10000 family",
       "released": "1996-01",
       "specs": {
         "codename": "T5",
@@ -222,6 +228,7 @@
       "id": "mips-r12000",
       "name": "R12000",
       "family": "R10000",
+      "generation": "R10000 family",
       "released": "1998-11",
       "specs": {
         "microarchitecture": "R10000",
@@ -258,6 +265,7 @@
       "id": "mips-r14000",
       "name": "R14000",
       "family": "R10000",
+      "generation": "R10000 family",
       "released": "2001-07",
       "specs": {
         "microarchitecture": "R10000",

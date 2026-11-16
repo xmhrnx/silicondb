@@ -1,6 +1,6 @@
 package nav
 
-import "github.com/mehran9675/giode"
+import "github.com/xmhrnx/giode"
 
 // entry is a pushed page with the transition it entered with.
 type entry struct {

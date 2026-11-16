@@ -6,6 +6,7 @@
       "id": "fairchild-f8-3850",
       "name": "F8 (3850)",
       "family": "F8",
+      "generation": "F8",
       "released": "1975",
       "specs": {
         "microarchitecture": "F8",
@@ -42,6 +43,7 @@
       "id": "fairchild-9440",
       "name": "9440 Microflame",
       "family": "9440",
+      "generation": "9440 Microflame",
       "released": "1979",
       "specs": {
         "microarchitecture": "9440",
@@ -78,6 +80,7 @@
       "id": "fairchild-clipper-c100",
       "name": "Clipper C100",
       "family": "Clipper",
+      "generation": "Clipper",
       "released": "1986",
       "specs": {
         "microarchitecture": "Clipper",

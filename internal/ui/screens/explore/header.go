@@ -3,8 +3,8 @@ package explore
 import (
 	"fmt"
 
-	"github.com/mehran9675/giode"
-	"github.com/mehran9675/giode/components/chip"
+	"github.com/xmhrnx/giode"
+	"github.com/xmhrnx/giode/components/chip"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/store"

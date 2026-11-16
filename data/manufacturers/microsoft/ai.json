@@ -6,6 +6,7 @@
       "id": "microsoft-maia-100",
       "name": "Maia 100",
       "family": "Maia",
+      "generation": "Maia 100",
       "released": "2023-11",
       "specs": {
         "microarchitecture": "Maia",
@@ -40,6 +41,7 @@
       "id": "microsoft-maia-200",
       "name": "Maia 200",
       "family": "Maia",
+      "generation": "Maia 200",
       "released": "2026-01",
       "specs": {
         "microarchitecture": "Maia",

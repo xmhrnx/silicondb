@@ -6,6 +6,7 @@
       "id": "nxp-lpc1768",
       "name": "LPC1768",
       "family": "LPC1700",
+      "generation": "LPC1700",
       "released": "2009",
       "specs": {
         "microarchitecture": "Cortex-M3",
@@ -42,6 +43,7 @@
       "id": "nxp-lpc1114",
       "name": "LPC1114",
       "family": "LPC1100",
+      "generation": "LPC1100",
       "released": "2010",
       "specs": {
         "microarchitecture": "Cortex-M0",
@@ -74,6 +76,7 @@
       "id": "nxp-lpc810",
       "name": "LPC810",
       "family": "LPC800",
+      "generation": "LPC800",
       "released": "2012-11",
       "specs": {
         "microarchitecture": "Cortex-M0+",
@@ -106,6 +109,7 @@
       "id": "nxp-imxrt1062",
       "name": "i.MX RT1062",
       "family": "i.MX RT1060",
+      "generation": "i.MX RT1060",
       "released": "2018",
       "specs": {
         "microarchitecture": "Cortex-M7",
@@ -144,6 +148,7 @@
       "id": "nxp-lpc55s69",
       "name": "LPC55S69",
       "family": "LPC5500",
+      "generation": "LPC5500",
       "released": "2019",
       "specs": {
         "microarchitecture": "Cortex-M33",
@@ -178,6 +183,7 @@
       "id": "nxp-imxrt1176",
       "name": "i.MX RT1176",
       "family": "i.MX RT1170",
+      "generation": "i.MX RT1170",
       "released": "2020",
       "specs": {
         "microarchitecture": "Cortex-M7",
@@ -219,6 +225,7 @@
       "id": "nxp-imxrt1189",
       "name": "i.MX RT1189",
       "family": "i.MX RT1180",
+      "generation": "i.MX RT1180",
       "released": "2023",
       "specs": {
         "microarchitecture": "Cortex-M7 / Cortex-M33",
@@ -257,6 +264,7 @@
       "id": "nxp-mcxn947",
       "name": "MCX N947",
       "family": "MCX N",
+      "generation": "MCX N",
       "released": "2024",
       "specs": {
         "microarchitecture": "Cortex-M33",

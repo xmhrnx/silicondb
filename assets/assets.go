@@ -29,3 +29,9 @@ var Locales embed.FS
 //
 //go:embed licenses.json
 var Licenses []byte
+
+// Logo is the chip on transparency that iOS's launch screen shows; the
+// in-app splash shows it the same way so launch flows into the app.
+//
+//go:embed launch.png
+var Logo []byte

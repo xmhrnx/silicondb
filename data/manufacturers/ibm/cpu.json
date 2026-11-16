@@ -6,6 +6,7 @@
       "id": "ibm-romp",
       "name": "ROMP",
       "family": "ROMP",
+      "generation": "ROMP",
       "released": "1986-01",
       "specs": {
         "microarchitecture": "ROMP",
@@ -42,6 +43,7 @@
       "id": "ibm-power1",
       "name": "POWER1",
       "family": "POWER",
+      "generation": "POWER1",
       "released": "1990-02",
       "specs": {
         "codename": "RIOS-1",
@@ -78,6 +80,7 @@
       "id": "ibm-power2",
       "name": "POWER2",
       "family": "POWER",
+      "generation": "POWER2",
       "released": "1993",
       "specs": {
         "codename": "RIOS-2",
@@ -117,6 +120,7 @@
       "id": "ibm-p2sc",
       "name": "P2SC",
       "family": "POWER",
+      "generation": "POWER2",
       "released": "1996",
       "specs": {
         "microarchitecture": "POWER2",
@@ -156,6 +160,7 @@
       "id": "ibm-ppc750",
       "name": "PowerPC 750",
       "family": "PowerPC G3",
+      "generation": "PowerPC G3",
       "released": "1997-11",
       "specs": {
         "codename": "Arthur",
@@ -192,6 +197,7 @@
       "id": "ibm-power3",
       "name": "POWER3",
       "family": "POWER",
+      "generation": "POWER3",
       "released": "1998",
       "specs": {
         "microarchitecture": "POWER3",
@@ -228,6 +234,7 @@
       "id": "ibm-ppc750cx",
       "name": "PowerPC 750CX",
       "family": "PowerPC G3",
+      "generation": "PowerPC G3",
       "released": "2000",
       "specs": {
         "codename": "Sidewinder",
@@ -264,6 +271,7 @@
       "id": "ibm-gekko",
       "name": "Gekko",
       "family": "PowerPC G3",
+      "generation": "Gekko",
       "released": "2001-09",
       "specs": {
         "microarchitecture": "PowerPC 750CXe",
@@ -303,6 +311,7 @@
       "id": "ibm-power4",
       "name": "POWER4",
       "family": "POWER",
+      "generation": "POWER4",
       "released": "2001-10",
       "specs": {
         "microarchitecture": "POWER4",
@@ -339,6 +348,7 @@
       "id": "ibm-ppc970",
       "name": "PowerPC 970",
       "family": "PowerPC G5",
+      "generation": "PowerPC G5",
       "released": "2003-06",
       "specs": {
         "microarchitecture": "PowerPC 970 (G5)",
@@ -377,6 +387,7 @@
       "id": "ibm-ppc970fx",
       "name": "PowerPC 970FX",
       "family": "PowerPC G5",
+      "generation": "PowerPC G5",
       "released": "2004",
       "specs": {
         "microarchitecture": "PowerPC 970 (G5)",
@@ -415,6 +426,7 @@
       "id": "ibm-power5",
       "name": "POWER5",
       "family": "POWER",
+      "generation": "POWER5",
       "released": "2004-05",
       "specs": {
         "microarchitecture": "POWER5",
@@ -453,6 +465,7 @@
       "id": "ibm-ppc970mp",
       "name": "PowerPC 970MP",
       "family": "PowerPC G5",
+      "generation": "PowerPC G5",
       "released": "2005-07",
       "specs": {
         "microarchitecture": "PowerPC 970 (G5)",
@@ -491,6 +504,7 @@
       "id": "ibm-xenon",
       "name": "Xenon",
       "family": "Xenon",
+      "generation": "Xenon",
       "released": "2005-11",
       "specs": {
         "codename": "Waternoose",
@@ -529,6 +543,7 @@
       "id": "ibm-cell-be",
       "name": "Cell Broadband Engine",
       "family": "Cell",
+      "generation": "Cell",
       "released": "2006-11",
       "specs": {
         "microarchitecture": "Cell (PPE + SPE)",
@@ -571,6 +586,7 @@
       "id": "ibm-broadway",
       "name": "Broadway",
       "family": "PowerPC G3",
+      "generation": "Broadway",
       "released": "2006-11",
       "specs": {
         "microarchitecture": "PowerPC 750CL",
@@ -609,6 +625,7 @@
       "id": "ibm-power6",
       "name": "POWER6",
       "family": "POWER",
+      "generation": "POWER6",
       "released": "2007-05",
       "specs": {
         "microarchitecture": "POWER6",
@@ -648,6 +665,7 @@
       "id": "ibm-powerxcell-8i",
       "name": "PowerXCell 8i",
       "family": "Cell",
+      "generation": "Cell",
       "released": "2008",
       "specs": {
         "microarchitecture": "Cell (PPE + eDP SPE)",
@@ -689,6 +707,7 @@
       "id": "ibm-z10",
       "name": "z10",
       "family": "IBM Z",
+      "generation": "z10",
       "released": "2008-02",
       "specs": {
         "microarchitecture": "z10",
@@ -728,6 +747,7 @@
       "id": "ibm-power7",
       "name": "POWER7",
       "family": "POWER",
+      "generation": "POWER7",
       "released": "2010-02",
       "specs": {
         "microarchitecture": "POWER7",
@@ -769,6 +789,7 @@
       "id": "ibm-z196",
       "name": "z196",
       "family": "IBM Z",
+      "generation": "z196",
       "released": "2010-07",
       "specs": {
         "microarchitecture": "z196",
@@ -808,6 +829,7 @@
       "id": "ibm-zec12",
       "name": "zEC12",
       "family": "IBM Z",
+      "generation": "zEC12",
       "released": "2012-08",
       "specs": {
         "microarchitecture": "zEC12",
@@ -856,6 +878,7 @@
       "id": "ibm-power7-plus",
       "name": "POWER7+",
       "family": "POWER",
+      "generation": "POWER7+",
       "released": "2012-10",
       "specs": {
         "microarchitecture": "POWER7+",
@@ -906,6 +929,7 @@
       "id": "ibm-espresso",
       "name": "Espresso",
       "family": "PowerPC G3",
+      "generation": "Espresso",
       "released": "2012-11",
       "specs": {
         "microarchitecture": "PowerPC 750 (enhanced)",
@@ -952,6 +976,7 @@
       "id": "ibm-power8",
       "name": "POWER8",
       "family": "POWER",
+      "generation": "POWER8",
       "released": "2014-06",
       "specs": {
         "microarchitecture": "POWER8",
@@ -1003,6 +1028,7 @@
       "id": "ibm-z13",
       "name": "z13",
       "family": "IBM Z",
+      "generation": "z13",
       "released": "2015-01",
       "specs": {
         "microarchitecture": "z13",
@@ -1053,6 +1079,7 @@
       "id": "ibm-z14",
       "name": "z14",
       "family": "IBM Z",
+      "generation": "z14",
       "released": "2017-07",
       "specs": {
         "microarchitecture": "z14",
@@ -1103,6 +1130,7 @@
       "id": "ibm-power9",
       "name": "POWER9",
       "family": "POWER",
+      "generation": "POWER9",
       "released": "2017-12",
       "specs": {
         "codename": "Nimbus",
@@ -1153,6 +1181,7 @@
       "id": "ibm-z15",
       "name": "z15",
       "family": "IBM Z",
+      "generation": "z15",
       "released": "2019-09",
       "specs": {
         "microarchitecture": "z15",
@@ -1203,6 +1232,7 @@
       "id": "ibm-power10",
       "name": "POWER10",
       "family": "POWER",
+      "generation": "POWER10",
       "released": "2021-09",
       "specs": {
         "microarchitecture": "POWER10",
@@ -1252,6 +1282,7 @@
       "id": "ibm-telum",
       "name": "Telum",
       "family": "IBM Z",
+      "generation": "Telum (z16)",
       "released": "2022-04",
       "specs": {
         "microarchitecture": "Telum",
@@ -1302,6 +1333,7 @@
       "id": "ibm-telum-ii",
       "name": "Telum II",
       "family": "IBM Z",
+      "generation": "Telum II (z17)",
       "released": "2025-06",
       "specs": {
         "microarchitecture": "Telum II",
@@ -1352,6 +1384,7 @@
       "id": "ibm-power11",
       "name": "Power11",
       "family": "POWER",
+      "generation": "Power11",
       "released": "2025-07",
       "specs": {
         "microarchitecture": "Power11",

@@ -6,6 +6,7 @@
       "id": "google-tpu-v1",
       "name": "TPU v1",
       "family": "TPU",
+      "generation": "TPU v1",
       "released": "2015",
       "specs": {
         "microarchitecture": "TPU v1 (256x256 systolic array)",
@@ -40,6 +41,7 @@
       "id": "google-tpu-v2",
       "name": "TPU v2",
       "family": "TPU",
+      "generation": "TPU v2",
       "released": "2017-05",
       "specs": {
         "microarchitecture": "TPU v2 (128x128 MXU)",
@@ -74,6 +76,7 @@
       "id": "google-tpu-v3",
       "name": "TPU v3",
       "family": "TPU",
+      "generation": "TPU v3",
       "released": "2018-05",
       "specs": {
         "microarchitecture": "TPU v3 (128x128 MXU)",
@@ -108,6 +111,7 @@
       "id": "google-edge-tpu",
       "name": "Edge TPU",
       "family": "Edge TPU",
+      "generation": "Edge TPU",
       "released": "2019-03",
       "specs": {
         "microarchitecture": "Edge TPU",
@@ -142,6 +146,7 @@
       "id": "google-tpu-v4",
       "name": "TPU v4",
       "family": "TPU",
+      "generation": "TPU v4",
       "released": "2021-05",
       "specs": {
         "microarchitecture": "TPU v4 (128x128 MXU)",
@@ -176,6 +181,7 @@
       "id": "google-tpu-v5e",
       "name": "TPU v5e",
       "family": "TPU",
+      "generation": "TPU v5",
       "released": "2023-08",
       "specs": {
         "microarchitecture": "TPU v5e",
@@ -210,6 +216,7 @@
       "id": "google-tpu-v5p",
       "name": "TPU v5p",
       "family": "TPU",
+      "generation": "TPU v5",
       "released": "2023-12",
       "specs": {
         "microarchitecture": "TPU v5p",
@@ -244,6 +251,7 @@
       "id": "google-tpu-v6e",
       "name": "TPU v6e",
       "family": "TPU",
+      "generation": "TPU v6e (Trillium)",
       "released": "2024-12",
       "specs": {
         "codename": "Trillium",
@@ -278,6 +286,7 @@
       "id": "google-tpu-v7",
       "name": "TPU v7",
       "family": "TPU",
+      "generation": "TPU v7 (Ironwood)",
       "released": "2025-11",
       "specs": {
         "codename": "Ironwood",

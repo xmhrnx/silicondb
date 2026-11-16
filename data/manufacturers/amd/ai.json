@@ -6,6 +6,7 @@
       "id": "amd-radeon-instinct-mi6",
       "name": "Radeon Instinct MI6",
       "family": "Radeon Instinct",
+      "generation": "Radeon Instinct (GCN)",
       "released": "2017-06-20",
       "specs": {
         "codename": "Polaris 10",
@@ -41,6 +42,7 @@
       "id": "amd-radeon-instinct-mi8",
       "name": "Radeon Instinct MI8",
       "family": "Radeon Instinct",
+      "generation": "Radeon Instinct (GCN)",
       "released": "2017-06-20",
       "specs": {
         "codename": "Fiji",
@@ -76,6 +78,7 @@
       "id": "amd-radeon-instinct-mi25",
       "name": "Radeon Instinct MI25",
       "family": "Radeon Instinct",
+      "generation": "Radeon Instinct (GCN)",
       "released": "2017-06-20",
       "specs": {
         "codename": "Vega 10",
@@ -111,6 +114,7 @@
       "id": "amd-radeon-instinct-mi50",
       "name": "Radeon Instinct MI50",
       "family": "Radeon Instinct",
+      "generation": "Radeon Instinct (GCN)",
       "released": "2018-11",
       "specs": {
         "codename": "Vega 20",
@@ -146,6 +150,7 @@
       "id": "amd-radeon-instinct-mi60",
       "name": "Radeon Instinct MI60",
       "family": "Radeon Instinct",
+      "generation": "Radeon Instinct (GCN)",
       "released": "2018-11",
       "specs": {
         "codename": "Vega 20",
@@ -181,6 +186,7 @@
       "id": "amd-instinct-mi100",
       "name": "Instinct MI100",
       "family": "Instinct MI100",
+      "generation": "Instinct MI100 (CDNA)",
       "released": "2020-11-16",
       "specs": {
         "codename": "Arcturus",
@@ -216,6 +222,7 @@
       "id": "amd-instinct-mi250x",
       "name": "Instinct MI250X",
       "family": "Instinct MI200",
+      "generation": "Instinct MI200 (CDNA 2)",
       "released": "2021-11-08",
       "specs": {
         "codename": "Aldebaran",
@@ -251,6 +258,7 @@
       "id": "amd-instinct-mi250",
       "name": "Instinct MI250",
       "family": "Instinct MI200",
+      "generation": "Instinct MI200 (CDNA 2)",
       "released": "2021-11-08",
       "specs": {
         "codename": "Aldebaran",
@@ -286,6 +294,7 @@
       "id": "amd-instinct-mi210",
       "name": "Instinct MI210",
       "family": "Instinct MI200",
+      "generation": "Instinct MI200 (CDNA 2)",
       "released": "2022-03-22",
       "specs": {
         "codename": "Aldebaran",
@@ -321,6 +330,7 @@
       "id": "amd-instinct-mi300a",
       "name": "Instinct MI300A",
       "family": "Instinct MI300",
+      "generation": "Instinct MI300 (CDNA 3)",
       "released": "2023-12-06",
       "specs": {
         "codename": "Aqua Vanjaram",
@@ -359,6 +369,7 @@
       "id": "amd-instinct-mi300x",
       "name": "Instinct MI300X",
       "family": "Instinct MI300",
+      "generation": "Instinct MI300 (CDNA 3)",
       "released": "2023-12-06",
       "specs": {
         "codename": "Aqua Vanjaram",
@@ -394,6 +405,7 @@
       "id": "amd-instinct-mi325x",
       "name": "Instinct MI325X",
       "family": "Instinct MI300",
+      "generation": "Instinct MI300 (CDNA 3)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Aqua Vanjaram",
@@ -429,6 +441,7 @@
       "id": "amd-instinct-mi350x",
       "name": "Instinct MI350X",
       "family": "Instinct MI350",
+      "generation": "Instinct MI350 (CDNA 4)",
       "released": "2025-06-12",
       "specs": {
         "microarchitecture": "CDNA 4",
@@ -464,6 +477,7 @@
       "id": "amd-instinct-mi355x",
       "name": "Instinct MI355X",
       "family": "Instinct MI350",
+      "generation": "Instinct MI350 (CDNA 4)",
       "released": "2025-06-12",
       "specs": {
         "microarchitecture": "CDNA 4",

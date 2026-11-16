@@ -6,6 +6,7 @@
       "id": "huawei-hi1612",
       "name": "Hi1612",
       "family": "Kunpeng",
+      "generation": "Hi1612",
       "released": "2015",
       "specs": {
         "microarchitecture": "Cortex-A57",
@@ -53,6 +54,7 @@
       "id": "huawei-kunpeng-916",
       "name": "Kunpeng 916",
       "family": "Kunpeng",
+      "generation": "Kunpeng 916",
       "released": "2016",
       "specs": {
         "codename": "Hi1616",
@@ -103,6 +105,7 @@
       "id": "huawei-kunpeng-920",
       "name": "Kunpeng 920",
       "family": "Kunpeng",
+      "generation": "Kunpeng 920",
       "released": "2019-01",
       "specs": {
         "codename": "Hi1620",

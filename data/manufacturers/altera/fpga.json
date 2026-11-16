@@ -6,6 +6,7 @@
       "id": "altera-epf81500",
       "name": "EPF81500",
       "family": "FLEX 8000",
+      "generation": "FLEX 8000",
       "released": "1992",
       "specs": {
         "market": "Embedded",
@@ -29,9 +30,10 @@
       "id": "altera-epf10k100",
       "name": "EPF10K100",
       "family": "FLEX 10K",
+      "generation": "FLEX 10K",
       "released": "1995",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 500,
         "foundry": "TSMC",
         "package": "503-pin PGA",
@@ -52,9 +54,10 @@
       "id": "altera-ep20k1500e",
       "name": "EP20K1500E",
       "family": "APEX 20KE",
+      "generation": "APEX 20K",
       "released": "1999",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 180,
         "foundry": "TSMC",
         "package": "652-pin BGA / 1020-pin FineLine BGA",
@@ -75,9 +78,10 @@
       "id": "altera-ep1s80",
       "name": "EP1S80",
       "family": "Stratix",
+      "generation": "Stratix",
       "released": "2002",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 130,
         "foundry": "TSMC",
         "package": "1508-pin FineLine BGA",
@@ -98,6 +102,7 @@
       "id": "altera-ep1c20",
       "name": "EP1C20",
       "family": "Cyclone",
+      "generation": "Cyclone",
       "released": "2002",
       "specs": {
         "market": "Embedded",
@@ -121,9 +126,10 @@
       "id": "altera-ep2s180",
       "name": "EP2S180",
       "family": "Stratix II",
+      "generation": "Stratix II",
       "released": "2004",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 90,
         "foundry": "TSMC",
         "package": "1508-pin FineLine BGA",
@@ -144,6 +150,7 @@
       "id": "altera-ep2c70",
       "name": "EP2C70",
       "family": "Cyclone II",
+      "generation": "Cyclone II",
       "released": "2004",
       "specs": {
         "market": "Embedded",
@@ -167,6 +174,7 @@
       "id": "altera-max-ii-epm2210",
       "name": "EPM2210",
       "family": "MAX II",
+      "generation": "MAX II",
       "released": "2004",
       "specs": {
         "market": "Embedded",
@@ -190,9 +198,10 @@
       "id": "altera-ep3sl340",
       "name": "EP3SL340",
       "family": "Stratix III",
+      "generation": "Stratix III",
       "released": "2006",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 65,
         "foundry": "TSMC",
         "package": "1760-pin FineLine BGA",
@@ -213,6 +222,7 @@
       "id": "altera-ep3c120",
       "name": "EP3C120",
       "family": "Cyclone III",
+      "generation": "Cyclone III",
       "released": "2007",
       "specs": {
         "market": "Embedded",
@@ -236,9 +246,10 @@
       "id": "altera-ep1agx90",
       "name": "EP1AGX90",
       "family": "Arria GX",
+      "generation": "Arria GX",
       "released": "2007",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 90,
         "foundry": "TSMC",
         "package": "1152-pin FineLine BGA",
@@ -259,9 +270,10 @@
       "id": "altera-ep4se820",
       "name": "EP4SE820",
       "family": "Stratix IV",
+      "generation": "Stratix IV",
       "released": "2008",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 40,
         "foundry": "TSMC",
         "package": "1760-pin FineLine BGA",
@@ -282,6 +294,7 @@
       "id": "altera-ep4ce115",
       "name": "EP4CE115",
       "family": "Cyclone IV E",
+      "generation": "Cyclone IV",
       "released": "2009",
       "specs": {
         "market": "Embedded",
@@ -305,9 +318,10 @@
       "id": "altera-ep2agx260",
       "name": "EP2AGX260",
       "family": "Arria II GX",
+      "generation": "Arria II",
       "released": "2009",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 40,
         "foundry": "TSMC",
         "package": "1152-pin FineLine BGA",
@@ -328,9 +342,10 @@
       "id": "altera-5sgxab",
       "name": "5SGXAB",
       "family": "Stratix V",
+      "generation": "Stratix V",
       "released": "2010",
       "specs": {
-        "market": "Professional",
+        "market": "Data center",
         "process_nm": 28,
         "foundry": "TSMC",
         "package": "1517-pin FineLine BGA",
@@ -351,6 +366,7 @@
       "id": "altera-5csema5",
       "name": "5CSEMA5",
       "family": "Cyclone V SoC",
+      "generation": "Cyclone V",
       "released": "2011",
       "specs": {
         "microarchitecture": "Arm Cortex-A9 (HPS)",
@@ -376,6 +392,7 @@
       "id": "altera-10m50",
       "name": "10M50",
       "family": "MAX 10",
+      "generation": "MAX 10",
       "released": "2014",
       "specs": {
         "market": "Embedded",
@@ -399,9 +416,10 @@
       "id": "altera-10ax115",
       "name": "10AX115",
       "family": "Arria 10 GX",
+      "generation": "Arria 10",
       "released": "2014",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 20,
         "foundry": "TSMC",
         "package": "1932-pin FineLine BGA",
@@ -422,9 +440,10 @@
       "id": "altera-1sg280",
       "name": "GX 2800 (1SG280)",
       "family": "Stratix 10 GX",
+      "generation": "Stratix 10",
       "released": "2016",
       "specs": {
-        "market": "Professional",
+        "market": "Data center",
         "process_nm": 14,
         "foundry": "Intel",
         "package": "2912-pin FineLine BGA",
@@ -445,6 +464,7 @@
       "id": "altera-10cx220",
       "name": "10CX220",
       "family": "Cyclone 10 GX",
+      "generation": "Cyclone 10",
       "released": "2017",
       "specs": {
         "market": "Embedded",
@@ -468,6 +488,7 @@
       "id": "altera-10cl120",
       "name": "10CL120",
       "family": "Cyclone 10 LP",
+      "generation": "Cyclone 10",
       "released": "2017",
       "specs": {
         "market": "Embedded",
@@ -491,9 +512,10 @@
       "id": "altera-agilex-7-f",
       "name": "Agilex 7 F-Series",
       "family": "Agilex 7",
+      "generation": "Agilex 7",
       "released": "2019",
       "specs": {
-        "market": "Professional",
+        "market": "Data center",
         "process_nm": 10,
         "foundry": "Intel",
         "package": "2957-pin FBGA",
@@ -512,9 +534,10 @@
       "id": "altera-stratix-10-gx-10m",
       "name": "GX 10M",
       "family": "Stratix 10 GX",
+      "generation": "Stratix 10",
       "released": "2019-11",
       "specs": {
-        "market": "Professional",
+        "market": "Data center",
         "process_nm": 14,
         "foundry": "Intel",
         "package": "4938-pin FBGA",
@@ -535,6 +558,7 @@
       "id": "altera-agilex-7-m",
       "name": "Agilex 7 M-Series",
       "family": "Agilex 7",
+      "generation": "Agilex 7",
       "released": "2022",
       "specs": {
         "market": "Data center",
@@ -556,6 +580,7 @@
       "id": "altera-agilex-5",
       "name": "Agilex 5 E-Series",
       "family": "Agilex 5",
+      "generation": "Agilex 5",
       "released": "2024",
       "specs": {
         "microarchitecture": "Arm Cortex-A76 + Cortex-A55 (HPS)",
@@ -578,6 +603,7 @@
       "id": "altera-agilex-3",
       "name": "Agilex 3",
       "family": "Agilex 3",
+      "generation": "Agilex 3",
       "released": "2025",
       "specs": {
         "market": "Embedded",

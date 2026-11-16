@@ -6,6 +6,7 @@
       "id": "national-semiconductor-imp-16",
       "name": "IMP-16",
       "family": "IMP",
+      "generation": "IMP-16",
       "released": "1973",
       "specs": {
         "microarchitecture": "IMP-16",
@@ -43,6 +44,7 @@
       "id": "national-semiconductor-pace",
       "name": "PACE",
       "family": "PACE",
+      "generation": "PACE",
       "released": "1975",
       "specs": {
         "codename": "IPC-16A",
@@ -79,6 +81,7 @@
       "id": "national-semiconductor-scmp",
       "name": "SC/MP",
       "family": "SC/MP",
+      "generation": "SC/MP",
       "released": "1976",
       "specs": {
         "codename": "INS8060",
@@ -115,6 +118,7 @@
       "id": "national-semiconductor-ns32016",
       "name": "NS32016",
       "family": "NS32000",
+      "generation": "NS32000",
       "released": "1982",
       "specs": {
         "microarchitecture": "NS32000",
@@ -151,6 +155,7 @@
       "id": "national-semiconductor-ns32032",
       "name": "NS32032",
       "family": "NS32000",
+      "generation": "NS32000",
       "released": "1984",
       "specs": {
         "microarchitecture": "NS32000",
@@ -187,6 +192,7 @@
       "id": "national-semiconductor-ns32332",
       "name": "NS32332",
       "family": "NS32000",
+      "generation": "NS32000",
       "released": "1985",
       "specs": {
         "microarchitecture": "NS32000",
@@ -223,6 +229,7 @@
       "id": "national-semiconductor-ns32532",
       "name": "NS32532",
       "family": "NS32000",
+      "generation": "NS32000",
       "released": "1987",
       "specs": {
         "microarchitecture": "NS32532",

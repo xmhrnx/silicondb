@@ -1,5 +1,5 @@
 # giode.toml configures how the giode CLI builds this app.
-# Reference: https://github.com/mehran9675/giode-cli#giodetoml
+# Reference: https://github.com/xmhrnx/giode-cli#giodetoml
 
 [app]
 name = "Silicon DB"
@@ -7,6 +7,7 @@ id = "com.mehran9675.silicondb"
 version = "1.0.0"
 build = 1
 icon = "assets/icon.png"
+splash_color = "#08090D"       # launch screen: the app's dark background, until its first frame
 package = "."
 publisher = "Silicon DB"
 description = "Specifications of processors, GPUs, SoCs, AI accelerators and other chips."
@@ -16,11 +17,16 @@ licenses = "assets/licenses.json"
 
 [android]
 min_sdk = 24
+icon_foreground = "assets/android-foreground.png"  # adaptive icon: the chip, drawn by cmd/icongen
+icon_background = "assets/android-background.png"
+icon_monochrome = "assets/android-foreground.png"  # themed icons (Android 13+)
 keystore = "release.keystore"      # written by the release workflow from ANDROID_KEYSTORE_BASE64
 permissions = ["network"]
 
 [ios]
 min_os = 15
+icon = "assets/icon-ios.png"         # full-bleed: iOS rounds the corners itself
+launch_image = "assets/launch.png"   # the chip centred on the launch screen (600x600, @3x)
 
 [ci]
 trigger = "release"

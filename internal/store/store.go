@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/internal/config"
 	"github.com/mehran9675/silicondb/internal/data"

@@ -6,6 +6,7 @@
       "id": "nec-upd7720",
       "name": "μPD7720",
       "family": "μPD77xx",
+      "generation": "μPD77xx",
       "released": "1980",
       "specs": {
         "microarchitecture": "μPD77xx",

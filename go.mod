@@ -4,8 +4,9 @@ go 1.26.6
 
 require (
 	gioui.org v0.10.2
-	github.com/mehran9675/giode v0.1.17-alpha.1
+	github.com/xmhrnx/giode v1.0.25-alpha.1
 	golang.org/x/image v0.26.0
+	golang.org/x/net v0.48.0
 )
 
 require (
@@ -21,7 +22,6 @@ require (
 	github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef // indirect
 	github.com/yuin/goldmark v1.4.13 // indirect
 	golang.org/x/exp/shiny v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
-	golang.org/x/net v0.48.0 // indirect
 	golang.org/x/sys v0.39.0 // indirect
 	golang.org/x/text v0.32.0 // indirect
 )

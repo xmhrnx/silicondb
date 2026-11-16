@@ -6,6 +6,7 @@
       "id": "sun-mb86900",
       "name": "SPARC MB86900",
       "family": "SPARC",
+      "generation": "SPARC MB86900",
       "released": "1987",
       "specs": {
         "microarchitecture": "MB86900",
@@ -42,6 +43,7 @@
       "id": "sun-supersparc",
       "name": "SuperSPARC",
       "family": "SuperSPARC",
+      "generation": "SuperSPARC",
       "released": "1992",
       "specs": {
         "codename": "Viking",
@@ -78,6 +80,7 @@
       "id": "sun-microsparc",
       "name": "microSPARC",
       "family": "microSPARC",
+      "generation": "microSPARC",
       "released": "1992-11",
       "specs": {
         "codename": "Tsunami",
@@ -114,6 +117,7 @@
       "id": "sun-microsparc-ii",
       "name": "microSPARC-II",
       "family": "microSPARC",
+      "generation": "microSPARC",
       "released": "1994",
       "specs": {
         "codename": "Swift",
@@ -150,6 +154,7 @@
       "id": "sun-supersparc-ii",
       "name": "SuperSPARC-II",
       "family": "SuperSPARC",
+      "generation": "SuperSPARC",
       "released": "1995",
       "specs": {
         "codename": "Voyager",
@@ -186,6 +191,7 @@
       "id": "sun-ultrasparc",
       "name": "UltraSPARC",
       "family": "UltraSPARC",
+      "generation": "UltraSPARC I",
       "released": "1995-11",
       "specs": {
         "codename": "Spitfire",
@@ -224,6 +230,7 @@
       "id": "sun-ultrasparc-2",
       "name": "UltraSPARC II",
       "family": "UltraSPARC",
+      "generation": "UltraSPARC II",
       "released": "1997",
       "specs": {
         "codename": "Blackbird",
@@ -262,6 +269,7 @@
       "id": "sun-ultrasparc-2i",
       "name": "UltraSPARC IIi",
       "family": "UltraSPARC",
+      "generation": "UltraSPARC II",
       "released": "1997",
       "specs": {
         "codename": "Sabre",
@@ -300,6 +308,7 @@
       "id": "sun-ultrasparc-3",
       "name": "UltraSPARC III",
       "family": "UltraSPARC",
+      "generation": "UltraSPARC III",
       "released": "2000",
       "specs": {
         "codename": "Cheetah",
@@ -338,6 +347,7 @@
       "id": "sun-ultrasparc-3i",
       "name": "UltraSPARC IIIi",
       "family": "UltraSPARC",
+      "generation": "UltraSPARC III",
       "released": "2003",
       "specs": {
         "codename": "Jalapeño",
@@ -376,6 +386,7 @@
       "id": "sun-ultrasparc-4",
       "name": "UltraSPARC IV",
       "family": "UltraSPARC",
+      "generation": "UltraSPARC IV",
       "released": "2004-02",
       "specs": {
         "codename": "Jaguar",
@@ -414,6 +425,7 @@
       "id": "sun-ultrasparc-4-plus",
       "name": "UltraSPARC IV+",
       "family": "UltraSPARC",
+      "generation": "UltraSPARC IV",
       "released": "2005-09",
       "specs": {
         "codename": "Panther",
@@ -452,6 +464,7 @@
       "id": "sun-ultrasparc-t1",
       "name": "UltraSPARC T1",
       "family": "UltraSPARC T",
+      "generation": "UltraSPARC T1",
       "released": "2005-11",
       "specs": {
         "codename": "Niagara",
@@ -490,6 +503,7 @@
       "id": "sun-ultrasparc-t2",
       "name": "UltraSPARC T2",
       "family": "UltraSPARC T",
+      "generation": "UltraSPARC T2",
       "released": "2007-10",
       "specs": {
         "codename": "Niagara 2",
@@ -529,6 +543,7 @@
       "id": "sun-ultrasparc-t2-plus",
       "name": "UltraSPARC T2 Plus",
       "family": "UltraSPARC T",
+      "generation": "UltraSPARC T2",
       "released": "2008-04",
       "specs": {
         "codename": "Victoria Falls",

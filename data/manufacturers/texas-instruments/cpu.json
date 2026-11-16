@@ -6,6 +6,7 @@
       "id": "texas-instruments-tms9980a",
       "name": "TMS9980A",
       "family": "TMS9900",
+      "generation": "TMS9900 family",
       "released": "1976",
       "specs": {
         "microarchitecture": "TMS9900",
@@ -42,6 +43,7 @@
       "id": "texas-instruments-tms9900",
       "name": "TMS9900",
       "family": "TMS9900",
+      "generation": "TMS9900 family",
       "released": "1976-06",
       "specs": {
         "microarchitecture": "TMS9900",
@@ -78,6 +80,7 @@
       "id": "texas-instruments-tms9995",
       "name": "TMS9995",
       "family": "TMS9900",
+      "generation": "TMS9900 family",
       "released": "1981",
       "specs": {
         "microarchitecture": "TMS9995",
@@ -114,6 +117,7 @@
       "id": "texas-instruments-tms99105a",
       "name": "TMS99105A",
       "family": "TMS99000",
+      "generation": "TMS99000",
       "released": "1981",
       "specs": {
         "microarchitecture": "TMS99000",

@@ -6,6 +6,7 @@
       "id": "hitachi-hd64180",
       "name": "HD64180",
       "family": "HD64180",
+      "generation": "HD64180",
       "released": "1985",
       "specs": {
         "microarchitecture": "HD64180",
@@ -45,6 +46,7 @@
       "id": "hitachi-sh7032",
       "name": "SH-1 SH7032",
       "family": "SuperH",
+      "generation": "SuperH SH-1",
       "released": "1992",
       "specs": {
         "microarchitecture": "SH-1",
@@ -82,6 +84,7 @@
       "id": "hitachi-sh7604",
       "name": "SH-2 SH7604",
       "family": "SuperH",
+      "generation": "SuperH SH-2",
       "released": "1994",
       "specs": {
         "microarchitecture": "SH-2",
@@ -118,6 +121,7 @@
       "id": "hitachi-sh7708",
       "name": "SH-3 SH7708",
       "family": "SuperH",
+      "generation": "SuperH SH-3",
       "released": "1995",
       "specs": {
         "microarchitecture": "SH-3",
@@ -156,6 +160,7 @@
       "id": "hitachi-sh7750",
       "name": "SH-4 SH7750",
       "family": "SuperH",
+      "generation": "SuperH SH-4",
       "released": "1998",
       "specs": {
         "microarchitecture": "SH-4",

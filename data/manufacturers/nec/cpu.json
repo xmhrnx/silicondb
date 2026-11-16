@@ -6,6 +6,7 @@
       "id": "nec-v20",
       "name": "V20",
       "family": "V-series",
+      "generation": "V20/V30",
       "released": "1984",
       "specs": {
         "codename": "μPD70108",
@@ -45,6 +46,7 @@
       "id": "nec-v30",
       "name": "V30",
       "family": "V-series",
+      "generation": "V20/V30",
       "released": "1984",
       "specs": {
         "codename": "μPD70116",
@@ -84,6 +86,7 @@
       "id": "nec-v60",
       "name": "V60",
       "family": "V-series",
+      "generation": "V60/V70",
       "released": "1986",
       "specs": {
         "codename": "μPD70616",
@@ -122,6 +125,7 @@
       "id": "nec-v70",
       "name": "V70",
       "family": "V-series",
+      "generation": "V60/V70",
       "released": "1987",
       "specs": {
         "codename": "μPD70632",
@@ -161,6 +165,7 @@
       "id": "nec-v810",
       "name": "V810",
       "family": "V800",
+      "generation": "V800",
       "released": "1994",
       "specs": {
         "microarchitecture": "V810",
@@ -200,6 +205,7 @@
       "id": "nec-vr4300",
       "name": "VR4300",
       "family": "VR",
+      "generation": "VR4300",
       "released": "1995",
       "specs": {
         "microarchitecture": "VR4300",

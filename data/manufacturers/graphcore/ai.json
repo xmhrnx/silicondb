@@ -6,6 +6,7 @@
       "id": "graphcore-colossus-gc2",
       "name": "Colossus GC2",
       "family": "IPU Mk1",
+      "generation": "IPU Mk1",
       "released": "2018",
       "specs": {
         "codename": "Colossus",
@@ -41,6 +42,7 @@
       "id": "graphcore-gc200",
       "name": "Colossus GC200",
       "family": "IPU Mk2",
+      "generation": "IPU Mk2",
       "released": "2020-07",
       "specs": {
         "codename": "Colossus",
@@ -77,6 +79,7 @@
       "id": "graphcore-bow-ipu",
       "name": "Bow IPU",
       "family": "IPU Mk2",
+      "generation": "Bow IPU",
       "released": "2022-03",
       "specs": {
         "codename": "Colossus",

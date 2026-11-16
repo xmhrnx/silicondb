@@ -1,7 +1,7 @@
 // Package theme defines the app's look: colors, type and spacing.
 package theme
 
-import "github.com/mehran9675/giode"
+import "github.com/xmhrnx/giode"
 
 // Dark is the default palette: deep graphite surfaces with a violet
 // primary.

@@ -6,6 +6,7 @@
       "id": "inmos-t414",
       "name": "T414",
       "family": "Transputer",
+      "generation": "Transputer",
       "released": "1985-09",
       "specs": {
         "microarchitecture": "Transputer",
@@ -43,6 +44,7 @@
       "id": "inmos-t212",
       "name": "T212",
       "family": "Transputer",
+      "generation": "Transputer",
       "released": "1986",
       "specs": {
         "microarchitecture": "Transputer",
@@ -80,6 +82,7 @@
       "id": "inmos-t800",
       "name": "T800",
       "family": "Transputer",
+      "generation": "Transputer",
       "released": "1987",
       "specs": {
         "microarchitecture": "Transputer",

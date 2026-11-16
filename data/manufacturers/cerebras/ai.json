@@ -6,6 +6,7 @@
       "id": "cerebras-wse-1",
       "name": "WSE-1",
       "family": "Wafer Scale Engine",
+      "generation": "WSE-1",
       "released": "2019-08",
       "specs": {
         "microarchitecture": "WSE",
@@ -40,6 +41,7 @@
       "id": "cerebras-wse-2",
       "name": "WSE-2",
       "family": "Wafer Scale Engine",
+      "generation": "WSE-2",
       "released": "2021-04",
       "specs": {
         "microarchitecture": "WSE",
@@ -74,6 +76,7 @@
       "id": "cerebras-wse-3",
       "name": "WSE-3",
       "family": "Wafer Scale Engine",
+      "generation": "WSE-3",
       "released": "2024-03",
       "specs": {
         "microarchitecture": "WSE",

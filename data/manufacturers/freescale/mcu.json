@@ -6,6 +6,7 @@
       "id": "freescale-mpc5554",
       "name": "MPC5554",
       "family": "MPC55xx",
+      "generation": "MPC55xx",
       "released": "2004",
       "specs": {
         "microarchitecture": "e200z6",
@@ -38,6 +39,7 @@
       "id": "freescale-mk60dn512",
       "name": "Kinetis K60 MK60DN512",
       "family": "Kinetis K",
+      "generation": "Kinetis K",
       "released": "2010",
       "specs": {
         "microarchitecture": "Cortex-M4",
@@ -75,6 +77,7 @@
       "id": "freescale-mk20dx256",
       "name": "Kinetis K20 MK20DX256",
       "family": "Kinetis K",
+      "generation": "Kinetis K",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-M4",
@@ -110,6 +113,7 @@
       "id": "freescale-mkl25z128",
       "name": "Kinetis KL25Z MKL25Z128",
       "family": "Kinetis L",
+      "generation": "Kinetis L",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-M0+",
@@ -143,6 +147,7 @@
       "id": "freescale-mk64fn1m0",
       "name": "Kinetis K64 MK64FN1M0",
       "family": "Kinetis K",
+      "generation": "Kinetis K",
       "released": "2014",
       "specs": {
         "microarchitecture": "Cortex-M4F",

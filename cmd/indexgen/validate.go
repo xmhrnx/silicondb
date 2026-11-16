@@ -39,6 +39,7 @@ type rawShard struct {
 		ID       string                     `json:"id"`
 		Name     string                     `json:"name"`
 		Family   string                     `json:"family"`
+		Gen      string                     `json:"generation"`
 		Released string                     `json:"released"`
 		Specs    map[string]json.RawMessage `json:"specs"`
 		NA       []string                   `json:"na"`
@@ -79,6 +80,12 @@ func validateShard(rel string, b []byte, maker, cat string, schema *model.Schema
 		}
 		if c.Family == "" {
 			rep.warnf("%s: family is empty", where)
+		}
+		if c.Gen == "" {
+			rep.warnf("%s: generation is empty", where)
+		}
+		if m, ok := c.Specs["market"]; ok && !validMarket(m) {
+			rep.errorf("%s: market %s isn't one of the segments in data/README.md", where, m)
 		}
 		if !datePattern.MatchString(c.Released) {
 			rep.errorf("%s: released %q isn't YYYY, YYYY-MM or YYYY-MM-DD", where, c.Released)
@@ -129,4 +136,17 @@ func year(date string) int {
 		y = y*10 + int(date[i]-'0')
 	}
 	return y
+}
+
+// markets are the segments a chip can be sold for; the app groups each
+// company's chips by them.
+var markets = map[string]bool{
+	"Desktop": true, "Laptop": true, "Workstation": true, "Server": true, "Data center": true,
+	"Mobile": true, "Tablet": true, "Wearable": true, "Console": true, "Automotive": true,
+	"Embedded": true, "Industrial": true,
+}
+
+func validMarket(raw json.RawMessage) bool {
+	var s string
+	return json.Unmarshal(raw, &s) == nil && markets[s]
 }

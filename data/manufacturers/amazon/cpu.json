@@ -6,6 +6,7 @@
       "id": "amazon-graviton",
       "name": "Graviton",
       "family": "Graviton",
+      "generation": "Graviton",
       "released": "2018-11",
       "specs": {
         "microarchitecture": "Cortex-A72",
@@ -53,6 +54,7 @@
       "id": "amazon-graviton2",
       "name": "Graviton2",
       "family": "Graviton",
+      "generation": "Graviton2",
       "released": "2019-12",
       "specs": {
         "microarchitecture": "Neoverse N1",
@@ -106,6 +108,7 @@
       "id": "amazon-graviton3",
       "name": "Graviton3",
       "family": "Graviton",
+      "generation": "Graviton3",
       "released": "2021-11",
       "specs": {
         "microarchitecture": "Neoverse V1",
@@ -158,6 +161,7 @@
       "id": "amazon-graviton4",
       "name": "Graviton4",
       "family": "Graviton",
+      "generation": "Graviton4",
       "released": "2023-11",
       "specs": {
         "microarchitecture": "Neoverse V2",
@@ -210,6 +214,7 @@
       "id": "amazon-graviton5",
       "name": "Graviton5",
       "family": "Graviton",
+      "generation": "Graviton5",
       "released": "2025-12",
       "specs": {
         "microarchitecture": "Neoverse V3",

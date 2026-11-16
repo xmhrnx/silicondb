@@ -6,6 +6,7 @@
       "id": "zilog-z80",
       "name": "Z80",
       "family": "Z80",
+      "generation": "Z80",
       "released": "1976-07",
       "specs": {
         "microarchitecture": "Z80",
@@ -42,6 +43,7 @@
       "id": "zilog-z8001",
       "name": "Z8001",
       "family": "Z8000",
+      "generation": "Z8000",
       "released": "1979",
       "specs": {
         "microarchitecture": "Z8000",
@@ -78,6 +80,7 @@
       "id": "zilog-z8002",
       "name": "Z8002",
       "family": "Z8000",
+      "generation": "Z8000",
       "released": "1979",
       "specs": {
         "microarchitecture": "Z8000",
@@ -114,6 +117,7 @@
       "id": "zilog-z80000",
       "name": "Z80000",
       "family": "Z80000",
+      "generation": "Z80000",
       "released": "1986",
       "specs": {
         "microarchitecture": "Z80000",
@@ -152,6 +156,7 @@
       "id": "zilog-z280",
       "name": "Z280",
       "family": "Z280",
+      "generation": "Z280",
       "released": "1987",
       "specs": {
         "microarchitecture": "Z280",
@@ -193,6 +198,7 @@
       "id": "zilog-ez80190",
       "name": "eZ80190",
       "family": "eZ80",
+      "generation": "eZ80",
       "released": "2001",
       "specs": {
         "microarchitecture": "eZ80",

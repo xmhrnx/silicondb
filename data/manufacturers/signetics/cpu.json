@@ -6,6 +6,7 @@
       "id": "signetics-2650",
       "name": "2650",
       "family": "2650",
+      "generation": "2650",
       "released": "1975-07",
       "specs": {
         "microarchitecture": "2650",

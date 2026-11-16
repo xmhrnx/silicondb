@@ -6,6 +6,7 @@
       "id": "google-tensor-g1",
       "name": "Tensor",
       "family": "Tensor",
+      "generation": "Tensor (1st gen)",
       "released": "2021-10",
       "specs": {
         "codename": "GS101 (Whitechapel)",
@@ -66,6 +67,7 @@
       "id": "google-tensor-g2",
       "name": "Tensor G2",
       "family": "Tensor",
+      "generation": "Tensor G2",
       "released": "2022-10",
       "specs": {
         "codename": "GS201",
@@ -126,6 +128,7 @@
       "id": "google-tensor-g3",
       "name": "Tensor G3",
       "family": "Tensor",
+      "generation": "Tensor G3",
       "released": "2023-10",
       "specs": {
         "codename": "Zuma",
@@ -186,6 +189,7 @@
       "id": "google-tensor-g4",
       "name": "Tensor G4",
       "family": "Tensor",
+      "generation": "Tensor G4",
       "released": "2024-08",
       "specs": {
         "codename": "Zuma Pro",
@@ -246,6 +250,7 @@
       "id": "google-tensor-g5",
       "name": "Tensor G5",
       "family": "Tensor",
+      "generation": "Tensor G5",
       "released": "2025-08",
       "specs": {
         "codename": "Laguna",
@@ -305,6 +310,7 @@
       "id": "google-tensor-g6",
       "name": "Tensor G6",
       "family": "Tensor",
+      "generation": "Tensor G6",
       "released": "2026-08",
       "specs": {
         "codename": "Malibu",

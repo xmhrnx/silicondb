@@ -6,6 +6,7 @@
       "id": "intel-gaudi",
       "name": "Gaudi (HL-205)",
       "family": "Gaudi",
+      "generation": "Gaudi",
       "released": "2019-06",
       "specs": {
         "codename": "Gaudi",
@@ -43,6 +44,7 @@
       "id": "intel-nervana-nnp-t-1000",
       "name": "Nervana NNP-T 1000",
       "family": "Nervana NNP",
+      "generation": "Nervana NNP",
       "released": "2019-11-12",
       "specs": {
         "codename": "Spring Crest",
@@ -77,6 +79,7 @@
       "id": "intel-nervana-nnp-i-1000",
       "name": "Nervana NNP-I 1000",
       "family": "Nervana NNP",
+      "generation": "Nervana NNP",
       "released": "2019-11-12",
       "specs": {
         "codename": "Spring Hill",
@@ -111,6 +114,7 @@
       "id": "intel-gaudi-2",
       "name": "Gaudi 2",
       "family": "Gaudi",
+      "generation": "Gaudi 2",
       "released": "2022-05-10",
       "specs": {
         "codename": "Gaudi2",
@@ -148,6 +152,7 @@
       "id": "intel-gaudi-3",
       "name": "Gaudi 3",
       "family": "Gaudi",
+      "generation": "Gaudi 3",
       "released": "2024-04-09",
       "specs": {
         "codename": "Gaudi3",
@@ -185,6 +190,7 @@
       "id": "intel-gaudi-3-pcie",
       "name": "Gaudi 3 PCIe (HL-338)",
       "family": "Gaudi",
+      "generation": "Gaudi 3",
       "released": "2024-10",
       "specs": {
         "codename": "Gaudi3",

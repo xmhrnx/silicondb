@@ -6,6 +6,7 @@
       "id": "hisilicon-ascend-310",
       "name": "Ascend 310",
       "family": "Ascend",
+      "generation": "Ascend 310",
       "released": "2018-10",
       "specs": {
         "codename": "Ascend-Mini",
@@ -40,6 +41,7 @@
       "id": "hisilicon-ascend-910",
       "name": "Ascend 910",
       "family": "Ascend",
+      "generation": "Ascend 910",
       "released": "2019-08",
       "specs": {
         "codename": "Ascend-Max",
@@ -74,6 +76,7 @@
       "id": "hisilicon-ascend-910b",
       "name": "Ascend 910B",
       "family": "Ascend",
+      "generation": "Ascend 910B",
       "released": "2023",
       "specs": {
         "codename": "Ascend 910B",
@@ -108,6 +111,7 @@
       "id": "hisilicon-ascend-910c",
       "name": "Ascend 910C",
       "family": "Ascend",
+      "generation": "Ascend 910C",
       "released": "2025",
       "specs": {
         "microarchitecture": "Da Vinci (dual 910B dies)",
@@ -142,6 +146,7 @@
       "id": "hisilicon-ascend-950pr",
       "name": "Ascend 950PR",
       "family": "Ascend",
+      "generation": "Ascend 950",
       "released": "2026",
       "specs": {
         "microarchitecture": "Da Vinci",

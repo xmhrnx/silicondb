@@ -6,6 +6,7 @@
       "id": "via-cyrix-iii",
       "name": "Cyrix III",
       "family": "Cyrix III",
+      "generation": "Cyrix III",
       "released": "2000-06",
       "specs": {
         "codename": "Samuel",
@@ -46,6 +47,7 @@
       "id": "via-c3",
       "name": "C3",
       "family": "C3",
+      "generation": "C3",
       "released": "2001",
       "specs": {
         "codename": "Samuel 2",
@@ -86,6 +88,7 @@
       "id": "via-c3-nehemiah",
       "name": "C3 (Nehemiah)",
       "family": "C3",
+      "generation": "C3",
       "released": "2003-01",
       "specs": {
         "codename": "Nehemiah",
@@ -127,6 +130,7 @@
       "id": "via-c7",
       "name": "C7",
       "family": "C7",
+      "generation": "C7",
       "released": "2005-05",
       "specs": {
         "codename": "Esther",
@@ -170,6 +174,7 @@
       "id": "via-nano",
       "name": "Nano",
       "family": "Nano",
+      "generation": "Nano (Isaiah)",
       "released": "2008-05",
       "specs": {
         "codename": "Isaiah",
@@ -216,6 +221,7 @@
       "id": "via-nano-x2",
       "name": "Nano X2",
       "family": "Nano",
+      "generation": "Nano (Isaiah)",
       "released": "2011-01",
       "specs": {
         "microarchitecture": "Isaiah",
@@ -271,6 +277,7 @@
       "id": "via-quadcore",
       "name": "QuadCore",
       "family": "Nano",
+      "generation": "Nano (Isaiah)",
       "released": "2011-05",
       "specs": {
         "microarchitecture": "Isaiah",

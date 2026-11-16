@@ -6,6 +6,7 @@
       "id": "lattice-lfe3-150ea",
       "name": "LatticeECP3-150EA",
       "family": "ECP3",
+      "generation": "LatticeECP3",
       "released": "2009",
       "specs": {
         "market": "Industrial",
@@ -29,6 +30,7 @@
       "id": "lattice-lcmxo2-7000",
       "name": "MachXO2-7000",
       "family": "MachXO2",
+      "generation": "MachXO2",
       "released": "2010",
       "specs": {
         "market": "Industrial",
@@ -52,9 +54,10 @@
       "id": "lattice-ice40hx8k",
       "name": "iCE40HX8K",
       "family": "iCE40",
+      "generation": "iCE40",
       "released": "2011",
       "specs": {
-        "market": "Consumer",
+        "market": "Embedded",
         "process_nm": 40,
         "foundry": "TSMC",
         "package": "CT256 BGA / TQ144 / CB132",
@@ -75,6 +78,7 @@
       "id": "lattice-lfe5um-85f",
       "name": "ECP5 LFE5UM-85F",
       "family": "ECP5",
+      "generation": "ECP5",
       "released": "2014",
       "specs": {
         "market": "Industrial",
@@ -98,9 +102,10 @@
       "id": "lattice-ice40up5k",
       "name": "iCE40UP5K",
       "family": "iCE40 UltraPlus",
+      "generation": "iCE40 UltraPlus",
       "released": "2016",
       "specs": {
-        "market": "Mobile",
+        "market": "Embedded",
         "process_nm": 40,
         "foundry": "TSMC",
         "package": "SG48 QFN / UWG30 WLCSP",
@@ -122,6 +127,7 @@
       "id": "lattice-lifcl-40",
       "name": "CrossLink-NX LIFCL-40",
       "family": "CrossLink-NX",
+      "generation": "Lattice Nexus",
       "released": "2019-12",
       "specs": {
         "market": "Embedded",
@@ -145,6 +151,7 @@
       "id": "lattice-lfd2nx-40",
       "name": "Certus-NX LFD2NX-40",
       "family": "Certus-NX",
+      "generation": "Lattice Nexus",
       "released": "2020-06",
       "specs": {
         "market": "Industrial",
@@ -168,6 +175,7 @@
       "id": "lattice-avant-e",
       "name": "Avant-E",
       "family": "Avant",
+      "generation": "Avant",
       "released": "2022-12",
       "specs": {
         "market": "Industrial",

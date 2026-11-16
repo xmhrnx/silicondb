@@ -6,6 +6,7 @@
       "id": "meta-mtia-v1",
       "name": "MTIA v1",
       "family": "MTIA",
+      "generation": "MTIA v1",
       "released": "2023-05",
       "specs": {
         "microarchitecture": "MTIA",
@@ -41,6 +42,7 @@
       "id": "meta-mtia-v2",
       "name": "MTIA v2",
       "family": "MTIA",
+      "generation": "MTIA v2",
       "released": "2024-04",
       "specs": {
         "codename": "Artemis",

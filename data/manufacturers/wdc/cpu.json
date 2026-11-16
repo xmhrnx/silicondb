@@ -6,6 +6,7 @@
       "id": "wdc-65c02",
       "name": "65C02",
       "family": "65C02",
+      "generation": "65C02",
       "released": "1983",
       "specs": {
         "microarchitecture": "65C02",
@@ -42,6 +43,7 @@
       "id": "wdc-65c816",
       "name": "65C816",
       "family": "65C816",
+      "generation": "65C816",
       "released": "1985",
       "specs": {
         "microarchitecture": "65C816",

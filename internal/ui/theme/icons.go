@@ -3,8 +3,8 @@ package theme
 import (
 	"log"
 
-	"github.com/mehran9675/giode"
-	"github.com/mehran9675/giode/styles/properties"
+	"github.com/xmhrnx/giode"
+	"github.com/xmhrnx/giode/styles/properties"
 
 	"github.com/mehran9675/silicondb/assets"
 )

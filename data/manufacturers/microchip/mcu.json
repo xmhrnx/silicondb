@@ -6,6 +6,7 @@
       "id": "microchip-pic16c84",
       "name": "PIC16C84",
       "family": "PIC16",
+      "generation": "PIC16",
       "released": "1993",
       "specs": {
         "microarchitecture": "PIC mid-range (14-bit core)",
@@ -34,6 +35,7 @@
       "id": "microchip-pic16f84",
       "name": "PIC16F84",
       "family": "PIC16",
+      "generation": "PIC16",
       "released": "1998",
       "specs": {
         "microarchitecture": "PIC mid-range (14-bit core)",
@@ -62,6 +64,7 @@
       "id": "microchip-pic16f84a",
       "name": "PIC16F84A",
       "family": "PIC16",
+      "generation": "PIC16",
       "released": "2001",
       "specs": {
         "microarchitecture": "PIC mid-range (14-bit core)",
@@ -90,6 +93,7 @@
       "id": "microchip-pic18f452",
       "name": "PIC18F452",
       "family": "PIC18",
+      "generation": "PIC18",
       "released": "2002",
       "specs": {
         "microarchitecture": "PIC18 (16-bit instruction core)",
@@ -122,6 +126,7 @@
       "id": "microchip-pic16f877a",
       "name": "PIC16F877A",
       "family": "PIC16",
+      "generation": "PIC16",
       "released": "2003",
       "specs": {
         "microarchitecture": "PIC mid-range (14-bit core)",
@@ -154,6 +159,7 @@
       "id": "microchip-pic10f200",
       "name": "PIC10F200",
       "family": "PIC10",
+      "generation": "PIC10",
       "released": "2004",
       "specs": {
         "microarchitecture": "PIC baseline (12-bit core)",
@@ -182,6 +188,7 @@
       "id": "microchip-dspic30f4011",
       "name": "dsPIC30F4011",
       "family": "dsPIC30F",
+      "generation": "dsPIC30F",
       "released": "2004",
       "specs": {
         "microarchitecture": "dsPIC30F (16-bit DSC core)",
@@ -215,6 +222,7 @@
       "id": "microchip-pic18f4550",
       "name": "PIC18F4550",
       "family": "PIC18",
+      "generation": "PIC18",
       "released": "2004",
       "specs": {
         "microarchitecture": "PIC18 (16-bit instruction core)",
@@ -251,6 +259,7 @@
       "id": "microchip-dspic33fj128gp706",
       "name": "dsPIC33FJ128GP706",
       "family": "dsPIC33F",
+      "generation": "dsPIC33F",
       "released": "2006",
       "specs": {
         "microarchitecture": "dsPIC33F (16-bit DSC core)",
@@ -285,6 +294,7 @@
       "id": "microchip-pic32mx360f512l",
       "name": "PIC32MX360F512L",
       "family": "PIC32MX",
+      "generation": "PIC32MX",
       "released": "2007-11",
       "specs": {
         "microarchitecture": "MIPS32 M4K",
@@ -318,6 +328,7 @@
       "id": "microchip-pic32mx795f512l",
       "name": "PIC32MX795F512L",
       "family": "PIC32MX",
+      "generation": "PIC32MX",
       "released": "2009",
       "specs": {
         "microarchitecture": "MIPS32 M4K",
@@ -359,6 +370,7 @@
       "id": "microchip-pic32mz2048efh144",
       "name": "PIC32MZ2048EFH144",
       "family": "PIC32MZ",
+      "generation": "PIC32MZ",
       "released": "2015",
       "specs": {
         "microarchitecture": "MIPS32 M5150 (microAptiv)",
@@ -397,6 +409,7 @@
       "id": "microchip-attiny1616",
       "name": "ATtiny1616",
       "family": "tinyAVR 1-series",
+      "generation": "tinyAVR 1-series",
       "released": "2017",
       "specs": {
         "microarchitecture": "AVRxt",
@@ -429,6 +442,7 @@
       "id": "microchip-dspic33ck256mp508",
       "name": "dsPIC33CK256MP508",
       "family": "dsPIC33C",
+      "generation": "dsPIC33C",
       "released": "2018",
       "specs": {
         "microarchitecture": "dsPIC33CK (16-bit DSC core)",
@@ -463,6 +477,7 @@
       "id": "microchip-avr128da48",
       "name": "AVR128DA48",
       "family": "AVR DA",
+      "generation": "AVR DA",
       "released": "2020",
       "specs": {
         "microarchitecture": "AVRxt",

@@ -6,6 +6,7 @@
       "id": "cyrix-cx486slc",
       "name": "Cx486SLC",
       "family": "Cx486",
+      "generation": "Cx486",
       "released": "1992",
       "specs": {
         "microarchitecture": "Cx486SLC",
@@ -42,6 +43,7 @@
       "id": "cyrix-cx486dlc",
       "name": "Cx486DLC",
       "family": "Cx486",
+      "generation": "Cx486",
       "released": "1992",
       "specs": {
         "microarchitecture": "Cx486DLC",
@@ -78,6 +80,7 @@
       "id": "cyrix-cx486dx",
       "name": "Cx486DX",
       "family": "Cx486",
+      "generation": "Cx486",
       "released": "1993",
       "specs": {
         "microarchitecture": "Cx486",
@@ -116,6 +119,7 @@
       "id": "cyrix-cx486dx2",
       "name": "Cx486DX2",
       "family": "Cx486",
+      "generation": "Cx486",
       "released": "1994",
       "specs": {
         "microarchitecture": "Cx486",
@@ -154,6 +158,7 @@
       "id": "cyrix-5x86",
       "name": "5x86",
       "family": "5x86",
+      "generation": "5x86 (M1sc)",
       "released": "1995-08",
       "specs": {
         "codename": "M1sc",
@@ -192,6 +197,7 @@
       "id": "cyrix-6x86l",
       "name": "6x86L",
       "family": "6x86",
+      "generation": "6x86 (M1)",
       "released": "1996",
       "specs": {
         "codename": "M1L",
@@ -230,6 +236,7 @@
       "id": "cyrix-6x86",
       "name": "6x86",
       "family": "6x86",
+      "generation": "6x86 (M1)",
       "released": "1996-02",
       "specs": {
         "codename": "M1",
@@ -268,6 +275,7 @@
       "id": "cyrix-mediagx",
       "name": "MediaGX",
       "family": "MediaGX",
+      "generation": "MediaGX",
       "released": "1997-02",
       "specs": {
         "microarchitecture": "MediaGX (Cx5x86-derived)",
@@ -306,6 +314,7 @@
       "id": "cyrix-6x86mx",
       "name": "6x86MX",
       "family": "6x86",
+      "generation": "6x86MX (M2)",
       "released": "1997-05",
       "specs": {
         "codename": "M2",
@@ -345,6 +354,7 @@
       "id": "cyrix-mii",
       "name": "MII",
       "family": "6x86",
+      "generation": "6x86MX (M2)",
       "released": "1998",
       "specs": {
         "codename": "M2",

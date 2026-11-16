@@ -6,6 +6,7 @@
       "id": "sambanova-sn10",
       "name": "SN10",
       "family": "Reconfigurable Dataflow Unit",
+      "generation": "SN10",
       "released": "2020-11",
       "specs": {
         "codename": "Cardinal",
@@ -40,6 +41,7 @@
       "id": "sambanova-sn30",
       "name": "SN30",
       "family": "Reconfigurable Dataflow Unit",
+      "generation": "SN30",
       "released": "2022-09",
       "specs": {
         "microarchitecture": "RDU",
@@ -74,6 +76,7 @@
       "id": "sambanova-sn40l",
       "name": "SN40L",
       "family": "Reconfigurable Dataflow Unit",
+      "generation": "SN40L",
       "released": "2023-09",
       "specs": {
         "microarchitecture": "RDU",

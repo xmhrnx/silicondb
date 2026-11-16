@@ -6,6 +6,7 @@
       "id": "freescale-mpc7400",
       "name": "PowerPC 7400",
       "family": "PowerPC G4",
+      "generation": "PowerPC G4",
       "released": "1999-08",
       "specs": {
         "codename": "Max",
@@ -44,6 +45,7 @@
       "id": "freescale-mpc7410",
       "name": "PowerPC 7410",
       "family": "PowerPC G4",
+      "generation": "PowerPC G4",
       "released": "2000",
       "specs": {
         "codename": "Nitro",
@@ -82,6 +84,7 @@
       "id": "freescale-mpc7450",
       "name": "PowerPC 7450",
       "family": "PowerPC G4",
+      "generation": "PowerPC G4",
       "released": "2001-01",
       "specs": {
         "codename": "V'ger",
@@ -120,6 +123,7 @@
       "id": "freescale-mpc7455",
       "name": "PowerPC 7455",
       "family": "PowerPC G4",
+      "generation": "PowerPC G4",
       "released": "2002-01",
       "specs": {
         "codename": "Apollo 6",
@@ -158,6 +162,7 @@
       "id": "freescale-mpc7457",
       "name": "PowerPC 7457",
       "family": "PowerPC G4",
+      "generation": "PowerPC G4",
       "released": "2003",
       "specs": {
         "codename": "Apollo 7",
@@ -196,6 +201,7 @@
       "id": "freescale-mpc7447a",
       "name": "PowerPC 7447A",
       "family": "PowerPC G4",
+      "generation": "PowerPC G4",
       "released": "2004",
       "specs": {
         "codename": "Apollo 7",
@@ -234,6 +240,7 @@
       "id": "freescale-mpc7448",
       "name": "PowerPC 7448",
       "family": "PowerPC G4",
+      "generation": "PowerPC G4",
       "released": "2005",
       "specs": {
         "codename": "Apollo 8",
@@ -272,6 +279,7 @@
       "id": "freescale-mpc8641d",
       "name": "MPC8641D",
       "family": "e600",
+      "generation": "MPC86xx (e600)",
       "released": "2006",
       "specs": {
         "microarchitecture": "e600",

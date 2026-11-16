@@ -6,6 +6,7 @@
       "id": "intel-i740",
       "name": "i740",
       "family": "i740",
+      "generation": "i740",
       "released": "1998-02",
       "specs": {
         "codename": "Auburn",
@@ -49,6 +50,7 @@
       "id": "intel-iris-xe-max",
       "name": "Iris Xe MAX",
       "family": "Iris Xe",
+      "generation": "Iris Xe MAX (DG1)",
       "released": "2020-10-31",
       "specs": {
         "codename": "DG1",
@@ -95,6 +97,7 @@
       "id": "intel-arc-a380",
       "name": "Arc A380",
       "family": "Arc A",
+      "generation": "Arc A-series (Alchemist)",
       "released": "2022-06-14",
       "specs": {
         "codename": "Alchemist ACM-G11",
@@ -144,6 +147,7 @@
       "id": "intel-data-center-gpu-flex-170",
       "name": "Data Center GPU Flex 170",
       "family": "Data Center GPU Flex",
+      "generation": "Data Center GPU Flex (Arctic Sound-M)",
       "released": "2022-08-24",
       "specs": {
         "codename": "Arctic Sound-M",
@@ -191,6 +195,7 @@
       "id": "intel-arc-a750",
       "name": "Arc A750",
       "family": "Arc A",
+      "generation": "Arc A-series (Alchemist)",
       "released": "2022-10-12",
       "specs": {
         "codename": "Alchemist ACM-G10",
@@ -240,6 +245,7 @@
       "id": "intel-arc-a770",
       "name": "Arc A770 16GB",
       "family": "Arc A",
+      "generation": "Arc A-series (Alchemist)",
       "released": "2022-10-12",
       "specs": {
         "codename": "Alchemist ACM-G10",
@@ -287,6 +293,7 @@
       "id": "intel-data-center-gpu-max-1100",
       "name": "Data Center GPU Max 1100",
       "family": "Data Center GPU Max",
+      "generation": "Data Center GPU Max (Ponte Vecchio)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Ponte Vecchio",
@@ -332,6 +339,7 @@
       "id": "intel-data-center-gpu-max-1550",
       "name": "Data Center GPU Max 1550",
       "family": "Data Center GPU Max",
+      "generation": "Data Center GPU Max (Ponte Vecchio)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Ponte Vecchio",
@@ -377,6 +385,7 @@
       "id": "intel-arc-a580",
       "name": "Arc A580",
       "family": "Arc A",
+      "generation": "Arc A-series (Alchemist)",
       "released": "2023-10-10",
       "specs": {
         "codename": "Alchemist ACM-G10",
@@ -426,6 +435,7 @@
       "id": "intel-arc-b580",
       "name": "Arc B580",
       "family": "Arc B",
+      "generation": "Arc B-series (Battlemage)",
       "released": "2024-12-13",
       "specs": {
         "codename": "Battlemage BMG-G21",
@@ -476,6 +486,7 @@
       "id": "intel-arc-b570",
       "name": "Arc B570",
       "family": "Arc B",
+      "generation": "Arc B-series (Battlemage)",
       "released": "2025-01-16",
       "specs": {
         "codename": "Battlemage BMG-G21",
@@ -526,6 +537,7 @@
       "id": "intel-arc-pro-b60",
       "name": "Arc Pro B60",
       "family": "Arc Pro B",
+      "generation": "Arc Pro B-series (Battlemage)",
       "released": "2025-05",
       "specs": {
         "codename": "Battlemage BMG-G21",

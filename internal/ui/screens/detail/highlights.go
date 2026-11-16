@@ -1,7 +1,7 @@
 package detail
 
 import (
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"

@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mehran9675/giode"
-	"github.com/mehran9675/giode/components/scroll"
+	"github.com/xmhrnx/giode"
+	"github.com/xmhrnx/giode/components/scroll"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"
@@ -44,7 +44,7 @@ func (s *Screen) content() giode.Element {
 	}
 	for _, m := range makers {
 		id := m.ID
-		children = append(children, components.MakerRow(m, len(cat.ChipsBy(id)), func() { s.env.Routes.OpenMaker(id) }))
+		children = append(children, components.MakerRow(m, len(cat.ChipsBy(id)), func() { s.env.Routes.OpenMaker(id, "") }))
 	}
 	if len(makers) == 0 {
 		children = append(children, components.EmptyState("factory", tr.T("makers.empty.title"), tr.T("makers.empty.message"), nil))

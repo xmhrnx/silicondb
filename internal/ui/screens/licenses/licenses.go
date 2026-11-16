@@ -3,7 +3,7 @@
 package licenses
 
 import (
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/assets"
 	"github.com/mehran9675/silicondb/internal/ui/components"

@@ -6,6 +6,7 @@
       "id": "microsoft-cobalt-100",
       "name": "Cobalt 100",
       "family": "Cobalt",
+      "generation": "Cobalt 100",
       "released": "2023-11",
       "specs": {
         "microarchitecture": "Neoverse N2",
@@ -56,6 +57,7 @@
       "id": "microsoft-cobalt-200",
       "name": "Cobalt 200",
       "family": "Cobalt",
+      "generation": "Cobalt 200",
       "released": "2025-11",
       "specs": {
         "microarchitecture": "Neoverse V3",

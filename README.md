@@ -3,11 +3,14 @@
 A mobile app with the specifications of processing chips — CPUs, GPUs, APUs, SoCs,
 TPUs/NPUs and other AI accelerators, microcontrollers, DSPs and FPGAs — from every
 manufacturer and every era. Built in Go with
-[giode](https://github.com/mehran9675/giode) and packaged with the
-[giode CLI](https://github.com/mehran9675/giode-cli).
+[giode](https://github.com/xmhrnx/giode) and packaged with the
+[giode CLI](https://github.com/xmhrnx/giode-cli).
 
 ## Features
 
+- **Organized browsing**: Category → Company → Segment (Desktop, Laptop, Workstation,
+  Server, Mobile, …) → Generation → chips, e.g. CPU → Intel → Desktop →
+  Core 14th Gen (Raptor Lake Refresh) → Core i5-14600K.
 - **Home**: the database at a glance, categories, latest releases, the earliest chips,
   top manufacturers and recently viewed chips.
 - **Explore**: search by name, family, codename or architecture; filter by category,
@@ -58,7 +61,7 @@ Change it at build time with
 Requires Go 1.26+ and the giode CLI:
 
 ```sh
-go install github.com/mehran9675/giode-cli/cmd/giode@latest
+go install github.com/xmhrnx/giode-cli/cmd/giode@latest
 giode doctor                 # what each target needs
 giode run android            # build, install and launch on a connected phone
 giode build android          # dist/android/Silicon DB.apk
@@ -81,7 +84,10 @@ built on ordinary pushes. Signing uses repository secrets:
 
 Encode a file for a secret with `base64 -i file | pbcopy` (macOS) or `base64 -w0 file` (Linux).
 
-The app icon is drawn by `go run ./cmd/icongen`, which writes `assets/icon.png`.
+The icons are drawn by `go run ./cmd/icongen`: `assets/icon.png`, the iOS icon
+(`icon-ios.png`), Android's adaptive and themed icon layers (`android-*.png`) and the launch
+screen logo (`launch.png`). `giode.toml` sets the launch screen colour (`splash_color`) to
+the app's dark background; the in-app splash shown during the first download continues it.
 
 ## Project layout
 
@@ -91,7 +97,7 @@ assets/                     embedded fonts (Inter), SVG icons, app icon, transla
                             (locales/) and open-source licenses (licenses.json)
 cmd/indexgen/               data validator and index generator
 cmd/enrich/                 fills missing specs from public sources
-cmd/icongen/                draws assets/icon.png
+cmd/icongen/                draws the app, iOS and Android icons and the launch logo
 data/                       the database (downloaded by the app, not embedded)
 internal/
   config/                   build-time settings (data URL, version)

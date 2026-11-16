@@ -6,6 +6,7 @@
       "id": "nexgen-nx586",
       "name": "Nx586",
       "family": "Nx586",
+      "generation": "Nx586",
       "released": "1994-03",
       "specs": {
         "microarchitecture": "Nx586 (RISC86)",

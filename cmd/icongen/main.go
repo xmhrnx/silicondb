@@ -1,9 +1,23 @@
-// Command icongen draws the app icon: a chip outlined in white on a dark
-// oil background, labelled with silicon's symbol and atomic number. The
-// artwork stays inside the middle of the canvas, so launchers that crop
-// icons to circles or rounded squares don't cut it off.
+// Command icongen draws the app's icons: a chip outlined in white on a
+// dark oil background, labelled with silicon's symbol and atomic number.
 //
-//	go run ./cmd/icongen            # writes assets/icon.png
+//	go run ./cmd/icongen            # writes the files below into assets/
+//
+// icon.png                  the icon, artwork in the middle so launchers that
+//
+//	crop to a circle don't cut it
+//
+// icon-ios.png              iOS's: opaque and full-bleed with a larger chip,
+//
+//	since iOS only rounds the corners
+//
+// android-foreground.png    the adaptive icon's chip on transparency (Android
+//
+//	8+), inside the 66dp safe zone of the 108dp canvas;
+//	also the themed icon's shape (Android 13+)
+//
+// android-background.png    the adaptive icon's oil background
+// launch.png                the chip alone, centred on iOS's launch screen
 package main
 
 import (
@@ -14,6 +28,7 @@ import (
 	"log"
 	"math"
 	"os"
+	"path/filepath"
 
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
@@ -29,18 +44,57 @@ const (
 )
 
 func main() {
-	out := flag.String("o", "assets/icon.png", "output file")
+	dir := flag.String("dir", "assets", "output folder")
 	flag.Parse()
 
-	mask := image.NewAlpha(image.Rect(0, 0, big, big))
-	drawChip(mask)
-	drawLabel(mask)
+	face := loadFont()
+	write(filepath.Join(*dir, "icon.png"), render(chip(face, 1), true))
+	write(filepath.Join(*dir, "icon-ios.png"), render(chip(face, 1.38), true))
+	write(filepath.Join(*dir, "android-foreground.png"), render(chip(face, 1.2), false))
+	write(filepath.Join(*dir, "android-background.png"), render(image.NewAlpha(image.Rect(0, 0, big, big)), true))
+	write(filepath.Join(*dir, "launch.png"), shrink(render(chip(face, 1.9), false), 600))
+}
 
+// chip draws the chip and its label into a supersampled mask, scaled by s
+// around the centre (1 is the launcher-safe size).
+func chip(f *opentype.Font, s float64) *image.Alpha {
+	m := image.NewAlpha(image.Rect(0, 0, big, big))
+	t := func(v float64) float64 { return size/2 + (v-size/2)*s }
+	const (
+		lo, hi = 340.0, 684.0 // package body
+		radius = 46.0
+		stroke = 22.0
+		pinLen = 64.0
+		pinW   = 22.0
+	)
+	box := func(x0, y0, x1, y1, r float64, a uint8) {
+		fillRoundRect(m, t(x0), t(y0), t(x1), t(y1), r*s, a)
+	}
+	box(lo, lo, hi, hi, radius, 255)
+	box(lo+stroke, lo+stroke, hi-stroke, hi-stroke, radius-stroke, 0)
+	for i := 0; i < 4; i++ {
+		c := lo + (hi-lo)*(float64(i)+1)/5
+		box(c-pinW/2, lo-pinLen, c+pinW/2, lo+1, pinW/2, 255)
+		box(c-pinW/2, hi-1, c+pinW/2, hi+pinLen, pinW/2, 255)
+		box(lo-pinLen, c-pinW/2, lo+1, c+pinW/2, pinW/2, 255)
+		box(hi-1, c-pinW/2, hi+pinLen, c+pinW/2, pinW/2, 255)
+	}
+	text(m, f, "Si", 168*s, t(512), t(590), true)
+	text(m, f, "14", 54*s, t(392), t(438), false)
+	return m
+}
+
+// render paints the mask white, over the oil background when opaque.
+func render(mask *image.Alpha, opaque bool) *image.NRGBA {
 	img := image.NewNRGBA(image.Rect(0, 0, size, size))
 	for y := 0; y < size; y++ {
 		for x := 0; x < size; x++ {
-			r, g, b := background(float64(x)+0.5, float64(y)+0.5)
 			a := coverage(mask, x, y)
+			if !opaque {
+				img.SetNRGBA(x, y, color.NRGBA{255, 255, 255, uint8(255 * a)})
+				continue
+			}
+			r, g, b := background(float64(x)+0.5, float64(y)+0.5)
 			img.SetNRGBA(x, y, color.NRGBA{
 				R: uint8(r + (255-r)*a),
 				G: uint8(g + (255-g)*a),
@@ -49,14 +103,7 @@ func main() {
 			})
 		}
 	}
-	f, err := os.Create(*out)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
-	if err := png.Encode(f, img); err != nil {
-		log.Fatal(err)
-	}
+	return img
 }
 
 // background is dark oil: near-black with a faint green-blue sheen
@@ -72,29 +119,7 @@ func background(x, y float64) (r, g, b float64) {
 	return r, g, b
 }
 
-// drawChip outlines the package and its pins.
-func drawChip(m *image.Alpha) {
-	const (
-		lo, hi = 340.0, 684.0 // package body
-		radius = 46.0
-		stroke = 22.0
-		pinLen = 64.0
-		pinW   = 22.0
-	)
-	fillRoundRect(m, lo, lo, hi, hi, radius, 255)
-	fillRoundRect(m, lo+stroke, lo+stroke, hi-stroke, hi-stroke, radius-stroke, 0)
-	for i := 0; i < 4; i++ {
-		c := lo + (hi-lo)*(float64(i)+1)/5
-		fillRoundRect(m, c-pinW/2, lo-pinLen, c+pinW/2, lo+1, pinW/2, 255)
-		fillRoundRect(m, c-pinW/2, hi-1, c+pinW/2, hi+pinLen, pinW/2, 255)
-		fillRoundRect(m, lo-pinLen, c-pinW/2, lo+1, c+pinW/2, pinW/2, 255)
-		fillRoundRect(m, hi-1, c-pinW/2, hi+pinLen, c+pinW/2, pinW/2, 255)
-	}
-}
-
-// drawLabel writes "Si" in the middle and "14" in the top left corner,
-// as on a periodic table tile.
-func drawLabel(m *image.Alpha) {
+func loadFont() *opentype.Font {
 	ttf, err := assets.Fonts.ReadFile("fonts/Inter-Bold.ttf")
 	if err != nil {
 		log.Fatal(err)
@@ -103,8 +128,7 @@ func drawLabel(m *image.Alpha) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	text(m, f, "Si", 168, 512, 590, true)
-	text(m, f, "14", 54, 392, 438, false)
+	return f
 }
 
 // text draws s at size px with its baseline at y; centered centers it on
@@ -151,6 +175,41 @@ func coverage(m *image.Alpha, x, y int) float64 {
 		}
 	}
 	return float64(sum) / float64(255*ss*ss)
+}
+
+// shrink scales a square image down to n pixels by averaging, keeping
+// alpha premultiplied while averaging so edges stay clean.
+func shrink(src *image.NRGBA, n int) *image.NRGBA {
+	dst := image.NewNRGBA(image.Rect(0, 0, n, n))
+	k := float64(size) / float64(n)
+	for y := 0; y < n; y++ {
+		for x := 0; x < n; x++ {
+			var r, g, b, a, cnt float64
+			for sy := int(float64(y) * k); sy < int(float64(y+1)*k); sy++ {
+				for sx := int(float64(x) * k); sx < int(float64(x+1)*k); sx++ {
+					c := src.NRGBAAt(sx, sy)
+					al := float64(c.A) / 255
+					r, g, b, a = r+float64(c.R)*al, g+float64(c.G)*al, b+float64(c.B)*al, a+al
+					cnt++
+				}
+			}
+			if a > 0 {
+				dst.SetNRGBA(x, y, color.NRGBA{uint8(r / a), uint8(g / a), uint8(b / a), uint8(255 * a / cnt)})
+			}
+		}
+	}
+	return dst
+}
+
+func write(path string, img image.Image) {
+	f, err := os.Create(path)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+	if err := png.Encode(f, img); err != nil {
+		log.Fatal(err)
+	}
 }
 
 func lerp(a, b, t float64) float64 { return a + (b-a)*t }

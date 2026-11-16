@@ -6,6 +6,7 @@
       "id": "ampere-emag-8180",
       "name": "eMAG 8180",
       "family": "eMAG",
+      "generation": "eMAG (X-Gene 3)",
       "released": "2018-09",
       "specs": {
         "codename": "Skylark",
@@ -56,6 +57,7 @@
       "id": "ampere-altra-q80-30",
       "name": "Altra Q80-30",
       "family": "Altra",
+      "generation": "Altra",
       "released": "2020-06",
       "specs": {
         "codename": "Quicksilver",
@@ -110,6 +112,7 @@
       "id": "ampere-altra-q80-33",
       "name": "Altra Q80-33",
       "family": "Altra",
+      "generation": "Altra",
       "released": "2020-06",
       "specs": {
         "codename": "Quicksilver",
@@ -164,6 +167,7 @@
       "id": "ampere-altra-max-m128-30",
       "name": "Altra Max M128-30",
       "family": "Altra Max",
+      "generation": "Altra Max",
       "released": "2021-09",
       "specs": {
         "codename": "Mystique",
@@ -218,6 +222,7 @@
       "id": "ampere-ampereone-a192-32x",
       "name": "AmpereOne A192-32X",
       "family": "AmpereOne",
+      "generation": "AmpereOne",
       "released": "2024-05",
       "specs": {
         "codename": "Siryn",
@@ -271,6 +276,7 @@
       "id": "ampere-ampereone-a192-32m",
       "name": "AmpereOne M A192-32M",
       "family": "AmpereOne M",
+      "generation": "AmpereOne M",
       "released": "2025-05",
       "specs": {
         "microarchitecture": "AmpereOne",

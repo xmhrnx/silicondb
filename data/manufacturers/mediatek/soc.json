@@ -6,6 +6,7 @@
       "id": "mediatek-mt6573",
       "name": "MT6573",
       "family": "MT65xx",
+      "generation": "MT6573",
       "released": "2010",
       "specs": {
         "codename": "MT6573",
@@ -49,6 +50,7 @@
       "id": "mediatek-mt6577",
       "name": "MT6577",
       "family": "MT65xx",
+      "generation": "MT6577",
       "released": "2012",
       "specs": {
         "codename": "MT6577",
@@ -99,6 +101,7 @@
       "id": "mediatek-mt6589",
       "name": "MT6589",
       "family": "MT65xx",
+      "generation": "MT6589",
       "released": "2013-01",
       "specs": {
         "codename": "MT6589",
@@ -149,6 +152,7 @@
       "id": "mediatek-mt6592",
       "name": "MT6592",
       "family": "MT65xx",
+      "generation": "MT6592",
       "released": "2013-11",
       "specs": {
         "codename": "MT6592",
@@ -199,6 +203,7 @@
       "id": "mediatek-mt6752",
       "name": "MT6752",
       "family": "MT67xx",
+      "generation": "MT6752",
       "released": "2014-10",
       "specs": {
         "codename": "MT6752",
@@ -249,6 +254,7 @@
       "id": "mediatek-helio-x10",
       "name": "Helio X10 (MT6795)",
       "family": "Helio X",
+      "generation": "Helio X10",
       "released": "2015-03",
       "specs": {
         "codename": "MT6795",
@@ -299,6 +305,7 @@
       "id": "mediatek-helio-x20",
       "name": "Helio X20 (MT6797)",
       "family": "Helio X",
+      "generation": "Helio X20",
       "released": "2016-04",
       "specs": {
         "codename": "MT6797",
@@ -349,6 +356,7 @@
       "id": "mediatek-helio-x30",
       "name": "Helio X30 (MT6799)",
       "family": "Helio X",
+      "generation": "Helio X30",
       "released": "2017-06",
       "specs": {
         "codename": "MT6799",
@@ -399,6 +407,7 @@
       "id": "mediatek-helio-p60",
       "name": "Helio P60 (MT6771)",
       "family": "Helio P",
+      "generation": "Helio P60",
       "released": "2018-03",
       "specs": {
         "codename": "MT6771",
@@ -459,6 +468,7 @@
       "id": "mediatek-helio-g90t",
       "name": "Helio G90T",
       "family": "Helio G",
+      "generation": "Helio G90",
       "released": "2019-08",
       "specs": {
         "codename": "MT6785",
@@ -519,6 +529,7 @@
       "id": "mediatek-dimensity-1000",
       "name": "Dimensity 1000",
       "family": "Dimensity 1000",
+      "generation": "Dimensity 1000",
       "released": "2019-11",
       "specs": {
         "codename": "MT6889",
@@ -568,6 +579,7 @@
       "id": "mediatek-dimensity-1200",
       "name": "Dimensity 1200",
       "family": "Dimensity 1000",
+      "generation": "Dimensity 1200",
       "released": "2021-01",
       "specs": {
         "codename": "MT6893",
@@ -628,6 +640,7 @@
       "id": "mediatek-dimensity-9000",
       "name": "Dimensity 9000",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9000",
       "released": "2021-12",
       "specs": {
         "codename": "MT6983",
@@ -687,6 +700,7 @@
       "id": "mediatek-dimensity-8100",
       "name": "Dimensity 8100",
       "family": "Dimensity 8000",
+      "generation": "Dimensity 8100",
       "released": "2022-03",
       "specs": {
         "codename": "MT6895",
@@ -746,6 +760,7 @@
       "id": "mediatek-helio-g99",
       "name": "Helio G99",
       "family": "Helio G",
+      "generation": "Helio G99",
       "released": "2022-05",
       "specs": {
         "codename": "MT6789",
@@ -806,6 +821,7 @@
       "id": "mediatek-dimensity-9200",
       "name": "Dimensity 9200",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9200",
       "released": "2022-11",
       "specs": {
         "codename": "MT6985",
@@ -865,6 +881,7 @@
       "id": "mediatek-dimensity-8200",
       "name": "Dimensity 8200",
       "family": "Dimensity 8000",
+      "generation": "Dimensity 8200",
       "released": "2022-12",
       "specs": {
         "codename": "MT6896",
@@ -924,6 +941,7 @@
       "id": "mediatek-genio-700",
       "name": "Genio 700",
       "family": "Genio",
+      "generation": "Genio 700",
       "released": "2023",
       "specs": {
         "codename": "MT8390",
@@ -976,6 +994,7 @@
       "id": "mediatek-dimensity-7200",
       "name": "Dimensity 7200",
       "family": "Dimensity 7000",
+      "generation": "Dimensity 7200",
       "released": "2023-02",
       "specs": {
         "codename": "MT6886",
@@ -1036,6 +1055,7 @@
       "id": "mediatek-dimensity-7050",
       "name": "Dimensity 7050",
       "family": "Dimensity 7000",
+      "generation": "Dimensity 7050",
       "released": "2023-05",
       "specs": {
         "microarchitecture": "Cortex-A78 / Cortex-A55",
@@ -1095,6 +1115,7 @@
       "id": "mediatek-dimensity-9200-plus",
       "name": "Dimensity 9200+",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9200",
       "released": "2023-05",
       "specs": {
         "microarchitecture": "Cortex-X3 / Cortex-A715 / Cortex-A510",
@@ -1154,6 +1175,7 @@
       "id": "mediatek-dimensity-9300",
       "name": "Dimensity 9300",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9300",
       "released": "2023-11",
       "specs": {
         "codename": "MT6989",
@@ -1215,6 +1237,7 @@
       "id": "mediatek-dimensity-8300",
       "name": "Dimensity 8300",
       "family": "Dimensity 8000",
+      "generation": "Dimensity 8300",
       "released": "2023-11",
       "specs": {
         "codename": "MT6897",
@@ -1274,6 +1297,7 @@
       "id": "mediatek-dimensity-6300",
       "name": "Dimensity 6300",
       "family": "Dimensity 6000",
+      "generation": "Dimensity 6300",
       "released": "2024-04",
       "specs": {
         "codename": "MT6835",
@@ -1335,6 +1359,7 @@
       "id": "mediatek-dimensity-7300",
       "name": "Dimensity 7300",
       "family": "Dimensity 7000",
+      "generation": "Dimensity 7300",
       "released": "2024-05",
       "specs": {
         "codename": "MT6878",
@@ -1395,6 +1420,7 @@
       "id": "mediatek-dimensity-9300-plus",
       "name": "Dimensity 9300+",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9300",
       "released": "2024-05",
       "specs": {
         "microarchitecture": "Cortex-X4 / Cortex-A720",
@@ -1455,6 +1481,7 @@
       "id": "mediatek-dimensity-9400",
       "name": "Dimensity 9400",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9400",
       "released": "2024-10",
       "specs": {
         "codename": "MT6991",
@@ -1516,6 +1543,7 @@
       "id": "mediatek-dimensity-8400",
       "name": "Dimensity 8400",
       "family": "Dimensity 8000",
+      "generation": "Dimensity 8400",
       "released": "2024-12",
       "specs": {
         "codename": "MT6899",
@@ -1576,6 +1604,7 @@
       "id": "mediatek-dimensity-9400-plus",
       "name": "Dimensity 9400+",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9400",
       "released": "2025-04",
       "specs": {
         "microarchitecture": "Cortex-X925 / Cortex-X4 / Cortex-A720",
@@ -1637,6 +1666,7 @@
       "id": "mediatek-kompanio-ultra-910",
       "name": "Kompanio Ultra 910",
       "family": "Kompanio",
+      "generation": "Kompanio Ultra",
       "released": "2025-04",
       "specs": {
         "codename": "MT8196",
@@ -1686,6 +1716,7 @@
       "id": "mediatek-dimensity-8450",
       "name": "Dimensity 8450",
       "family": "Dimensity 8000",
+      "generation": "Dimensity 8450",
       "released": "2025-05",
       "specs": {
         "microarchitecture": "Cortex-A725",
@@ -1745,6 +1776,7 @@
       "id": "mediatek-dimensity-9500",
       "name": "Dimensity 9500",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9500",
       "released": "2025-09",
       "specs": {
         "codename": "MT6993",
@@ -1806,6 +1838,7 @@
       "id": "mediatek-dimensity-9600m",
       "name": "Dimensity 9600M",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9600",
       "released": "2026-09",
       "specs": {
         "microarchitecture": "C1-Ultra / C1-Premium / C1-Pro",
@@ -1867,6 +1900,7 @@
       "id": "mediatek-dimensity-9600-pro",
       "name": "Dimensity 9600 Pro",
       "family": "Dimensity 9000",
+      "generation": "Dimensity 9600",
       "released": "2026-09",
       "specs": {
         "microarchitecture": "Arm C2 series",

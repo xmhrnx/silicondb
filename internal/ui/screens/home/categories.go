@@ -1,10 +1,9 @@
 package home
 
 import (
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/internal/model"
-	"github.com/mehran9675/silicondb/internal/store"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
 	"github.com/mehran9675/silicondb/internal/ui/tr"
@@ -19,9 +18,7 @@ func categories(e *env.Env, cat *model.Catalog) giode.Element {
 			continue
 		}
 		id := c.ID
-		tiles = append(tiles, components.CategoryTile(c, counts[c.ID], func() {
-			e.Routes.Explore(store.Query{Category: id})
-		}))
+		tiles = append(tiles, components.CategoryTile(c, counts[c.ID], func() { e.Routes.OpenCategory(id) }))
 	}
 	cols := 2
 	if !giode.Compact() {

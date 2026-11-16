@@ -6,6 +6,7 @@
       "id": "tesla-fsd-hw3",
       "name": "FSD Chip (HW3)",
       "family": "Full Self-Driving",
+      "generation": "FSD Chip (HW3)",
       "released": "2019-04",
       "specs": {
         "codename": "FSD Computer (HW3)",
@@ -55,6 +56,7 @@
       "id": "tesla-ai4",
       "name": "AI4 (HW4)",
       "family": "Full Self-Driving",
+      "generation": "AI4 (HW4)",
       "released": "2023-02",
       "specs": {
         "codename": "FSD Computer 2 (HW4)",

@@ -6,10 +6,11 @@
       "id": "ibm-truenorth",
       "name": "TrueNorth",
       "family": "Neuromorphic",
+      "generation": "TrueNorth",
       "released": "2014-08",
       "specs": {
         "microarchitecture": "TrueNorth (neurosynaptic)",
-        "market": "Professional",
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "Samsung",
         "transistors": 5400000000,
@@ -40,6 +41,7 @@
       "id": "ibm-northpole",
       "name": "NorthPole",
       "family": "Neuromorphic",
+      "generation": "NorthPole",
       "released": "2023-10",
       "specs": {
         "microarchitecture": "NorthPole",
@@ -74,6 +76,7 @@
       "id": "ibm-spyre",
       "name": "Spyre",
       "family": "AIU",
+      "generation": "Spyre",
       "released": "2025-10",
       "specs": {
         "codename": "AIU",

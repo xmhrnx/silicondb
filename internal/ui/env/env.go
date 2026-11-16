@@ -3,7 +3,7 @@
 package env
 
 import (
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/internal/store"
 )
@@ -12,8 +12,11 @@ import (
 type Routes interface {
 	// OpenChip shows a chip's specifications.
 	OpenChip(id string)
-	// OpenMaker shows a manufacturer and its chips.
-	OpenMaker(id string)
+	// OpenMaker shows a manufacturer's chips of a category ("" for all),
+	// by segment and generation.
+	OpenMaker(id, category string)
+	// OpenCategory lists the companies making a category of chips.
+	OpenCategory(id string)
 	// Explore switches to the Explore tab with q applied.
 	Explore(q store.Query)
 	// OpenLicenses shows the open-source licenses.

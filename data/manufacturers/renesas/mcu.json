@@ -6,6 +6,7 @@
       "id": "renesas-rx62n",
       "name": "RX62N",
       "family": "RX600",
+      "generation": "RX600",
       "released": "2010",
       "specs": {
         "microarchitecture": "RXv1",
@@ -39,6 +40,7 @@
       "id": "renesas-rl78-g13",
       "name": "RL78/G13",
       "family": "RL78",
+      "generation": "RL78",
       "released": "2011",
       "specs": {
         "microarchitecture": "RL78-S2",
@@ -71,6 +73,7 @@
       "id": "renesas-rx65n",
       "name": "RX65N",
       "family": "RX600",
+      "generation": "RX600",
       "released": "2017",
       "specs": {
         "microarchitecture": "RXv2",
@@ -107,6 +110,7 @@
       "id": "renesas-ra4m1",
       "name": "RA4M1",
       "family": "RA4",
+      "generation": "RA4",
       "released": "2019-10",
       "specs": {
         "microarchitecture": "Cortex-M4F",
@@ -141,6 +145,7 @@
       "id": "renesas-ra6m5",
       "name": "RA6M5",
       "family": "RA6",
+      "generation": "RA6",
       "released": "2020",
       "specs": {
         "microarchitecture": "Cortex-M33",
@@ -179,6 +184,7 @@
       "id": "renesas-ra8m1",
       "name": "RA8M1",
       "family": "RA8",
+      "generation": "RA8",
       "released": "2023-10",
       "specs": {
         "microarchitecture": "Cortex-M85",
@@ -219,6 +225,7 @@
       "id": "renesas-ra8d1",
       "name": "RA8D1",
       "family": "RA8",
+      "generation": "RA8",
       "released": "2023-12",
       "specs": {
         "microarchitecture": "Cortex-M85",

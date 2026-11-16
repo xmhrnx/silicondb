@@ -6,6 +6,7 @@
       "id": "xiaomi-xring-o1",
       "name": "XRING O1",
       "family": "XRING",
+      "generation": "XRING O1",
       "released": "2025-05",
       "specs": {
         "microarchitecture": "Cortex-X925 / Cortex-A725 / Cortex-A520",

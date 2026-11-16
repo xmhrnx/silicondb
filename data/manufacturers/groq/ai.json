@@ -6,6 +6,7 @@
       "id": "groq-groqchip",
       "name": "GroqChip LPU",
       "family": "LPU",
+      "generation": "GroqChip 1",
       "released": "2020",
       "specs": {
         "codename": "TSP",

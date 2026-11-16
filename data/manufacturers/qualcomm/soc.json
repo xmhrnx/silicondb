@@ -6,6 +6,7 @@
       "id": "qualcomm-qsd8250",
       "name": "Snapdragon S1 QSD8250",
       "family": "Snapdragon S1",
+      "generation": "Snapdragon S1",
       "released": "2008-11",
       "specs": {
         "codename": "QSD8250",
@@ -47,6 +48,7 @@
       "id": "qualcomm-msm7227",
       "name": "Snapdragon S1 MSM7227",
       "family": "Snapdragon S1",
+      "generation": "Snapdragon S1",
       "released": "2009",
       "specs": {
         "codename": "MSM7227",
@@ -88,6 +90,7 @@
       "id": "qualcomm-msm8255",
       "name": "Snapdragon S2 MSM8255",
       "family": "Snapdragon S2",
+      "generation": "Snapdragon S2",
       "released": "2010",
       "specs": {
         "codename": "MSM8255",
@@ -130,6 +133,7 @@
       "id": "qualcomm-msm8260",
       "name": "Snapdragon S3 MSM8260",
       "family": "Snapdragon S3",
+      "generation": "Snapdragon S3",
       "released": "2011",
       "specs": {
         "codename": "MSM8260",
@@ -172,6 +176,7 @@
       "id": "qualcomm-apq8064",
       "name": "Snapdragon S4 Pro APQ8064",
       "family": "Snapdragon S4",
+      "generation": "Snapdragon S4",
       "released": "2012",
       "specs": {
         "codename": "APQ8064",
@@ -223,6 +228,7 @@
       "id": "qualcomm-msm8960",
       "name": "Snapdragon S4 Plus MSM8960",
       "family": "Snapdragon S4",
+      "generation": "Snapdragon S4",
       "released": "2012-04",
       "specs": {
         "codename": "MSM8960",
@@ -272,6 +278,7 @@
       "id": "qualcomm-snapdragon-600",
       "name": "Snapdragon 600",
       "family": "Snapdragon 600",
+      "generation": "Snapdragon 600",
       "released": "2013-03",
       "specs": {
         "codename": "APQ8064T",
@@ -322,6 +329,7 @@
       "id": "qualcomm-snapdragon-800",
       "name": "Snapdragon 800",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 800",
       "released": "2013-07",
       "specs": {
         "codename": "MSM8974",
@@ -372,6 +380,7 @@
       "id": "qualcomm-snapdragon-615",
       "name": "Snapdragon 615",
       "family": "Snapdragon 600",
+      "generation": "Snapdragon 615",
       "released": "2014",
       "specs": {
         "codename": "MSM8939",
@@ -422,6 +431,7 @@
       "id": "qualcomm-snapdragon-801",
       "name": "Snapdragon 801",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 800",
       "released": "2014-02",
       "specs": {
         "codename": "MSM8974AC",
@@ -484,6 +494,7 @@
       "id": "qualcomm-snapdragon-805",
       "name": "Snapdragon 805",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 805",
       "released": "2014-07",
       "specs": {
         "codename": "APQ8084",
@@ -534,6 +545,7 @@
       "id": "qualcomm-snapdragon-810",
       "name": "Snapdragon 810",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 810",
       "released": "2015-03",
       "specs": {
         "codename": "MSM8994",
@@ -584,6 +596,7 @@
       "id": "qualcomm-snapdragon-808",
       "name": "Snapdragon 808",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 808",
       "released": "2015-04",
       "specs": {
         "codename": "MSM8992",
@@ -634,6 +647,7 @@
       "id": "qualcomm-snapdragon-820",
       "name": "Snapdragon 820",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 820",
       "released": "2016-02",
       "specs": {
         "codename": "MSM8996",
@@ -696,6 +710,7 @@
       "id": "qualcomm-snapdragon-625",
       "name": "Snapdragon 625",
       "family": "Snapdragon 600",
+      "generation": "Snapdragon 625",
       "released": "2016-02",
       "specs": {
         "codename": "MSM8953",
@@ -757,6 +772,7 @@
       "id": "qualcomm-snapdragon-821",
       "name": "Snapdragon 821",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 820",
       "released": "2016-07",
       "specs": {
         "codename": "MSM8996 Pro",
@@ -819,6 +835,7 @@
       "id": "qualcomm-snapdragon-835",
       "name": "Snapdragon 835",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 835",
       "released": "2017-03",
       "specs": {
         "codename": "MSM8998",
@@ -881,6 +898,7 @@
       "id": "qualcomm-snapdragon-660",
       "name": "Snapdragon 660",
       "family": "Snapdragon 600",
+      "generation": "Snapdragon 660",
       "released": "2017-05",
       "specs": {
         "codename": "SDM660",
@@ -942,6 +960,7 @@
       "id": "qualcomm-snapdragon-845",
       "name": "Snapdragon 845",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 845",
       "released": "2018-02",
       "specs": {
         "codename": "SDM845",
@@ -1005,6 +1024,7 @@
       "id": "qualcomm-snapdragon-710",
       "name": "Snapdragon 710",
       "family": "Snapdragon 700",
+      "generation": "Snapdragon 710",
       "released": "2018-05",
       "specs": {
         "codename": "SDM710",
@@ -1066,6 +1086,7 @@
       "id": "qualcomm-snapdragon-855",
       "name": "Snapdragon 855",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 855",
       "released": "2019-02",
       "specs": {
         "codename": "SM8150 (Hana)",
@@ -1129,6 +1150,7 @@
       "id": "qualcomm-snapdragon-730g",
       "name": "Snapdragon 730G",
       "family": "Snapdragon 700",
+      "generation": "Snapdragon 730G",
       "released": "2019-04",
       "specs": {
         "codename": "SM7150-AB",
@@ -1190,6 +1212,7 @@
       "id": "qualcomm-snapdragon-855-plus",
       "name": "Snapdragon 855+",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 855",
       "released": "2019-07",
       "specs": {
         "codename": "SM8150-AC",
@@ -1253,6 +1276,7 @@
       "id": "qualcomm-snapdragon-8cx",
       "name": "Snapdragon 8cx",
       "family": "Snapdragon 8cx",
+      "generation": "Snapdragon 8cx (1st gen)",
       "released": "2019-09",
       "specs": {
         "codename": "SC8180X",
@@ -1304,6 +1328,7 @@
       "id": "qualcomm-snapdragon-765g",
       "name": "Snapdragon 765G",
       "family": "Snapdragon 700",
+      "generation": "Snapdragon 765G",
       "released": "2020-02",
       "specs": {
         "codename": "SM7250-AB",
@@ -1365,6 +1390,7 @@
       "id": "qualcomm-snapdragon-865",
       "name": "Snapdragon 865",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 865",
       "released": "2020-02",
       "specs": {
         "codename": "SM8250 (Kona)",
@@ -1427,6 +1453,7 @@
       "id": "qualcomm-snapdragon-888",
       "name": "Snapdragon 888",
       "family": "Snapdragon 800",
+      "generation": "Snapdragon 888",
       "released": "2021-01",
       "specs": {
         "codename": "SM8350 (Lahaina)",
@@ -1477,6 +1504,7 @@
       "id": "qualcomm-snapdragon-778g",
       "name": "Snapdragon 778G",
       "family": "Snapdragon 700",
+      "generation": "Snapdragon 778G",
       "released": "2021-05",
       "specs": {
         "codename": "SM7325",
@@ -1527,6 +1555,7 @@
       "id": "qualcomm-snapdragon-8-gen-1",
       "name": "Snapdragon 8 Gen 1",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Gen 1",
       "released": "2022-01",
       "specs": {
         "codename": "SM8450 (Waipio)",
@@ -1588,6 +1617,7 @@
       "id": "qualcomm-snapdragon-8cx-gen-3",
       "name": "Snapdragon 8cx Gen 3",
       "family": "Snapdragon 8cx",
+      "generation": "Snapdragon 8cx Gen 3",
       "released": "2022-03",
       "specs": {
         "codename": "SC8280XP (Makena)",
@@ -1639,6 +1669,7 @@
       "id": "qualcomm-snapdragon-8-plus-gen-1",
       "name": "Snapdragon 8+ Gen 1",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Gen 1",
       "released": "2022-05",
       "specs": {
         "codename": "SM8475",
@@ -1700,6 +1731,7 @@
       "id": "qualcomm-snapdragon-6-gen-1",
       "name": "Snapdragon 6 Gen 1",
       "family": "Snapdragon 6",
+      "generation": "Snapdragon 6 Gen 1",
       "released": "2022-09",
       "specs": {
         "codename": "SM6450",
@@ -1761,6 +1793,7 @@
       "id": "qualcomm-snapdragon-8-gen-2",
       "name": "Snapdragon 8 Gen 2",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Gen 2",
       "released": "2023-02",
       "specs": {
         "codename": "SM8550 (Kalama)",
@@ -1822,6 +1855,7 @@
       "id": "qualcomm-snapdragon-7-plus-gen-2",
       "name": "Snapdragon 7+ Gen 2",
       "family": "Snapdragon 7",
+      "generation": "Snapdragon 7+ Gen 2",
       "released": "2023-03",
       "specs": {
         "codename": "SM7475",
@@ -1884,6 +1918,7 @@
       "id": "qualcomm-snapdragon-4-gen-2",
       "name": "Snapdragon 4 Gen 2",
       "family": "Snapdragon 4",
+      "generation": "Snapdragon 4 Gen 2",
       "released": "2023-06",
       "specs": {
         "codename": "SM4450",
@@ -1945,6 +1980,7 @@
       "id": "qualcomm-snapdragon-7-gen-3",
       "name": "Snapdragon 7 Gen 3",
       "family": "Snapdragon 7",
+      "generation": "Snapdragon 7 Gen 3",
       "released": "2023-11",
       "specs": {
         "codename": "SM7550",
@@ -2005,6 +2041,7 @@
       "id": "qualcomm-snapdragon-8-gen-3",
       "name": "Snapdragon 8 Gen 3",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Gen 3",
       "released": "2024-01",
       "specs": {
         "codename": "SM8650 (Pineapple)",
@@ -2066,6 +2103,7 @@
       "id": "qualcomm-snapdragon-8-gen-3-for-galaxy",
       "name": "Snapdragon 8 Gen 3 for Galaxy",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Gen 3",
       "released": "2024-01",
       "specs": {
         "codename": "SM8650-AC (Pineapple)",
@@ -2116,6 +2154,7 @@
       "id": "qualcomm-snapdragon-8s-gen-3",
       "name": "Snapdragon 8s Gen 3",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8s Gen 3",
       "released": "2024-03",
       "specs": {
         "codename": "SM8635",
@@ -2178,6 +2217,7 @@
       "id": "qualcomm-snapdragon-7-plus-gen-3",
       "name": "Snapdragon 7+ Gen 3",
       "family": "Snapdragon 7",
+      "generation": "Snapdragon 7+ Gen 3",
       "released": "2024-03",
       "specs": {
         "codename": "SM7675",
@@ -2239,6 +2279,7 @@
       "id": "qualcomm-x1e-84-100",
       "name": "Snapdragon X Elite X1E-84-100",
       "family": "Snapdragon X",
+      "generation": "Snapdragon X Elite (1st gen)",
       "released": "2024-06",
       "specs": {
         "codename": "X1E-84-100 (Hamoa)",
@@ -2291,6 +2332,7 @@
       "id": "qualcomm-x1e-78-100",
       "name": "Snapdragon X Elite X1E-78-100",
       "family": "Snapdragon X",
+      "generation": "Snapdragon X Elite (1st gen)",
       "released": "2024-06",
       "specs": {
         "codename": "X1E-78-100 (Hamoa)",
@@ -2343,6 +2385,7 @@
       "id": "qualcomm-x1p-64-100",
       "name": "Snapdragon X Plus X1P-64-100",
       "family": "Snapdragon X",
+      "generation": "Snapdragon X Plus (1st gen)",
       "released": "2024-06",
       "specs": {
         "codename": "X1P-64-100 (Hamoa)",
@@ -2395,6 +2438,7 @@
       "id": "qualcomm-x1e-80-100",
       "name": "Snapdragon X Elite X1E-80-100",
       "family": "Snapdragon X",
+      "generation": "Snapdragon X Elite (1st gen)",
       "released": "2024-06",
       "specs": {
         "codename": "X1E-80-100 (Hamoa)",
@@ -2447,6 +2491,7 @@
       "id": "qualcomm-x1p-42-100",
       "name": "Snapdragon X Plus X1P-42-100",
       "family": "Snapdragon X",
+      "generation": "Snapdragon X Plus (1st gen)",
       "released": "2024-09",
       "specs": {
         "codename": "X1P-42-100 (Purwa)",
@@ -2499,6 +2544,7 @@
       "id": "qualcomm-snapdragon-8-elite",
       "name": "Snapdragon 8 Elite",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Elite",
       "released": "2024-10",
       "specs": {
         "codename": "SM8750 (Sun)",
@@ -2550,6 +2596,7 @@
       "id": "qualcomm-x1-26-100",
       "name": "Snapdragon X X1-26-100",
       "family": "Snapdragon X",
+      "generation": "Snapdragon X (1st gen)",
       "released": "2025-01",
       "specs": {
         "codename": "X1-26-100 (Purwa)",
@@ -2601,6 +2648,7 @@
       "id": "qualcomm-snapdragon-6-gen-4",
       "name": "Snapdragon 6 Gen 4",
       "family": "Snapdragon 6",
+      "generation": "Snapdragon 6 Gen 4",
       "released": "2025-02",
       "specs": {
         "codename": "SM6475",
@@ -2662,6 +2710,7 @@
       "id": "qualcomm-snapdragon-8s-gen-4",
       "name": "Snapdragon 8s Gen 4",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8s Gen 4",
       "released": "2025-04",
       "specs": {
         "codename": "SM8735",
@@ -2724,6 +2773,7 @@
       "id": "qualcomm-snapdragon-7-gen-4",
       "name": "Snapdragon 7 Gen 4",
       "family": "Snapdragon 7",
+      "generation": "Snapdragon 7 Gen 4",
       "released": "2025-05",
       "specs": {
         "codename": "SM7750",
@@ -2785,6 +2835,7 @@
       "id": "qualcomm-snapdragon-8-elite-gen-5",
       "name": "Snapdragon 8 Elite Gen 5",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Elite Gen 5",
       "released": "2025-09",
       "specs": {
         "codename": "SM8850 (Canoe)",
@@ -2835,6 +2886,7 @@
       "id": "qualcomm-x2e-96-100",
       "name": "Snapdragon X2 Elite Extreme X2E-96-100",
       "family": "Snapdragon X2",
+      "generation": "Snapdragon X2 Elite",
       "released": "2026",
       "specs": {
         "codename": "X2E-96-100 (Glymur)",
@@ -2887,6 +2939,7 @@
       "id": "qualcomm-x2e-80-100",
       "name": "Snapdragon X2 Elite X2E-80-100",
       "family": "Snapdragon X2",
+      "generation": "Snapdragon X2 Elite",
       "released": "2026",
       "specs": {
         "codename": "X2E-80-100 (Glymur)",
@@ -2939,6 +2992,7 @@
       "id": "qualcomm-x2e-88-100",
       "name": "Snapdragon X2 Elite X2E-88-100",
       "family": "Snapdragon X2",
+      "generation": "Snapdragon X2 Elite",
       "released": "2026",
       "specs": {
         "codename": "X2E-88-100 (Glymur)",
@@ -2991,6 +3045,7 @@
       "id": "qualcomm-x2p-64-100",
       "name": "Snapdragon X2 Plus X2P-64-100",
       "family": "Snapdragon X2",
+      "generation": "Snapdragon X2 Plus",
       "released": "2026-01",
       "specs": {
         "codename": "X2P-64-100",
@@ -3043,6 +3098,7 @@
       "id": "qualcomm-snapdragon-8-elite-gen-6",
       "name": "Snapdragon 8 Elite Gen 6",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Elite Gen 6",
       "released": "2026-09",
       "specs": {
         "microarchitecture": "Oryon (4th gen)",
@@ -3103,6 +3159,7 @@
       "id": "qualcomm-snapdragon-8-elite-extreme-gen-6",
       "name": "Snapdragon 8 Elite Extreme Gen 6",
       "family": "Snapdragon 8",
+      "generation": "Snapdragon 8 Elite Gen 6",
       "released": "2026-09",
       "specs": {
         "codename": "SM8975",

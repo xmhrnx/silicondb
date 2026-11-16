@@ -6,6 +6,7 @@
       "id": "transmeta-tm5600",
       "name": "Crusoe TM5600",
       "family": "Crusoe",
+      "generation": "Crusoe",
       "released": "2000",
       "specs": {
         "microarchitecture": "Crusoe (VLIW, code morphing)",
@@ -44,6 +45,7 @@
       "id": "transmeta-tm3120",
       "name": "Crusoe TM3120",
       "family": "Crusoe",
+      "generation": "Crusoe",
       "released": "2000-01",
       "specs": {
         "microarchitecture": "Crusoe (VLIW, code morphing)",
@@ -82,6 +84,7 @@
       "id": "transmeta-tm5400",
       "name": "Crusoe TM5400",
       "family": "Crusoe",
+      "generation": "Crusoe",
       "released": "2000-01",
       "specs": {
         "microarchitecture": "Crusoe (VLIW, code morphing)",
@@ -120,6 +123,7 @@
       "id": "transmeta-tm5800",
       "name": "Crusoe TM5800",
       "family": "Crusoe",
+      "generation": "Crusoe",
       "released": "2001",
       "specs": {
         "microarchitecture": "Crusoe (VLIW, code morphing)",
@@ -158,6 +162,7 @@
       "id": "transmeta-tm8800",
       "name": "Efficeon TM8800",
       "family": "Efficeon",
+      "generation": "Efficeon",
       "released": "2004",
       "specs": {
         "microarchitecture": "Efficeon (256-bit VLIW, code morphing)",
@@ -198,6 +203,7 @@
       "id": "transmeta-tm8600",
       "name": "Efficeon TM8600",
       "family": "Efficeon",
+      "generation": "Efficeon",
       "released": "2004-01",
       "specs": {
         "microarchitecture": "Efficeon (256-bit VLIW, code morphing)",

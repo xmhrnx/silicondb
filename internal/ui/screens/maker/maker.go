@@ -1,15 +1,22 @@
-// Package maker shows one manufacturer and its chips.
+// Package maker shows one manufacturer's chips, by category, segment and
+// generation.
 package maker
 
 import (
-	"github.com/mehran9675/giode"
-	"github.com/mehran9675/giode/components/lazylist"
+	"github.com/xmhrnx/giode"
+	"github.com/xmhrnx/giode/components/lazylist"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
 	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
+
+// row is one line of the list: the header, a generation title or a chip.
+type row struct {
+	gen  *model.Generation
+	chip *model.Chip
+}
 
 // Screen is a manufacturer's page.
 type Screen struct {
@@ -18,21 +25,18 @@ type Screen struct {
 	back     *components.RoundButton
 	list     *lazylist.List
 	category string
-	chips    []*model.Chip
+	segment  string
+	rows     []row
 }
 
-// New returns the page of the manufacturer with id.
-func New(e *env.Env, id string) *Screen {
-	s := &Screen{env: e, id: id}
+// New returns the page of the manufacturer with id, showing the category
+// given ("" for all of them).
+func New(e *env.Env, id, category string) *Screen {
+	s := &Screen{env: e, id: id, category: category}
 	s.back = components.NewRoundButton("chevron-left", tr.T("common.back"), e.Routes.Back)
 	s.list = giode.LazyList(
-		func() int { return len(s.chips) + 1 },
-		func(i int) any {
-			if i == 0 {
-				return "maker-header"
-			}
-			return s.chips[i-1]
-		},
+		func() int { return len(s.rows) + 1 },
+		s.key,
 		s.row,
 		giode.Styles{Gap: 10, ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}},
 	)
@@ -42,14 +46,32 @@ func New(e *env.Env, id string) *Screen {
 // View lays the screen out.
 func (s *Screen) View() giode.Element {
 	cat := s.env.Store.Catalog.Get()
-	s.chips = s.chips[:0]
-	for _, c := range cat.ChipsBy(s.id) {
-		if s.category == "" || c.Category == s.category {
-			s.chips = append(s.chips, c)
+	chips := cat.ChipsIn(s.id, s.category, "")
+	if s.segment != "" && len(cat.ChipsIn(s.id, s.category, s.segment)) == 0 {
+		s.segment = ""
+	}
+	if s.segment != "" {
+		chips = cat.ChipsIn(s.id, s.category, s.segment)
+	}
+	s.rows = s.rows[:0]
+	for _, g := range model.Generations(chips) {
+		s.rows = append(s.rows, row{gen: g})
+		for _, c := range g.Chips {
+			s.rows = append(s.rows, row{chip: c})
 		}
 	}
 	return giode.Box(giode.Styles{Width: -1, Height: -1, Justify: giode.JustifyCenter},
 		giode.Box(giode.Styles{Width: -1, Height: -1, MaxWidth: components.MaxContentWidth}, s.list))
+}
+
+func (s *Screen) key(i int) any {
+	if i == 0 {
+		return "maker-header"
+	}
+	if r := s.rows[i-1]; r.chip != nil {
+		return r.chip
+	}
+	return "gen:" + s.rows[i-1].gen.Name
 }
 
 func (s *Screen) row(i int) giode.Element {
@@ -66,7 +88,10 @@ func (s *Screen) row(i int) giode.Element {
 		}
 		return pad(s.header(cat, m))
 	}
-	chip := s.chips[i-1]
-	id := chip.ID
-	return pad(components.ChipRow("maker", cat, chip, func() { s.env.Routes.OpenChip(id) }))
+	r := s.rows[i-1]
+	if r.gen != nil {
+		return pad(components.GenerationHeader(r.gen))
+	}
+	id := r.chip.ID
+	return pad(components.ChipRow("maker", cat, r.chip, func() { s.env.Routes.OpenChip(id) }))
 }

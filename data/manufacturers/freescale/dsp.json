@@ -6,6 +6,7 @@
       "id": "freescale-msc8156",
       "name": "MSC8156",
       "family": "StarCore",
+      "generation": "StarCore MSC815x",
       "released": "2008",
       "specs": {
         "microarchitecture": "SC3850",

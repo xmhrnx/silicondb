@@ -6,6 +6,7 @@
       "id": "oracle-sparc-t3",
       "name": "SPARC T3",
       "family": "SPARC T",
+      "generation": "SPARC T3",
       "released": "2010-09",
       "specs": {
         "codename": "Rainbow Falls",
@@ -45,6 +46,7 @@
       "id": "oracle-sparc-t4",
       "name": "SPARC T4",
       "family": "SPARC T",
+      "generation": "SPARC T4",
       "released": "2011-09",
       "specs": {
         "codename": "Yosemite Falls",
@@ -92,6 +94,7 @@
       "id": "oracle-sparc-t5",
       "name": "SPARC T5",
       "family": "SPARC T",
+      "generation": "SPARC T5 / M5 / M6",
       "released": "2013-03",
       "specs": {
         "microarchitecture": "S3",
@@ -139,6 +142,7 @@
       "id": "oracle-sparc-m5",
       "name": "SPARC M5",
       "family": "SPARC M",
+      "generation": "SPARC T5 / M5 / M6",
       "released": "2013-03",
       "specs": {
         "microarchitecture": "S3",
@@ -186,6 +190,7 @@
       "id": "oracle-sparc-m6",
       "name": "SPARC M6",
       "family": "SPARC M",
+      "generation": "SPARC T5 / M5 / M6",
       "released": "2013-09",
       "specs": {
         "microarchitecture": "S3",
@@ -233,6 +238,7 @@
       "id": "oracle-sparc-m7",
       "name": "SPARC M7",
       "family": "SPARC M",
+      "generation": "SPARC M7 / S7",
       "released": "2015-10",
       "specs": {
         "microarchitecture": "S4",
@@ -282,6 +288,7 @@
       "id": "oracle-sparc-s7",
       "name": "SPARC S7",
       "family": "SPARC S",
+      "generation": "SPARC M7 / S7",
       "released": "2016-06",
       "specs": {
         "codename": "Sonoma",
@@ -332,6 +339,7 @@
       "id": "oracle-sparc-m8",
       "name": "SPARC M8",
       "family": "SPARC M",
+      "generation": "SPARC M8",
       "released": "2017-09",
       "specs": {
         "microarchitecture": "S5",

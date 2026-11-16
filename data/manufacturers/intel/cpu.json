@@ -6,6 +6,7 @@
       "id": "intel-8008",
       "name": "8008",
       "family": "MCS-8",
+      "generation": "MCS-8",
       "released": "1972-04",
       "specs": {
         "microarchitecture": "MCS-8",
@@ -42,6 +43,7 @@
       "id": "intel-8080",
       "name": "8080",
       "family": "MCS-80",
+      "generation": "MCS-80",
       "released": "1974-04",
       "specs": {
         "microarchitecture": "8080",
@@ -78,6 +80,7 @@
       "id": "intel-8085",
       "name": "8085",
       "family": "MCS-85",
+      "generation": "MCS-85",
       "released": "1976-03",
       "specs": {
         "microarchitecture": "8085",
@@ -114,6 +117,7 @@
       "id": "intel-8086",
       "name": "8086",
       "family": "x86",
+      "generation": "8086 family",
       "released": "1978-06",
       "specs": {
         "microarchitecture": "8086",
@@ -150,6 +154,7 @@
       "id": "intel-8088",
       "name": "8088",
       "family": "x86",
+      "generation": "8086 family",
       "released": "1979-07",
       "specs": {
         "microarchitecture": "8086",
@@ -186,6 +191,7 @@
       "id": "intel-80186",
       "name": "80186",
       "family": "x86",
+      "generation": "8086 family",
       "released": "1982",
       "specs": {
         "microarchitecture": "80186",
@@ -222,6 +228,7 @@
       "id": "intel-80286",
       "name": "80286",
       "family": "x86",
+      "generation": "80286",
       "released": "1982-02",
       "specs": {
         "codename": "P2",
@@ -258,6 +265,7 @@
       "id": "intel-80386dx",
       "name": "386DX",
       "family": "386",
+      "generation": "386",
       "released": "1985-10",
       "specs": {
         "codename": "P3",
@@ -294,6 +302,7 @@
       "id": "intel-80960kb",
       "name": "80960KB",
       "family": "i960",
+      "generation": "i960",
       "released": "1988",
       "specs": {
         "microarchitecture": "i960",
@@ -332,6 +341,7 @@
       "id": "intel-80386sx",
       "name": "386SX",
       "family": "386",
+      "generation": "386",
       "released": "1988-06",
       "specs": {
         "codename": "P9",
@@ -368,6 +378,7 @@
       "id": "intel-i860xr",
       "name": "i860 XR",
       "family": "i860",
+      "generation": "i860",
       "released": "1989",
       "specs": {
         "codename": "N10",
@@ -407,6 +418,7 @@
       "id": "intel-i486dx",
       "name": "486DX",
       "family": "486",
+      "generation": "486",
       "released": "1989-04",
       "specs": {
         "codename": "P4",
@@ -445,6 +457,7 @@
       "id": "intel-i486sx",
       "name": "486SX",
       "family": "486",
+      "generation": "486",
       "released": "1991-04",
       "specs": {
         "codename": "P23",
@@ -481,6 +494,7 @@
       "id": "intel-i486dx2",
       "name": "486DX2",
       "family": "486",
+      "generation": "486",
       "released": "1992-03",
       "specs": {
         "codename": "P24",
@@ -519,6 +533,7 @@
       "id": "intel-pentium-60",
       "name": "Pentium 60",
       "family": "Pentium",
+      "generation": "Pentium (P5)",
       "released": "1993-03-22",
       "specs": {
         "codename": "P5",
@@ -557,6 +572,7 @@
       "id": "intel-i486dx4",
       "name": "486DX4",
       "family": "486",
+      "generation": "486",
       "released": "1994-03",
       "specs": {
         "codename": "P24C",
@@ -595,6 +611,7 @@
       "id": "intel-pentium-100",
       "name": "Pentium 100",
       "family": "Pentium",
+      "generation": "Pentium (P5)",
       "released": "1994-03-07",
       "specs": {
         "codename": "P54C",
@@ -633,6 +650,7 @@
       "id": "intel-pentium-pro-200",
       "name": "Pentium Pro 200",
       "family": "Pentium Pro",
+      "generation": "Pentium Pro (P6)",
       "released": "1995-11-01",
       "specs": {
         "codename": "P6",
@@ -671,6 +689,7 @@
       "id": "intel-pentium-200",
       "name": "Pentium 200",
       "family": "Pentium",
+      "generation": "Pentium (P5)",
       "released": "1996-06",
       "specs": {
         "codename": "P54CS",
@@ -709,6 +728,7 @@
       "id": "intel-pentium-mmx-200",
       "name": "Pentium MMX 200",
       "family": "Pentium",
+      "generation": "Pentium (P5)",
       "released": "1997-01-08",
       "specs": {
         "codename": "P55C",
@@ -748,6 +768,7 @@
       "id": "intel-pentium-ii-300",
       "name": "Pentium II 300",
       "family": "Pentium II",
+      "generation": "Pentium II (P6)",
       "released": "1997-05-07",
       "specs": {
         "codename": "Klamath",
@@ -787,6 +808,7 @@
       "id": "intel-celeron-266",
       "name": "Celeron 266",
       "family": "Celeron",
+      "generation": "Celeron (P6)",
       "released": "1998-04-15",
       "specs": {
         "codename": "Covington",
@@ -826,6 +848,7 @@
       "id": "intel-pentium-ii-xeon-400",
       "name": "Pentium II Xeon 400",
       "family": "Xeon",
+      "generation": "Pentium II Xeon (P6)",
       "released": "1998-06-29",
       "specs": {
         "codename": "Drake",
@@ -865,6 +888,7 @@
       "id": "intel-pentium-ii-450",
       "name": "Pentium II 450",
       "family": "Pentium II",
+      "generation": "Pentium II (P6)",
       "released": "1998-08-24",
       "specs": {
         "codename": "Deschutes",
@@ -904,6 +928,7 @@
       "id": "intel-celeron-300a",
       "name": "Celeron 300A",
       "family": "Celeron",
+      "generation": "Celeron (P6)",
       "released": "1998-08-24",
       "specs": {
         "codename": "Mendocino",
@@ -943,6 +968,7 @@
       "id": "intel-pentium-iii-500",
       "name": "Pentium III 500",
       "family": "Pentium III",
+      "generation": "Pentium III (P6)",
       "released": "1999-02-26",
       "specs": {
         "codename": "Katmai",
@@ -983,6 +1009,7 @@
       "id": "intel-pentium-iii-1000",
       "name": "Pentium III 1000",
       "family": "Pentium III",
+      "generation": "Pentium III (P6)",
       "released": "2000-03-08",
       "specs": {
         "codename": "Coppermine",
@@ -1023,6 +1050,7 @@
       "id": "intel-pentium-4-1500",
       "name": "Pentium 4 1.5",
       "family": "Pentium 4",
+      "generation": "Pentium 4 (NetBurst)",
       "released": "2000-11-20",
       "specs": {
         "codename": "Willamette",
@@ -1064,6 +1092,7 @@
       "id": "intel-xeon-foster-1700",
       "name": "Xeon 1.7",
       "family": "Xeon",
+      "generation": "Xeon (NetBurst)",
       "released": "2001-05-21",
       "specs": {
         "codename": "Foster",
@@ -1105,6 +1134,7 @@
       "id": "intel-itanium-800",
       "name": "Itanium 800",
       "family": "Itanium",
+      "generation": "Itanium (Merced)",
       "released": "2001-05-29",
       "specs": {
         "codename": "Merced",
@@ -1141,6 +1171,7 @@
       "id": "intel-pentium-iii-s-1400",
       "name": "Pentium III-S 1.4",
       "family": "Pentium III",
+      "generation": "Pentium III (P6)",
       "released": "2002-01",
       "specs": {
         "codename": "Tualatin",
@@ -1181,6 +1212,7 @@
       "id": "intel-pentium-4-2200",
       "name": "Pentium 4 2.2",
       "family": "Pentium 4",
+      "generation": "Pentium 4 (NetBurst)",
       "released": "2002-01-07",
       "specs": {
         "codename": "Northwood",
@@ -1222,6 +1254,7 @@
       "id": "intel-itanium-2-1000",
       "name": "Itanium 2 1.0",
       "family": "Itanium",
+      "generation": "Itanium 2",
       "released": "2002-07-08",
       "specs": {
         "codename": "McKinley",
@@ -1258,6 +1291,7 @@
       "id": "intel-pentium-4-3060",
       "name": "Pentium 4 3.06 HT",
       "family": "Pentium 4",
+      "generation": "Pentium 4 (NetBurst)",
       "released": "2002-11-14",
       "specs": {
         "codename": "Northwood",
@@ -1299,6 +1333,7 @@
       "id": "intel-pentium-m-1600",
       "name": "Pentium M 1.6",
       "family": "Pentium M",
+      "generation": "Pentium M",
       "released": "2003-03-12",
       "specs": {
         "codename": "Banias",
@@ -1340,6 +1375,7 @@
       "id": "intel-pentium-4-ee-3200",
       "name": "Pentium 4 Extreme Edition 3.2",
       "family": "Pentium 4",
+      "generation": "Pentium 4 (NetBurst)",
       "released": "2003-11-03",
       "specs": {
         "codename": "Gallatin",
@@ -1381,6 +1417,7 @@
       "id": "intel-pentium-m-755",
       "name": "Pentium M 755",
       "family": "Pentium M",
+      "generation": "Pentium M",
       "released": "2004-05-10",
       "specs": {
         "codename": "Dothan",
@@ -1422,6 +1459,7 @@
       "id": "intel-pentium-4-560",
       "name": "Pentium 4 560",
       "family": "Pentium 4",
+      "generation": "Pentium 4 (NetBurst)",
       "released": "2004-06-21",
       "specs": {
         "codename": "Prescott",
@@ -1464,6 +1502,7 @@
       "id": "intel-pentium-4-670",
       "name": "Pentium 4 670",
       "family": "Pentium 4",
+      "generation": "Pentium 4 (NetBurst)",
       "released": "2005-02-21",
       "specs": {
         "codename": "Prescott-2M",
@@ -1507,6 +1546,7 @@
       "id": "intel-pentium-ee-840",
       "name": "Pentium Extreme Edition 840",
       "family": "Pentium D",
+      "generation": "Pentium D (NetBurst)",
       "released": "2005-04-18",
       "specs": {
         "codename": "Smithfield",
@@ -1550,6 +1590,7 @@
       "id": "intel-pentium-d-820",
       "name": "Pentium D 820",
       "family": "Pentium D",
+      "generation": "Pentium D (NetBurst)",
       "released": "2005-05-26",
       "specs": {
         "codename": "Smithfield",
@@ -1593,6 +1634,7 @@
       "id": "intel-pentium-d-950",
       "name": "Pentium D 950",
       "family": "Pentium D",
+      "generation": "Pentium D (NetBurst)",
       "released": "2006-01-05",
       "specs": {
         "codename": "Presler",
@@ -1636,6 +1678,7 @@
       "id": "intel-core-duo-t2600",
       "name": "Core Duo T2600",
       "family": "Core Duo",
+      "generation": "Core Duo (Yonah)",
       "released": "2006-01-05",
       "specs": {
         "codename": "Yonah",
@@ -1678,6 +1721,7 @@
       "id": "intel-xeon-5160",
       "name": "Xeon 5160",
       "family": "Xeon",
+      "generation": "Xeon 5100 (Woodcrest)",
       "released": "2006-06-26",
       "specs": {
         "codename": "Woodcrest",
@@ -1722,6 +1766,7 @@
       "id": "intel-itanium-2-9050",
       "name": "Itanium 2 9050",
       "family": "Itanium",
+      "generation": "Itanium 2",
       "released": "2006-07-18",
       "specs": {
         "codename": "Montecito",
@@ -1758,6 +1803,7 @@
       "id": "intel-core-2-duo-e6600",
       "name": "Core 2 Duo E6600",
       "family": "Core 2",
+      "generation": "Core 2 (Core)",
       "released": "2006-07-27",
       "specs": {
         "codename": "Conroe",
@@ -1802,6 +1848,7 @@
       "id": "intel-core-2-duo-t7200",
       "name": "Core 2 Duo T7200",
       "family": "Core 2",
+      "generation": "Core 2 (Core)",
       "released": "2006-07-27",
       "specs": {
         "codename": "Merom",
@@ -1846,6 +1893,7 @@
       "id": "intel-core-2-extreme-x6800",
       "name": "Core 2 Extreme X6800",
       "family": "Core 2",
+      "generation": "Core 2 (Core)",
       "released": "2006-07-27",
       "specs": {
         "codename": "Conroe",
@@ -1890,6 +1938,7 @@
       "id": "intel-core-2-extreme-qx6700",
       "name": "Core 2 Extreme QX6700",
       "family": "Core 2",
+      "generation": "Core 2 (Core)",
       "released": "2006-11-02",
       "specs": {
         "codename": "Kentsfield",
@@ -1934,6 +1983,7 @@
       "id": "intel-core-2-quad-q6600",
       "name": "Core 2 Quad Q6600",
       "family": "Core 2",
+      "generation": "Core 2 (Core)",
       "released": "2007-01-08",
       "specs": {
         "codename": "Kentsfield",
@@ -1978,6 +2028,7 @@
       "id": "intel-core-2-extreme-qx9650",
       "name": "Core 2 Extreme QX9650",
       "family": "Core 2",
+      "generation": "Core 2 (Penryn)",
       "released": "2007-11-12",
       "specs": {
         "codename": "Yorkfield",
@@ -2023,6 +2074,7 @@
       "id": "intel-core-2-duo-e8400",
       "name": "Core 2 Duo E8400",
       "family": "Core 2",
+      "generation": "Core 2 (Penryn)",
       "released": "2008-01-20",
       "specs": {
         "codename": "Wolfdale",
@@ -2068,6 +2120,7 @@
       "id": "intel-atom-z530",
       "name": "Atom Z530",
       "family": "Atom",
+      "generation": "Atom (Bonnell)",
       "released": "2008-04-02",
       "specs": {
         "codename": "Silverthorne",
@@ -2111,6 +2164,7 @@
       "id": "intel-atom-n270",
       "name": "Atom N270",
       "family": "Atom",
+      "generation": "Atom (Bonnell)",
       "released": "2008-06-03",
       "specs": {
         "codename": "Diamondville",
@@ -2154,6 +2208,7 @@
       "id": "intel-core-2-quad-q9650",
       "name": "Core 2 Quad Q9650",
       "family": "Core 2",
+      "generation": "Core 2 (Penryn)",
       "released": "2008-08-10",
       "specs": {
         "codename": "Yorkfield",
@@ -2199,6 +2254,7 @@
       "id": "intel-core-i7-920",
       "name": "Core i7-920",
       "family": "Core i7",
+      "generation": "Core 1st Gen (Nehalem)",
       "released": "2008-11-17",
       "specs": {
         "codename": "Bloomfield",
@@ -2246,6 +2302,7 @@
       "id": "intel-core-i7-965",
       "name": "Core i7-965 Extreme Edition",
       "family": "Core i7",
+      "generation": "Core 1st Gen (Nehalem)",
       "released": "2008-11-17",
       "specs": {
         "codename": "Bloomfield",
@@ -2293,6 +2350,7 @@
       "id": "intel-xeon-x5570",
       "name": "Xeon X5570",
       "family": "Xeon",
+      "generation": "Xeon 5500 (Nehalem-EP)",
       "released": "2009-03-30",
       "specs": {
         "codename": "Gainestown",
@@ -2340,6 +2398,7 @@
       "id": "intel-core-i5-750",
       "name": "Core i5-750",
       "family": "Core i5",
+      "generation": "Core 1st Gen (Nehalem)",
       "released": "2009-09-08",
       "specs": {
         "codename": "Lynnfield",
@@ -2387,6 +2446,7 @@
       "id": "intel-core-i7-870",
       "name": "Core i7-870",
       "family": "Core i7",
+      "generation": "Core 1st Gen (Nehalem)",
       "released": "2009-09-08",
       "specs": {
         "codename": "Lynnfield",
@@ -2434,6 +2494,7 @@
       "id": "intel-core-i3-530",
       "name": "Core i3-530",
       "family": "Core i3",
+      "generation": "Core 1st Gen (Nehalem)",
       "released": "2010-01-07",
       "specs": {
         "codename": "Clarkdale",
@@ -2482,6 +2543,7 @@
       "id": "intel-itanium-9350",
       "name": "Itanium 9350",
       "family": "Itanium",
+      "generation": "Itanium 9300 (Tukwila)",
       "released": "2010-02-08",
       "specs": {
         "codename": "Tukwila",
@@ -2520,6 +2582,7 @@
       "id": "intel-core-i7-980x",
       "name": "Core i7-980X",
       "family": "Core i7",
+      "generation": "Core 1st Gen (Nehalem)",
       "released": "2010-03-16",
       "specs": {
         "codename": "Gulftown",
@@ -2568,6 +2631,7 @@
       "id": "intel-xeon-x5680",
       "name": "Xeon X5680",
       "family": "Xeon",
+      "generation": "Xeon 5600 (Westmere-EP)",
       "released": "2010-03-16",
       "specs": {
         "codename": "Westmere-EP",
@@ -2616,6 +2680,7 @@
       "id": "intel-atom-d525",
       "name": "Atom D525",
       "family": "Atom",
+      "generation": "Atom (Bonnell)",
       "released": "2010-06-01",
       "specs": {
         "codename": "Pineview",
@@ -2663,6 +2728,7 @@
       "id": "intel-core-i7-2600k",
       "name": "Core i7-2600K",
       "family": "Core i7",
+      "generation": "Core 2nd Gen (Sandy Bridge)",
       "released": "2011-01-09",
       "specs": {
         "codename": "Sandy Bridge",
@@ -2717,6 +2783,7 @@
       "id": "intel-core-i5-2500k",
       "name": "Core i5-2500K",
       "family": "Core i5",
+      "generation": "Core 2nd Gen (Sandy Bridge)",
       "released": "2011-01-09",
       "specs": {
         "codename": "Sandy Bridge",
@@ -2772,6 +2839,7 @@
       "id": "intel-core-i5-2400",
       "name": "Core i5-2400",
       "family": "Core i5",
+      "generation": "Core 2nd Gen (Sandy Bridge)",
       "released": "2011-01-09",
       "specs": {
         "codename": "Sandy Bridge",
@@ -2828,6 +2896,7 @@
       "id": "intel-core-i3-2100",
       "name": "Core i3-2100",
       "family": "Core i3",
+      "generation": "Core 2nd Gen (Sandy Bridge)",
       "released": "2011-02-20",
       "specs": {
         "codename": "Sandy Bridge",
@@ -2881,6 +2950,7 @@
       "id": "intel-xeon-e7-8870",
       "name": "Xeon E7-8870",
       "family": "Xeon",
+      "generation": "Xeon E7 (Westmere-EX)",
       "released": "2011-04-05",
       "specs": {
         "codename": "Westmere-EX",
@@ -2929,12 +2999,13 @@
       "id": "intel-core-i7-3960x",
       "name": "Core i7-3960X",
       "family": "Core i7",
+      "generation": "Core i7 (Sandy Bridge-E)",
       "released": "2011-11-14",
       "specs": {
         "codename": "Sandy Bridge-E",
         "microarchitecture": "Sandy Bridge",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 999,
         "process_nm": 32,
         "foundry": "Intel",
@@ -2982,6 +3053,7 @@
       "id": "intel-xeon-e5-2690",
       "name": "Xeon E5-2690",
       "family": "Xeon",
+      "generation": "Xeon E5 (Sandy Bridge-EP)",
       "released": "2012-03-06",
       "specs": {
         "codename": "Sandy Bridge-EP",
@@ -3031,6 +3103,7 @@
       "id": "intel-core-i7-3770k",
       "name": "Core i7-3770K",
       "family": "Core i7",
+      "generation": "Core 3rd Gen (Ivy Bridge)",
       "released": "2012-04-23",
       "specs": {
         "codename": "Ivy Bridge",
@@ -3086,6 +3159,7 @@
       "id": "intel-core-i5-3570k",
       "name": "Core i5-3570K",
       "family": "Core i5",
+      "generation": "Core 3rd Gen (Ivy Bridge)",
       "released": "2012-04-23",
       "specs": {
         "codename": "Ivy Bridge",
@@ -3143,6 +3217,7 @@
       "id": "intel-itanium-9560",
       "name": "Itanium 9560",
       "family": "Itanium",
+      "generation": "Itanium 9500 (Poulson)",
       "released": "2012-11-08",
       "specs": {
         "codename": "Poulson",
@@ -3189,6 +3264,7 @@
       "id": "intel-xeon-phi-5110p",
       "name": "Xeon Phi 5110P",
       "family": "Xeon Phi",
+      "generation": "Xeon Phi (Knights Corner)",
       "released": "2012-11-12",
       "specs": {
         "codename": "Knights Corner",
@@ -3238,6 +3314,7 @@
       "id": "intel-core-i7-4770k",
       "name": "Core i7-4770K",
       "family": "Core i7",
+      "generation": "Core 4th Gen (Haswell)",
       "released": "2013-06-04",
       "specs": {
         "codename": "Haswell",
@@ -3296,6 +3373,7 @@
       "id": "intel-core-i5-4670k",
       "name": "Core i5-4670K",
       "family": "Core i5",
+      "generation": "Core 4th Gen (Haswell)",
       "released": "2013-06-04",
       "specs": {
         "codename": "Haswell",
@@ -3354,12 +3432,13 @@
       "id": "intel-core-i7-4960x",
       "name": "Core i7-4960X",
       "family": "Core i7",
+      "generation": "Core i7 (Ivy Bridge-E)",
       "released": "2013-09-10",
       "specs": {
         "codename": "Ivy Bridge-E",
         "microarchitecture": "Ivy Bridge",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 990,
         "process_nm": 22,
         "foundry": "Intel",
@@ -3408,6 +3487,7 @@
       "id": "intel-xeon-e5-2697-v2",
       "name": "Xeon E5-2697 v2",
       "family": "Xeon",
+      "generation": "Xeon E5 v2 (Ivy Bridge-EP)",
       "released": "2013-09-10",
       "specs": {
         "codename": "Ivy Bridge-EP",
@@ -3458,6 +3538,7 @@
       "id": "intel-core-i7-4790k",
       "name": "Core i7-4790K",
       "family": "Core i7",
+      "generation": "Core 4th Gen (Haswell)",
       "released": "2014-06-02",
       "specs": {
         "codename": "Devil's Canyon",
@@ -3516,6 +3597,7 @@
       "id": "intel-pentium-g3258",
       "name": "Pentium G3258",
       "family": "Pentium",
+      "generation": "Core 4th Gen (Haswell)",
       "released": "2014-06-02",
       "specs": {
         "codename": "Haswell",
@@ -3568,12 +3650,13 @@
       "id": "intel-core-i7-5960x",
       "name": "Core i7-5960X",
       "family": "Core i7",
+      "generation": "Core i7 (Haswell-E)",
       "released": "2014-08-29",
       "specs": {
         "codename": "Haswell-E",
         "microarchitecture": "Haswell",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 999,
         "process_nm": 22,
         "foundry": "Intel",
@@ -3620,12 +3703,13 @@
       "id": "intel-core-i7-5820k",
       "name": "Core i7-5820K",
       "family": "Core i7",
+      "generation": "Core i7 (Haswell-E)",
       "released": "2014-08-29",
       "specs": {
         "codename": "Haswell-E",
         "microarchitecture": "Haswell",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 389,
         "process_nm": 22,
         "foundry": "Intel",
@@ -3677,6 +3761,7 @@
       "id": "intel-xeon-e5-2699-v3",
       "name": "Xeon E5-2699 v3",
       "family": "Xeon",
+      "generation": "Xeon E5 v3 (Haswell-EP)",
       "released": "2014-09-08",
       "specs": {
         "codename": "Haswell-EP",
@@ -3728,6 +3813,7 @@
       "id": "intel-core-i7-5775c",
       "name": "Core i7-5775C",
       "family": "Core i7",
+      "generation": "Core 5th Gen (Broadwell)",
       "released": "2015-06-02",
       "specs": {
         "codename": "Broadwell",
@@ -3785,6 +3871,7 @@
       "id": "intel-core-i7-6700k",
       "name": "Core i7-6700K",
       "family": "Core i7",
+      "generation": "Core 6th Gen (Skylake)",
       "released": "2015-08-05",
       "specs": {
         "codename": "Skylake",
@@ -3851,6 +3938,7 @@
       "id": "intel-core-i5-6600k",
       "name": "Core i5-6600K",
       "family": "Core i5",
+      "generation": "Core 6th Gen (Skylake)",
       "released": "2015-08-05",
       "specs": {
         "codename": "Skylake",
@@ -3917,6 +4005,7 @@
       "id": "intel-xeon-e5-2699-v4",
       "name": "Xeon E5-2699 v4",
       "family": "Xeon",
+      "generation": "Xeon E5 v4 (Broadwell-EP)",
       "released": "2016-03-31",
       "specs": {
         "codename": "Broadwell-EP",
@@ -3968,12 +4057,13 @@
       "id": "intel-core-i7-6950x",
       "name": "Core i7-6950X",
       "family": "Core i7",
+      "generation": "Core i7 (Broadwell-E)",
       "released": "2016-05-30",
       "specs": {
         "codename": "Broadwell-E",
         "microarchitecture": "Broadwell",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 1723,
         "process_nm": 14,
         "foundry": "Intel",
@@ -4023,6 +4113,7 @@
       "id": "intel-xeon-phi-7290",
       "name": "Xeon Phi 7290",
       "family": "Xeon Phi",
+      "generation": "Xeon Phi (Knights Landing)",
       "released": "2016-06-20",
       "specs": {
         "codename": "Knights Landing",
@@ -4066,6 +4157,7 @@
       "id": "intel-core-i7-7700k",
       "name": "Core i7-7700K",
       "family": "Core i7",
+      "generation": "Core 7th Gen (Kaby Lake)",
       "released": "2017-01-03",
       "specs": {
         "codename": "Kaby Lake",
@@ -4138,6 +4230,7 @@
       "id": "intel-core-i5-7600k",
       "name": "Core i5-7600K",
       "family": "Core i5",
+      "generation": "Core 7th Gen (Kaby Lake)",
       "released": "2017-01-03",
       "specs": {
         "codename": "Kaby Lake",
@@ -4191,6 +4284,7 @@
       "id": "intel-itanium-9760",
       "name": "Itanium 9760",
       "family": "Itanium",
+      "generation": "Itanium 9700 (Kittson)",
       "released": "2017-05-11",
       "specs": {
         "codename": "Kittson",
@@ -4237,12 +4331,13 @@
       "id": "intel-core-i9-7900x",
       "name": "Core i9-7900X",
       "family": "Core i9",
+      "generation": "Core X-series (Skylake-X)",
       "released": "2017-06-26",
       "specs": {
         "codename": "Skylake-X",
         "microarchitecture": "Skylake",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 999,
         "process_nm": 14,
         "foundry": "Intel",
@@ -4294,6 +4389,7 @@
       "id": "intel-xeon-platinum-8180",
       "name": "Xeon Platinum 8180",
       "family": "Xeon Scalable",
+      "generation": "Xeon Scalable 1st Gen (Skylake-SP)",
       "released": "2017-07-11",
       "specs": {
         "codename": "Skylake-SP",
@@ -4346,12 +4442,13 @@
       "id": "intel-core-i9-7980xe",
       "name": "Core i9-7980XE",
       "family": "Core i9",
+      "generation": "Core X-series (Skylake-X)",
       "released": "2017-09-25",
       "specs": {
         "codename": "Skylake-X",
         "microarchitecture": "Skylake",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 1999,
         "process_nm": 14,
         "foundry": "Intel",
@@ -4403,6 +4500,7 @@
       "id": "intel-core-i7-8700k",
       "name": "Core i7-8700K",
       "family": "Core i7",
+      "generation": "Core 8th Gen (Coffee Lake)",
       "released": "2017-10-05",
       "specs": {
         "codename": "Coffee Lake",
@@ -4475,6 +4573,7 @@
       "id": "intel-core-i5-8400",
       "name": "Core i5-8400",
       "family": "Core i5",
+      "generation": "Core 8th Gen (Coffee Lake)",
       "released": "2017-10-05",
       "specs": {
         "codename": "Coffee Lake",
@@ -4545,6 +4644,7 @@
       "id": "intel-core-i3-8100",
       "name": "Core i3-8100",
       "family": "Core i3",
+      "generation": "Core 8th Gen (Coffee Lake)",
       "released": "2017-10-05",
       "specs": {
         "codename": "Coffee Lake",
@@ -4617,6 +4717,7 @@
       "id": "intel-pentium-gold-g5400",
       "name": "Pentium Gold G5400",
       "family": "Pentium Gold",
+      "generation": "Core 8th Gen (Coffee Lake)",
       "released": "2018-04-03",
       "specs": {
         "codename": "Coffee Lake",
@@ -4669,6 +4770,7 @@
       "id": "intel-core-i9-8950hk",
       "name": "Core i9-8950HK",
       "family": "Core i9",
+      "generation": "Core 8th Gen (Coffee Lake)",
       "released": "2018-04-03",
       "specs": {
         "codename": "Coffee Lake-H",
@@ -4737,6 +4839,7 @@
       "id": "intel-core-i7-8086k",
       "name": "Core i7-8086K",
       "family": "Core i7",
+      "generation": "Core 8th Gen (Coffee Lake)",
       "released": "2018-06-08",
       "specs": {
         "codename": "Coffee Lake",
@@ -4793,6 +4896,7 @@
       "id": "intel-core-i9-9900k",
       "name": "Core i9-9900K",
       "family": "Core i9",
+      "generation": "Core 9th Gen (Coffee Lake Refresh)",
       "released": "2018-10-19",
       "specs": {
         "codename": "Coffee Lake-R",
@@ -4865,6 +4969,7 @@
       "id": "intel-core-i7-9700k",
       "name": "Core i7-9700K",
       "family": "Core i7",
+      "generation": "Core 9th Gen (Coffee Lake Refresh)",
       "released": "2018-10-19",
       "specs": {
         "codename": "Coffee Lake-R",
@@ -4937,6 +5042,7 @@
       "id": "intel-core-i5-9600k",
       "name": "Core i5-9600K",
       "family": "Core i5",
+      "generation": "Core 9th Gen (Coffee Lake Refresh)",
       "released": "2018-10-19",
       "specs": {
         "codename": "Coffee Lake-R",
@@ -5009,12 +5115,13 @@
       "id": "intel-core-i9-9980xe",
       "name": "Core i9-9980XE",
       "family": "Core i9",
+      "generation": "Core X-series (Skylake-X)",
       "released": "2018-11-13",
       "specs": {
         "codename": "Skylake-X",
         "microarchitecture": "Skylake",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 1979,
         "process_nm": 14,
         "foundry": "Intel",
@@ -5065,6 +5172,7 @@
       "id": "intel-xeon-w-3175x",
       "name": "Xeon W-3175X",
       "family": "Xeon W",
+      "generation": "Xeon W-3100 (Skylake)",
       "released": "2019-01-30",
       "specs": {
         "codename": "Skylake-SP",
@@ -5117,6 +5225,7 @@
       "id": "intel-xeon-platinum-8280",
       "name": "Xeon Platinum 8280",
       "family": "Xeon Scalable",
+      "generation": "Xeon Scalable 2nd Gen (Cascade Lake)",
       "released": "2019-04-02",
       "specs": {
         "codename": "Cascade Lake",
@@ -5170,6 +5279,7 @@
       "id": "intel-xeon-platinum-9282",
       "name": "Xeon Platinum 9282",
       "family": "Xeon Scalable",
+      "generation": "Xeon Scalable 2nd Gen (Cascade Lake)",
       "released": "2019-04-02",
       "specs": {
         "codename": "Cascade Lake-AP",
@@ -5223,6 +5333,7 @@
       "id": "intel-core-i7-1065g7",
       "name": "Core i7-1065G7",
       "family": "Core i7",
+      "generation": "Core 10th Gen (Ice Lake)",
       "released": "2019-08-01",
       "specs": {
         "codename": "Ice Lake",
@@ -5292,12 +5403,13 @@
       "id": "intel-core-i9-10980xe",
       "name": "Core i9-10980XE",
       "family": "Core i9",
+      "generation": "Core X-series (Cascade Lake-X)",
       "released": "2019-11-25",
       "specs": {
         "codename": "Cascade Lake-X",
         "microarchitecture": "Cascade Lake",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 979,
         "process_nm": 14,
         "foundry": "Intel",
@@ -5345,6 +5457,7 @@
       "id": "intel-core-i3-10100",
       "name": "Core i3-10100",
       "family": "Core i3",
+      "generation": "Core 10th Gen (Comet Lake)",
       "released": "2020-04-30",
       "specs": {
         "codename": "Comet Lake",
@@ -5413,6 +5526,7 @@
       "id": "intel-core-i9-10900k",
       "name": "Core i9-10900K",
       "family": "Core i9",
+      "generation": "Core 10th Gen (Comet Lake)",
       "released": "2020-05-20",
       "specs": {
         "codename": "Comet Lake",
@@ -5481,6 +5595,7 @@
       "id": "intel-core-i7-10700k",
       "name": "Core i7-10700K",
       "family": "Core i7",
+      "generation": "Core 10th Gen (Comet Lake)",
       "released": "2020-05-20",
       "specs": {
         "codename": "Comet Lake",
@@ -5549,6 +5664,7 @@
       "id": "intel-core-i5-10400",
       "name": "Core i5-10400",
       "family": "Core i5",
+      "generation": "Core 10th Gen (Comet Lake)",
       "released": "2020-05-20",
       "specs": {
         "codename": "Comet Lake",
@@ -5617,6 +5733,7 @@
       "id": "intel-core-i7-1185g7",
       "name": "Core i7-1185G7",
       "family": "Core i7",
+      "generation": "Core 11th Gen (Tiger Lake)",
       "released": "2020-09-02",
       "specs": {
         "codename": "Tiger Lake",
@@ -5687,6 +5804,7 @@
       "id": "intel-core-i9-11900k",
       "name": "Core i9-11900K",
       "family": "Core i9",
+      "generation": "Core 11th Gen (Rocket Lake)",
       "released": "2021-03-30",
       "specs": {
         "codename": "Rocket Lake",
@@ -5758,6 +5876,7 @@
       "id": "intel-core-i7-11700k",
       "name": "Core i7-11700K",
       "family": "Core i7",
+      "generation": "Core 11th Gen (Rocket Lake)",
       "released": "2021-03-30",
       "specs": {
         "codename": "Rocket Lake",
@@ -5829,6 +5948,7 @@
       "id": "intel-core-i5-11600k",
       "name": "Core i5-11600K",
       "family": "Core i5",
+      "generation": "Core 11th Gen (Rocket Lake)",
       "released": "2021-03-30",
       "specs": {
         "codename": "Rocket Lake",
@@ -5900,6 +6020,7 @@
       "id": "intel-xeon-platinum-8380",
       "name": "Xeon Platinum 8380",
       "family": "Xeon Scalable",
+      "generation": "Xeon Scalable 3rd Gen (Ice Lake)",
       "released": "2021-04-06",
       "specs": {
         "codename": "Ice Lake-SP",
@@ -5954,6 +6075,7 @@
       "id": "intel-core-i9-12900k",
       "name": "Core i9-12900K",
       "family": "Core i9",
+      "generation": "Core 12th Gen (Alder Lake)",
       "released": "2021-11-04",
       "specs": {
         "codename": "Alder Lake",
@@ -6026,6 +6148,7 @@
       "id": "intel-core-i7-12700k",
       "name": "Core i7-12700K",
       "family": "Core i7",
+      "generation": "Core 12th Gen (Alder Lake)",
       "released": "2021-11-04",
       "specs": {
         "codename": "Alder Lake",
@@ -6098,6 +6221,7 @@
       "id": "intel-core-i5-12600k",
       "name": "Core i5-12600K",
       "family": "Core i5",
+      "generation": "Core 12th Gen (Alder Lake)",
       "released": "2021-11-04",
       "specs": {
         "codename": "Alder Lake",
@@ -6170,6 +6294,7 @@
       "id": "intel-core-i5-12400",
       "name": "Core i5-12400",
       "family": "Core i5",
+      "generation": "Core 12th Gen (Alder Lake)",
       "released": "2022-01-04",
       "specs": {
         "codename": "Alder Lake",
@@ -6243,6 +6368,7 @@
       "id": "intel-core-i3-12100",
       "name": "Core i3-12100",
       "family": "Core i3",
+      "generation": "Core 12th Gen (Alder Lake)",
       "released": "2022-01-04",
       "specs": {
         "codename": "Alder Lake",
@@ -6316,6 +6442,7 @@
       "id": "intel-core-i9-12900ks",
       "name": "Core i9-12900KS",
       "family": "Core i9",
+      "generation": "Core 12th Gen (Alder Lake)",
       "released": "2022-04-05",
       "specs": {
         "codename": "Alder Lake",
@@ -6374,6 +6501,7 @@
       "id": "intel-core-i9-13900k",
       "name": "Core i9-13900K",
       "family": "Core i9",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2022-10-20",
       "specs": {
         "codename": "Raptor Lake",
@@ -6448,6 +6576,7 @@
       "id": "intel-core-i7-13700k",
       "name": "Core i7-13700K",
       "family": "Core i7",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2022-10-20",
       "specs": {
         "codename": "Raptor Lake",
@@ -6522,6 +6651,7 @@
       "id": "intel-core-i5-13600k",
       "name": "Core i5-13600K",
       "family": "Core i5",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2022-10-20",
       "specs": {
         "codename": "Raptor Lake",
@@ -6596,6 +6726,7 @@
       "id": "intel-core-i9-13980hx",
       "name": "Core i9-13980HX",
       "family": "Core i9",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2023-01-03",
       "specs": {
         "codename": "Raptor Lake-HX",
@@ -6670,6 +6801,7 @@
       "id": "intel-n100",
       "name": "N100",
       "family": "Intel Processor N",
+      "generation": "N-series (Alder Lake-N)",
       "released": "2023-01-03",
       "specs": {
         "codename": "Alder Lake-N",
@@ -6727,6 +6859,7 @@
       "id": "intel-core-i7-13700h",
       "name": "Core i7-13700H",
       "family": "Core i7",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2023-01-03",
       "specs": {
         "codename": "Raptor Lake-H",
@@ -6800,6 +6933,7 @@
       "id": "intel-core-i7-1360p",
       "name": "Core i7-1360P",
       "family": "Core i7",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2023-01-03",
       "specs": {
         "codename": "Raptor Lake-P",
@@ -6873,6 +7007,7 @@
       "id": "intel-core-i5-1335u",
       "name": "Core i5-1335U",
       "family": "Core i5",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2023-01-03",
       "specs": {
         "codename": "Raptor Lake-U",
@@ -6946,6 +7081,7 @@
       "id": "intel-core-i3-n305",
       "name": "Core i3-N305",
       "family": "Core i3",
+      "generation": "N-series (Alder Lake-N)",
       "released": "2023-01-03",
       "specs": {
         "codename": "Alder Lake-N",
@@ -7018,6 +7154,7 @@
       "id": "intel-xeon-platinum-8490h",
       "name": "Xeon Platinum 8490H",
       "family": "Xeon Scalable",
+      "generation": "Xeon Scalable 4th Gen (Sapphire Rapids)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Sapphire Rapids",
@@ -7076,6 +7213,7 @@
       "id": "intel-xeon-platinum-8480-plus",
       "name": "Xeon Platinum 8480+",
       "family": "Xeon Scalable",
+      "generation": "Xeon Scalable 4th Gen (Sapphire Rapids)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Sapphire Rapids",
@@ -7134,6 +7272,7 @@
       "id": "intel-xeon-max-9480",
       "name": "Xeon Max 9480",
       "family": "Xeon Max",
+      "generation": "Xeon Max (Sapphire Rapids)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Sapphire Rapids HBM",
@@ -7193,6 +7332,7 @@
       "id": "intel-core-i9-13900ks",
       "name": "Core i9-13900KS",
       "family": "Core i9",
+      "generation": "Core 13th Gen (Raptor Lake)",
       "released": "2023-01-12",
       "specs": {
         "codename": "Raptor Lake",
@@ -7267,6 +7407,7 @@
       "id": "intel-xeon-w9-3495x",
       "name": "Xeon w9-3495X",
       "family": "Xeon W",
+      "generation": "Xeon W-3400 (Sapphire Rapids)",
       "released": "2023-02-15",
       "specs": {
         "codename": "Sapphire Rapids",
@@ -7325,6 +7466,7 @@
       "id": "intel-core-i9-14900k",
       "name": "Core i9-14900K",
       "family": "Core i9",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2023-10-17",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -7399,6 +7541,7 @@
       "id": "intel-core-i7-14700k",
       "name": "Core i7-14700K",
       "family": "Core i7",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2023-10-17",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -7473,6 +7616,7 @@
       "id": "intel-core-i5-14600k",
       "name": "Core i5-14600K",
       "family": "Core i5",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2023-10-17",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -7547,6 +7691,7 @@
       "id": "intel-core-ultra-7-155h",
       "name": "Core Ultra 7 155H",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra Series 1 (Meteor Lake)",
       "released": "2023-12-14",
       "specs": {
         "codename": "Meteor Lake",
@@ -7622,6 +7767,7 @@
       "id": "intel-core-ultra-9-185h",
       "name": "Core Ultra 9 185H",
       "family": "Core Ultra 9",
+      "generation": "Core Ultra Series 1 (Meteor Lake)",
       "released": "2023-12-14",
       "specs": {
         "codename": "Meteor Lake",
@@ -7696,6 +7842,7 @@
       "id": "intel-xeon-platinum-8592-plus",
       "name": "Xeon Platinum 8592+",
       "family": "Xeon Scalable",
+      "generation": "Xeon Scalable 5th Gen (Emerald Rapids)",
       "released": "2023-12-14",
       "specs": {
         "codename": "Emerald Rapids",
@@ -7754,6 +7901,7 @@
       "id": "intel-core-ultra-7-165h",
       "name": "Core Ultra 7 165H",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra Series 1 (Meteor Lake)",
       "released": "2023-12-14",
       "specs": {
         "codename": "Meteor Lake",
@@ -7829,6 +7977,7 @@
       "id": "intel-core-ultra-5-125h",
       "name": "Core Ultra 5 125H",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra Series 1 (Meteor Lake)",
       "released": "2023-12-14",
       "specs": {
         "codename": "Meteor Lake",
@@ -7904,6 +8053,7 @@
       "id": "intel-core-ultra-7-155u",
       "name": "Core Ultra 7 155U",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra Series 1 (Meteor Lake)",
       "released": "2023-12-14",
       "specs": {
         "codename": "Meteor Lake-U",
@@ -7979,6 +8129,7 @@
       "id": "intel-core-ultra-5-125u",
       "name": "Core Ultra 5 125U",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra Series 1 (Meteor Lake)",
       "released": "2023-12-14",
       "specs": {
         "codename": "Meteor Lake-U",
@@ -8054,6 +8205,7 @@
       "id": "intel-core-i9-14900hx",
       "name": "Core i9-14900HX",
       "family": "Core i9",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Raptor Lake-HX Refresh",
@@ -8128,6 +8280,7 @@
       "id": "intel-core-i9-14900",
       "name": "Core i9-14900",
       "family": "Core i9",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -8202,6 +8355,7 @@
       "id": "intel-core-i7-14700",
       "name": "Core i7-14700",
       "family": "Core i7",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -8276,6 +8430,7 @@
       "id": "intel-core-i5-14400",
       "name": "Core i5-14400",
       "family": "Core i5",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -8350,6 +8505,7 @@
       "id": "intel-core-i3-14100",
       "name": "Core i3-14100",
       "family": "Core i3",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -8423,6 +8579,7 @@
       "id": "intel-core-i7-14700hx",
       "name": "Core i7-14700HX",
       "family": "Core i7",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Raptor Lake-HX Refresh",
@@ -8497,6 +8654,7 @@
       "id": "intel-core-7-150u",
       "name": "Core 7 150U",
       "family": "Core 7",
+      "generation": "Core Series 1 (Raptor Lake Refresh)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Raptor Lake-U Refresh",
@@ -8570,6 +8728,7 @@
       "id": "intel-core-i9-14900ks",
       "name": "Core i9-14900KS",
       "family": "Core i9",
+      "generation": "Core 14th Gen (Raptor Lake Refresh)",
       "released": "2024-03-14",
       "specs": {
         "codename": "Raptor Lake Refresh",
@@ -8644,6 +8803,7 @@
       "id": "intel-xeon-6780e",
       "name": "Xeon 6780E",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Sierra Forest)",
       "released": "2024-06-04",
       "specs": {
         "codename": "Sierra Forest",
@@ -8700,6 +8860,7 @@
       "id": "intel-xeon-6766e",
       "name": "Xeon 6766E",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Sierra Forest)",
       "released": "2024-06-04",
       "specs": {
         "codename": "Sierra Forest",
@@ -8756,6 +8917,7 @@
       "id": "intel-xeon-6740e",
       "name": "Xeon 6740E",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Sierra Forest)",
       "released": "2024-06-04",
       "specs": {
         "codename": "Sierra Forest",
@@ -8812,6 +8974,7 @@
       "id": "intel-xeon-6710e",
       "name": "Xeon 6710E",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Sierra Forest)",
       "released": "2024-06-04",
       "specs": {
         "codename": "Sierra Forest",
@@ -8868,6 +9031,7 @@
       "id": "intel-xeon-w9-3595x",
       "name": "Xeon w9-3595X",
       "family": "Xeon W",
+      "generation": "Xeon W-3500 (Sapphire Rapids Refresh)",
       "released": "2024-08-26",
       "specs": {
         "codename": "Sapphire Rapids Refresh",
@@ -8926,6 +9090,7 @@
       "id": "intel-core-ultra-7-258v",
       "name": "Core Ultra 7 258V",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200V (Lunar Lake)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Lunar Lake",
@@ -8999,6 +9164,7 @@
       "id": "intel-core-ultra-9-288v",
       "name": "Core Ultra 9 288V",
       "family": "Core Ultra 9",
+      "generation": "Core Ultra 200V (Lunar Lake)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Lunar Lake",
@@ -9072,6 +9238,7 @@
       "id": "intel-xeon-6980p",
       "name": "Xeon 6980P",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Granite Rapids)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Granite Rapids",
@@ -9129,6 +9296,7 @@
       "id": "intel-core-ultra-7-268v",
       "name": "Core Ultra 7 268V",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200V (Lunar Lake)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Lunar Lake",
@@ -9202,6 +9370,7 @@
       "id": "intel-core-ultra-7-256v",
       "name": "Core Ultra 7 256V",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200V (Lunar Lake)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Lunar Lake",
@@ -9275,6 +9444,7 @@
       "id": "intel-core-ultra-5-236v",
       "name": "Core Ultra 5 236V",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra 200V (Lunar Lake)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Lunar Lake",
@@ -9348,6 +9518,7 @@
       "id": "intel-core-ultra-5-226v",
       "name": "Core Ultra 5 226V",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra 200V (Lunar Lake)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Lunar Lake",
@@ -9421,6 +9592,7 @@
       "id": "intel-xeon-6979p",
       "name": "Xeon 6979P",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Granite Rapids)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Granite Rapids",
@@ -9478,6 +9650,7 @@
       "id": "intel-xeon-6972p",
       "name": "Xeon 6972P",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Granite Rapids)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Granite Rapids",
@@ -9535,6 +9708,7 @@
       "id": "intel-xeon-6960p",
       "name": "Xeon 6960P",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Granite Rapids)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Granite Rapids",
@@ -9592,6 +9766,7 @@
       "id": "intel-xeon-6952p",
       "name": "Xeon 6952P",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Granite Rapids)",
       "released": "2024-09-24",
       "specs": {
         "codename": "Granite Rapids",
@@ -9649,6 +9824,7 @@
       "id": "intel-core-ultra-9-285k",
       "name": "Core Ultra 9 285K",
       "family": "Core Ultra 9",
+      "generation": "Core Ultra 200S (Arrow Lake)",
       "released": "2024-10-24",
       "specs": {
         "codename": "Arrow Lake-S",
@@ -9724,6 +9900,7 @@
       "id": "intel-core-ultra-7-265k",
       "name": "Core Ultra 7 265K",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200S (Arrow Lake)",
       "released": "2024-10-24",
       "specs": {
         "codename": "Arrow Lake-S",
@@ -9799,6 +9976,7 @@
       "id": "intel-core-ultra-5-245k",
       "name": "Core Ultra 5 245K",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra 200S (Arrow Lake)",
       "released": "2024-10-24",
       "specs": {
         "codename": "Arrow Lake-S",
@@ -9874,6 +10052,7 @@
       "id": "intel-core-ultra-9-275hx",
       "name": "Core Ultra 9 275HX",
       "family": "Core Ultra 9",
+      "generation": "Core Ultra 200HX (Arrow Lake)",
       "released": "2025-01",
       "specs": {
         "codename": "Arrow Lake-HX",
@@ -9949,6 +10128,7 @@
       "id": "intel-core-ultra-9-285h",
       "name": "Core Ultra 9 285H",
       "family": "Core Ultra 9",
+      "generation": "Core Ultra 200H (Arrow Lake)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Arrow Lake-H",
@@ -10023,6 +10203,7 @@
       "id": "intel-core-ultra-7-255h",
       "name": "Core Ultra 7 255H",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200H (Arrow Lake)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Arrow Lake-H",
@@ -10097,6 +10278,7 @@
       "id": "intel-core-ultra-5-225h",
       "name": "Core Ultra 5 225H",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra 200H (Arrow Lake)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Arrow Lake-H",
@@ -10171,6 +10353,7 @@
       "id": "intel-core-ultra-7-255hx",
       "name": "Core Ultra 7 255HX",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200HX (Arrow Lake)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Arrow Lake-HX",
@@ -10246,6 +10429,7 @@
       "id": "intel-core-ultra-5-245hx",
       "name": "Core Ultra 5 245HX",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra 200HX (Arrow Lake)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Arrow Lake-HX",
@@ -10321,6 +10505,7 @@
       "id": "intel-n150",
       "name": "N150",
       "family": "Intel Processor N",
+      "generation": "N-series (Twin Lake)",
       "released": "2025-01-06",
       "specs": {
         "codename": "Twin Lake",
@@ -10378,6 +10563,7 @@
       "id": "intel-core-ultra-9-285",
       "name": "Core Ultra 9 285",
       "family": "Core Ultra 9",
+      "generation": "Core Ultra 200S (Arrow Lake)",
       "released": "2025-01-07",
       "specs": {
         "codename": "Arrow Lake-S",
@@ -10447,6 +10633,7 @@
       "id": "intel-core-ultra-7-265",
       "name": "Core Ultra 7 265",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200S (Arrow Lake)",
       "released": "2025-01-07",
       "specs": {
         "codename": "Arrow Lake-S",
@@ -10515,6 +10702,7 @@
       "id": "intel-xeon-6787p",
       "name": "Xeon 6787P",
       "family": "Xeon 6",
+      "generation": "Xeon 6 (Granite Rapids)",
       "released": "2025-02-24",
       "specs": {
         "codename": "Granite Rapids-SP",
@@ -10573,6 +10761,7 @@
       "id": "intel-core-ultra-x9-388h",
       "name": "Core Ultra X9 388H",
       "family": "Core Ultra X9",
+      "generation": "Core Ultra Series 3 (Panther Lake)",
       "released": "2026-01-05",
       "specs": {
         "codename": "Panther Lake",
@@ -10648,6 +10837,7 @@
       "id": "intel-core-ultra-x7-368h",
       "name": "Core Ultra X7 368H",
       "family": "Core Ultra X7",
+      "generation": "Core Ultra Series 3 (Panther Lake)",
       "released": "2026-01-05",
       "specs": {
         "codename": "Panther Lake",
@@ -10723,6 +10913,7 @@
       "id": "intel-core-ultra-x7-358h",
       "name": "Core Ultra X7 358H",
       "family": "Core Ultra X7",
+      "generation": "Core Ultra Series 3 (Panther Lake)",
       "released": "2026-01-05",
       "specs": {
         "codename": "Panther Lake",
@@ -10798,6 +10989,7 @@
       "id": "intel-core-ultra-7-270k-plus",
       "name": "Core Ultra 7 270K Plus",
       "family": "Core Ultra 7",
+      "generation": "Core Ultra 200S Plus (Arrow Lake Refresh)",
       "released": "2026-03-26",
       "specs": {
         "codename": "Arrow Lake-S Refresh",
@@ -10873,6 +11065,7 @@
       "id": "intel-core-ultra-5-250k-plus",
       "name": "Core Ultra 5 250K Plus",
       "family": "Core Ultra 5",
+      "generation": "Core Ultra 200S Plus (Arrow Lake Refresh)",
       "released": "2026-03-26",
       "specs": {
         "codename": "Arrow Lake-S Refresh",

@@ -6,6 +6,7 @@
       "id": "amd-am9080",
       "name": "Am9080",
       "family": "Am9080",
+      "generation": "Am9080",
       "released": "1975",
       "specs": {
         "microarchitecture": "8080 (reverse-engineered clone)",
@@ -42,6 +43,7 @@
       "id": "amd-am2901",
       "name": "Am2901",
       "family": "Am2900",
+      "generation": "Am2900 family",
       "released": "1975",
       "specs": {
         "microarchitecture": "4-bit bit-slice",
@@ -78,6 +80,7 @@
       "id": "amd-am286",
       "name": "Am286",
       "family": "Am286",
+      "generation": "Am286",
       "released": "1982",
       "specs": {
         "microarchitecture": "80286",
@@ -114,6 +117,7 @@
       "id": "amd-am386dx-40",
       "name": "Am386DX-40",
       "family": "Am386",
+      "generation": "Am386",
       "released": "1991-03",
       "specs": {
         "microarchitecture": "80386",
@@ -150,6 +154,7 @@
       "id": "amd-am486dx2-66",
       "name": "Am486DX2-66",
       "family": "Am486",
+      "generation": "Am486",
       "released": "1993",
       "specs": {
         "microarchitecture": "80486",
@@ -188,6 +193,7 @@
       "id": "amd-am486dx4-100",
       "name": "Am486DX4-100",
       "family": "Am486",
+      "generation": "Am486",
       "released": "1994",
       "specs": {
         "microarchitecture": "80486",
@@ -226,6 +232,7 @@
       "id": "amd-am5x86-p75",
       "name": "Am5x86-P75",
       "family": "Am5x86",
+      "generation": "Am5x86",
       "released": "1995-11",
       "specs": {
         "codename": "X5",
@@ -264,6 +271,7 @@
       "id": "amd-k5-pr166",
       "name": "K5 PR166",
       "family": "K5",
+      "generation": "K5",
       "released": "1997-01",
       "specs": {
         "codename": "5k86",
@@ -302,6 +310,7 @@
       "id": "amd-k6-233",
       "name": "K6-233",
       "family": "K6",
+      "generation": "K6",
       "released": "1997-04-02",
       "specs": {
         "codename": "Model 6",
@@ -341,6 +350,7 @@
       "id": "amd-k6-2-300",
       "name": "K6-2 300",
       "family": "K6-2",
+      "generation": "K6",
       "released": "1998-05-28",
       "specs": {
         "codename": "Chomper",
@@ -381,6 +391,7 @@
       "id": "amd-k6-iii-450",
       "name": "K6-III 450",
       "family": "K6-III",
+      "generation": "K6",
       "released": "1999-02-22",
       "specs": {
         "codename": "Sharptooth",
@@ -421,6 +432,7 @@
       "id": "amd-athlon-600",
       "name": "Athlon 600",
       "family": "Athlon",
+      "generation": "Athlon (K7)",
       "released": "1999-06-23",
       "specs": {
         "codename": "Argon",
@@ -462,6 +474,7 @@
       "id": "amd-athlon-1000",
       "name": "Athlon 1000",
       "family": "Athlon",
+      "generation": "Athlon (K7)",
       "released": "2000-03-06",
       "specs": {
         "codename": "Orion",
@@ -503,6 +516,7 @@
       "id": "amd-duron-600",
       "name": "Duron 600",
       "family": "Duron",
+      "generation": "Athlon (K7)",
       "released": "2000-06-19",
       "specs": {
         "codename": "Spitfire",
@@ -544,6 +558,7 @@
       "id": "amd-athlon-1400",
       "name": "Athlon 1400",
       "family": "Athlon",
+      "generation": "Athlon (K7)",
       "released": "2001-06-06",
       "specs": {
         "codename": "Thunderbird",
@@ -585,6 +600,7 @@
       "id": "amd-athlon-xp-1800-plus",
       "name": "Athlon XP 1800+",
       "family": "Athlon XP",
+      "generation": "Athlon (K7)",
       "released": "2001-10-09",
       "specs": {
         "codename": "Palomino",
@@ -626,6 +642,7 @@
       "id": "amd-opteron-244",
       "name": "Opteron 244",
       "family": "Opteron",
+      "generation": "Opteron (K8)",
       "released": "2003-04-22",
       "specs": {
         "codename": "SledgeHammer",
@@ -670,6 +687,7 @@
       "id": "amd-athlon-xp-3200-plus",
       "name": "Athlon XP 3200+",
       "family": "Athlon XP",
+      "generation": "Athlon (K7)",
       "released": "2003-05-13",
       "specs": {
         "codename": "Barton",
@@ -711,6 +729,7 @@
       "id": "amd-athlon-64-3200-plus",
       "name": "Athlon 64 3200+",
       "family": "Athlon 64",
+      "generation": "Athlon 64 (K8)",
       "released": "2003-09-23",
       "specs": {
         "codename": "ClawHammer",
@@ -755,6 +774,7 @@
       "id": "amd-athlon-64-fx-51",
       "name": "Athlon 64 FX-51",
       "family": "Athlon 64 FX",
+      "generation": "Athlon 64 (K8)",
       "released": "2003-09-23",
       "specs": {
         "codename": "SledgeHammer",
@@ -799,6 +819,7 @@
       "id": "amd-sempron-3100-plus",
       "name": "Sempron 3100+",
       "family": "Sempron",
+      "generation": "Athlon 64 (K8)",
       "released": "2004-07-28",
       "specs": {
         "codename": "Paris",
@@ -842,6 +863,7 @@
       "id": "amd-athlon-64-fx-55",
       "name": "Athlon 64 FX-55",
       "family": "Athlon 64 FX",
+      "generation": "Athlon 64 (K8)",
       "released": "2004-10-19",
       "specs": {
         "codename": "ClawHammer",
@@ -886,6 +908,7 @@
       "id": "amd-opteron-875",
       "name": "Opteron 875",
       "family": "Opteron",
+      "generation": "Opteron (K8)",
       "released": "2005-04-21",
       "specs": {
         "codename": "Egypt",
@@ -931,6 +954,7 @@
       "id": "amd-athlon-64-x2-4800-plus",
       "name": "Athlon 64 X2 4800+",
       "family": "Athlon 64 X2",
+      "generation": "Athlon 64 (K8)",
       "released": "2005-05-31",
       "specs": {
         "codename": "Toledo",
@@ -974,6 +998,7 @@
       "id": "amd-athlon-64-fx-62",
       "name": "Athlon 64 FX-62",
       "family": "Athlon 64 FX",
+      "generation": "Athlon 64 (K8)",
       "released": "2006-05-23",
       "specs": {
         "codename": "Windsor",
@@ -1020,6 +1045,7 @@
       "id": "amd-opteron-2350",
       "name": "Opteron 2350",
       "family": "Opteron",
+      "generation": "Opteron (K10)",
       "released": "2007-09-10",
       "specs": {
         "codename": "Barcelona",
@@ -1067,6 +1093,7 @@
       "id": "amd-phenom-x4-9600",
       "name": "Phenom X4 9600",
       "family": "Phenom",
+      "generation": "Phenom (K10)",
       "released": "2007-11-19",
       "specs": {
         "codename": "Agena",
@@ -1114,6 +1141,7 @@
       "id": "amd-phenom-ii-x4-940-black-edition",
       "name": "Phenom II X4 940 Black Edition",
       "family": "Phenom II",
+      "generation": "Phenom II (K10)",
       "released": "2009-01-08",
       "specs": {
         "codename": "Deneb",
@@ -1161,6 +1189,7 @@
       "id": "amd-opteron-2435",
       "name": "Opteron 2435",
       "family": "Opteron",
+      "generation": "Opteron (K10)",
       "released": "2009-06-01",
       "specs": {
         "codename": "Istanbul",
@@ -1208,6 +1237,7 @@
       "id": "amd-athlon-ii-x4-620",
       "name": "Athlon II X4 620",
       "family": "Athlon II",
+      "generation": "Phenom II (K10)",
       "released": "2009-09-16",
       "specs": {
         "codename": "Propus",
@@ -1255,6 +1285,7 @@
       "id": "amd-opteron-6174",
       "name": "Opteron 6174",
       "family": "Opteron",
+      "generation": "Opteron (K10)",
       "released": "2010-03-29",
       "specs": {
         "codename": "Magny-Cours",
@@ -1302,6 +1333,7 @@
       "id": "amd-phenom-ii-x6-1090t-black-edition",
       "name": "Phenom II X6 1090T Black Edition",
       "family": "Phenom II",
+      "generation": "Phenom II (K10)",
       "released": "2010-04-27",
       "specs": {
         "codename": "Thuban",
@@ -1347,6 +1379,7 @@
       "id": "amd-fx-8150",
       "name": "FX-8150",
       "family": "FX",
+      "generation": "FX (Bulldozer)",
       "released": "2011-10-12",
       "specs": {
         "codename": "Zambezi",
@@ -1407,6 +1440,7 @@
       "id": "amd-opteron-6276",
       "name": "Opteron 6276",
       "family": "Opteron",
+      "generation": "Opteron (Bulldozer)",
       "released": "2011-11-14",
       "specs": {
         "codename": "Interlagos",
@@ -1467,6 +1501,7 @@
       "id": "amd-fx-8350",
       "name": "FX-8350",
       "family": "FX",
+      "generation": "FX (Bulldozer)",
       "released": "2012-10-23",
       "specs": {
         "codename": "Vishera",
@@ -1531,6 +1566,7 @@
       "id": "amd-fx-9590",
       "name": "FX-9590",
       "family": "FX",
+      "generation": "FX (Bulldozer)",
       "released": "2013-06-11",
       "specs": {
         "codename": "Vishera",
@@ -1595,6 +1631,7 @@
       "id": "amd-ryzen-7-1800x",
       "name": "Ryzen 7 1800X",
       "family": "Ryzen 7",
+      "generation": "Ryzen 1000 (Zen)",
       "released": "2017-03-02",
       "specs": {
         "codename": "Summit Ridge",
@@ -1659,6 +1696,7 @@
       "id": "amd-ryzen-5-1600",
       "name": "Ryzen 5 1600",
       "family": "Ryzen 5",
+      "generation": "Ryzen 1000 (Zen)",
       "released": "2017-04-11",
       "specs": {
         "codename": "Summit Ridge",
@@ -1728,6 +1766,7 @@
       "id": "amd-epyc-7601",
       "name": "EPYC 7601",
       "family": "EPYC 7001",
+      "generation": "EPYC 7001 (Naples)",
       "released": "2017-06-20",
       "specs": {
         "codename": "Naples",
@@ -1792,6 +1831,7 @@
       "id": "amd-ryzen-3-1300x",
       "name": "Ryzen 3 1300X",
       "family": "Ryzen 3",
+      "generation": "Ryzen 1000 (Zen)",
       "released": "2017-07-27",
       "specs": {
         "codename": "Summit Ridge",
@@ -1856,12 +1896,13 @@
       "id": "amd-ryzen-threadripper-1950x",
       "name": "Ryzen Threadripper 1950X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 1000 (Whitehaven)",
       "released": "2017-08-10",
       "specs": {
         "codename": "Whitehaven",
         "microarchitecture": "Zen",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 999,
         "process_nm": 14,
         "foundry": "GlobalFoundries",
@@ -1920,6 +1961,7 @@
       "id": "amd-ryzen-7-2700x",
       "name": "Ryzen 7 2700X",
       "family": "Ryzen 7",
+      "generation": "Ryzen 2000 (Zen+)",
       "released": "2018-04-19",
       "specs": {
         "codename": "Pinnacle Ridge",
@@ -1989,6 +2031,7 @@
       "id": "amd-ryzen-5-2600",
       "name": "Ryzen 5 2600",
       "family": "Ryzen 5",
+      "generation": "Ryzen 2000 (Zen+)",
       "released": "2018-04-19",
       "specs": {
         "codename": "Pinnacle Ridge",
@@ -2058,12 +2101,13 @@
       "id": "amd-ryzen-threadripper-2990wx",
       "name": "Ryzen Threadripper 2990WX",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 2000 (Colfax)",
       "released": "2018-08-13",
       "specs": {
         "codename": "Colfax",
         "microarchitecture": "Zen+",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 1799,
         "process_nm": 12,
         "foundry": "GlobalFoundries",
@@ -2122,6 +2166,7 @@
       "id": "amd-ryzen-9-3900x",
       "name": "Ryzen 9 3900X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 3000 (Zen 2)",
       "released": "2019-07-07",
       "specs": {
         "codename": "Matisse",
@@ -2191,6 +2236,7 @@
       "id": "amd-ryzen-7-3700x",
       "name": "Ryzen 7 3700X",
       "family": "Ryzen 7",
+      "generation": "Ryzen 3000 (Zen 2)",
       "released": "2019-07-07",
       "specs": {
         "codename": "Matisse",
@@ -2260,6 +2306,7 @@
       "id": "amd-ryzen-5-3600",
       "name": "Ryzen 5 3600",
       "family": "Ryzen 5",
+      "generation": "Ryzen 3000 (Zen 2)",
       "released": "2019-07-07",
       "specs": {
         "codename": "Matisse",
@@ -2329,6 +2376,7 @@
       "id": "amd-epyc-7742",
       "name": "EPYC 7742",
       "family": "EPYC 7002",
+      "generation": "EPYC 7002 (Rome)",
       "released": "2019-08-07",
       "specs": {
         "codename": "Rome",
@@ -2393,6 +2441,7 @@
       "id": "amd-ryzen-9-3950x",
       "name": "Ryzen 9 3950X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 3000 (Zen 2)",
       "released": "2019-11-25",
       "specs": {
         "codename": "Matisse",
@@ -2461,12 +2510,13 @@
       "id": "amd-ryzen-threadripper-3990x",
       "name": "Ryzen Threadripper 3990X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 3000 (Castle Peak)",
       "released": "2020-02-07",
       "specs": {
         "codename": "Castle Peak",
         "microarchitecture": "Zen 2",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 3990,
         "peak_temperature_c": 95,
         "unlocked_multiplier": true,
@@ -2530,6 +2580,7 @@
       "id": "amd-ryzen-3-3300x",
       "name": "Ryzen 3 3300X",
       "family": "Ryzen 3",
+      "generation": "Ryzen 3000 (Zen 2)",
       "released": "2020-05-21",
       "specs": {
         "codename": "Matisse",
@@ -2594,6 +2645,7 @@
       "id": "amd-ryzen-9-5950x",
       "name": "Ryzen 9 5950X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2020-11-05",
       "specs": {
         "codename": "Vermeer",
@@ -2663,6 +2715,7 @@
       "id": "amd-ryzen-9-5900x",
       "name": "Ryzen 9 5900X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2020-11-05",
       "specs": {
         "codename": "Vermeer",
@@ -2732,6 +2785,7 @@
       "id": "amd-ryzen-7-5800x",
       "name": "Ryzen 7 5800X",
       "family": "Ryzen 7",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2020-11-05",
       "specs": {
         "codename": "Vermeer",
@@ -2801,6 +2855,7 @@
       "id": "amd-ryzen-5-5600x",
       "name": "Ryzen 5 5600X",
       "family": "Ryzen 5",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2020-11-05",
       "specs": {
         "codename": "Vermeer",
@@ -2870,6 +2925,7 @@
       "id": "amd-epyc-7763",
       "name": "EPYC 7763",
       "family": "EPYC 7003",
+      "generation": "EPYC 7003 (Milan)",
       "released": "2021-03-15",
       "specs": {
         "codename": "Milan",
@@ -2934,6 +2990,7 @@
       "id": "amd-ryzen-threadripper-pro-5995wx",
       "name": "Ryzen Threadripper PRO 5995WX",
       "family": "Ryzen Threadripper PRO",
+      "generation": "Threadripper PRO 5000 (Chagall)",
       "released": "2022-03-08",
       "specs": {
         "codename": "Chagall",
@@ -2998,6 +3055,7 @@
       "id": "amd-epyc-7773x",
       "name": "EPYC 7773X",
       "family": "EPYC 7003",
+      "generation": "EPYC 7003 (Milan)",
       "released": "2022-03-21",
       "specs": {
         "codename": "Milan-X",
@@ -3062,6 +3120,7 @@
       "id": "amd-ryzen-7-5800x3d",
       "name": "Ryzen 7 5800X3D",
       "family": "Ryzen 7",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2022-04-20",
       "specs": {
         "codename": "Vermeer",
@@ -3131,6 +3190,7 @@
       "id": "amd-ryzen-9-7950x",
       "name": "Ryzen 9 7950X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2022-09-27",
       "specs": {
         "codename": "Raphael",
@@ -3210,6 +3270,7 @@
       "id": "amd-ryzen-9-7900x",
       "name": "Ryzen 9 7900X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2022-09-27",
       "specs": {
         "codename": "Raphael",
@@ -3288,6 +3349,7 @@
       "id": "amd-ryzen-5-7600x",
       "name": "Ryzen 5 7600X",
       "family": "Ryzen 5",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2022-09-27",
       "specs": {
         "codename": "Raphael",
@@ -3366,6 +3428,7 @@
       "id": "amd-ryzen-7-7700x",
       "name": "Ryzen 7 7700X",
       "family": "Ryzen 7",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2022-09-27",
       "specs": {
         "codename": "Raphael",
@@ -3444,6 +3507,7 @@
       "id": "amd-epyc-9654",
       "name": "EPYC 9654",
       "family": "EPYC 9004",
+      "generation": "EPYC 9004 (Genoa)",
       "released": "2022-11-10",
       "specs": {
         "codename": "Genoa",
@@ -3511,6 +3575,7 @@
       "id": "amd-ryzen-7-7700",
       "name": "Ryzen 7 7700",
       "family": "Ryzen 7",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Raphael",
@@ -3590,6 +3655,7 @@
       "id": "amd-ryzen-5-7600",
       "name": "Ryzen 5 7600",
       "family": "Ryzen 5",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Raphael",
@@ -3669,6 +3735,7 @@
       "id": "amd-ryzen-9-7900",
       "name": "Ryzen 9 7900",
       "family": "Ryzen 9",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-01-10",
       "specs": {
         "codename": "Raphael",
@@ -3747,6 +3814,7 @@
       "id": "amd-ryzen-9-7945hx",
       "name": "Ryzen 9 7945HX",
       "family": "Ryzen 9 Mobile",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-02",
       "specs": {
         "codename": "Dragon Range",
@@ -3825,6 +3893,7 @@
       "id": "amd-ryzen-9-7950x3d",
       "name": "Ryzen 9 7950X3D",
       "family": "Ryzen 9",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-02-28",
       "specs": {
         "codename": "Raphael-X",
@@ -3905,6 +3974,7 @@
       "id": "amd-ryzen-9-7900x3d",
       "name": "Ryzen 9 7900X3D",
       "family": "Ryzen 9",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-02-28",
       "specs": {
         "codename": "Raphael-X",
@@ -3982,6 +4052,7 @@
       "id": "amd-ryzen-7-7800x3d",
       "name": "Ryzen 7 7800X3D",
       "family": "Ryzen 7",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-04-06",
       "specs": {
         "codename": "Raphael-X",
@@ -4060,6 +4131,7 @@
       "id": "amd-epyc-9754",
       "name": "EPYC 9754",
       "family": "EPYC 9004",
+      "generation": "EPYC 9004 (Genoa)",
       "released": "2023-06-13",
       "specs": {
         "codename": "Bergamo",
@@ -4127,6 +4199,7 @@
       "id": "amd-epyc-9684x",
       "name": "EPYC 9684X",
       "family": "EPYC 9004",
+      "generation": "EPYC 9004 (Genoa)",
       "released": "2023-06-13",
       "specs": {
         "codename": "Genoa-X",
@@ -4194,6 +4267,7 @@
       "id": "amd-ryzen-5-5600x3d",
       "name": "Ryzen 5 5600X3D",
       "family": "Ryzen 5",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2023-07-07",
       "specs": {
         "codename": "Vermeer",
@@ -4258,6 +4332,7 @@
       "id": "amd-ryzen-5-7500f",
       "name": "Ryzen 5 7500F",
       "family": "Ryzen 5",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2023-07-22",
       "specs": {
         "codename": "Raphael",
@@ -4329,6 +4404,7 @@
       "id": "amd-epyc-8534p",
       "name": "EPYC 8534P",
       "family": "EPYC 8004",
+      "generation": "EPYC 8004 (Siena)",
       "released": "2023-09-18",
       "specs": {
         "codename": "Siena",
@@ -4396,12 +4472,13 @@
       "id": "amd-ryzen-threadripper-7980x",
       "name": "Ryzen Threadripper 7980X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 7000 (Storm Peak)",
       "released": "2023-11-21",
       "specs": {
         "codename": "Storm Peak",
         "microarchitecture": "Zen 4",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 4999,
         "process_nm": 5,
         "foundry": "TSMC",
@@ -4463,12 +4540,13 @@
       "id": "amd-ryzen-threadripper-7970x",
       "name": "Ryzen Threadripper 7970X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 7000 (Storm Peak)",
       "released": "2023-11-21",
       "specs": {
         "codename": "Storm Peak",
         "microarchitecture": "Zen 4",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 2499,
         "process_nm": 5,
         "foundry": "TSMC",
@@ -4530,12 +4608,13 @@
       "id": "amd-ryzen-threadripper-7960x",
       "name": "Ryzen Threadripper 7960X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 7000 (Storm Peak)",
       "released": "2023-11-21",
       "specs": {
         "codename": "Storm Peak",
         "microarchitecture": "Zen 4",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 1499,
         "process_nm": 5,
         "foundry": "TSMC",
@@ -4597,6 +4676,7 @@
       "id": "amd-ryzen-threadripper-pro-7995wx",
       "name": "Ryzen Threadripper PRO 7995WX",
       "family": "Ryzen Threadripper PRO",
+      "generation": "Threadripper 7000 (Storm Peak)",
       "released": "2023-11-21",
       "specs": {
         "codename": "Storm Peak",
@@ -4664,6 +4744,7 @@
       "id": "amd-ryzen-7-5700x3d",
       "name": "Ryzen 7 5700X3D",
       "family": "Ryzen 7",
+      "generation": "Ryzen 5000 (Zen 3)",
       "released": "2024-01-08",
       "specs": {
         "codename": "Vermeer",
@@ -4732,6 +4813,7 @@
       "id": "amd-epyc-4564p",
       "name": "EPYC 4564P",
       "family": "EPYC 4004",
+      "generation": "EPYC 4004 (Raphael)",
       "released": "2024-05-21",
       "specs": {
         "codename": "Raphael",
@@ -4799,6 +4881,7 @@
       "id": "amd-ryzen-7-9700x",
       "name": "Ryzen 7 9700X",
       "family": "Ryzen 7",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2024-08-08",
       "specs": {
         "codename": "Granite Ridge",
@@ -4878,6 +4961,7 @@
       "id": "amd-ryzen-5-9600x",
       "name": "Ryzen 5 9600X",
       "family": "Ryzen 5",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2024-08-08",
       "specs": {
         "codename": "Granite Ridge",
@@ -4957,6 +5041,7 @@
       "id": "amd-ryzen-9-9950x",
       "name": "Ryzen 9 9950X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2024-08-15",
       "specs": {
         "codename": "Granite Ridge",
@@ -5032,6 +5117,7 @@
       "id": "amd-ryzen-9-9900x",
       "name": "Ryzen 9 9900X",
       "family": "Ryzen 9",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2024-08-15",
       "specs": {
         "codename": "Granite Ridge",
@@ -5111,6 +5197,7 @@
       "id": "amd-ryzen-5-7600x3d",
       "name": "Ryzen 5 7600X3D",
       "family": "Ryzen 5",
+      "generation": "Ryzen 7000 (Zen 4)",
       "released": "2024-09-05",
       "specs": {
         "codename": "Raphael-X",
@@ -5189,6 +5276,7 @@
       "id": "amd-epyc-9755",
       "name": "EPYC 9755",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin",
@@ -5256,6 +5344,7 @@
       "id": "amd-epyc-9965",
       "name": "EPYC 9965",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin Dense",
@@ -5323,6 +5412,7 @@
       "id": "amd-epyc-9575f",
       "name": "EPYC 9575F",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin",
@@ -5390,6 +5480,7 @@
       "id": "amd-epyc-9655",
       "name": "EPYC 9655",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin",
@@ -5457,6 +5548,7 @@
       "id": "amd-epyc-9555",
       "name": "EPYC 9555",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin",
@@ -5524,6 +5616,7 @@
       "id": "amd-epyc-9355",
       "name": "EPYC 9355",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin",
@@ -5591,6 +5684,7 @@
       "id": "amd-epyc-9175f",
       "name": "EPYC 9175F",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin",
@@ -5658,6 +5752,7 @@
       "id": "amd-epyc-9015",
       "name": "EPYC 9015",
       "family": "EPYC 9005",
+      "generation": "EPYC 9005 (Turin)",
       "released": "2024-10-10",
       "specs": {
         "codename": "Turin",
@@ -5725,6 +5820,7 @@
       "id": "amd-ryzen-7-9800x3d",
       "name": "Ryzen 7 9800X3D",
       "family": "Ryzen 7",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2024-11-07",
       "specs": {
         "codename": "Granite Ridge",
@@ -5805,6 +5901,7 @@
       "id": "amd-ryzen-5-9600",
       "name": "Ryzen 5 9600",
       "family": "Ryzen 5",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2025-01",
       "specs": {
         "codename": "Granite Ridge",
@@ -5872,6 +5969,7 @@
       "id": "amd-ryzen-9-9955hx3d",
       "name": "Ryzen 9 9955HX3D",
       "family": "Ryzen 9 Mobile",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2025-03",
       "specs": {
         "codename": "Fire Range",
@@ -5951,6 +6049,7 @@
       "id": "amd-ryzen-9-9950x3d",
       "name": "Ryzen 9 9950X3D",
       "family": "Ryzen 9",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2025-03-12",
       "specs": {
         "codename": "Granite Ridge",
@@ -6031,6 +6130,7 @@
       "id": "amd-ryzen-9-9900x3d",
       "name": "Ryzen 9 9900X3D",
       "family": "Ryzen 9",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2025-03-12",
       "specs": {
         "codename": "Granite Ridge",
@@ -6111,6 +6211,7 @@
       "id": "amd-epyc-4565p",
       "name": "EPYC 4565P",
       "family": "EPYC 4005",
+      "generation": "EPYC 4005 (Grado)",
       "released": "2025-05-13",
       "specs": {
         "codename": "Granite Ridge",
@@ -6178,6 +6279,7 @@
       "id": "amd-epyc-4585px",
       "name": "EPYC 4585PX",
       "family": "EPYC 4005",
+      "generation": "EPYC 4005 (Grado)",
       "released": "2025-05-13",
       "specs": {
         "codename": "Granite Ridge",
@@ -6245,12 +6347,13 @@
       "id": "amd-ryzen-threadripper-9980x",
       "name": "Ryzen Threadripper 9980X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 9000 (Shimada Peak)",
       "released": "2025-07-23",
       "specs": {
         "codename": "Shimada Peak",
         "microarchitecture": "Zen 5",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 4999,
         "process_nm": 4,
         "foundry": "TSMC",
@@ -6312,12 +6415,13 @@
       "id": "amd-ryzen-threadripper-9970x",
       "name": "Ryzen Threadripper 9970X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 9000 (Shimada Peak)",
       "released": "2025-07-23",
       "specs": {
         "codename": "Shimada Peak",
         "microarchitecture": "Zen 5",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 2499,
         "process_nm": 4,
         "foundry": "TSMC",
@@ -6379,12 +6483,13 @@
       "id": "amd-ryzen-threadripper-9960x",
       "name": "Ryzen Threadripper 9960X",
       "family": "Ryzen Threadripper",
+      "generation": "Threadripper 9000 (Shimada Peak)",
       "released": "2025-07-23",
       "specs": {
         "codename": "Shimada Peak",
         "microarchitecture": "Zen 5",
         "isa": "x86-64",
-        "market": "Desktop",
+        "market": "Workstation",
         "launch_price_usd": 1499,
         "process_nm": 4,
         "foundry": "TSMC",
@@ -6446,6 +6551,7 @@
       "id": "amd-ryzen-threadripper-pro-9995wx",
       "name": "Ryzen Threadripper PRO 9995WX",
       "family": "Ryzen Threadripper PRO",
+      "generation": "Threadripper 9000 (Shimada Peak)",
       "released": "2025-07-23",
       "specs": {
         "codename": "Shimada Peak",
@@ -6513,6 +6619,7 @@
       "id": "amd-ryzen-threadripper-pro-9985wx",
       "name": "Ryzen Threadripper PRO 9985WX",
       "family": "Ryzen Threadripper PRO",
+      "generation": "Threadripper 9000 (Shimada Peak)",
       "released": "2025-07-23",
       "specs": {
         "codename": "Shimada Peak",
@@ -6580,6 +6687,7 @@
       "id": "amd-ryzen-7-9850x3d",
       "name": "Ryzen 7 9850X3D",
       "family": "Ryzen 7",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2026-01-29",
       "specs": {
         "codename": "Granite Ridge",
@@ -6660,6 +6768,7 @@
       "id": "amd-ryzen-9-9950x3d2",
       "name": "Ryzen 9 9950X3D2 Dual Edition",
       "family": "Ryzen 9",
+      "generation": "Ryzen 9000 (Zen 5)",
       "released": "2026-04-22",
       "specs": {
         "codename": "Granite Ridge",

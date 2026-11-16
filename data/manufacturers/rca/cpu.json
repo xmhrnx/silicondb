@@ -6,6 +6,7 @@
       "id": "rca-cdp1801",
       "name": "CDP1801",
       "family": "COSMAC",
+      "generation": "COSMAC",
       "released": "1975",
       "specs": {
         "microarchitecture": "COSMAC",
@@ -43,6 +44,7 @@
       "id": "rca-cdp1802",
       "name": "CDP1802",
       "family": "COSMAC",
+      "generation": "COSMAC",
       "released": "1976",
       "specs": {
         "microarchitecture": "COSMAC",

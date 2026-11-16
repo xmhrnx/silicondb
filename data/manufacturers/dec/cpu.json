@@ -6,6 +6,7 @@
       "id": "dec-t-11",
       "name": "T-11",
       "family": "PDP-11",
+      "generation": "PDP-11",
       "released": "1981",
       "specs": {
         "codename": "DCT11",
@@ -42,12 +43,13 @@
       "id": "dec-j-11",
       "name": "J-11",
       "family": "PDP-11",
+      "generation": "PDP-11",
       "released": "1983",
       "specs": {
         "codename": "Jaws",
         "microarchitecture": "J-11",
         "isa": "PDP-11",
-        "market": "Professional",
+        "market": "Workstation",
         "foundry": "Harris Semiconductor",
         "package": "60-pin ceramic hybrid (2 chips)",
         "cores": 1,
@@ -81,6 +83,7 @@
       "id": "dec-microvax-78032",
       "name": "MicroVAX 78032",
       "family": "MicroVAX",
+      "generation": "MicroVAX",
       "released": "1985",
       "specs": {
         "microarchitecture": "MicroVAX",
@@ -117,6 +120,7 @@
       "id": "dec-cvax-78034",
       "name": "CVAX 78034",
       "family": "MicroVAX",
+      "generation": "MicroVAX",
       "released": "1987",
       "specs": {
         "codename": "CVAX",
@@ -153,6 +157,7 @@
       "id": "dec-nvax",
       "name": "NVAX",
       "family": "VAX",
+      "generation": "NVAX",
       "released": "1991",
       "specs": {
         "codename": "NVAX",
@@ -189,6 +194,7 @@
       "id": "dec-alpha-21064",
       "name": "Alpha 21064",
       "family": "Alpha",
+      "generation": "Alpha 21064 (EV4)",
       "released": "1992-02",
       "specs": {
         "codename": "EV4",
@@ -225,6 +231,7 @@
       "id": "dec-alpha-21066",
       "name": "Alpha 21066",
       "family": "Alpha",
+      "generation": "Alpha 21064 (EV4)",
       "released": "1993",
       "specs": {
         "codename": "LCA4",
@@ -261,6 +268,7 @@
       "id": "dec-alpha-21064a",
       "name": "Alpha 21064A",
       "family": "Alpha",
+      "generation": "Alpha 21064 (EV4)",
       "released": "1993-10",
       "specs": {
         "codename": "EV45",
@@ -297,6 +305,7 @@
       "id": "dec-alpha-21164",
       "name": "Alpha 21164",
       "family": "Alpha",
+      "generation": "Alpha 21164 (EV5)",
       "released": "1995-01",
       "specs": {
         "codename": "EV5",
@@ -333,6 +342,7 @@
       "id": "dec-alpha-21164a",
       "name": "Alpha 21164A",
       "family": "Alpha",
+      "generation": "Alpha 21164 (EV5)",
       "released": "1996",
       "specs": {
         "codename": "EV56",
@@ -371,6 +381,7 @@
       "id": "dec-sa-110",
       "name": "StrongARM SA-110",
       "family": "StrongARM",
+      "generation": "StrongARM",
       "released": "1996-02",
       "specs": {
         "microarchitecture": "StrongARM",
@@ -407,6 +418,7 @@
       "id": "dec-alpha-21164pc",
       "name": "Alpha 21164PC",
       "family": "Alpha",
+      "generation": "Alpha 21164 (EV5)",
       "released": "1997",
       "specs": {
         "codename": "PCA56",
@@ -446,6 +458,7 @@
       "id": "dec-sa-1100",
       "name": "StrongARM SA-1100",
       "family": "StrongARM",
+      "generation": "StrongARM",
       "released": "1997",
       "specs": {
         "microarchitecture": "StrongARM",
@@ -482,6 +495,7 @@
       "id": "dec-alpha-21264",
       "name": "Alpha 21264",
       "family": "Alpha",
+      "generation": "Alpha 21264 (EV6)",
       "released": "1998",
       "specs": {
         "codename": "EV6",
@@ -522,6 +536,7 @@
       "id": "dec-alpha-21364",
       "name": "Alpha 21364",
       "family": "Alpha",
+      "generation": "Alpha 21364 (EV7)",
       "released": "2003-01",
       "specs": {
         "codename": "EV7",

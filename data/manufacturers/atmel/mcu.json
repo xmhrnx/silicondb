@@ -6,6 +6,7 @@
       "id": "atmel-at89c51",
       "name": "AT89C51",
       "family": "AT89 (8051)",
+      "generation": "AT89 (8051)",
       "released": "1993",
       "specs": {
         "microarchitecture": "MCS-51 (12-clock)",
@@ -36,6 +37,7 @@
       "id": "atmel-at90s8515",
       "name": "AT90S8515",
       "family": "AVR (classic)",
+      "generation": "AVR classic (AT90S)",
       "released": "1997",
       "specs": {
         "microarchitecture": "AVR",
@@ -67,6 +69,7 @@
       "id": "atmel-atmega8",
       "name": "ATmega8",
       "family": "megaAVR",
+      "generation": "megaAVR",
       "released": "2002",
       "specs": {
         "microarchitecture": "AVR",
@@ -99,6 +102,7 @@
       "id": "atmel-atmega2560",
       "name": "ATmega2560",
       "family": "megaAVR",
+      "generation": "megaAVR",
       "released": "2005",
       "specs": {
         "microarchitecture": "AVR",
@@ -131,6 +135,7 @@
       "id": "atmel-attiny85",
       "name": "ATtiny85",
       "family": "tinyAVR",
+      "generation": "tinyAVR",
       "released": "2005",
       "specs": {
         "microarchitecture": "AVR",
@@ -161,6 +166,7 @@
       "id": "atmel-atxmega128a1",
       "name": "ATxmega128A1",
       "family": "XMEGA",
+      "generation": "AVR XMEGA",
       "released": "2008",
       "specs": {
         "microarchitecture": "AVR XMEGA",
@@ -195,6 +201,7 @@
       "id": "atmel-atmega32u4",
       "name": "ATmega32U4",
       "family": "megaAVR",
+      "generation": "megaAVR",
       "released": "2008",
       "specs": {
         "microarchitecture": "AVR",
@@ -231,6 +238,7 @@
       "id": "atmel-atmega328p",
       "name": "ATmega328P",
       "family": "megaAVR",
+      "generation": "megaAVR",
       "released": "2009",
       "specs": {
         "microarchitecture": "AVR",
@@ -263,6 +271,7 @@
       "id": "atmel-sam3x8e",
       "name": "SAM3X8E",
       "family": "SAM3X",
+      "generation": "SAM3X",
       "released": "2011",
       "specs": {
         "microarchitecture": "Cortex-M3",
@@ -302,6 +311,7 @@
       "id": "atmel-samd21g18a",
       "name": "SAMD21G18A",
       "family": "SAM D21",
+      "generation": "SAM D21",
       "released": "2014",
       "specs": {
         "microarchitecture": "Cortex-M0+",
@@ -334,6 +344,7 @@
       "id": "atmel-atsame70q21",
       "name": "ATSAME70Q21",
       "family": "SAM E70",
+      "generation": "SAM E70",
       "released": "2015",
       "specs": {
         "microarchitecture": "Cortex-M7",

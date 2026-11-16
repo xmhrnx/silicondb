@@ -6,6 +6,7 @@
       "id": "qualcomm-cloud-ai-100-standard",
       "name": "Cloud AI 100 Standard",
       "family": "Cloud AI 100",
+      "generation": "Cloud AI 100",
       "released": "2020-09",
       "specs": {
         "codename": "AIC100",
@@ -40,6 +41,7 @@
       "id": "qualcomm-cloud-ai-100-ultra",
       "name": "Cloud AI 100 Ultra",
       "family": "Cloud AI 100",
+      "generation": "Cloud AI 100",
       "released": "2023-11",
       "specs": {
         "codename": "AIC100 (4 chips per card)",
@@ -74,6 +76,7 @@
       "id": "qualcomm-ai200",
       "name": "AI200",
       "family": "Cloud AI 200",
+      "generation": "AI200",
       "released": "2026",
       "specs": {
         "microarchitecture": "Qualcomm Hexagon NPU",

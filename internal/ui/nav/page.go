@@ -2,7 +2,7 @@
 // stack of pushed screens above the current one.
 package nav
 
-import "github.com/mehran9675/giode"
+import "github.com/xmhrnx/giode"
 
 // Page is a screen. It is created when shown and keeps its own state
 // (scroll offsets, fields) until it is popped.

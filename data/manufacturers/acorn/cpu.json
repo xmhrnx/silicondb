@@ -6,6 +6,7 @@
       "id": "acorn-arm1",
       "name": "ARM1",
       "family": "ARM",
+      "generation": "ARM1",
       "released": "1985-04",
       "specs": {
         "microarchitecture": "ARM1",
@@ -42,6 +43,7 @@
       "id": "acorn-arm2",
       "name": "ARM2",
       "family": "ARM",
+      "generation": "ARM2",
       "released": "1986",
       "specs": {
         "microarchitecture": "ARM2",
@@ -80,6 +82,7 @@
       "id": "acorn-arm3",
       "name": "ARM3",
       "family": "ARM",
+      "generation": "ARM3",
       "released": "1989",
       "specs": {
         "microarchitecture": "ARM3",

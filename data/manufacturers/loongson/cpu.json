@@ -6,6 +6,7 @@
       "id": "loongson-godson-1",
       "name": "Godson-1",
       "family": "Godson",
+      "generation": "Godson-1",
       "released": "2002-08",
       "specs": {
         "microarchitecture": "GS132",
@@ -42,6 +43,7 @@
       "id": "loongson-godson-2e",
       "name": "Godson-2E",
       "family": "Godson-2",
+      "generation": "Godson-2",
       "released": "2006",
       "specs": {
         "microarchitecture": "GS464",
@@ -78,6 +80,7 @@
       "id": "loongson-godson-2f",
       "name": "Godson-2F",
       "family": "Godson-2",
+      "generation": "Godson-2",
       "released": "2007",
       "specs": {
         "microarchitecture": "GS464",
@@ -114,6 +117,7 @@
       "id": "loongson-godson-3a",
       "name": "Godson-3A (3A1000)",
       "family": "Loongson 3",
+      "generation": "Loongson 3A1000 (GS464)",
       "released": "2009",
       "specs": {
         "microarchitecture": "GS464",
@@ -152,6 +156,7 @@
       "id": "loongson-3a3000",
       "name": "3A3000",
       "family": "Loongson 3",
+      "generation": "Loongson 3A3000 (GS464E)",
       "released": "2017",
       "specs": {
         "microarchitecture": "GS464E",
@@ -199,6 +204,7 @@
       "id": "loongson-3a4000",
       "name": "3A4000",
       "family": "Loongson 3",
+      "generation": "Loongson 3A4000 (GS464V)",
       "released": "2019-12",
       "specs": {
         "microarchitecture": "GS464V",
@@ -247,6 +253,7 @@
       "id": "loongson-3a5000",
       "name": "3A5000",
       "family": "Loongson 3",
+      "generation": "Loongson 5000 (LA464)",
       "released": "2021-07",
       "specs": {
         "microarchitecture": "LA464",
@@ -296,6 +303,7 @@
       "id": "loongson-3c5000",
       "name": "3C5000",
       "family": "Loongson 3",
+      "generation": "Loongson 5000 (LA464)",
       "released": "2022-06",
       "specs": {
         "microarchitecture": "LA464",
@@ -345,6 +353,7 @@
       "id": "loongson-3a6000",
       "name": "3A6000",
       "family": "Loongson 3",
+      "generation": "Loongson 6000 (LA664)",
       "released": "2023-11",
       "specs": {
         "microarchitecture": "LA664",
@@ -394,6 +403,7 @@
       "id": "loongson-3c6000",
       "name": "3C6000",
       "family": "Loongson 3",
+      "generation": "Loongson 6000 (LA664)",
       "released": "2025-06",
       "specs": {
         "microarchitecture": "LA664",

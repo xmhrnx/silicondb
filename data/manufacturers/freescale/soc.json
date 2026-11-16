@@ -6,6 +6,7 @@
       "id": "freescale-imx31",
       "name": "i.MX31",
       "family": "i.MX",
+      "generation": "i.MX31",
       "released": "2005",
       "specs": {
         "microarchitecture": "ARM1136JF-S",
@@ -49,6 +50,7 @@
       "id": "freescale-mpc8548e",
       "name": "PowerQUICC III MPC8548E",
       "family": "PowerQUICC III",
+      "generation": "PowerQUICC III",
       "released": "2005",
       "specs": {
         "microarchitecture": "e500",
@@ -91,6 +93,7 @@
       "id": "freescale-imx51",
       "name": "i.MX51",
       "family": "i.MX",
+      "generation": "i.MX5x",
       "released": "2009",
       "specs": {
         "microarchitecture": "Cortex-A8",
@@ -136,6 +139,7 @@
       "id": "freescale-p4080",
       "name": "QorIQ P4080",
       "family": "QorIQ",
+      "generation": "QorIQ P-Series",
       "released": "2009",
       "specs": {
         "microarchitecture": "e500mc",
@@ -178,6 +182,7 @@
       "id": "freescale-imx53",
       "name": "i.MX53",
       "family": "i.MX",
+      "generation": "i.MX5x",
       "released": "2011",
       "specs": {
         "microarchitecture": "Cortex-A8",
@@ -225,6 +230,7 @@
       "id": "freescale-imx6solo",
       "name": "i.MX 6Solo",
       "family": "i.MX 6",
+      "generation": "i.MX 6",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-A9",
@@ -279,6 +285,7 @@
       "id": "freescale-imx6duallite",
       "name": "i.MX 6DualLite",
       "family": "i.MX 6",
+      "generation": "i.MX 6",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-A9",
@@ -333,6 +340,7 @@
       "id": "freescale-imx6dual",
       "name": "i.MX 6Dual",
       "family": "i.MX 6",
+      "generation": "i.MX 6",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-A9",
@@ -388,6 +396,7 @@
       "id": "freescale-imx6quad",
       "name": "i.MX 6Quad",
       "family": "i.MX 6",
+      "generation": "i.MX 6",
       "released": "2012",
       "specs": {
         "microarchitecture": "Cortex-A9",
@@ -443,6 +452,7 @@
       "id": "freescale-t4240",
       "name": "QorIQ T4240",
       "family": "QorIQ",
+      "generation": "QorIQ T-Series",
       "released": "2012",
       "specs": {
         "microarchitecture": "e6500",

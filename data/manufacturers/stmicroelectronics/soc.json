@@ -6,6 +6,7 @@
       "id": "stmicroelectronics-stm32mp157",
       "name": "STM32MP157",
       "family": "STM32MP1",
+      "generation": "STM32MP1",
       "released": "2019-02",
       "specs": {
         "microarchitecture": "Cortex-A7",

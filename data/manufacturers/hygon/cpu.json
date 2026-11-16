@@ -6,6 +6,7 @@
       "id": "hygon-c86-7490",
       "name": "C86-7490",
       "family": "C86-4G",
+      "generation": "C86-4G",
       "released": "2024-08",
       "specs": {
         "microarchitecture": "Dhyana (Zen-derived)",
@@ -55,6 +56,7 @@
       "id": "hygon-c86-4g-3490",
       "name": "C86-4G 3490",
       "family": "C86-4G",
+      "generation": "C86-4G",
       "released": "2025",
       "specs": {
         "microarchitecture": "Dhyana (Zen-derived)",

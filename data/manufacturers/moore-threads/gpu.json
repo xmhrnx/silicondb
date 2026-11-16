@@ -6,6 +6,7 @@
       "id": "moore-threads-mtt-s3000",
       "name": "MTT S3000",
       "family": "MTT S",
+      "generation": "MUSA Chunxiao",
       "released": "2022-11",
       "specs": {
         "codename": "Chunxiao",
@@ -55,11 +56,12 @@
       "id": "moore-threads-mtt-s80",
       "name": "MTT S80",
       "family": "MTT S",
+      "generation": "MUSA Chunxiao",
       "released": "2022-11",
       "specs": {
         "codename": "Chunxiao",
         "microarchitecture": "MUSA Chunxiao",
-        "market": "Consumer",
+        "market": "Desktop",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 22000000000,
@@ -104,6 +106,7 @@
       "id": "moore-threads-mtt-s4000",
       "name": "MTT S4000",
       "family": "MTT S",
+      "generation": "MUSA Quyuan",
       "released": "2023-12",
       "specs": {
         "codename": "Quyuan",

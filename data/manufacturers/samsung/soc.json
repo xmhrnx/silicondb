@@ -6,6 +6,7 @@
       "id": "samsung-exynos-3110",
       "name": "Exynos 3110",
       "family": "Exynos 3",
+      "generation": "Exynos 3110",
       "released": "2010-06",
       "specs": {
         "codename": "Hummingbird (S5PC110)",
@@ -46,6 +47,7 @@
       "id": "samsung-exynos-4210",
       "name": "Exynos 4210",
       "family": "Exynos 4",
+      "generation": "Exynos 4210",
       "released": "2011-04",
       "specs": {
         "codename": "Orion (S5PV310)",
@@ -86,6 +88,7 @@
       "id": "samsung-exynos-4412",
       "name": "Exynos 4412",
       "family": "Exynos 4",
+      "generation": "Exynos 4412",
       "released": "2012-05",
       "specs": {
         "codename": "Exynos 4 Quad",
@@ -133,6 +136,7 @@
       "id": "samsung-exynos-5250",
       "name": "Exynos 5250",
       "family": "Exynos 5",
+      "generation": "Exynos 5250",
       "released": "2012-10",
       "specs": {
         "codename": "Exynos 5 Dual",
@@ -184,6 +188,7 @@
       "id": "samsung-exynos-5410",
       "name": "Exynos 5410",
       "family": "Exynos 5 Octa",
+      "generation": "Exynos 5410",
       "released": "2013-04",
       "specs": {
         "codename": "Exynos 5 Octa (5410)",
@@ -232,6 +237,7 @@
       "id": "samsung-exynos-5420",
       "name": "Exynos 5420",
       "family": "Exynos 5 Octa",
+      "generation": "Exynos 5420",
       "released": "2013-09",
       "specs": {
         "codename": "Exynos 5 Octa (5420)",
@@ -280,6 +286,7 @@
       "id": "samsung-exynos-5433",
       "name": "Exynos 5433",
       "family": "Exynos 5 Octa",
+      "generation": "Exynos 5433",
       "released": "2014-10",
       "specs": {
         "codename": "Exynos 7 Octa (5433)",
@@ -328,6 +335,7 @@
       "id": "samsung-exynos-7420",
       "name": "Exynos 7420",
       "family": "Exynos 7 Octa",
+      "generation": "Exynos 7420",
       "released": "2015-04",
       "specs": {
         "codename": "Exynos 7 Octa (7420)",
@@ -376,6 +384,7 @@
       "id": "samsung-exynos-8890",
       "name": "Exynos 8890",
       "family": "Exynos 8 Octa",
+      "generation": "Exynos 8890",
       "released": "2016-03",
       "specs": {
         "codename": "Exynos 8 Octa (8890)",
@@ -436,6 +445,7 @@
       "id": "samsung-exynos-8895",
       "name": "Exynos 8895",
       "family": "Exynos 9",
+      "generation": "Exynos 8895",
       "released": "2017-04",
       "specs": {
         "codename": "Exynos 9 Series (8895)",
@@ -495,6 +505,7 @@
       "id": "samsung-exynos-9810",
       "name": "Exynos 9810",
       "family": "Exynos 9",
+      "generation": "Exynos 9810",
       "released": "2018-03",
       "specs": {
         "codename": "Exynos 9 Series (9810)",
@@ -554,6 +565,7 @@
       "id": "samsung-exynos-9820",
       "name": "Exynos 9820",
       "family": "Exynos 9",
+      "generation": "Exynos 9820",
       "released": "2019-03",
       "specs": {
         "codename": "S5E9820",
@@ -613,6 +625,7 @@
       "id": "samsung-exynos-990",
       "name": "Exynos 990",
       "family": "Exynos 9",
+      "generation": "Exynos 990",
       "released": "2020-03",
       "specs": {
         "codename": "S5E9830",
@@ -673,6 +686,7 @@
       "id": "samsung-exynos-1080",
       "name": "Exynos 1080",
       "family": "Exynos 1000",
+      "generation": "Exynos 1080",
       "released": "2020-11",
       "specs": {
         "codename": "S5E9815",
@@ -723,6 +737,7 @@
       "id": "samsung-exynos-2100",
       "name": "Exynos 2100",
       "family": "Exynos 2000",
+      "generation": "Exynos 2100",
       "released": "2021-01",
       "specs": {
         "codename": "S5E9840",
@@ -783,6 +798,7 @@
       "id": "samsung-exynos-2200",
       "name": "Exynos 2200",
       "family": "Exynos 2000",
+      "generation": "Exynos 2200",
       "released": "2022-01",
       "specs": {
         "codename": "S5E9925",
@@ -844,6 +860,7 @@
       "id": "samsung-exynos-1280",
       "name": "Exynos 1280",
       "family": "Exynos 1000",
+      "generation": "Exynos 1280",
       "released": "2022-03",
       "specs": {
         "codename": "S5E8825",
@@ -904,6 +921,7 @@
       "id": "samsung-exynos-1380",
       "name": "Exynos 1380",
       "family": "Exynos 1000",
+      "generation": "Exynos 1380",
       "released": "2023-03",
       "specs": {
         "codename": "S5E8835",
@@ -964,6 +982,7 @@
       "id": "samsung-exynos-w930",
       "name": "Exynos W930",
       "family": "Exynos W",
+      "generation": "Exynos W930",
       "released": "2023-07",
       "specs": {
         "microarchitecture": "Cortex-A55",
@@ -1013,6 +1032,7 @@
       "id": "samsung-exynos-2400",
       "name": "Exynos 2400",
       "family": "Exynos 2000",
+      "generation": "Exynos 2400",
       "released": "2024-01",
       "specs": {
         "codename": "S5E9945",
@@ -1074,6 +1094,7 @@
       "id": "samsung-exynos-1480",
       "name": "Exynos 1480",
       "family": "Exynos 1000",
+      "generation": "Exynos 1480",
       "released": "2024-03",
       "specs": {
         "codename": "S5E8845",
@@ -1135,6 +1156,7 @@
       "id": "samsung-exynos-w1000",
       "name": "Exynos W1000",
       "family": "Exynos W",
+      "generation": "Exynos W1000",
       "released": "2024-07",
       "specs": {
         "microarchitecture": "Cortex-A78 / Cortex-A55",
@@ -1184,6 +1206,7 @@
       "id": "samsung-exynos-2400e",
       "name": "Exynos 2400e",
       "family": "Exynos 2000",
+      "generation": "Exynos 2400",
       "released": "2024-09",
       "specs": {
         "microarchitecture": "Cortex-X4 / Cortex-A720 / Cortex-A520",
@@ -1244,6 +1267,7 @@
       "id": "samsung-exynos-1580",
       "name": "Exynos 1580",
       "family": "Exynos 1000",
+      "generation": "Exynos 1580",
       "released": "2025-03",
       "specs": {
         "codename": "S5E8855",
@@ -1305,6 +1329,7 @@
       "id": "samsung-exynos-2500",
       "name": "Exynos 2500",
       "family": "Exynos 2000",
+      "generation": "Exynos 2500",
       "released": "2025-07",
       "specs": {
         "codename": "S5E9955",
@@ -1367,6 +1392,7 @@
       "id": "samsung-exynos-1680",
       "name": "Exynos 1680",
       "family": "Exynos 1000",
+      "generation": "Exynos 1680",
       "released": "2026",
       "specs": {
         "isa": "ARMv9.2-A",
@@ -1428,6 +1454,7 @@
       "id": "samsung-exynos-2600",
       "name": "Exynos 2600",
       "family": "Exynos 2000",
+      "generation": "Exynos 2600",
       "released": "2026-02",
       "specs": {
         "codename": "S5E9965",

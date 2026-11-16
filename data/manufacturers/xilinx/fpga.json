@@ -6,6 +6,7 @@
       "id": "xilinx-xc2064",
       "name": "XC2064",
       "family": "XC2000",
+      "generation": "XC2000",
       "released": "1985-11",
       "specs": {
         "market": "Industrial",
@@ -30,6 +31,7 @@
       "id": "xilinx-xc3090",
       "name": "XC3090",
       "family": "XC3000",
+      "generation": "XC3000",
       "released": "1987",
       "specs": {
         "market": "Industrial",
@@ -54,6 +56,7 @@
       "id": "xilinx-xc4010",
       "name": "XC4010",
       "family": "XC4000",
+      "generation": "XC4000",
       "released": "1991",
       "specs": {
         "market": "Industrial",
@@ -78,6 +81,7 @@
       "id": "xilinx-xcs40",
       "name": "XCS40",
       "family": "Spartan",
+      "generation": "Spartan",
       "released": "1998-01",
       "specs": {
         "market": "Embedded",
@@ -102,9 +106,10 @@
       "id": "xilinx-xcv1000",
       "name": "XCV1000",
       "family": "Virtex",
+      "generation": "Virtex",
       "released": "1998-10",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 220,
         "foundry": "UMC",
         "package": "680-pin FineLine BGA",
@@ -125,9 +130,10 @@
       "id": "xilinx-xcv3200e",
       "name": "XCV3200E",
       "family": "Virtex-E",
+      "generation": "Virtex-E",
       "released": "2000",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 180,
         "foundry": "UMC",
         "package": "1156-pin FineLine BGA",
@@ -148,6 +154,7 @@
       "id": "xilinx-xc2s200",
       "name": "XC2S200",
       "family": "Spartan-II",
+      "generation": "Spartan-II",
       "released": "2000-01",
       "specs": {
         "market": "Embedded",
@@ -171,9 +178,10 @@
       "id": "xilinx-xc2v8000",
       "name": "XC2V8000",
       "family": "Virtex-II",
+      "generation": "Virtex-II",
       "released": "2001",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 150,
         "foundry": "UMC",
         "package": "1517-pin Flip-chip BGA",
@@ -194,10 +202,11 @@
       "id": "xilinx-xc2vp100",
       "name": "XC2VP100",
       "family": "Virtex-II Pro",
+      "generation": "Virtex-II Pro",
       "released": "2002",
       "specs": {
         "isa": "PowerPC",
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 130,
         "foundry": "UMC",
         "package": "1696-pin Flip-chip BGA",
@@ -220,6 +229,7 @@
       "id": "xilinx-xc3s5000",
       "name": "XC3S5000",
       "family": "Spartan-3",
+      "generation": "Spartan-3",
       "released": "2003",
       "specs": {
         "market": "Embedded",
@@ -243,9 +253,10 @@
       "id": "xilinx-xc4vlx200",
       "name": "XC4VLX200",
       "family": "Virtex-4",
+      "generation": "Virtex-4",
       "released": "2004",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 90,
         "foundry": "UMC",
         "package": "1513-pin Flip-chip BGA",
@@ -266,10 +277,11 @@
       "id": "xilinx-xc4vfx140",
       "name": "XC4VFX140",
       "family": "Virtex-4",
+      "generation": "Virtex-4",
       "released": "2005",
       "specs": {
         "isa": "PowerPC",
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 90,
         "foundry": "UMC",
         "package": "1517-pin Flip-chip BGA",
@@ -292,9 +304,10 @@
       "id": "xilinx-xc5vlx330t",
       "name": "XC5VLX330T",
       "family": "Virtex-5",
+      "generation": "Virtex-5",
       "released": "2007",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 65,
         "foundry": "UMC",
         "package": "1738-pin Flip-chip BGA",
@@ -315,6 +328,7 @@
       "id": "xilinx-xc6slx150t",
       "name": "XC6SLX150T",
       "family": "Spartan-6",
+      "generation": "Spartan-6",
       "released": "2009",
       "specs": {
         "market": "Embedded",
@@ -338,9 +352,10 @@
       "id": "xilinx-xc6vlx760",
       "name": "XC6VLX760",
       "family": "Virtex-6",
+      "generation": "Virtex-6",
       "released": "2009",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 40,
         "foundry": "UMC",
         "package": "1760-pin Flip-chip BGA",
@@ -361,9 +376,10 @@
       "id": "xilinx-xc7k325t",
       "name": "XC7K325T",
       "family": "Kintex-7",
+      "generation": "Kintex-7",
       "released": "2011",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 28,
         "foundry": "TSMC",
         "package": "900-pin Flip-chip BGA",
@@ -384,9 +400,10 @@
       "id": "xilinx-xc7v2000t",
       "name": "XC7V2000T",
       "family": "Virtex-7",
+      "generation": "Virtex-7",
       "released": "2011-10",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 28,
         "foundry": "TSMC",
         "transistors": 6800000000,
@@ -408,6 +425,7 @@
       "id": "xilinx-xc7z020",
       "name": "XC7Z020",
       "family": "Zynq-7000",
+      "generation": "Zynq-7000",
       "released": "2011-12",
       "specs": {
         "isa": "ARMv7-A",
@@ -435,6 +453,7 @@
       "id": "xilinx-xc7a200t",
       "name": "XC7A200T",
       "family": "Artix-7",
+      "generation": "Artix-7",
       "released": "2012",
       "specs": {
         "market": "Embedded",
@@ -458,9 +477,10 @@
       "id": "xilinx-xcku115",
       "name": "XCKU115",
       "family": "Kintex UltraScale",
+      "generation": "Kintex UltraScale",
       "released": "2014",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 20,
         "foundry": "TSMC",
         "package": "2104-pin Flip-chip BGA",
@@ -481,9 +501,10 @@
       "id": "xilinx-xcvu440",
       "name": "XCVU440",
       "family": "Virtex UltraScale",
+      "generation": "Virtex UltraScale",
       "released": "2015",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 20,
         "foundry": "TSMC",
         "package": "2892-pin Flip-chip BGA",
@@ -504,6 +525,7 @@
       "id": "xilinx-xcvu9p",
       "name": "XCVU9P",
       "family": "Virtex UltraScale+",
+      "generation": "Virtex UltraScale+",
       "released": "2016",
       "specs": {
         "market": "Data center",
@@ -527,6 +549,7 @@
       "id": "xilinx-xczu9eg",
       "name": "XCZU9EG",
       "family": "Zynq UltraScale+ MPSoC",
+      "generation": "Zynq UltraScale+ MPSoC",
       "released": "2016",
       "specs": {
         "isa": "ARMv8-A",
@@ -553,6 +576,7 @@
       "id": "xilinx-xc7s100",
       "name": "XC7S100",
       "family": "Spartan-7",
+      "generation": "Spartan-7",
       "released": "2017",
       "specs": {
         "market": "Embedded",
@@ -576,6 +600,7 @@
       "id": "xilinx-xcvc1902",
       "name": "XCVC1902",
       "family": "Versal AI Core",
+      "generation": "Versal AI Core",
       "released": "2019-06",
       "specs": {
         "isa": "ARMv8-A",
@@ -602,9 +627,10 @@
       "id": "xilinx-xcvu19p",
       "name": "XCVU19P",
       "family": "Virtex UltraScale+",
+      "generation": "Virtex UltraScale+",
       "released": "2019-08",
       "specs": {
-        "market": "Professional",
+        "market": "Industrial",
         "process_nm": 16,
         "foundry": "TSMC",
         "transistors": 35000000000,

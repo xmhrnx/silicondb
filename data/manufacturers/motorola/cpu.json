@@ -6,6 +6,7 @@
       "id": "motorola-6800",
       "name": "6800",
       "family": "6800",
+      "generation": "6800",
       "released": "1974",
       "specs": {
         "microarchitecture": "6800",
@@ -42,6 +43,7 @@
       "id": "motorola-6809",
       "name": "6809",
       "family": "6809",
+      "generation": "6809",
       "released": "1978",
       "specs": {
         "microarchitecture": "6809",
@@ -78,6 +80,7 @@
       "id": "motorola-68000",
       "name": "68000",
       "family": "68000",
+      "generation": "68000 family",
       "released": "1979-09",
       "specs": {
         "microarchitecture": "68000",
@@ -114,6 +117,7 @@
       "id": "motorola-68008",
       "name": "68008",
       "family": "68000",
+      "generation": "68000 family",
       "released": "1982",
       "specs": {
         "microarchitecture": "68000",
@@ -150,6 +154,7 @@
       "id": "motorola-68010",
       "name": "68010",
       "family": "68000",
+      "generation": "68000 family",
       "released": "1982",
       "specs": {
         "microarchitecture": "68010",
@@ -186,6 +191,7 @@
       "id": "motorola-68020",
       "name": "68020",
       "family": "68000",
+      "generation": "68000 family",
       "released": "1984-06",
       "specs": {
         "microarchitecture": "68020",
@@ -224,6 +230,7 @@
       "id": "motorola-68030",
       "name": "68030",
       "family": "68000",
+      "generation": "68000 family",
       "released": "1987",
       "specs": {
         "microarchitecture": "68030",
@@ -263,6 +270,7 @@
       "id": "motorola-88100",
       "name": "88100",
       "family": "88000",
+      "generation": "88000",
       "released": "1988",
       "specs": {
         "microarchitecture": "88100",
@@ -301,6 +309,7 @@
       "id": "motorola-68040",
       "name": "68040",
       "family": "68000",
+      "generation": "68000 family",
       "released": "1990-01",
       "specs": {
         "microarchitecture": "68040",
@@ -340,6 +349,7 @@
       "id": "motorola-88110",
       "name": "88110",
       "family": "88000",
+      "generation": "88000",
       "released": "1991",
       "specs": {
         "microarchitecture": "88110",
@@ -379,6 +389,7 @@
       "id": "motorola-ppc601",
       "name": "PowerPC 601",
       "family": "PowerPC 600",
+      "generation": "PowerPC 600 series",
       "released": "1993-10",
       "specs": {
         "microarchitecture": "PowerPC 601",
@@ -415,6 +426,7 @@
       "id": "motorola-ppc603",
       "name": "PowerPC 603",
       "family": "PowerPC 600",
+      "generation": "PowerPC 600 series",
       "released": "1994",
       "specs": {
         "codename": "Wart",
@@ -451,6 +463,7 @@
       "id": "motorola-68060",
       "name": "68060",
       "family": "68000",
+      "generation": "68000 family",
       "released": "1994-04",
       "specs": {
         "microarchitecture": "68060",
@@ -490,6 +503,7 @@
       "id": "motorola-ppc604",
       "name": "PowerPC 604",
       "family": "PowerPC 600",
+      "generation": "PowerPC 600 series",
       "released": "1994-12",
       "specs": {
         "codename": "Zephyr",
@@ -526,6 +540,7 @@
       "id": "motorola-ppc603e",
       "name": "PowerPC 603e",
       "family": "PowerPC 600",
+      "generation": "PowerPC 600 series",
       "released": "1995",
       "specs": {
         "codename": "Stretch",
@@ -562,6 +577,7 @@
       "id": "motorola-ppc604e",
       "name": "PowerPC 604e",
       "family": "PowerPC 600",
+      "generation": "PowerPC 600 series",
       "released": "1996",
       "specs": {
         "codename": "Sirocco",

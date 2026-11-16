@@ -6,6 +6,7 @@
       "id": "nvidia-tegra-apx-2500",
       "name": "Tegra APX 2500",
       "family": "Tegra",
+      "generation": "Tegra APX",
       "released": "2008-02",
       "specs": {
         "microarchitecture": "ARM11",
@@ -43,6 +44,7 @@
       "id": "nvidia-tegra-2",
       "name": "Tegra 2 (T20)",
       "family": "Tegra",
+      "generation": "Tegra 2",
       "released": "2010-01",
       "specs": {
         "codename": "T20",
@@ -80,6 +82,7 @@
       "id": "nvidia-tegra-3",
       "name": "Tegra 3 (T30)",
       "family": "Tegra",
+      "generation": "Tegra 3",
       "released": "2011-11",
       "specs": {
         "codename": "Kal-El",
@@ -117,6 +120,7 @@
       "id": "nvidia-tegra-4",
       "name": "Tegra 4 (T114)",
       "family": "Tegra",
+      "generation": "Tegra 4",
       "released": "2013-01",
       "specs": {
         "codename": "Wayne",
@@ -161,6 +165,7 @@
       "id": "nvidia-tegra-k1",
       "name": "Tegra K1 (32-bit)",
       "family": "Tegra",
+      "generation": "Tegra K1",
       "released": "2014-01",
       "specs": {
         "codename": "Logan",
@@ -205,6 +210,7 @@
       "id": "nvidia-tegra-k1-64",
       "name": "Tegra K1 (64-bit)",
       "family": "Tegra",
+      "generation": "Tegra K1",
       "released": "2014-08",
       "specs": {
         "codename": "Logan",
@@ -249,6 +255,7 @@
       "id": "nvidia-tegra-x1",
       "name": "Tegra X1",
       "family": "Tegra",
+      "generation": "Tegra X1",
       "released": "2015-01",
       "specs": {
         "codename": "Erista",
@@ -294,6 +301,7 @@
       "id": "nvidia-tegra-parker",
       "name": "Tegra X2 (Parker)",
       "family": "Tegra",
+      "generation": "Tegra X2 (Parker)",
       "released": "2016-08",
       "specs": {
         "codename": "Parker",
@@ -339,6 +347,7 @@
       "id": "nvidia-xavier",
       "name": "Xavier",
       "family": "Tegra",
+      "generation": "Xavier",
       "released": "2018",
       "specs": {
         "codename": "Xavier",
@@ -387,6 +396,7 @@
       "id": "nvidia-orin",
       "name": "Orin",
       "family": "Tegra",
+      "generation": "Orin",
       "released": "2022-03",
       "specs": {
         "codename": "Orin",
@@ -435,6 +445,7 @@
       "id": "nvidia-t239",
       "name": "T239",
       "family": "Tegra",
+      "generation": "T239",
       "released": "2025-06-05",
       "specs": {
         "codename": "T239",
@@ -479,6 +490,7 @@
       "id": "nvidia-thor",
       "name": "Thor",
       "family": "Tegra",
+      "generation": "Thor",
       "released": "2025-08",
       "specs": {
         "codename": "Thor",
@@ -527,6 +539,7 @@
       "id": "nvidia-gb10",
       "name": "GB10 Grace Blackwell Superchip",
       "family": "Grace Blackwell",
+      "generation": "GB10",
       "released": "2025-10-15",
       "specs": {
         "codename": "GB10",

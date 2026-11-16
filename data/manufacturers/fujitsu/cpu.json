@@ -6,6 +6,7 @@
       "id": "fujitsu-sparc64-v",
       "name": "SPARC64 V",
       "family": "SPARC64",
+      "generation": "SPARC64 V",
       "released": "2001",
       "specs": {
         "codename": "Zeus",
@@ -44,6 +45,7 @@
       "id": "fujitsu-sparc64-vi",
       "name": "SPARC64 VI",
       "family": "SPARC64",
+      "generation": "SPARC64 VI",
       "released": "2007-04",
       "specs": {
         "codename": "Olympus-C",
@@ -82,6 +84,7 @@
       "id": "fujitsu-sparc64-vii",
       "name": "SPARC64 VII",
       "family": "SPARC64",
+      "generation": "SPARC64 VII",
       "released": "2008-07",
       "specs": {
         "codename": "Jupiter",
@@ -120,6 +123,7 @@
       "id": "fujitsu-sparc64-viiifx",
       "name": "SPARC64 VIIIfx",
       "family": "SPARC64",
+      "generation": "SPARC64 VIIIfx",
       "released": "2009",
       "specs": {
         "codename": "Venus",
@@ -160,6 +164,7 @@
       "id": "fujitsu-sparc64-ixfx",
       "name": "SPARC64 IXfx",
       "family": "SPARC64",
+      "generation": "SPARC64 IXfx",
       "released": "2011-11",
       "specs": {
         "microarchitecture": "SPARC64 IXfx",
@@ -208,6 +213,7 @@
       "id": "fujitsu-sparc64-x",
       "name": "SPARC64 X",
       "family": "SPARC64",
+      "generation": "SPARC64 X",
       "released": "2013-01",
       "specs": {
         "codename": "Athena",
@@ -256,6 +262,7 @@
       "id": "fujitsu-sparc64-x-plus",
       "name": "SPARC64 X+",
       "family": "SPARC64",
+      "generation": "SPARC64 X",
       "released": "2014",
       "specs": {
         "codename": "Athena+",
@@ -304,6 +311,7 @@
       "id": "fujitsu-sparc64-xifx",
       "name": "SPARC64 XIfx",
       "family": "SPARC64",
+      "generation": "SPARC64 XIfx",
       "released": "2015",
       "specs": {
         "microarchitecture": "SPARC64 XIfx",
@@ -354,6 +362,7 @@
       "id": "fujitsu-sparc64-xii",
       "name": "SPARC64 XII",
       "family": "SPARC64",
+      "generation": "SPARC64 XII",
       "released": "2017-04",
       "specs": {
         "microarchitecture": "SPARC64 XII",
@@ -402,6 +411,7 @@
       "id": "fujitsu-a64fx",
       "name": "A64FX",
       "family": "A64FX",
+      "generation": "A64FX",
       "released": "2019-11",
       "specs": {
         "microarchitecture": "A64FX",

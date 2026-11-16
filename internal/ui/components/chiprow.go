@@ -1,7 +1,7 @@
 package components
 
 import (
-	"github.com/mehran9675/giode"
+	"github.com/xmhrnx/giode"
 
 	"github.com/mehran9675/silicondb/internal/format"
 	"github.com/mehran9675/silicondb/internal/model"
@@ -29,8 +29,8 @@ func chipRowContent(cat *model.Catalog, chip *model.Chip, s giode.PressState) gi
 		bg = theme.Raised()
 	}
 	sub := cat.MakerName(chip.Manufacturer)
-	if chip.Family != "" && chip.Family != chip.Name {
-		sub += " · " + chip.Family
+	if g := chip.GenerationName(); g != "" && g != chip.Name {
+		sub += " · " + g
 	}
 
 	var trailing giode.Element = giode.Box(giode.Styles{})

@@ -6,6 +6,7 @@
       "id": "zilog-z8601",
       "name": "Z8601",
       "family": "Z8",
+      "generation": "Z8",
       "released": "1979",
       "specs": {
         "microarchitecture": "Z8",
@@ -36,6 +37,7 @@
       "id": "zilog-z8f6421",
       "name": "Z8 Encore! Z8F6421",
       "family": "Z8 Encore!",
+      "generation": "Z8 Encore!",
       "released": "2002",
       "specs": {
         "microarchitecture": "eZ8",
@@ -68,6 +70,7 @@
       "id": "zilog-ez80f91",
       "name": "eZ80F91",
       "family": "eZ80 Acclaim!",
+      "generation": "eZ80Acclaim!",
       "released": "2004",
       "specs": {
         "microarchitecture": "eZ80",

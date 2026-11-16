@@ -6,6 +6,7 @@
       "id": "mos-technology-6507",
       "name": "6507",
       "family": "6500",
+      "generation": "6500 family",
       "released": "1975",
       "specs": {
         "microarchitecture": "6502",
@@ -42,6 +43,7 @@
       "id": "mos-technology-6501",
       "name": "6501",
       "family": "6500",
+      "generation": "6500 family",
       "released": "1975-09",
       "specs": {
         "microarchitecture": "6502",
@@ -78,6 +80,7 @@
       "id": "mos-technology-6502",
       "name": "6502",
       "family": "6500",
+      "generation": "6500 family",
       "released": "1975-09",
       "specs": {
         "microarchitecture": "6502",
@@ -114,6 +117,7 @@
       "id": "mos-technology-6510",
       "name": "6510",
       "family": "6500",
+      "generation": "6500 family",
       "released": "1982",
       "specs": {
         "microarchitecture": "6502",
@@ -150,6 +154,7 @@
       "id": "mos-technology-7501",
       "name": "7501",
       "family": "6500",
+      "generation": "6500 family",
       "released": "1984",
       "specs": {
         "microarchitecture": "6502",
@@ -186,6 +191,7 @@
       "id": "mos-technology-8502",
       "name": "8502",
       "family": "6500",
+      "generation": "6500 family",
       "released": "1985",
       "specs": {
         "microarchitecture": "6502",
