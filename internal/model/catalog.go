@@ -19,6 +19,9 @@ type Catalog struct {
 
 	maxMu sync.Mutex
 	max   map[string]float64
+
+	// cache holds values derived from the catalog; see derived.
+	cache sync.Map
 }
 
 // NewCatalog builds a catalog from the schema, the manufacturers and their
@@ -91,17 +94,25 @@ func (c *Catalog) MakerName(id string) string {
 // ChipsBy returns a manufacturer's chips, newest first.
 func (c *Catalog) ChipsBy(maker string) []*Chip { return c.makerOf[maker] }
 
-// CountByCategory returns how many chips each category holds.
+// CountByCategory returns how many chips each category holds. The map is
+// shared: don't modify it.
 func (c *Catalog) CountByCategory() map[string]int {
-	n := map[string]int{}
-	for _, chip := range c.Chips {
-		n[chip.Category]++
-	}
-	return n
+	return derived(c, "countByCategory", func() map[string]int {
+		n := map[string]int{}
+		for _, chip := range c.Chips {
+			n[chip.Category]++
+		}
+		return n
+	})
 }
 
 // YearSpan returns the earliest and latest release years.
 func (c *Catalog) YearSpan() (first, last int) {
+	span := derived(c, "yearSpan", func() [2]int { f, l := c.yearSpan(); return [2]int{f, l} })
+	return span[0], span[1]
+}
+
+func (c *Catalog) yearSpan() (first, last int) {
 	for _, chip := range c.Chips {
 		y := chip.Year()
 		if y == 0 {

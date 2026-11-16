@@ -5,6 +5,7 @@ package category
 import (
 	"github.com/xmhrnx/giode"
 	"github.com/xmhrnx/giode/components/scroll"
+	"github.com/xmhrnx/giode/i18n"
 
 	"github.com/mehran9675/silicondb/internal/store"
 	"github.com/mehran9675/silicondb/internal/ui/components"
@@ -24,12 +25,19 @@ type Screen struct {
 func New(e *env.Env, id string) *Screen {
 	s := &Screen{env: e, id: id}
 	s.back = components.NewRoundButton("chevron-left", tr.T("common.back"), e.Routes.Back)
-	s.scroll = giode.Scroll(s.content, giode.Styles{ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}})
+	s.scroll = giode.Scroll(s.memo, giode.Styles{ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}})
 	return s
 }
 
 // View lays the screen out.
 func (s *Screen) View() giode.Element { return s.scroll }
+
+// memo replays the screen's last drawing until something it shows
+// changes: the catalog or sync status (States, tracked by Memo), the
+// language, or the deps passed here.
+func (s *Screen) memo() giode.Element {
+	return giode.Memo(s, s.content, i18n.Version())
+}
 
 func (s *Screen) content() giode.Element {
 	cat := s.env.Store.Catalog.Get()

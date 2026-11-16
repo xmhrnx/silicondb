@@ -4,6 +4,7 @@ package explore
 import (
 	"github.com/xmhrnx/giode"
 	"github.com/xmhrnx/giode/components/lazylist"
+	"github.com/xmhrnx/giode/i18n"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/store"
@@ -38,7 +39,7 @@ func New(e *env.Env) *Screen {
 		s.key,
 		s.row,
 		giode.Styles{Gap: 10, ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}},
-	)
+	).Version(s.version)
 	return s
 }
 
@@ -60,6 +61,25 @@ func (s *Screen) View() giode.Element {
 	}
 	return giode.Box(giode.Styles{Width: -1, Height: -1, Justify: giode.JustifyCenter},
 		giode.Box(giode.Styles{Width: -1, Height: -1, MaxWidth: components.MaxContentWidth}, s.list))
+}
+
+// rowVersion changes when a row's drawing would; rows replay their last
+// drawing otherwise.
+type rowVersion struct {
+	query  store.Query
+	chip   *model.Chip
+	n      int
+	locale uint64
+}
+
+func (s *Screen) version(i int) any {
+	switch {
+	case i == 0:
+		return rowVersion{query: s.query, n: len(s.results), locale: i18n.Version()}
+	case i > len(s.results):
+		return rowVersion{n: len(s.results), locale: i18n.Version()}
+	}
+	return rowVersion{chip: s.results[i-1], locale: i18n.Version()}
 }
 
 func (s *Screen) key(i int) any {

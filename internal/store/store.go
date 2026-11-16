@@ -31,6 +31,14 @@ type Store struct {
 	mu      sync.Mutex
 	prefs   Prefs
 	syncing bool
+
+	// Preferences are written in the background so opening a chip, which
+	// records it as recently viewed, doesn't wait on the disk. saveMu
+	// orders the writes; written is the newest revision on disk, so an
+	// older snapshot never overwrites a newer one.
+	saveMu   sync.Mutex
+	revision uint64
+	written  uint64
 }
 
 // New returns a store keeping its files under dir. An empty dir keeps
@@ -205,18 +213,32 @@ func (s *Store) Viewed(id string) {
 	})
 }
 
-// Save writes the preferences to disk.
+// Save writes the preferences to disk and returns once they're written,
+// for the moment the app goes to the background.
 func (s *Store) Save() {
 	s.mu.Lock()
-	p := s.prefs
+	s.revision++
+	p, rev := s.prefs.clone(), s.revision
 	s.mu.Unlock()
-	savePrefs(s.prefsPath, p)
+	s.write(p, rev)
 }
 
 func (s *Store) updatePrefs(fn func(p *Prefs)) {
 	s.mu.Lock()
 	fn(&s.prefs)
-	p := s.prefs
+	s.revision++
+	p, rev := s.prefs.clone(), s.revision
 	s.mu.Unlock()
+	go s.write(p, rev)
+}
+
+// write saves p unless a newer revision was saved already.
+func (s *Store) write(p Prefs, rev uint64) {
+	s.saveMu.Lock()
+	defer s.saveMu.Unlock()
+	if rev <= s.written {
+		return
+	}
 	savePrefs(s.prefsPath, p)
+	s.written = rev
 }

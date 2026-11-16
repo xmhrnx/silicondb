@@ -5,8 +5,8 @@ package domain
 import (
 	"github.com/xmhrnx/giode"
 	"github.com/xmhrnx/giode/components/scroll"
+	"github.com/xmhrnx/giode/i18n"
 
-	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
 	"github.com/mehran9675/silicondb/internal/ui/tr"
@@ -25,17 +25,24 @@ type Screen struct {
 func New(e *env.Env, maker, category, segment string) *Screen {
 	s := &Screen{env: e, maker: maker, category: category, segment: segment}
 	s.back = components.NewRoundButton("chevron-left", tr.T("common.back"), e.Routes.Back)
-	s.scroll = giode.Scroll(s.content, giode.Styles{ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}})
+	s.scroll = giode.Scroll(s.memo, giode.Styles{ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}})
 	return s
 }
 
 // View lays the screen out.
 func (s *Screen) View() giode.Element { return s.scroll }
 
+// memo replays the screen's last drawing until something it shows
+// changes: the catalog or sync status (States, tracked by Memo), the
+// language, or the deps passed here.
+func (s *Screen) memo() giode.Element {
+	return giode.Memo(s, s.content, i18n.Version())
+}
+
 func (s *Screen) content() giode.Element {
 	cat := s.env.Store.Catalog.Get()
 	c := cat.Schema.Category(s.category)
-	gens := model.Generations(cat.ChipsIn(s.maker, s.category, s.segment))
+	gens := cat.GenerationsIn(s.maker, s.category, s.segment)
 	title := tr.Or("market."+s.segment, s.segment)
 	sub := cat.MakerName(s.maker) + " · " + tr.CategoryName(c) + " · " + tr.Count("count.generations", len(gens))
 	children := []giode.Element{components.AppBar(s.back, title, sub)}

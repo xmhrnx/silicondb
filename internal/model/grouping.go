@@ -94,8 +94,22 @@ func Generations(chips []*Chip) []*Generation {
 }
 
 // ChipsIn returns a manufacturer's chips of a category ("" for all) and
-// segment ("" for all).
+// segment ("" for all). The slice is shared: don't modify it.
 func (c *Catalog) ChipsIn(maker, category, segment string) []*Chip {
+	return derived(c, "chipsIn\x00"+maker+"\x00"+category+"\x00"+segment, func() []*Chip {
+		return c.chipsIn(maker, category, segment)
+	})
+}
+
+// GenerationsIn groups ChipsIn by generation; see Generations. The result
+// is shared: don't modify it.
+func (c *Catalog) GenerationsIn(maker, category, segment string) []*Generation {
+	return derived(c, "generationsIn\x00"+maker+"\x00"+category+"\x00"+segment, func() []*Generation {
+		return Generations(c.chipsIn(maker, category, segment))
+	})
+}
+
+func (c *Catalog) chipsIn(maker, category, segment string) []*Chip {
 	var out []*Chip
 	for _, chip := range c.ChipsBy(maker) {
 		if (category == "" || chip.Category == category) && (segment == "" || chip.Segment() == segment) {
@@ -106,8 +120,12 @@ func (c *Catalog) ChipsIn(maker, category, segment string) []*Chip {
 }
 
 // MakersIn lists the manufacturers with chips in a category, those with
-// the most chips first.
+// the most chips first. The slice is shared: don't modify it.
 func (c *Catalog) MakersIn(category string) []*Manufacturer {
+	return derived(c, "makersIn\x00"+category, func() []*Manufacturer { return c.makersIn(category) })
+}
+
+func (c *Catalog) makersIn(category string) []*Manufacturer {
 	n := map[string]int{}
 	for _, chip := range c.Chips {
 		if chip.Category == category {
@@ -133,8 +151,13 @@ type Domain struct {
 }
 
 // Domains lists a manufacturer's domains in a category ("" for all), in
-// schema category order and then SegmentOrder.
+// schema category order and then SegmentOrder. The slice is shared: don't
+// modify it.
 func (c *Catalog) Domains(maker, category string) []*Domain {
+	return derived(c, "domains\x00"+maker+"\x00"+category, func() []*Domain { return c.domains(maker, category) })
+}
+
+func (c *Catalog) domains(maker, category string) []*Domain {
 	var out []*Domain
 	for _, cat := range c.Schema.Categories {
 		if category != "" && cat.ID != category {

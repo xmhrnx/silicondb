@@ -16,3 +16,12 @@ func TestGenerations(t *testing.T) {
 		t.Fatalf("Segments = %v", got)
 	}
 }
+
+func TestDerivedIsComputedOnce(t *testing.T) {
+	c := NewCatalog(&Schema{Categories: []Category{{ID: "cpu"}}}, "", []*Manufacturer{{ID: "intel"}},
+		[]*Shard{{Manufacturer: "intel", Category: "cpu", Chips: []*Chip{{ID: "intel-a", Name: "a", Released: "2024", Specs: map[string]any{"market": "Desktop"}}}}})
+	a, b := c.GenerationsIn("intel", "cpu", "Desktop"), c.GenerationsIn("intel", "cpu", "Desktop")
+	if len(a) != 1 || a[0] != b[0] {
+		t.Fatal("GenerationsIn should return the cached grouping")
+	}
+}

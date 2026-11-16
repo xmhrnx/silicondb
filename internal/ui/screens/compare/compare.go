@@ -3,9 +3,11 @@ package compare
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/xmhrnx/giode"
 	"github.com/xmhrnx/giode/components/scroll"
+	"github.com/xmhrnx/giode/i18n"
 
 	"github.com/mehran9675/silicondb/internal/config"
 	"github.com/mehran9675/silicondb/internal/model"
@@ -26,7 +28,7 @@ type Screen struct {
 // New returns the Compare screen.
 func New(e *env.Env) *Screen {
 	s := &Screen{env: e}
-	s.scroll = giode.Scroll(s.content, giode.Styles{ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}})
+	s.scroll = giode.Scroll(s.memo, giode.Styles{ScrollBar: giode.ScrollBar{HiddenMaxWidth: 600}})
 	s.table = giode.Scroll(s.tableView).Axis(giode.Horizontal)
 	s.browse = giode.Button(tr.T("compare.browse"), giode.Styles{BorderRadius: 14, Padding: giode.SymmetricInset(20, 12)}).
 		OnClick(func() { e.Routes.Explore(store.Query{}) })
@@ -45,6 +47,13 @@ func (s *Screen) chips() []*model.Chip {
 		}
 	}
 	return out
+}
+
+// memo replays the screen's last drawing until something it shows
+// changes: the catalog or sync status (States, tracked by Memo), the
+// language, or the deps passed here.
+func (s *Screen) memo() giode.Element {
+	return giode.Memo(s, s.content, i18n.Version(), strings.Join(s.env.Store.Compare(), ","), giode.Compact())
 }
 
 func (s *Screen) content() giode.Element {

@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"slices"
 )
 
 // Prefs are the user's settings, saved between runs.
@@ -14,6 +15,14 @@ type Prefs struct {
 	Compare    []string `json:"compare,omitempty"`
 	Recent     []string `json:"recent,omitempty"`
 	LastSynced int64    `json:"lastSynced,omitempty"`
+}
+
+// clone copies p, lists included, so a snapshot being written in the
+// background doesn't share them with the live preferences.
+func (p Prefs) clone() Prefs {
+	p.Compare = slices.Clone(p.Compare)
+	p.Recent = slices.Clone(p.Recent)
+	return p
 }
 
 func loadPrefs(path string) Prefs {
