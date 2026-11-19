@@ -28,7 +28,22 @@ notifications = false             # the app never posts one, so no POST_NOTIFICA
 min_os = 15
 icon = "assets/icon-ios.png"         # full-bleed: iOS rounds the corners itself
 launch_image = "assets/launch.png"   # the chip centred on the launch screen (600x600, @3x)
+# No [ios.usage]: the app asks for no protected resource (no camera, photos,
+# location, contacts, local network...). It only makes HTTPS requests.
 
+[ios.plist]
+ITSAppUsesNonExemptEncryption = false  # HTTPS through the OS/Go standard library only: no export documentation needed
+
+[privacy]                         # PrivacyInfo.xcprivacy for the App Store
+tracking = false
+# No [[privacy.collected]]: nothing is sent to the developer. The app only
+# downloads the public database (GET requests, no identifiers); settings,
+# recent chips and the comparison stay on the device.
+
+# GitHub Actions: giode ci writes .github/workflows/release.yml from this.
+# After `giode ci -f`, redo two edits by hand in the workflow:
+#   - pin the CLI: giode-cli/cmd/giode@v0.1.35-alpha.1 (instead of @latest)
+#   - use go-version-file: go.mod (instead of go-version: stable)
 [ci]
 trigger = "release"
 test = "go run ./cmd/indexgen -check && go test ./internal/model/... ./internal/data/... ./internal/format/... ./internal/store/..."
