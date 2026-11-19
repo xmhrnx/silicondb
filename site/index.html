@@ -182,6 +182,14 @@ h2 { font-size: clamp(30px, 4.2vw, 46px); line-height: 1.08; letter-spacing: -.0
 .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--primary), var(--accent)); border-radius: inherit; min-width: 3px; }
 .note { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
+/* Privacy policy */
+.policy { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.policy .feat p + p { margin-top: 10px; }
+.policy ul { margin: 10px 0; padding-left: 20px; color: var(--muted); font-size: 16px; }
+.policy li + li { margin-top: 4px; }
+.policy a { color: var(--text); }
+.updated { color: var(--muted); font: 400 13px/1.4 var(--mono); margin-top: 18px; }
+
 /* Download */
 .download {
   margin-top: 96px; border-radius: 26px; padding: 56px; position: relative; overflow: hidden;
@@ -204,7 +212,7 @@ footer a:hover { color: var(--text); }
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; gap: 72px; padding-top: 28px; }
   .tile-wrap { order: -1; padding: 40px 0 0; }
-  .features { grid-template-columns: 1fr; }
+  .features, .policy { grid-template-columns: 1fr; }
   .readout { grid-template-columns: repeat(2, 1fr); }
   .readout div:nth-child(3) { border-left: 0; }
   .readout div:nth-child(n+3) { border-top: 1px solid var(--border); }
@@ -245,6 +253,7 @@ footer a:hover { color: var(--text); }
       <a href="#features">Features</a>
       <a href="#compare">Compare</a>
       <a href="#download">Download</a>
+      <a href="#privacy">Privacy</a>
       <a class="gh" href="https://github.com/xmhrnx/silicondb">GitHub</a>
     </div>
   </nav>
@@ -389,6 +398,43 @@ footer a:hover { color: var(--text); }
     <p class="note">Figures from the app's database in <a href="https://github.com/xmhrnx/silicondb/tree/main/data">data/</a>.</p>
   </section>
 
+  <section id="privacy">
+    <div class="label">Privacy policy</div>
+    <h2>Nothing about you leaves your device.</h2>
+    <p class="sub">Silicon DB has no accounts, no analytics, no ads and no tracking. This policy covers the Android and iOS apps.</p>
+    <div class="policy">
+      <article class="feat">
+        <div class="tag">01 · ON YOUR DEVICE</div>
+        <h3>What the app stores</h3>
+        <p>In the app's own private storage, and nowhere else:</p>
+        <ul>
+          <li>your settings: theme, language and the data source;</li>
+          <li>the chips you viewed recently and the chips in your comparison;</li>
+          <li>the last downloaded copy of the database, and when it was downloaded.</li>
+        </ul>
+        <p>None of it is sent anywhere. Uninstalling the app deletes it.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">02 · NETWORK</div>
+        <h3>What the app downloads</h3>
+        <p>The app only downloads the public chip database: plain HTTPS requests for its files, from <code>raw.githubusercontent.com</code> (GitHub) by default, or from the address you enter in Settings → Data source. The requests carry no account, identifier or personal data.</p>
+        <p>Like any web server, GitHub sees your IP address when it serves the files; see the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">03 · DEVELOPER</div>
+        <h3>What we collect</h3>
+        <p>Nothing. The app sends no data to its developer: no analytics, crash reports, advertising identifiers or usage statistics, and it shares nothing with third parties.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">04 · PERMISSIONS</div>
+        <h3>What the app asks for</h3>
+        <p>Internet access only, to download the database. No camera, photos, location, contacts, microphone or notifications. The app is suitable for all ages.</p>
+        <p>Questions? Open an issue on <a href="https://github.com/xmhrnx/silicondb/issues">GitHub</a>. Changes to this policy are published here and in the repository's history.</p>
+      </article>
+    </div>
+    <p class="updated">Last updated: 19 November 2026</p>
+  </section>
+
   <div class="download" id="download">
     <img src="img/icon.png" alt="Silicon DB icon" width="128" height="128">
     <div>
@@ -409,7 +455,7 @@ footer a:hover { color: var(--text); }
 
   <footer>
     <span>Silicon DB · Apache License 2.0 · Built in Go with <a href="https://github.com/xmhrnx/giode">Giode</a></span>
-    <span><a href="https://github.com/xmhrnx/silicondb">Source</a> · <a href="https://github.com/xmhrnx/silicondb/blob/main/LICENSE">License</a> · <a href="https://github.com/xmhrnx/silicondb/releases">Releases</a></span>
+    <span><a href="#privacy">Privacy</a> · <a href="https://github.com/xmhrnx/silicondb">Source</a> · <a href="https://github.com/xmhrnx/silicondb/blob/main/LICENSE">License</a> · <a href="https://github.com/xmhrnx/silicondb/releases">Releases</a></span>
   </footer>
 </div>
 </body>
