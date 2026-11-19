@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silicon DB — the specs of every chip</title>
+<meta name="description" content="Silicon DB is a free, open-source mobile app with the specifications of CPUs, GPUs, APUs, SoCs, AI accelerators, microcontrollers, DSPs and FPGAs, from every manufacturer and every era.">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#08090D" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F5F6FA" media="(prefers-color-scheme: light)">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/icon.png">
+<meta property="og:title" content="Silicon DB">
+<meta property="og:description" content="The specifications of processing chips, from every manufacturer and every era.">
+<meta property="og:image" content="img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #08090D;
+  --surface: #12141B;
+  --surface-2: #181B24;
+  --text: #F4F5F9;
+  --muted: #8A8FA3;
+  --border: #232633;
+  --primary: #8B5CF6;
+  --accent: #22D3EE;
+  --grid: rgba(255,255,255,.035);
+  --glow-a: rgba(139,92,246,.22);
+  --glow-b: rgba(34,211,238,.12);
+  --pin: #F4F5F9;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #F5F6FA;
+    --surface: #FFFFFF;
+    --surface-2: #EEF0F6;
+    --text: #0E1018;
+    --muted: #646A7E;
+    --border: #E3E5EE;
+    --primary: #7C3AED;
+    --accent: #0891B2;
+    --grid: rgba(14,16,24,.045);
+    --glow-a: rgba(124,58,237,.14);
+    --glow-b: rgba(8,145,178,.10);
+    --pin: #0E1018;
+    color-scheme: light;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 17px/1.6 var(--sans);
+  overflow-x: hidden;
+}
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { width: min(1120px, 100% - 40px); margin-inline: auto; }
+.mono { font-family: var(--mono); }
+
+/* Circuit-board backdrop: a fine grid with two soft glows. */
+.board {
+  position: absolute; inset: 0 0 auto 0; height: 980px; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(600px 420px at 18% 18%, var(--glow-a), transparent 70%),
+    radial-gradient(520px 380px at 85% 40%, var(--glow-b), transparent 70%),
+    linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 32px 32px,
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 32px 32px;
+  mask-image: linear-gradient(#000 55%, transparent);
+  -webkit-mask-image: linear-gradient(#000 55%, transparent);
+}
+
+/* Nav */
+nav { display: flex; align-items: center; justify-content: space-between; padding: 22px 0; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 700; letter-spacing: -.01em; }
+.brand img { width: 34px; height: 34px; border-radius: 9px; }
+nav .links { display: flex; gap: 22px; font-size: 15px; }
+nav .links a { text-decoration: none; color: var(--muted); }
+nav .links a:hover { color: var(--text); }
+
+/* Hero */
+.hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; padding: 56px 0 88px; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px; font: 500 13px/1 var(--mono);
+  color: var(--accent); text-transform: uppercase; letter-spacing: .12em; margin-bottom: 22px;
+}
+.eyebrow::before { content: ""; width: 26px; height: 2px; background: currentColor; border-radius: 2px; }
+h1 { font-size: clamp(44px, 7vw, 82px); line-height: .98; letter-spacing: -.045em; margin: 0 0 22px; font-weight: 800; }
+h1 em {
+  font-style: normal;
+  background: linear-gradient(100deg, var(--primary), var(--accent));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.lede { font-size: 19px; color: var(--muted); max-width: 34em; margin: 0 0 32px; }
+.lede strong { color: var(--text); font-weight: 600; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border-radius: 12px;
+  font-weight: 600; font-size: 16px; text-decoration: none; border: 1px solid var(--border);
+  background: var(--surface); transition: transform .15s ease, border-color .15s ease;
+}
+.btn:hover { transform: translateY(-1px); border-color: var(--primary); }
+.btn.primary { background: var(--primary); border-color: var(--primary); color: #fff; }
+.btn svg { width: 18px; height: 18px; }
+
+/* The element tile: silicon, number 14, as on the app icon. */
+.tile-wrap { position: relative; display: grid; place-items: center; }
+.tile {
+  position: relative; width: min(360px, 78vw); aspect-ratio: 1; border-radius: 28px;
+  border: 2px solid var(--pin); background: linear-gradient(160deg, var(--surface-2), var(--surface));
+  padding: 30px 34px; display: grid; grid-template-rows: auto 1fr auto;
+  box-shadow: 0 40px 80px -30px var(--glow-a);
+}
+.tile .num { font: 700 30px/1 var(--mono); }
+.tile .sym { font-weight: 700; font-size: clamp(120px, 26vw, 176px); line-height: 1; letter-spacing: -.04em; align-self: center; }
+.tile .row { display: flex; justify-content: space-between; font: 500 14px/1.3 var(--mono); color: var(--muted); }
+.pins { position: absolute; display: flex; justify-content: space-evenly; }
+.pins i { display: block; background: var(--pin); border-radius: 6px; }
+.pins.t, .pins.b { left: 14%; right: 14%; height: 34px; }
+.pins.t { top: -38px; } .pins.b { bottom: -38px; }
+.pins.t i, .pins.b i { width: 12px; height: 100%; }
+.pins.l, .pins.r { top: 14%; bottom: 14%; width: 34px; flex-direction: column; }
+.pins.l { left: -38px; } .pins.r { right: -38px; }
+.pins.l i, .pins.r i { height: 12px; width: 100%; }
+
+/* Readout strip */
+.readout {
+  display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--border);
+  border-radius: 18px; background: var(--surface); overflow: hidden;
+}
+.readout div { padding: 24px 26px; border-left: 1px solid var(--border); }
+.readout div:first-child { border-left: 0; }
+.readout b { display: block; font: 700 34px/1.1 var(--mono); letter-spacing: -.03em; }
+.readout span { color: var(--muted); font-size: 14px; }
+
+section { padding: 96px 0 0; }
+h2 { font-size: clamp(30px, 4.2vw, 46px); line-height: 1.08; letter-spacing: -.035em; margin: 0 0 14px; font-weight: 800; }
+.sub { color: var(--muted); max-width: 40em; margin: 0 0 44px; font-size: 18px; }
+.label { font: 500 13px/1 var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: .12em; margin-bottom: 16px; }
+
+/* Categories as package tags */
+.cats { display: flex; flex-wrap: wrap; gap: 10px; }
+.cat {
+  display: inline-flex; align-items: baseline; gap: 10px; padding: 10px 16px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface); font: 500 15px/1.2 var(--mono);
+}
+.cat small { color: var(--muted); font: 400 13px/1 var(--sans); }
+
+/* Features: datasheet rows */
+.features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.feat {
+  border: 1px solid var(--border); background: var(--surface); border-radius: 18px; padding: 26px 28px;
+  position: relative;
+}
+.feat .tag { font: 500 12px/1 var(--mono); color: var(--muted); letter-spacing: .08em; }
+.feat h3 { margin: 12px 0 8px; font-size: 21px; letter-spacing: -.02em; }
+.feat p { margin: 0; color: var(--muted); font-size: 16px; }
+.feat code { font: 500 14px var(--mono); color: var(--text); }
+.path { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; font: 500 13px/1 var(--mono); }
+.path span { padding: 7px 10px; border-radius: 8px; background: var(--surface-2); border: 1px solid var(--border); }
+.path span.on { border-color: var(--primary); color: var(--primary); }
+.path i { font-style: normal; color: var(--muted); align-self: center; }
+
+/* Compare */
+.compare { border: 1px solid var(--border); border-radius: 20px; background: var(--surface); overflow: hidden; }
+.cmp-head, .cmp-row { display: grid; grid-template-columns: 1.1fr 1fr 1fr; }
+.cmp-head > div { padding: 22px 24px; border-bottom: 1px solid var(--border); }
+.cmp-head .chip-name { font-weight: 700; font-size: 19px; letter-spacing: -.02em; }
+.cmp-head .meta { color: var(--muted); font: 400 13px/1.4 var(--mono); }
+.cmp-row > div { padding: 15px 24px; border-bottom: 1px solid var(--border); font: 500 15px/1.4 var(--mono); }
+.cmp-row:last-child > div { border-bottom: 0; }
+.cmp-row > div:first-child { font-family: var(--sans); color: var(--muted); font-weight: 400; }
+.cmp-row .best { color: var(--accent); }
+.bar { height: 6px; border-radius: 6px; background: var(--surface-2); margin-top: 8px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--primary), var(--accent)); border-radius: inherit; min-width: 3px; }
+.note { color: var(--muted); font-size: 14px; margin-top: 14px; }
+
+/* Download */
+.download {
+  margin-top: 96px; border-radius: 26px; padding: 56px; position: relative; overflow: hidden;
+  background:
+    radial-gradient(500px 300px at 90% 0%, var(--glow-b), transparent 70%),
+    radial-gradient(500px 340px at 0% 100%, var(--glow-a), transparent 70%),
+    var(--surface);
+  border: 1px solid var(--border);
+  display: grid; grid-template-columns: auto 1fr; gap: 40px; align-items: center;
+}
+.download img { width: 128px; height: 128px; border-radius: 28px; }
+.platforms { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 0; }
+.platforms .btn small { display: block; font: 400 12px/1.2 var(--mono); color: inherit; opacity: .75; }
+.platforms .btn span { text-align: left; line-height: 1.2; }
+
+footer { padding: 64px 0 48px; color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: space-between; }
+footer a { color: var(--muted); }
+footer a:hover { color: var(--text); }
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; gap: 72px; padding-top: 28px; }
+  .tile-wrap { order: -1; padding: 40px 0 0; }
+  .features { grid-template-columns: 1fr; }
+  .readout { grid-template-columns: repeat(2, 1fr); }
+  .readout div:nth-child(3) { border-left: 0; }
+  .readout div:nth-child(n+3) { border-top: 1px solid var(--border); }
+  .download { grid-template-columns: 1fr; padding: 36px 28px; gap: 24px; }
+  .download img { width: 96px; height: 96px; border-radius: 22px; }
+}
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  .wrap { width: calc(100% - 32px); }
+  nav .links a:not(.gh) { display: none; }
+  .tile { padding: 22px 24px; border-radius: 22px; width: 64vw; }
+  .tile .num { font-size: 22px; }
+  .tile .row { font-size: 11px; }
+  .pins.t, .pins.b { height: 24px; } .pins.t { top: -27px; } .pins.b { bottom: -27px; }
+  .pins.l, .pins.r { width: 24px; } .pins.l { left: -27px; } .pins.r { right: -27px; }
+  .pins.t i, .pins.b i { width: 9px; } .pins.l i, .pins.r i { height: 9px; }
+  .readout div { padding: 18px; }
+  .readout b { font-size: 26px; }
+  .feat { padding: 22px; }
+  .cmp-head, .cmp-row { grid-template-columns: .9fr 1fr 1fr; }
+  .cmp-head > div, .cmp-row > div { padding: 12px 10px; font-size: 13px; }
+  .cmp-head .chip-name { font-size: 15px; }
+  .cmp-head .meta { font-size: 11px; }
+  section { padding-top: 72px; }
+  .download { margin-top: 72px; }
+  .btn { padding: 13px 18px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+</style>
+</head>
+<body>
+<div class="board" aria-hidden="true"></div>
+
+<div class="wrap">
+  <nav>
+    <a class="brand" href="#"><img src="img/icon.png" alt="" width="34" height="34">Silicon DB</a>
+    <div class="links">
+      <a href="#features">Features</a>
+      <a href="#compare">Compare</a>
+      <a href="#download">Download</a>
+      <a class="gh" href="https://github.com/xmhrnx/silicondb">GitHub</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <div class="eyebrow">Element 14 · open data</div>
+      <h1>Every chip,<br><em>spec by spec.</em></h1>
+      <p class="lede">A mobile app with the specifications of processing chips — <strong>CPUs, GPUs, APUs, SoCs, AI accelerators, microcontrollers, DSPs and FPGAs</strong> — from every manufacturer and every era.</p>
+      <div class="cta">
+        <a class="btn primary" href="#download">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-5-5m5 5l5-5M5 20h14"/></svg>
+          Download
+        </a>
+        <a class="btn" href="https://github.com/xmhrnx/silicondb">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+          Source code
+        </a>
+      </div>
+    </div>
+    <div class="tile-wrap" aria-hidden="true">
+      <div class="tile">
+        <div class="num">14</div>
+        <div class="sym">Si</div>
+        <div class="row"><span>Silicon</span><span>28.085</span></div>
+        <div class="pins t"><i></i><i></i><i></i><i></i></div>
+        <div class="pins b"><i></i><i></i><i></i><i></i></div>
+        <div class="pins l"><i></i><i></i><i></i><i></i></div>
+        <div class="pins r"><i></i><i></i><i></i><i></i></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="readout" aria-label="The database today">
+    <div><b>1,300+</b><span>chips</span></div>
+    <div><b>70+</b><span>manufacturers</span></div>
+    <div><b>8</b><span>categories</span></div>
+    <div><b>1972→</b><span>from the Intel 8008 on</span></div>
+  </div>
+
+  <section>
+    <div class="label">Categories</div>
+    <h2>From microcontrollers to AI accelerators.</h2>
+    <p class="sub">Browse by category, then company, segment and generation — down to a single part.</p>
+    <div class="cats">
+      <span class="cat">CPU <small>processors</small></span>
+      <span class="cat">GPU <small>graphics</small></span>
+      <span class="cat">APU <small>CPU + graphics</small></span>
+      <span class="cat">SoC <small>systems on a chip</small></span>
+      <span class="cat">TPU / NPU <small>AI accelerators</small></span>
+      <span class="cat">MCU <small>microcontrollers</small></span>
+      <span class="cat">DSP <small>signal processors</small></span>
+      <span class="cat">FPGA <small>programmable logic</small></span>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="label">Features</div>
+    <h2>A datasheet for every part.</h2>
+    <p class="sub">Everything in the app, as it ships.</p>
+    <div class="features">
+      <article class="feat">
+        <div class="tag">01 · BROWSE</div>
+        <h3>Organized browsing</h3>
+        <p>Category → company → segment → generation → chip.</p>
+        <div class="path"><span>CPU</span><i>›</i><span>Intel</span><i>›</i><span>Desktop</span><i>›</i><span>Core 14th Gen</span><i>›</i><span class="on">Core i5-14600K</span></div>
+      </article>
+      <article class="feat">
+        <div class="tag">02 · EXPLORE</div>
+        <h3>Search and filter</h3>
+        <p>Search by name, family, codename or architecture; filter by category, decade and manufacturer; sort by date, name or speed.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">03 · DETAIL</div>
+        <h3>Every spec, grouped</h3>
+        <p>Headline figures first, then fabrication, cores and clocks, cache, graphics, memory, performance, power and I/O.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">04 · BENCHMARKS</div>
+        <h3>Scores in context</h3>
+        <p>Geekbench 6 (CPU and GPU compute) and Cinebench 2024, R23 and R15, drawn as bars against the fastest chip in the database.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">05 · MANUFACTURERS</div>
+        <h3>The companies behind them</h3>
+        <p>Every manufacturer with its history and its chips by category.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">06 · OFFLINE</div>
+        <h3>Offline first</h3>
+        <p>The last download stays on the device, and updates fetch only the files that changed.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">07 · LANGUAGES</div>
+        <h3>25 languages</h3>
+        <p>English and 24 other European languages, following the system or chosen in Settings, with localized numbers and dates.</p>
+      </article>
+      <article class="feat">
+        <div class="tag">08 · OPEN DATA</div>
+        <h3>A database anyone can edit</h3>
+        <p>The specs live as JSON in the repository, not in the app — new chips and fields arrive without an app update.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="label">Compare</div>
+    <h2>Up to four chips, side by side.</h2>
+    <p class="sub">The best value in each row stands out. Here are the oldest and one of the newest chips in the database.</p>
+    <div class="compare" role="table" aria-label="Intel 8008 compared with the GeForce RTX 5090">
+      <div class="cmp-head" role="row">
+        <div role="columnheader"></div>
+        <div role="columnheader"><div class="chip-name">Intel 8008</div><div class="meta">CPU · 1972</div></div>
+        <div role="columnheader"><div class="chip-name">GeForce RTX 5090</div><div class="meta">GPU · 2025 · GB202</div></div>
+      </div>
+      <div class="cmp-row" role="row">
+        <div role="cell">Process</div>
+        <div role="cell">10 µm</div>
+        <div role="cell" class="best">4 nm</div>
+      </div>
+      <div class="cmp-row" role="row">
+        <div role="cell">Transistors</div>
+        <div role="cell">3,500<div class="bar"><i style="width:0"></i></div></div>
+        <div role="cell" class="best">92.2 billion<div class="bar"><i style="width:100%"></i></div></div>
+      </div>
+      <div class="cmp-row" role="row">
+        <div role="cell">Die size</div>
+        <div role="cell">14 mm²</div>
+        <div role="cell">750 mm²</div>
+      </div>
+      <div class="cmp-row" role="row">
+        <div role="cell">Power</div>
+        <div role="cell" class="best">1 W</div>
+        <div role="cell">575 W</div>
+      </div>
+      <div class="cmp-row" role="row">
+        <div role="cell">Foundry</div>
+        <div role="cell">Intel</div>
+        <div role="cell">TSMC (4N)</div>
+      </div>
+    </div>
+    <p class="note">Figures from the app's database in <a href="https://github.com/xmhrnx/silicondb/tree/main/data">data/</a>.</p>
+  </section>
+
+  <div class="download" id="download">
+    <img src="img/icon.png" alt="Silicon DB icon" width="128" height="128">
+    <div>
+      <h2>Get Silicon DB</h2>
+      <p class="sub" style="margin:0">Free and open source. Builds are attached to each GitHub release.</p>
+      <div class="platforms">
+        <a class="btn primary" href="https://github.com/xmhrnx/silicondb/releases/latest">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22a11.4 11.4 0 0 0-9.84 0L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.8 10.8 0 0 0 1 18h22a10.8 10.8 0 0 0-5.4-8.52ZM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5Zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5Z"/></svg>
+          <span>Android<small>APK · Android 7+</small></span>
+        </a>
+        <a class="btn" href="https://github.com/xmhrnx/silicondb/releases/latest">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46a4.24 4.24 0 0 0-3.33-1.8c-1.42-.15-2.77.83-3.49.83-.72 0-1.83-.81-3.01-.79a4.46 4.46 0 0 0-3.77 2.29c-1.61 2.79-.41 6.92 1.16 9.18.77 1.1 1.68 2.35 2.88 2.3 1.16-.05 1.6-.75 2.99-.75 1.4 0 1.79.75 3.01.72 1.25-.02 2.03-1.12 2.79-2.23a9.9 9.9 0 0 0 1.26-2.6 4.04 4.04 0 0 1-2.45-3.7ZM14.07 5.83A4.02 4.02 0 0 0 15 2.9a4.1 4.1 0 0 0-2.66 1.38 3.84 3.84 0 0 0-.95 2.83 3.4 3.4 0 0 0 2.68-1.28Z"/></svg>
+          <span>iOS<small>IPA · iOS 15+</small></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>Silicon DB · Apache License 2.0 · Built in Go with <a href="https://github.com/xmhrnx/giode">Giode</a></span>
+    <span><a href="https://github.com/xmhrnx/silicondb">Source</a> · <a href="https://github.com/xmhrnx/silicondb/blob/main/LICENSE">License</a> · <a href="https://github.com/xmhrnx/silicondb/releases">Releases</a></span>
+  </footer>
+</div>
+</body>
+</html>

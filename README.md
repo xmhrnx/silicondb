@@ -5,6 +5,7 @@ TPUs/NPUs and other AI accelerators, microcontrollers, DSPs and FPGAs — from e
 manufacturer and every era. Built in Go with
 [giode](https://github.com/xmhrnx/giode) and packaged with the
 [giode CLI](https://github.com/xmhrnx/giode-cli).
+Website: <https://xmhrnx.github.io/silicondb/>.
 
 ## Features
 

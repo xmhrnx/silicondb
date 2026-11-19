@@ -11,7 +11,7 @@ splash_color = "#08090D"       # launch screen: the app's dark background, until
 package = "."
 publisher = "Silicon DB"
 description = "Specifications of processors, GPUs, SoCs, AI accelerators and other chips."
-website = "https://github.com/xmhrnx/silicondb"
+website = "https://xmhrnx.github.io/silicondb/"
 platforms = ["android", "ios"]
 licenses = "assets/licenses.json"
 
