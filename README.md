@@ -84,6 +84,7 @@ built on ordinary pushes. Signing uses repository secrets:
 | `IOS_CERT_BASE64`, `IOS_CERT_PASS`, `IOS_PROFILE_BASE64` (and optionally `IOS_TEAM_ID`) | The Apple distribution certificate as .p12, its password, and the provisioning profile for `com.mehran9675.silicondb`. Without them the workflow only checks the simulator build. |
 
 Encode a file for a secret with `base64 -i file | pbcopy` (macOS) or `base64 -w0 file` (Linux).
+[RELEASING.md](RELEASING.md) has the Google Play and App Store setup and the store listing.
 
 The icons are drawn by `go run ./cmd/icongen`: `assets/icon.png`, the iOS icon
 (`icon-ios.png`), Android's adaptive and themed icon layers (`android-*.png`) and the launch
