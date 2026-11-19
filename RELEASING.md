@@ -60,6 +60,16 @@ leaves out `*.keystore` and `*.jks`.
    build to production. New personal developer accounts must first run a
    closed test with testers for 14 days before production access.
 
+Two settings in `[android]` matter for Play:
+
+- `target_sdk = 36`: Google Play requires Android 16 (API 36) for new apps
+  and updates since 31 Aug 2026. The CLI defaults to 35, which Play now
+  rejects; raise it again when Play's requirement moves.
+- `keystore = "release.keystore"`: `giode build -release` fails without
+  `android.keystore`, so CI signing with `GIODE_KEYSTORE_PASS` needs it. The
+  workflow writes the file from `ANDROID_KEYSTORE_BASE64`; `.gitignore` keeps
+  it out of the repository.
+
 The package name is `com.mehran9675.silicondb` (`app.id`). It can never change
 once the app is published.
 

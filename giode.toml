@@ -17,6 +17,7 @@ licenses = "assets/licenses.json"
 
 [android]
 min_sdk = 24
+target_sdk = 36                   # Google Play requires Android 16 (API 36) for new apps and updates since 31 Aug 2026
 icon_foreground = "assets/android-foreground.png"  # adaptive icon: the chip, drawn by cmd/icongen
 icon_background = "assets/android-background.png"
 icon_monochrome = "assets/android-foreground.png"  # themed icons (Android 13+)
