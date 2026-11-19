@@ -22,6 +22,7 @@ icon_background = "assets/android-background.png"
 icon_monochrome = "assets/android-foreground.png"  # themed icons (Android 13+)
 keystore = "release.keystore"      # written by the release workflow from ANDROID_KEYSTORE_BASE64
 permissions = ["network"]
+notifications = false             # the app never posts one, so no POST_NOTIFICATIONS
 
 [ios]
 min_os = 15
